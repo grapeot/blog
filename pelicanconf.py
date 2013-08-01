@@ -8,6 +8,7 @@ SITEURL = 'http://grapeot.me'
 
 TIMEZONE = 'America/New_York'
 
+GITHUB_URL = 'https://github.com/grapeot/'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -22,8 +23,9 @@ TRANSLATION_FEED_ATOM = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('https://www.facebook.com/YansReaderShareItems', 'FB Shared Items (Chinese)'),
+        ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
+        ('https://github.com/grapeot/', 'Github'),)
 
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 MENUITEMS = (('Lab', 'http://lab.grapeot.me/'),)

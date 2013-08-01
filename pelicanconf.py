@@ -8,7 +8,7 @@ SITEURL = 'http://grapeot.me'
 
 TIMEZONE = 'America/New_York'
 
-GITHUB_URL = 'https://github.com/grapeot/'
+GITHUB_URL = 'https://github.com/grapeot/blog/'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing

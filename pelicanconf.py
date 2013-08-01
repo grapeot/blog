@@ -28,8 +28,10 @@ SOCIAL = (('https://www.facebook.com/YansReaderShareItems', 'FB Shared Items (Ch
         ('https://github.com/grapeot/', 'Github'),)
 
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
-MENUITEMS = (('Lab', 'http://lab.grapeot.me/'),)
+MENUITEMS = (('Archives', '/archives.html'),
+        ('Lab', 'http://lab.grapeot.me/'),)
 THEME = '/home/grapeot/pelican-themes/gum'
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 DEFAULT_PAGINATION = 5
 

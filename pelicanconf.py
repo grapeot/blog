@@ -34,6 +34,24 @@ MENUITEMS = (('Archives', '/archives.html'),
 THEME = '/home/grapeot/pelican-themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
+# plug-ins
+PLUGIN_PATH = '/home/grapeot/pelican-plugins'
+PLUGINS = ['pelican.latex', 'sitemap', 'gravatar']
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+LATEX = 'article'
+
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing

@@ -29,7 +29,7 @@ SOCIAL = (('https://www.facebook.com/YansReaderShareItems', 'FB Shared Items (Ch
 
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 MENUITEMS = (('Archives', '/archives.html'),
-        ('RSS', 'http://grapeot.me/feeds/all.atom.xml'),
+        ('Subscribe', '/pages/feed.html'),
         ('Lab', 'http://lab.grapeot.me/'),)
 THEME = '/home/grapeot/pelican-themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))

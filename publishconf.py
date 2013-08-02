@@ -13,8 +13,13 @@ from pelicanconf import *
 SITEURL = 'http://grapeot.me'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/atom.xml'
+FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_RSS = 'feeds/rss.xml'
+FEED_ALL_RSS = None
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+FEED_MAX_ITEMS = 10
 
 DELETE_OUTPUT_DIRECTORY = True
 

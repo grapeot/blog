@@ -35,7 +35,7 @@ THEME = './content/themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
-PLUGIN_PATH = '/home/grapeot/pelican-plugins'
+PLUGIN_PATH = 'content/plugins'
 PLUGINS = ['pelican.latex', 'sitemap', 'gravatar']
 SITEMAP = {
     'format': 'xml',

@@ -31,11 +31,11 @@ FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         ('Lab', 'http://lab.grapeot.me/'),)
-THEME = './content/themes/gum'
+THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
-PLUGIN_PATH = 'content/plugins'
+PLUGIN_PATH = 'plugins'
 PLUGINS = ['pelican.latex', 'sitemap', 'gravatar']
 SITEMAP = {
     'format': 'xml',

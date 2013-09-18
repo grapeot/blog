@@ -31,7 +31,7 @@ FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         ('Lab', 'http://lab.grapeot.me/'),)
-THEME = '/home/grapeot/pelican-themes/gum'
+THEME = './content/themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins

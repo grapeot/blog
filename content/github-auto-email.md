@@ -11,7 +11,7 @@ The underlying process is, github provides a post-receiving [web hook](https://h
 Whenever it receives a push, a URL specified by the user will be hit with a JSON payload about the details.
 We then get a php script parsing the payload and send out the summary emails.
 
-[Example code](https://gist.github.com/grapeot/6691128)
+[Example code](https://gist.github.com/grapeot/6692145)
 
 Note `mail()` function in php may need extra setup.
 Check [here](http://grapeot.me/sending-emails-from-cygwin.html) for a brief introduction about the configuration.  

@@ -65,6 +65,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish:
+	# We have to add '\ ' in the end of each line because makefile only allows one-line action
 	if [ ! -d $(WEBDIR) ]; then mkdir $(WEBDIR); fi; \
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS); \
 	if [ $$? -eq 0 ]; then \

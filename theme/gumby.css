@@ -26,7 +26,7 @@ html {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: inside;
 }
 
 table {
@@ -254,7 +254,7 @@ ul, ol {
 }
 
 ul {
-  list-style: none outside;
+  list-style: inside;
 }
 
 ol {

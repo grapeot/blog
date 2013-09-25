@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+        <title>Efficiency comparison among several platforms for scientific computing</title>
+        <meta charset="utf-8" />
+                                <link href="http://grapeot.me/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Atom Feed" />
+                        <link href="http://grapeot.me/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life RSS Feed" />
+                        <link href="http://grapeot.me/feeds/computing.atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Categories Atom Feed" />
+                        <link href="http://grapeot.me/feeds/computing.rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life Categories RSS Feed" />
+                                        
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/pygment.css" />
+
+        <script src="http://grapeot.me/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+                        <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-20477090-1']);
+                  _gaq.push(['_setDomainName', 'grapeot.me']);
+                  _gaq.push(['_trackPageview']);
+                  (function() {
+                   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+              </script>
+          
+        </head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="http://grapeot.me">Computing Life <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="http://grapeot.me">Home</a></li>
+
+                            <li><a href="/archives.html">Archives</a></li>
+                            <li><a href="/pages/feed.html">Subscribe</a></li>
+                            <li><a href="http://lab.grapeot.me/">Lab</a></li>
+                                                      <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+                          
+              </ul>
+            </div>
+
+          <section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="http://grapeot.me/efficiency-comparison-among-several-platforms-for-scientific-computing.html" rel="bookmark"
+                   title="Permalink to Efficiency comparison among several platforms for scientific computing">Efficiency comparison among several platforms for scientific computing</a></h2>
+                      
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2012-12-03T22:45:00">
+                Mon 03 December 2012
+              </abbr>
+                            <address class="vcard author">
+                By <a class="url fn" href="http://grapeot.me/author/yan-wang.html">Yan Wang</a>
+              </address>
+                          </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <p>[Update2] I used the library <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">eigen</a> to reimplement the algorithm, reducing the code from 84 lines to 41 lines (wow), and time increases 11%. Looks acceptable, with similar workload as unoptimized C#, but the same speed as heavily optimized C# (with 164 lines of code and unsafe compilation). What's even better is eigen is a header library requires no pre-building or linking. </p>
+<p>Looked at Boost for a while yesterday and also found similar usage of lambda expression and smart pointers as in C#. Considering C++ as an option for the future seriously... </p>
+<p>[Update] I further optimized the C# code and made its speed from 204ms to 124ms. The same trick made C++ implementation from 124ms to 105ms. This makes me prefer C# more. The code is also updated on github.</p>
+<p>Please consult the <a href="http://prezi.com/6wpbvnq56ddn/efficiency-comparison-of-scientific-computing-among-different-languages/">prezi slides</a>. Basically the conclusions are:</p>
+<ul>
+<li>MATLAB sort of astonishes me. I guessed it should be the fastest with the sophisticatedly optimized matrix library.</li>
+<li>For loops turn to be "speed killer" in MATLAB and Python. On the contrary, C family languages are able to optimize such loops well.</li>
+<li>It's also a bit surprising to see C# only costs twice the time as C++. But only limited to tedious imperative style without using any libraries.</li>
+<li>Functional style (map for Python, arrayfun for MATLAB, LINQ for C#) and imperative style (for for all the three languages) make no difference for MATLAB, but C# prefers imperative style, while Python favors functional style.</li>
+<li>I'd use C# for its flexibility from dev speed to running speed.</li>
+</ul>
+<p>Code is available on <a href="https://github.com/grapeot/EfficiencyComparison">github</a>.</p>
+<div>
+<object id="prezi_6wpbvnq56ddn" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400" name="prezi_6wpbvnq56ddn" >
+<param name="movie" value="http://prezi.com/bin/preziloader.swf">
+<param name="allowfullscreen" value="true">
+<param name="allowFullScreenInteractive" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="direct">
+<param name="bgcolor" value="#ffffff">
+<param name="flashvars" value="prezi_id=6wpbvnq56ddn&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"><embed id="preziEmbed_6wpbvnq56ddn" type="application/x-shockwave-flash" width="550" height="400" src="http://prezi.com/bin/preziloader.swf" name="preziEmbed_6wpbvnq56ddn" allowfullscreen="true" allowfullscreeninteractive="true" allowscriptaccess="always" bgcolor="#ffffff" flashvars="prezi_id=6wpbvnq56ddn&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0" style="width: 550px; height: 400px;">
+</object>
+</div>
+            </div><!-- /.entry-content -->
+                        <div class="comments">
+              <h3>Comments</h3>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "efficiency-comparison-among-several-platforms-for-scientific-computing.html";
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://computinglife.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+            </div>
+            
+
+        </div><!-- /.eleven.columns -->
+        
+     <div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+        <li><a href="/archives.html">Archives</a></li>
+        <li><a href="/pages/feed.html">Subscribe</a></li>
+        <li><a href="http://lab.grapeot.me/">Lab</a></li>
+              <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+        </ul>
+
+<h4>Categories</h4>
+<ul>
+			<li><a href="http://grapeot.me/category/alive.html">Alive</a></li>
+			<li><a href="http://grapeot.me/category/computing.html">Computing</a></li>
+			<li><a href="http://grapeot.me/category/life.html">Life</a></li>
+	</ul>
+
+
+<h4>Tags</h4>
+	<ul>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/kinect.html">Kinect</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/github.html">github</a></li>
+		    <li class="tag-1"><a href="http://grapeot.me/tag/phd.html">PhD</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/linux.html">Linux</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/zz.html">zz</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/time.html">Time</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/image.html">Image</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/math.html">Math</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/cygwin.html">Cygwin</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/travel.html">Travel</a></li>
+	</ul>
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul>
+      <li><a href="https://www.facebook.com/YansReaderShareItems">FB Shared Items (Chinese)</a></li>
+      <li><a href="http://weibo.com/grapeot/">Weibo (Chinese)</a></li>
+      <li><a href="https://github.com/grapeot/">Github</a></li>
+    </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+       <div class="container.nopad bg">
+
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                                <li><div class="btn primary"><a href="https://github.com/grapeot/blog/" target="_blank">Github</a></div></li>
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'computinglife';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+  <script src="http://grapeot.me/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="http://grapeot.me/theme/js/libs/gumby.min.js"></script>
+  <script src="http://grapeot.me/theme/js/plugins.js"></script>
+
+</body>
+</html>

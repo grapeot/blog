@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+        <title>Thoughts about convex optimization</title>
+        <meta charset="utf-8" />
+                                <link href="http://grapeot.me/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Atom Feed" />
+                        <link href="http://grapeot.me/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life RSS Feed" />
+                        <link href="http://grapeot.me/feeds/computing.atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Categories Atom Feed" />
+                        <link href="http://grapeot.me/feeds/computing.rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life Categories RSS Feed" />
+                                        
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/pygment.css" />
+
+        <script src="http://grapeot.me/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+                        <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-20477090-1']);
+                  _gaq.push(['_setDomainName', 'grapeot.me']);
+                  _gaq.push(['_trackPageview']);
+                  (function() {
+                   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+              </script>
+          
+        </head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="http://grapeot.me">Computing Life <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="http://grapeot.me">Home</a></li>
+
+                            <li><a href="/archives.html">Archives</a></li>
+                            <li><a href="/pages/feed.html">Subscribe</a></li>
+                            <li><a href="http://lab.grapeot.me/">Lab</a></li>
+                                                      <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+                          
+              </ul>
+            </div>
+
+          <section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="http://grapeot.me/thoughts-about-convex-optimization.html" rel="bookmark"
+                   title="Permalink to Thoughts about convex optimization">Thoughts about convex optimization</a></h2>
+                      
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2012-05-11T03:02:00">
+                Fri 11 May 2012
+              </abbr>
+                            <address class="vcard author">
+                By <a class="url fn" href="http://grapeot.me/author/yan-wang.html">Yan Wang</a>
+              </address>
+                          </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <p>Just finished the final of convex optimization. This is really an interesting course, which even changed the way I'm looking at this world. In college, I was thinking in an algorithmic way, i.e., to solve a problem, will try to design some certain steps, following which we can get a result somehow satisfying our expectation. But now, I'd first spend quite a bit time on the expectation itself, expressing them in the way "what to minimize" and "subject to what constraints". Then simply feed them to convex optimization solvers. </p>
+<p>That is, convex optimization provides a general modeling language, with which it can be ensured to get an answer efficiently. It makes the modeling process intuitive and effective, and is the most important practical branch of mathematics in my humble opinion. </p>
+<p>I used image denoising as the example for quite a few algorithms in the blog [post1, post2, post3], and demonstrated how different algorithms help improve the performance. But what if we treat it as a optimization problem? We wish to have less effort to fix/change the image, and the fixed image tends to have smoother changes, i.e. less variations. This is a typical problem named total variation reconstruction, trying to minimize a weighted sum of some L1 norms, and it's convex! By writing 4 lines of MATLAB code, we get this result: </p>
+<p><img alt="" src="static/images/convex-denoising-result.png" /></p>
+<p>The left one is the noisy image, while the right is the recovered one. Compared with the result from Loopy Belief Propagation, the improvement is obvious. So we can see that the optimization approach is intuitive to model, fast to implement, and easier to debug. The code written with <a href="http://cvxr.com/cvx/">CVX</a>, a MATLAB convex optimization package, is put as follows for the record. We can see how elegant it is. </p>
+<div class="highlight"><pre><span class="n">cvx_begin</span> 
+    <span class="n">variable</span> <span class="n">x</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">w</span><span class="p">);</span> 
+    <span class="n">minimize</span> <span class="n">norm</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">img</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">norm</span><span class="p">(</span><span class="n">x</span><span class="p">(:,</span> <span class="mi">2</span><span class="p">:</span><span class="n">w</span><span class="p">)</span> <span class="o">-</span> <span class="n">x</span><span class="p">(:,</span> <span class="mi">1</span><span class="p">:</span><span class="n">w</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">norm</span><span class="p">(</span><span class="n">x</span><span class="p">(</span><span class="mi">2</span><span class="p">:</span><span class="n">h</span><span class="p">,</span> <span class="p">:)</span> <span class="o">-</span> <span class="n">x</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">h</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:),</span> <span class="mi">1</span><span class="p">);</span> 
+<span class="n">cvx_end</span>
+</pre></div>
+
+
+<p>As a heavy .NET user, I tried to find .NET version of optimization problem solvers (due to licensing issues of MATLAB). <a href="http://msdn.microsoft.com/en-us/devlabs/hh145003">Microsoft Solver Foundation</a> looks a good candidate, also supporting a neat and expressive language named OML just like CVX does, and free for academic users. But I still haven't figured out how to use it. <a href="http://www.gurobi.com/">Gurobi</a> looks simple and powerful too, although haven't tried it. Anyway, CVX is certainly a good start point. </p>
+<p>If you get interested in convex optimization, Steven Boyd's course <a href="http://www.stanford.edu/class/ee364a/">Convex Optimization</a> is definitely a good (possibly the best) resource, with the textbook also from Steven <a href="http://www.stanford.edu/~boyd/cvxbook/">here</a>. If don't feel like much theory, skimming the exercises in the book and the <a href="http://www.stanford.edu/~boyd/cvxbook/bv_cvxbook_extra_exercises.pdf">additional exercises</a> about your area may be enough.</p>
+            </div><!-- /.entry-content -->
+                        <div class="comments">
+              <h3>Comments</h3>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "thoughts-about-convex-optimization.html";
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://computinglife.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+            </div>
+            
+
+        </div><!-- /.eleven.columns -->
+        
+     <div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+        <li><a href="/archives.html">Archives</a></li>
+        <li><a href="/pages/feed.html">Subscribe</a></li>
+        <li><a href="http://lab.grapeot.me/">Lab</a></li>
+              <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+        </ul>
+
+<h4>Categories</h4>
+<ul>
+			<li><a href="http://grapeot.me/category/alive.html">Alive</a></li>
+			<li><a href="http://grapeot.me/category/computing.html">Computing</a></li>
+			<li><a href="http://grapeot.me/category/life.html">Life</a></li>
+	</ul>
+
+
+<h4>Tags</h4>
+	<ul>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/kinect.html">Kinect</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/github.html">github</a></li>
+		    <li class="tag-1"><a href="http://grapeot.me/tag/phd.html">PhD</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/linux.html">Linux</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/zz.html">zz</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/time.html">Time</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/image.html">Image</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/math.html">Math</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/cygwin.html">Cygwin</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/travel.html">Travel</a></li>
+	</ul>
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul>
+      <li><a href="https://www.facebook.com/YansReaderShareItems">FB Shared Items (Chinese)</a></li>
+      <li><a href="http://weibo.com/grapeot/">Weibo (Chinese)</a></li>
+      <li><a href="https://github.com/grapeot/">Github</a></li>
+    </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+       <div class="container.nopad bg">
+
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                                <li><div class="btn primary"><a href="https://github.com/grapeot/blog/" target="_blank">Github</a></div></li>
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'computinglife';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+  <script src="http://grapeot.me/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="http://grapeot.me/theme/js/libs/gumby.min.js"></script>
+  <script src="http://grapeot.me/theme/js/plugins.js"></script>
+
+</body>
+</html>

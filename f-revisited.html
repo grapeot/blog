@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+        <title>F# Revisited</title>
+        <meta charset="utf-8" />
+                                <link href="http://grapeot.me/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Atom Feed" />
+                        <link href="http://grapeot.me/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life RSS Feed" />
+                        <link href="http://grapeot.me/feeds/computing.atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Categories Atom Feed" />
+                        <link href="http://grapeot.me/feeds/computing.rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life Categories RSS Feed" />
+                                        
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/pygment.css" />
+
+        <script src="http://grapeot.me/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+                        <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-20477090-1']);
+                  _gaq.push(['_setDomainName', 'grapeot.me']);
+                  _gaq.push(['_trackPageview']);
+                  (function() {
+                   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+              </script>
+          
+        </head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="http://grapeot.me">Computing Life <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="http://grapeot.me">Home</a></li>
+
+                            <li><a href="/archives.html">Archives</a></li>
+                            <li><a href="/pages/feed.html">Subscribe</a></li>
+                            <li><a href="http://lab.grapeot.me/">Lab</a></li>
+                                                      <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+                          
+              </ul>
+            </div>
+
+          <section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="http://grapeot.me/f-revisited.html" rel="bookmark"
+                   title="Permalink to F# Revisited">F# Revisited</a></h2>
+                      
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2012-05-16T02:55:00">
+                Wed 16 May 2012
+              </abbr>
+                            <address class="vcard author">
+                By <a class="url fn" href="http://grapeot.me/author/yan-wang.html">Yan Wang</a>
+              </address>
+                          </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <p>I was interested in F# because of some of its fun usages, and the ease to do asynchronous and parallel computing. Used F# to implement some domain specific language like Turtle and fractal effect this afternoon. Basically the tasks themselves are nearly the same as this post and this post, some own thoughts were inspired.</p>
+<p>Let's first see some examples. For the turtle system, below is a command sequence (actually a linked list) for drawing a triangle:</p>
+<div class="highlight"><pre><span class="k">let</span> <span class="n">koch1</span> <span class="o">=</span> <span class="o">[</span> <span class="nc">Fwd</span> <span class="mi">243</span><span class="o">.;</span> <span class="nc">Right</span> <span class="mi">120</span><span class="o">.;</span> <span class="nc">Fwd</span> <span class="mi">243</span><span class="o">.;</span> <span class="nc">Right</span> <span class="mi">120</span><span class="o">.;</span> <span class="nc">Fwd</span> <span class="mi">243</span><span class="o">.</span> <span class="o">]</span>
+</pre></div>
+
+
+<p>It's easy to understand, first draw a line with length 243 pixels along the current direction, and then turn right 120 degrees, draw another line with length of 243 pixels and turn 120 degrees again, following by the final edge with length 243 pixels.</p>
+<p>What I want to emphasize is, this is a simple language, a so-called domain-specific language (DSL). It's extremely easy to implement some embedded DSLs inside F# due to its flexible syntax.</p>
+<p>Let's see some amazing  sample usage of this tiny language with only 3 keywords and 1 data type. The following function takes a command sequence as input, and "expand" it as a longer one. More specifically, this function is used to expand a straight line into a certain line segment as follows:</p>
+<p><img alt="" src="static/images/f-sharp-revisited-1.png" /></p>
+<p>Code:</p>
+<div class="highlight"><pre><span class="k">let</span> <span class="n">kochChange</span> <span class="n">drawing</span> <span class="n">acc</span> <span class="o">=</span> <span class="o">[</span>
+    <span class="k">for</span> <span class="n">cmd</span> <span class="k">in</span> <span class="n">drawing</span> <span class="k">do</span>
+        <span class="k">match</span> <span class="n">cmd</span> <span class="k">with</span>
+        <span class="o">|</span> <span class="o">(</span><span class="nc">Fwd</span><span class="o">,</span> <span class="n">n</span><span class="o">)</span> <span class="o">-&gt;</span> 
+            <span class="k">let</span> <span class="n">x</span> <span class="o">=</span> <span class="n">n</span> <span class="o">/</span> <span class="mi">3</span><span class="o">.</span><span class="mi">0</span>
+            <span class="k">yield</span> <span class="nc">Fwd</span> <span class="n">x</span>
+            <span class="k">yield</span> <span class="nc">Left</span> <span class="mi">60</span><span class="o">.</span>
+            <span class="k">yield</span> <span class="nc">Fwd</span> <span class="n">x</span>
+            <span class="k">yield</span> <span class="nc">Right</span> <span class="mi">120</span><span class="o">.</span>
+            <span class="k">yield</span> <span class="nc">Fwd</span> <span class="n">x</span>
+            <span class="k">yield</span> <span class="nc">Left</span> <span class="mi">60</span><span class="o">.</span>
+            <span class="k">yield</span> <span class="nc">Fwd</span> <span class="n">x</span>
+        <span class="o">|</span> <span class="n">c</span> <span class="o">-&gt;</span> <span class="k">yield</span> <span class="n">c</span> <span class="o">]</span>
+</pre></div>
+
+
+<p>Note the parameter acc is a dummy one, making it suit the interface of List.fold below. Then We can simply draw some amazing fractal shape easily:</p>
+<div class="highlight"><pre><span class="o">[</span><span class="mi">1</span><span class="o">..</span><span class="mi">4</span><span class="o">]</span> <span class="o">|&gt;</span> <span class="nn">List</span><span class="p">.</span><span class="n">fold</span> <span class="n">kochChange</span> <span class="n">koch1</span>
+</pre></div>
+
+
+<p>Note <code>koch1</code> is defined before to draw a triangle, therefore this statement expands a triangle with the rule shown above recursively, and produce a command list for the following figure:</p>
+<p><img alt="" src="static/images/f-sharp-revisited-2.png" /></p>
+<p>The complete code is available in my github. The famous Mandelbrot set is also easy to draw with this code, with asynchronous and parallel computing enabled.</p>
+<p>After this exercise, I feel more comfortable to use F# and find it appealing in the following aspects:</p>
+<p>Lightweight yet rich type definition. New types or structures can be defined neatly and even within one line. Examples are like</p>
+<div class="highlight"><pre><span class="k">type</span> <span class="nc">Command</span> <span class="o">=</span> <span class="nc">Fwd</span> <span class="o">|</span> <span class="nc">Left</span> <span class="o">|</span> <span class="nc">Right</span>
+<span class="k">type</span> <span class="nc">MandelbrotResult</span> <span class="o">=</span> <span class="o">|</span> <span class="nc">DidNotEscape</span> <span class="o">|</span> <span class="nc">Escaped</span> <span class="k">of</span> <span class="kt">int</span>
+</pre></div>
+
+
+<p>This makes the extensive usage of object-oriented style very easy. For example, use a new enumeration as place holders in DSLs, like this post illustrates.</p>
+<p>Compact yet flexible syntax. The unique syntax like pattern matching, treating tuple as first class component makes it easy to write intuitive logic within one to two lines, while other languages may need 10 lines. For example, the following code computes the Mandelbrot iteration result of a given complex number, and return the iteration number if it's convergent, otherwise output 0:</p>
+<div class="highlight"><pre><span class="k">match</span> <span class="n">mandelbrot</span> <span class="o">(</span><span class="nc">Complex</span><span class="o">(</span><span class="n">x</span><span class="o">,</span> <span class="n">y</span><span class="o">))</span> <span class="k">with</span> <span class="o">|</span> <span class="nc">DidNotEscape</span> <span class="o">-&gt;</span> <span class="o">(</span><span class="n">x</span><span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="mi">0</span><span class="o">)</span> <span class="o">|</span> <span class="nc">Escaped</span> <span class="n">i</span> <span class="o">-&gt;</span> <span class="o">(</span><span class="n">x</span><span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">i</span><span class="o">)</span>
+</pre></div>
+
+
+<p>Convenient collection interfaces. F# not only supports traditional functional ones like map, filter, fold, and also lazy sequence generation. The keywords like yield makes long LINQ statements in C# like nested SelectMany and Select pretty easy and intuitive to write. An example is the kochChange function above.</p>
+<p>Easy asynchronous and parallel programming, such as non-blocked operations, parallel operations, etc. This is clearly illustrated in Don's post.</p>
+<p>Overall, F# is a pretty interesting language, lightweight, powerful, and neat. And finally I feel sort of mastering it... Will further explore its potential for scientific computing and possibly updated again soon.</p>
+            </div><!-- /.entry-content -->
+                        <div class="comments">
+              <h3>Comments</h3>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "f-revisited.html";
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://computinglife.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+            </div>
+            
+
+        </div><!-- /.eleven.columns -->
+        
+     <div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+        <li><a href="/archives.html">Archives</a></li>
+        <li><a href="/pages/feed.html">Subscribe</a></li>
+        <li><a href="http://lab.grapeot.me/">Lab</a></li>
+              <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+        </ul>
+
+<h4>Categories</h4>
+<ul>
+			<li><a href="http://grapeot.me/category/alive.html">Alive</a></li>
+			<li><a href="http://grapeot.me/category/computing.html">Computing</a></li>
+			<li><a href="http://grapeot.me/category/life.html">Life</a></li>
+	</ul>
+
+
+<h4>Tags</h4>
+	<ul>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/kinect.html">Kinect</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/github.html">github</a></li>
+		    <li class="tag-1"><a href="http://grapeot.me/tag/phd.html">PhD</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/linux.html">Linux</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/zz.html">zz</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/time.html">Time</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/image.html">Image</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/math.html">Math</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/cygwin.html">Cygwin</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/travel.html">Travel</a></li>
+	</ul>
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul>
+      <li><a href="https://www.facebook.com/YansReaderShareItems">FB Shared Items (Chinese)</a></li>
+      <li><a href="http://weibo.com/grapeot/">Weibo (Chinese)</a></li>
+      <li><a href="https://github.com/grapeot/">Github</a></li>
+    </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+       <div class="container.nopad bg">
+
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                                <li><div class="btn primary"><a href="https://github.com/grapeot/blog/" target="_blank">Github</a></div></li>
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'computinglife';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+  <script src="http://grapeot.me/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="http://grapeot.me/theme/js/libs/gumby.min.js"></script>
+  <script src="http://grapeot.me/theme/js/plugins.js"></script>
+
+</body>
+</html>

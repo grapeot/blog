@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+        <title>Some Technical Details about KinectFusion</title>
+        <meta charset="utf-8" />
+                                <link href="http://grapeot.me/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Atom Feed" />
+                        <link href="http://grapeot.me/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life RSS Feed" />
+                        <link href="http://grapeot.me/feeds/computing.atom.xml" type="application/atom+xml" rel="alternate" title="Computing Life Categories Atom Feed" />
+                        <link href="http://grapeot.me/feeds/computing.rss.xml" type="application/rss+xml" rel="alternate" title="Computing Life Categories RSS Feed" />
+                                        
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+           tex2jax: { 
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
+                
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://grapeot.me/theme/pygment.css" />
+
+        <script src="http://grapeot.me/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+                        <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-20477090-1']);
+                  _gaq.push(['_setDomainName', 'grapeot.me']);
+                  _gaq.push(['_trackPageview']);
+                  (function() {
+                   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+              </script>
+          
+        </head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="http://grapeot.me">Computing Life <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="http://grapeot.me">Home</a></li>
+
+                            <li><a href="/archives.html">Archives</a></li>
+                            <li><a href="/pages/feed.html">Subscribe</a></li>
+                            <li><a href="http://lab.grapeot.me/">Lab</a></li>
+                                                      <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+                          
+              </ul>
+            </div>
+
+          <section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="http://grapeot.me/some-technical-details-about-kinectfusion.html" rel="bookmark"
+                   title="Permalink to Some Technical Details about KinectFusion">Some Technical Details about KinectFusion</a></h2>
+                      
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2013-09-17T16:00:00">
+                Tue 17 September 2013
+              </abbr>
+                            <address class="vcard author">
+                By <a class="url fn" href="http://grapeot.me/author/yan-wang.html">Yan Wang</a>
+              </address>
+                          </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <p>KinectFusion is a powerful 3D reconstruction technique based on Microsoft Kinect Sensor.
+It's included in the Microsoft Kinect SDK, which is pretty easy to use. 
+But if you wish to do some serious vision applications based on that, more technical details need to be figured out.
+And here are some notes I took these days.</p>
+<h2>WorldToCamera matrix</h2>
+<p>Just as the name indicates, it's just the external parameter matrix of the camera (i.e. Kinect here), consisting of the rotation and the translation info.
+You can get it from the <code>GetCurrentWorldToCameraTransform()</code> function in the SDK.
+More specifically, the matrix looks like</p>
+<p>$$\begin{bmatrix} R &amp; t \\ 0 &amp; 1 \end{bmatrix}.$$</p>
+<p>And to transform a 3D point in the global coordinates to the local 3D coordinates of the camera, one only needs to do</p>
+<p>$\begin{bmatrix} x_l \\ y_l \\ z_l \\ 1 \end{bmatrix} = \begin{bmatrix} R &amp; t \\ 0 &amp; 1 \\ \end{bmatrix} * \begin{bmatrix} x_g \\ y_g \\ z_g \\ 1 \end{bmatrix} $.</p>
+<p>From the code it's also easy to know the (inverse of the) internal matrix of the Kinect (optical) camera (when the resolution is $640 \times 480$).</p>
+<p>$F^{-1} = \begin{bmatrix} 594.21 &amp; &amp; 320 \\ &amp; 591.04 &amp; 240 \\ &amp; &amp; 1 \end{bmatrix}$,</p>
+<p>then the (homogeneous) coordinates of the point can be computed as</p>
+<p>$ \begin{bmatrix} u \\ v \\ 1 \end{bmatrix} = F^{-1} \begin{bmatrix} x_l/z_l \\ y_l/z_l \\ 1 \end{bmatrix} $</p>
+<p>To verify the correctness of your implementation, simple export two RGBD photos with <code>WorldToCamera</code> matrices, manually label the same 3D point on the two depth photos, and see whether they get transformed to the same 3D coordinate. </p>
+<h2>RGB-depth alignment</h2>
+<p>In the previous verification experiment, the reason why we don't use optical photos to label is, direct export from Kinect SDK ends up with unaligned optical and depth photos.
+That is, since the optical camera and the depth camera are not in the position (and have different view of angles), their photos are not aligned, or the depth in (u, v) in the depth photo is not the "depth" for the pixel at (u, v) in the optical photo.
+To build applications involving both photos, you need to first align them, or in other words, warp the optical photo to fit the depth photo (or vice versa).</p>
+<p>It can be done with the SDK itself, with the function <code>CoordinateMapper.MapDepthFrameToColorFrame()</code>.
+Since there are detailed documents in MSDN, I'd save time here by leaving yourself read the documents.
+But the MATLAB code is provided <a href="https://gist.github.com/grapeot/6599423">here</a>.</p>
+<p>Some assumption to use the code is, the file <code>imgfn</code> stores the binary data directly exported from <code>ColorImageFrame.CopyPixelDataTo()</code>, <code>dfn</code> stores the binary data exported from <code>FusionFloatImageFrame.CopyPixelDataTo()</code>, and <code>idxfn</code> stores the binary data exported from the <code>ColorImagePoints</code> resulted from <code>CoordinateMapper.MapDepthFrameToColorFrame()</code>.</p>
+<p>Example exporting code would look like this:</p>
+<div class="highlight"><pre><span class="kt">var</span> <span class="n">colorImagePoints</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ColorImagePoint</span><span class="p">[</span><span class="n">depthPixels</span><span class="p">.</span><span class="n">Length</span><span class="p">];</span>
+<span class="n">mapper</span><span class="p">.</span><span class="n">MapDepthFrameToColorFrame</span><span class="p">(</span><span class="n">DepthImageResolution</span><span class="p">,</span> <span class="n">depthPixels</span><span class="p">,</span> <span class="n">ColorImageFormat</span><span class="p">.</span><span class="n">RgbResolution640x480Fps30</span><span class="p">,</span> <span class="n">colorImagePoints</span><span class="p">);</span>
+<span class="n">File</span><span class="p">.</span><span class="n">WriteAllBytes</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">Format</span><span class="p">(</span><span class="s">&quot;{0}_coloridx.dat&quot;</span><span class="p">,</span> <span class="n">fn</span><span class="p">),</span>
+    <span class="n">colorImagePoints</span><span class="p">.</span><span class="n">SelectMany</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">result</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">byte</span><span class="p">&gt;();</span>
+        <span class="n">result</span><span class="p">.</span><span class="n">AddRange</span><span class="p">(</span><span class="n">BitConverter</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">X</span><span class="p">));</span>
+        <span class="n">result</span><span class="p">.</span><span class="n">AddRange</span><span class="p">(</span><span class="n">BitConverter</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">Y</span><span class="p">));</span>
+        <span class="k">return</span> <span class="n">result</span><span class="p">.</span><span class="n">ToArray</span><span class="p">();</span>
+    <span class="p">}).</span><span class="n">ToArray</span><span class="p">());</span>
+</pre></div>
+
+
+<p>With such alignment or rectification, we can repeat the experiment introduced in the last section with the optical photos now.</p>
+<h2>WorldToVolume matrix</h2>
+<p>The <code>WorldToVolume</code> matrix is pretty like <code>WorldToCamera</code> matrix, mapping the world coordinates to volume coordinates.
+The comment in the SDK basically illustrate how the volume coordinate works, and it's as easy to use as the <code>WorldToVolume</code> matrix,</p>
+<p>$\begin{bmatrix} x_v \\ y_v \\ z_v \\ 1 \end{bmatrix} = \begin{bmatrix} R &amp; t \\ 0 &amp; 1 \\ \end{bmatrix} * \begin{bmatrix} x_g \\ y_g \\ z_g \\ 1 \end{bmatrix} $.</p>
+<p>Note the $t$ in the matrix may be negative, because it's not necessary to store info too close to the camera.
+And since the comment in the code mentions that the origin of the world coordinate system lies in the center of the front plane (i.e. z == 0 plane) in the volume, you may want to assign at least $2t$ space for the volume.</p>
+<h2>Raycasting for better depth</h2>
+<p>A smart way to use the KinectFusion is to extract depth map with better quality from the volume, rather than directly fetch it from the sensor.
+Since the Truncated Signed Distance Function smoothes the surfaces among frames it's seen before, such extracted depth map would be more robust to sensor noise and missing values (which is a common problem for Kinect sensor).</p>
+<p>To extract such depth map, we need to first export the point cloud stored in the volume with the function <code>CalculatePointCloud()</code> (with the <code>WorldToCamera</code> matrix), and then map each 3D point to the camera imaging plane based on the external as well as internal matrices of the camera.</p>
+<p>Here are some results to give you a sense.</p>
+<p><img style="max-width: 320px" src="static/images/kinectfusion-original1.png" />
+<img style="max-width: 320px" src="static/images/kinectfusion-refined1.png" /></p>
+<p><img style="max-width: 320px" src="static/images/kinectfusion-original2.png" />
+<img style="max-width: 320px" src="static/images/kinectfusion-refined2.png" /></p>
+<p><img style="max-width: 320px" src="static/images/kinectfusion-original3.png" />
+<img style="max-width: 320px" src="static/images/kinectfusion-refined3.png" /></p>
+            </div><!-- /.entry-content -->
+                        <div class="comments">
+              <h3>Comments</h3>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "some-technical-details-about-kinectfusion.html";
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://computinglife.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+            </div>
+            
+
+        </div><!-- /.eleven.columns -->
+        
+     <div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+        <li><a href="/archives.html">Archives</a></li>
+        <li><a href="/pages/feed.html">Subscribe</a></li>
+        <li><a href="http://lab.grapeot.me/">Lab</a></li>
+              <li><a href="http://grapeot.me/pages/about.html">About</a></li>
+        </ul>
+
+<h4>Categories</h4>
+<ul>
+			<li><a href="http://grapeot.me/category/alive.html">Alive</a></li>
+			<li><a href="http://grapeot.me/category/computing.html">Computing</a></li>
+			<li><a href="http://grapeot.me/category/life.html">Life</a></li>
+	</ul>
+
+
+<h4>Tags</h4>
+	<ul>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/kinect.html">Kinect</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/github.html">github</a></li>
+		    <li class="tag-1"><a href="http://grapeot.me/tag/phd.html">PhD</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/linux.html">Linux</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/zz.html">zz</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/time.html">Time</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/image.html">Image</a></li>
+		    <li class="tag-2"><a href="http://grapeot.me/tag/math.html">Math</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/cygwin.html">Cygwin</a></li>
+		    <li class="tag-4"><a href="http://grapeot.me/tag/travel.html">Travel</a></li>
+	</ul>
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul>
+      <li><a href="https://www.facebook.com/YansReaderShareItems">FB Shared Items (Chinese)</a></li>
+      <li><a href="http://weibo.com/grapeot/">Weibo (Chinese)</a></li>
+      <li><a href="https://github.com/grapeot/">Github</a></li>
+    </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+       <div class="container.nopad bg">
+
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                                <li><div class="btn primary"><a href="https://github.com/grapeot/blog/" target="_blank">Github</a></div></li>
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'computinglife';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+  <script src="http://grapeot.me/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="http://grapeot.me/theme/js/libs/gumby.min.js"></script>
+  <script src="http://grapeot.me/theme/js/plugins.js"></script>
+
+</body>
+</html>

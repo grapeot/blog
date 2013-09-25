@@ -1,5 +1,6 @@
 *.pid
 *.pyc
 *.swp
+.DS_Store
 output
 webroot

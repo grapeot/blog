@@ -16,3 +16,5 @@ cd blog
 git submodule init
 git submodule update
 ```
+
+## Future work

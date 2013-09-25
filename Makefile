@@ -72,6 +72,10 @@ publish:
 		cp -ar $(OUTPUTDIR)/* $(WEBDIR)/; \
 	fi
 
+pages: publish
+	git checkout gh-pages; \
+	cp -ar $(WEBDIR)/* .
+
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 

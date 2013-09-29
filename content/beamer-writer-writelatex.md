@@ -1,6 +1,7 @@
 Title: Update on Beamer Writer: Online Editing/Compiling/Collaborating with WriteLaTeX
 Date: 2013-09-30 18:28
 Category: Computing
+Slug: update-on-beamer-writer-online-editing-with-writelatex
 Tags: BeamerWriter
 
 After moving the compiler implementation of our [Beamer Writer](http://lab.grapeot.me/beamer/) to node.js, we are able to provide more features than our old version (which used the client javascript).

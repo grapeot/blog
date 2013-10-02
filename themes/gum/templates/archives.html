@@ -5,7 +5,11 @@
 <dl>
 {% for article in dates %}
     <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+    {% for tag in article.tags %}
+    <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
+    {% endfor %}
+    </dd>
 {% endfor %}
 </dl>
 {% endblock %}

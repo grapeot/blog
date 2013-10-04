@@ -11,4 +11,7 @@ Googled a lot but couldn't find tutorials about how to send emails from Windows 
 
 And that's it. Try `echo This is a test email | email -s "test" foo@bar.com` to test.
 
-Update: replace `email` to `sendmail` in ubuntu.
+Update: 
+
+* Replace `email` to `sendmail` in ubuntu.
+* [This post](http://collinhenderson.com/post/48046976172/a-fix-for-slow-sendmail-on-ubuntu) solves the problem of extremely slow `sendmail` in ubuntu.

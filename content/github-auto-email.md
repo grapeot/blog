@@ -1,4 +1,4 @@
-Title: Automatic Email Notification on Github Pushes
+Title: Automatic Email Notification on Github Pushes 
 Date: 2013-09-24 17:28
 Category: Computing
 Tags: github, Linux

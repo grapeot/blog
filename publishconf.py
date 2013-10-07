@@ -10,9 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://grapeot.me'
-RELATIVE_URLS = False
+SITEURL = ''
+RELATIVE_URLS = True 
 
+FEED_DOMAIN = 'https://grapeot.me'
 FEED_ATOM = 'feeds/atom.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'

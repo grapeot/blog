@@ -1,3 +1,3 @@
 [submodule "plugins"]
 	path = plugins
-	url = https://github.com/getpelican/pelican-plugins
+	url = github:grapeot/pelican-plugins

@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = ''
+SITEURL = 'https://grapeot.me'
 RELATIVE_URLS = True 
 
 FEED_DOMAIN = 'https://grapeot.me'

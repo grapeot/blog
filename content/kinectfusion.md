@@ -23,7 +23,7 @@ $\begin{bmatrix} x_l \\\\ y_l \\\\ z_l \\\\ 1 \end{bmatrix} = \begin{bmatrix} R 
 
 From the code it's also easy to know the (inverse of the) internal matrix of the Kinect (optical) camera (when the resolution is $640 \times 480$).
 
-$F^{-1} = \begin{bmatrix} 594.21 & & 320 \\\\ & 591.04 & 240 \\\\ & & 1 \end{bmatrix}$,
+$F^{-1} = \begin{bmatrix} 594.21 & & 320/594.21 \\\\ & 591.04 & 240/591.04 \\\\ & & 1 \end{bmatrix}$,
 
 then the (homogeneous) coordinates of the point can be computed as
 

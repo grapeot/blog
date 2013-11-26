@@ -3,7 +3,7 @@ Date: 2013-11-25 18:17
 Category: Computing 
 Tags: nodejs 
 
-Can a node.js/express.js web app update itself from a github repo?
+Can a node.js/express.js web app update itself from a github repo? (i.e. whenever we do a `git push` to github, the server side will also use `git pull` to update itself)
 
 It's possible thanks to the powerful WebHook of github.
 
@@ -37,3 +37,4 @@ Note we use `child_process.spawn()` to control the life cycle of the child proce
 The complete code with context is put [here](https://github.com/grapeot/learn-expressjs/blob/master/bootstrap.js).
 To launch the program, `nohup node ./bootstrap.js &` is a good idea which is able to solve the `zsh` background job problem.
 
+[Another](automatic-email-notification-on-github-pushes.html) lightweight way to implement WebHook isn't it?

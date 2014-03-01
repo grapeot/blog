@@ -32,13 +32,6 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
-        {% if article and article.latex %}
-        {{ article.latex }}
-        {% endif %}
-        {% if page and page.latex %}
-        {{ page.latex }}
-        {% endif %}
-
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
 
@@ -149,10 +142,16 @@
 
     </div>
 
-  {% include 'disqus_script.html' %}
   <script src="{{ SITEURL }}/theme/js/libs/jquery-1.9.1.min.js"></script>
   <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js"></script>
   <script src="{{ SITEURL }}/theme/js/plugins.js"></script>
+  {% if article and article.latex %}
+  {{ article.latex }}
+  {% endif %}
+  {% if page and page.latex %}
+  {{ page.latex }}
+  {% endif %}
+  {% include 'disqus_script.html' %}
 
 </body>
 </html>

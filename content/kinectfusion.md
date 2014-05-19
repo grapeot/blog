@@ -23,11 +23,11 @@ $\begin{bmatrix} x_l \\\\ y_l \\\\ z_l \\\\ 1 \end{bmatrix} = \begin{bmatrix} R 
 
 From the code it's also easy to know the (inverse of the) internal matrix of the Kinect (optical) camera (when the resolution is $640 \times 480$).
 
-$F^{-1} = \begin{bmatrix} 594.21 & & 320/594.21 \\\\ & 591.04 & 240/591.04 \\\\ & & 1 \end{bmatrix}$,
+$A = \begin{bmatrix} 594.21 & & 320/594.21 \\\\ & 591.04 & 240/591.04 \\\\ & & 1 \end{bmatrix}$,
 
 then the (homogeneous) coordinates of the point can be computed as
 
-$ \begin{bmatrix} u \\\\ v \\\\ 1 \end{bmatrix} = F^{-1} \begin{bmatrix} x_l/z_l \\\\ y_l/z_l \\\\ 1 \end{bmatrix} $
+$ \begin{bmatrix} u \\\\ v \\\\ 1 \end{bmatrix} = A \begin{bmatrix} x_l/z_l \\\\ y_l/z_l \\\\ 1 \end{bmatrix} $
 
 To verify the correctness of your implementation, simple export two RGBD photos with `WorldToCamera` matrices, manually label the same 3D point on the two depth photos, and see whether they get transformed to the same 3D coordinate. 
 

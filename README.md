@@ -6,15 +6,8 @@ There is a `gh-pages` branch of the repo providing a backup for the website [her
 
 ## How to clone this repo
 
-Since we use `submodules` in git, it requires some extra step to clone a complete version of this repo.
-
-Example code
+Since we use `submodules` in git, it requires an extra switch to clone a complete version of this repo.
 
 ```bash
-git clone git@github.com:grapeot/blog.git blog
-cd blog
-git submodule init
-git submodule update
+git clone --recursive git@github.com:grapeot/blog.git 
 ```
-
-## Future work

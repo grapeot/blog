@@ -1,7 +1,7 @@
 Title: C++ or MATLAB for research?
 Date: 2013-05-29 21:03
 Category: Computing
-Tag: C++, MATLAB, Research
+Tags: C++, MATLAB, Research
 
 I used to be (and still am) a big fan of C#/C++, and wrote all the research codes in these languages. But after reading [this post](http://stackoverflow.com/questions/8828860/why-is-matlab-so-popular-in-the-computer-vision-community-even-with-opencv-being/8832028#8832028) by [Olivier Duchenne](http://www.di.ens.fr/~duchenne/) discussing about MATLAB's advantages, my view is changing and think MATLAB may be a better candidate for research...
 

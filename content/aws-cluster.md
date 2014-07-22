@@ -9,7 +9,7 @@ It often requires a lot of computational resources to do machine learning / comp
 Therefore people use more than one machines to do the task.
 The procedures are often like, copy executable/data files to all the machines, configure environments, manually divide the tasks, actually run the commands, and collect the results.
 In addition to the complicated workflow, another practical problem is where to get the machines.
-Maintaining your own cluster is definitely an option, an extremely expensive and time-costing option.
+Maintaining your own cluster is definitely an option, an extremely expensive and time-consuming option.
 Renting from AWS, especially using [spot instances](http://aws.amazon.com/ec2/purchasing-options/spot-instances/), is a *much* cheaper and more practical alternative.
 
 But a lot of factors prevent them to be really useful (I assume you already know how spot instances work):
@@ -26,7 +26,7 @@ After quite a few months, I gradually accumulate a tool chain to handle all of t
 <img style="max-width: 100%" src="/static/images/AWS_htop.png" />
 
 Here is an example of a 128-core 240GB cluster.
-It requires ~10 minutes to build it from scratch (or ~1 minute to build from AMI image), and costs about 1 dollar per hour.
+It requires ~10 minutes to build from scratch (or ~1 minute to build from AMI image), and costs about 1 dollar per hour.
 Like any AWS instances, the instances themselves cost nothing if you don't use them (by shutting them down).
 All your data will be on your hard disk and the loss due to spot request failure will be minimized.
 The best thing is, task submission is fairly simple -- one single line of bash command will do the job, like
@@ -55,6 +55,8 @@ Let's look at this example:
 ``` bash
 cat cluster.sh | parallel --sshlogin 8/m1 --sshlogin 8/m2 --sshlogin 8/m3 --sshlogin 8/m4 bash -c '{}'
 ```
+
+(Thanks to OleTange's comments, it can be simplified as `cat cluster.sh | parallel -S8/m{1..4} -c '{}'`)
 
 We already explained what it means, and here are more details.
 For switches like `--sshlogin 8/m1`, `--sshlogin` means to send the task to remote machines. 

@@ -7,7 +7,7 @@ Although it was written from a Christian's view while I am not a Christian, ther
 
 The most important lesson may be -- you really need to think about questions about this, like what is a "good" marriage, and what you expect to see and what actually contribute to a "good" marriage.
 A marriage is a very serious life-long commitment.
-A wrong choice will possibly waste tons of time, with years of suffering, and thus you cannot determine to commit simply because of you feel in the mood or because the woman is cute.
+A wrong choice will possibly waste tons of time, with years of suffering, and thus you cannot determine to commit simply because you feel in the mood or because the woman is cute.
 Making the decision is really a skill, a skill which most people need take time to learn, from others' stories, statistics and critical thinking.
 And following are a few more detailed points I feel worthwhile to share.
 

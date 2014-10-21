@@ -12,6 +12,8 @@ GITHUB_URL = 'https://github.com/grapeot/blog/'
 DEFAULT_LANG = u'en'
 FAVICON_URL = 'static/images/favicon.ico'
 
+SHOW_PAGES_IN_SIDEBAR = False
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

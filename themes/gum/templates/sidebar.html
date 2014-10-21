@@ -1,5 +1,6 @@
 <div class="three columns">
 
+<!--
 <h4>Pages</h4>
 
  <ul>
@@ -18,6 +19,12 @@
     {% endif %}
   {% endif %}
   </ul>
+-->
+
+<h4>Recent Comments</h4>
+<div id="dsq-recentcomments" class="dsq-widget">
+    <script src="https://{{ DISQUS_SITENAME }}.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=10&excerpt_length=26"></script>
+</div>
 
 <h4>Categories</h4>
 {% if categories %}
@@ -27,7 +34,6 @@
 	{% endfor %}
 </ul>
 {% endif %}
-
 
 <h4>Tags</h4>
 {% if tags %}

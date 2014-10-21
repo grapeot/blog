@@ -199,3 +199,26 @@ a:focus { color: #34495E; }
 @media only screen and (max-width: 600px) {
   #banner h1 a {font-size:22px!important; line-height:24px;}
 }
+
+/* Fixes about recent comments, added by Yan
+--------------------------------------------------------- */
+li.dsq-widget-item { margin: 0; line-height: 0; verticl-align: top; }
+.dsq-widget-meta p { margin: 3% 0 0 0; }
+.dsq-widget-comment p { font-size: 80%; }
+a.dsq-widget-user { font-size: 80%; margin-left: 2px; }
+.dsq-widget-item p { font-size: 80%; }
+img.dsq-widget-avatar {
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: #fff 0.3em solid;
+    padding: 5px 3px 3px 3px!important;
+}

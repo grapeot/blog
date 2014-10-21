@@ -24,9 +24,9 @@ TRANSLATION_FEED_ATOM = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('https://www.facebook.com/YansReaderShareItems', 'FB Shared Items (Chinese)'),
-        ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
-        ('https://github.com/grapeot/', 'Github'),)
+# SOCIAL = (('https://www.facebook.com/YansReaderShareItems', 'FB Shared Items (Chinese)'),
+#         ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
+#         ('https://github.com/grapeot/', 'Github'),)
 
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 MENUITEMS = (('Archives', '/archives.html'),
@@ -53,7 +53,7 @@ SITEMAP = {
 }
 LATEX = 'article'
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 7
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

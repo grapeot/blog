@@ -202,11 +202,9 @@ a:focus { color: #34495E; }
 
 /* Fixes about recent comments, added by Yan
 --------------------------------------------------------- */
-li.dsq-widget-item { margin: 0; line-height: 0; verticl-align: top; }
+.dsq-widget-item { font-size: 85%; margin: 5px 0 0 0!important; line-height: 0; }
+.dsq-widget-item p { font-size: 100%; }
 .dsq-widget-meta p { margin: 3% 0 0 0; }
-.dsq-widget-comment p { font-size: 80%; }
-a.dsq-widget-user { font-size: 80%; margin-left: 2px; }
-.dsq-widget-item p { font-size: 80%; }
 img.dsq-widget-avatar {
     -webkit-border-radius: 0.3em;
     -moz-border-radius: 0.3em;
@@ -221,4 +219,30 @@ img.dsq-widget-avatar {
     box-sizing: border-box;
     border: #fff 0.3em solid;
     padding: 5px 3px 3px 3px!important;
+    margin-right: 5px!important;
+    margin-bottom: 5px!important;
+}
+
+/* fixes about the sidebar, added by Yan
+--------------------------------------------------------- */
+.sidebar-h4 {
+    margin-top: 30px;
+}
+.sidebar-tags a {
+    background-color: #3498db;
+    height: 20px;
+    display: inline-block;
+    font-family: Helvetica, arial, verdana, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
 }

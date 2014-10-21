@@ -1,7 +1,7 @@
 <div class="three columns">
 
 {% if SHOW_PAGES_IN_SIDEBAR %}
-<h4>Pages</h4>
+<h4 class="sidebar-h4">Pages</h4>
 
  <ul>
   {% for title, link in MENUITEMS %}
@@ -21,13 +21,12 @@
   </ul>
 {% endif %}
 
-<h4>Recent Comments</h4>
-<div id="dsq-recentcomments" class="dsq-widget">
-    <script src="https://{{ DISQUS_SITENAME }}.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=10&excerpt_length=26"></script>
-</div>
-
-<h4>Categories</h4>
 {% if categories %}
+{% if SHOW_PAGES_IN_SIDEBAR %}
+<h4>Categories</h4>
+{% else %}
+<h4 class="sidebar-h4">Categories</h4>
+{% endif %}
 <ul>
 	{% for cat, null in categories %}
 		<li><a href="{{ SITEURL }}/{{ cat.url|e }}">{{ cat }}</a></li>
@@ -37,13 +36,15 @@
 
 <h4>Tags</h4>
 {% if tags %}
-	<ul>
 	{% for tag in tag_cloud %}
-	    <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0|e }}</a></li>
+	    <span class="sidebar-tags tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0|e }}</a></span>
 	{% endfor %}
-</ul>
 {% endif %}
 
+<h4>Recent Comments</h4>
+<div id="dsq-recentcomments" class="dsq-widget">
+    <script src="https://{{ DISQUS_SITENAME }}.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=10&excerpt_length=26"></script>
+</div>
 
 {% if SOCIAL %}
 <nav class="widget">

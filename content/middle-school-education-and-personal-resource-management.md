@@ -1,6 +1,7 @@
 Title: 中小学生的教育 and Personal Resource Management
 Date: 2014-10-22 11:00
 Category: Life
+Tags: TimeManagement
 
 ## 中小学生的教育
 

@@ -1,7 +1,7 @@
 Title: Easy and cheap cluster building on AWS
 Date: 2014-07-17 20:00
 Category: Computing
-Tags: Linux, Parallel, github, Image
+Tags: Linux, Parallel, github, Image, AWS
 
 ## Why?
 

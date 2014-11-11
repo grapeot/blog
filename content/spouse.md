@@ -1,6 +1,7 @@
 Title: Notes on "How to pick up a spouse"
 Date: 2014-08-23 12:00
 Category: Life 
+Tags: ReadingNotes
 
 Came across a book named "How to pick a spouse" <a href="http://www.amazon.com/gp/product/0830769757/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0830769757&linkCode=as2&tag=complife01-20&linkId=P7E5GUTLUDJL5WJN" target="_blank">[amazon]</a>.
 Although it was written from a Christian's view while I am not a Christian, there are quite a few good points I've never thought before.

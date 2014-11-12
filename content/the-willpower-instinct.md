@@ -3,7 +3,7 @@ Date: 2014-11-10 22:30
 Category: Life
 Tags: TimeManagement, ReadingNotes
 
-Finished the book <a href="http://www.amazon.com/gp/product/B005ERIRZE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005ERIRZE&linkCode=as2&tag=complife01-20&linkId=E4URR4SRQ3XZHAN7">The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=complife01-20&l=as2&o=1&a=B005ERIRZE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+Finished the book <a href="http://www.amazon.com/gp/product/B005ERIRZE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005ERIRZE&linkCode=as2&tag=complife01-20&linkId=E4URR4SRQ3XZHAN7">The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=complife01-20&l=as2&o=1&a=B005ERIRZE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 And want to share some notes, mainly taking-away messages.
 
 * Simple (scientific) ways to improve willpower: physical exercises, breath slower, relax, sleep well.

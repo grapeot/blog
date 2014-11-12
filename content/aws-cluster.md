@@ -23,7 +23,7 @@ After quite a few months, I gradually accumulate a tool chain to handle all of t
 
 ## What will you get?
 
-<img style="max-width: 100%" src="/static/images/AWS_htop.png" />
+<img style="max-width: 100%" src="/images/AWS_htop.png" />
 
 Here is an example of a 128-core 240GB cluster.
 It requires ~10 minutes to build from scratch (or ~1 minute to build from AMI image), and costs about 1 dollar per hour.

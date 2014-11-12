@@ -78,11 +78,11 @@ To extract such depth map, we need to first export the point cloud stored in the
 
 Here are some results to give you a sense.
 
-<img style="max-width: 320px" src="static/images/kinectfusion-original1.png" />
-<img style="max-width: 320px" src="static/images/kinectfusion-refined1.png" />
+<img style="max-width: 320px" src="images/kinectfusion-original1.png" />
+<img style="max-width: 320px" src="images/kinectfusion-refined1.png" />
 
-<img style="max-width: 320px" src="static/images/kinectfusion-original2.png" />
-<img style="max-width: 320px" src="static/images/kinectfusion-refined2.png" />
+<img style="max-width: 320px" src="images/kinectfusion-original2.png" />
+<img style="max-width: 320px" src="images/kinectfusion-refined2.png" />
 
-<img style="max-width: 320px" src="static/images/kinectfusion-original3.png" />
-<img style="max-width: 320px" src="static/images/kinectfusion-refined3.png" />
+<img style="max-width: 320px" src="images/kinectfusion-original3.png" />
+<img style="max-width: 320px" src="images/kinectfusion-refined3.png" />

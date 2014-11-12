@@ -3,7 +3,7 @@ Date: 2014-06-01 19:00:00
 Category: Alive
 Tags: Aviation
 
-<img src="static/images/FirstSolo.jpg" />
+<img src="images/FirstSolo.jpg" />
 
 终于到了训练的25%处。。放单飞啦! 视频戳这里，自备梯子：[youtube](https://www.youtube.com/watch?v=ciD0mPNDieU)。
 

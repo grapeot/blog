@@ -11,13 +11,13 @@ Different from Graph Cut, it can be extended easily for non-grid graphs and non-
 
 Some experiment results:
 
-<img class="centered" src="/static/images/mrf_noisy_small.jpg" alt="" />
+<img class="centered" src="/images/mrf_noisy_small.jpg" alt="" />
 
-<img class="centered" src="/static/images/mrf_lbp_result.jpg" alt="" />
+<img class="centered" src="/images/mrf_lbp_result.jpg" alt="" />
 
-<img class="centered" src="/static/images/mrf_penguin.png" alt="" />
+<img class="centered" src="/images/mrf_penguin.png" alt="" />
 
-<img class="centered" src="/static/images/mrf_penguin_lbp.png" alt="" />
+<img class="centered" src="/images/mrf_penguin_lbp.png" alt="" />
 
 Updates:
 

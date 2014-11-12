@@ -14,13 +14,13 @@ In [the last blog post](/markov-random-field-mrf-and-graph-cut-1.html), we built
 
 Follow the motivation from last post,  a graph can be constructed from MRF intuitively. To formulate it as a flow-cut problem, there need two sets of vertices. First is the vertices for pixels, each vertex corresponding to one pixel, and adjacent pixels connected with an undirected weighted edge. Second is a set of two auxiliary vertices, the source s and sink t. The graph looks like Fig 1 (a). And actually if we mainly focus on the middle layer, i.e. the pixel vertices layer, it looks like Fig 1 (b).
 
-<img class="centered" src="/static/images/mrf_construction.png" alt="" style="max-width: 500px" />
+<img class="centered" src="/images/mrf_construction.png" alt="" style="max-width: 500px" />
 
 Fig. 1. graph construction for MRF. (a) shows all the vertices and edges, while (b) shows only the pixel vertices.
 
 To make it clear, we further restrict to observe one row of pixel vertices, as Fig. 2 shows. Then a cut means every vertex needs to make a choice, following s or t. That is, if we call the edges to s or v as t-links, and edges between two pixel vertices as n-links, for every pixel vertex v, a cut must cross one of its two t-links. But for n-links, a cut will only cross the boundaries of different choices, like ($v_2, v_3$).
 
-<img class="centered" src="/static/images/mrf_cut.png" alt="" style="max-width: 500px" />
+<img class="centered" src="/images/mrf_cut.png" alt="" style="max-width: 500px" />
 
 Fig 2. one row of pixels in the graph with a cut (in blue).
 
@@ -30,7 +30,7 @@ So that we can see, the problem of finding a min-cut in such a graph, is actuall
 
 If we look even closer, it's easy to find the basic unit of MRF is actually a pair of vertices (i.e. a clique. All the cliques in the pixel vertices level only contain two nodes). As Fig. 3 shows, if we try to cut this unit, there are only 4 possible approaches.
 
-<img class="centered" src="/static/images/mrf_4cases.png" alt="" style="max-width: 500px" />
+<img class="centered" src="/images/mrf_4cases.png" alt="" style="max-width: 500px" />
 
 Fig 3. Basic unit of MRF and 4 cases of a cut. The capital letters in (a) indicate the weights.
 
@@ -38,7 +38,7 @@ Therefore, to minimize a certain energy function, what we need to do is just det
 
 Table 1. Values of energy function
 
-<img class="centered" src="/static/images/mrf_energy_functions.png" alt="" style="max-width: 400px" />
+<img class="centered" src="/images/mrf_energy_functions.png" alt="" style="max-width: 400px" />
 
 For clarity, let's give the energy function values some alias as Table 1 shows. To make the cut values equal to function values, we have
 

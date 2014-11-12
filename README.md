@@ -11,3 +11,5 @@ Since we use `submodules` in git, it requires an extra switch to clone a complet
 ```bash
 git clone --recursive git@github.com:grapeot/blog.git 
 ```
+
+`pip install pelican` to install pelican, and then `make html` to get the generated static website.

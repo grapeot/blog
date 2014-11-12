@@ -39,7 +39,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
 PLUGIN_PATH = 'plugins'
-PLUGINS = ['latex', 'sitemap', 'gravatar']
+PLUGINS = ['render_math', 'sitemap', 'gravatar']
 SITEMAP = {
     'format': 'xml',
     'priorities': {

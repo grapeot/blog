@@ -19,15 +19,15 @@ $$\begin{bmatrix} R & t \\\\ 0 & 1 \end{bmatrix}.$$
 
 And to transform a 3D point in the global coordinates to the local 3D coordinates of the camera, one only needs to do
 
-$\begin{bmatrix} x_l \\\\ y_l \\\\ z_l \\\\ 1 \end{bmatrix} = \begin{bmatrix} R & t \\\\ 0 & 1 \\\\ \end{bmatrix} * \begin{bmatrix} x_g \\\\ y_g \\\\ z_g \\\\ 1 \end{bmatrix} $.
+$$\begin{bmatrix} x_l \\\\ y_l \\\\ z_l \\\\ 1 \end{bmatrix} = \begin{bmatrix} R & t \\\\ 0 & 1 \\\\ \end{bmatrix} * \begin{bmatrix} x_g \\\\ y_g \\\\ z_g \\\\ 1 \end{bmatrix} $$.
 
 From the code it's also easy to know the (inverse of the) internal matrix of the Kinect (optical) camera (when the resolution is $640 \times 480$).
 
-$A = \begin{bmatrix} 594.21 & & 320/594.21 \\\\ & 591.04 & 240/591.04 \\\\ & & 1 \end{bmatrix}$,
+$$A = \begin{bmatrix} 594.21 & & 320/594.21 \\\\ & 591.04 & 240/591.04 \\\\ & & 1 \end{bmatrix}$$,
 
 then the (homogeneous) coordinates of the point can be computed as
 
-$ \begin{bmatrix} u \\\\ v \\\\ 1 \end{bmatrix} = A \begin{bmatrix} x_l/z_l \\\\ y_l/z_l \\\\ 1 \end{bmatrix} $
+$$ \begin{bmatrix} u \\\\ v \\\\ 1 \end{bmatrix} = A \begin{bmatrix} x_l/z_l \\\\ y_l/z_l \\\\ 1 \end{bmatrix} $$
 
 To verify the correctness of your implementation, simple export two RGBD photos with `WorldToCamera` matrices, manually label the same 3D point on the two depth photos, and see whether they get transformed to the same 3D coordinate. 
 
@@ -64,7 +64,7 @@ With such alignment or rectification, we can repeat the experiment introduced in
 The `WorldToVolume` matrix is pretty like `WorldToCamera` matrix, mapping the world coordinates to volume coordinates.
 The comment in the SDK basically illustrate how the volume coordinate works, and it's as easy to use as the `WorldToVolume` matrix,
 
-$\begin{bmatrix} x_v \\\\ y_v \\\\ z_v \\\\ 1 \end{bmatrix} = \begin{bmatrix} R & t \\\\ 0 & 1 \\\\ \end{bmatrix} * \begin{bmatrix} x_g \\\\ y_g \\\\ z_g \\\\ 1 \end{bmatrix} $.
+$$\begin{bmatrix} x_v \\\\ y_v \\\\ z_v \\\\ 1 \end{bmatrix} = \begin{bmatrix} R & t \\\\ 0 & 1 \\\\ \end{bmatrix} * \begin{bmatrix} x_g \\\\ y_g \\\\ z_g \\\\ 1 \end{bmatrix} $$.
 
 Note the $t$ in the matrix may be negative, because it's not necessary to store info too close to the camera.
 And since the comment in the code mentions that the origin of the world coordinate system lies in the center of the front plane (i.e. z == 0 plane) in the volume, you may want to assign at least $2t$ space for the volume.

@@ -3,7 +3,7 @@ Date: 2014-08-23 12:00
 Category: Life 
 Tags: ReadingNotes
 
-Came across a book named "How to pick a spouse" <a href="http://www.amazon.com/gp/product/0830769757/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0830769757&linkCode=as2&tag=complife01-20&linkId=P7E5GUTLUDJL5WJN" target="_blank">[amazon]</a>.
+Came across a book named "How to pick a spouse" <a href="http://www.amazon.com/gp/product/0830769757/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0830769757&linkCode=as2&tag=complife01-20&linkId=LHFHUDBFCJF3PTTZ">[amazon]</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=complife01-20&l=as2&o=1&a=0830769757" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 Although it was written from a Christian's view while I am not a Christian, there are quite a few good points I've never thought before.
 
 The most important lesson may be -- you really need to think about questions about this, like what is a "good" marriage, and what you expect to see and what actually contribute to a "good" marriage.

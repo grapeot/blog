@@ -48,7 +48,7 @@ Whenever a node has less than 8 tasks running, the script will automatically dis
 ## How?
 
 1. Create spot instances on AWS.
-2. On each machine, run `curl https://grapeot.me/aws.sh | sh` if that fits you. Or `git clone http://github.com/grapeot/debianinit` and execute `setup-ubuntu.sh` to initialize the system. Note the script is personalized for me with `python` and `vim` support. Folk it to add your own stuffs.
+2. On each machine, `git clone http://github.com/grapeot/debianinit` and execute `setup-ubuntu.sh` to initialize the system. Note the script is personalized for me with `python` and `vim` support. Folk it to add your own stuffs.
 3. That's it for configuration. To submit jobs, use `parallel`. 
 Let's look at this example:
 

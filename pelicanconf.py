@@ -30,7 +30,9 @@ TRANSLATION_FEED_ATOM = None
 #         ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
 #         ('https://github.com/grapeot/', 'Github'),)
 
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+# FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+STATIC_PATHS = [ 'extra/robots.txt', ]
+EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         ('Lab', 'http://lab.grapeot.me/'),)
@@ -38,7 +40,7 @@ THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
-PLUGIN_PATH = 'plugins'
+PLUGIN_PATHS = [ 'plugins' ]
 PLUGINS = ['render_math', 'sitemap', 'gravatar']
 SITEMAP = {
     'format': 'xml',

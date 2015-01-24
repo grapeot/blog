@@ -15,7 +15,7 @@ What I want to emphasize is, this is a simple language, a so-called domain-speci
  
 Let's see some amazing  sample usage of this tiny language with only 3 keywords and 1 data type. The following function takes a command sequence as input, and "expand" it as a longer one. More specifically, this function is used to expand a straight line into a certain line segment as follows:
 
-![](images/f-sharp-revisited-1.png)
+![A local area of the star.](images/f-sharp-revisited-1.png)
 
 Code:
 
@@ -41,7 +41,7 @@ Note the parameter acc is a dummy one, making it suit the interface of List.fold
  
 Note `koch1` is defined before to draw a triangle, therefore this statement expands a triangle with the rule shown above recursively, and produce a command list for the following figure:
 
-![](images/f-sharp-revisited-2.png)
+![Generated complex shape.](images/f-sharp-revisited-2.png)
  
 The complete code is available in my github. The famous Mandelbrot set is also easy to draw with this code, with asynchronous and parallel computing enabled.
  

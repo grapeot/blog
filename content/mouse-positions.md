@@ -8,7 +8,7 @@ What if collecting the mouse positions in one day, and plot it as a heat map?
 Following figure answers. 
 Although it is only from about 3000 samples with 5 seconds per sample, it actually indicates something.
 
-![](http://pic002.cnblogs.com/img/grapeot/201003/2010030101051237.jpg)
+![Example reuslt 1](http://pic002.cnblogs.com/img/grapeot/201003/2010030101051237.jpg)
 
 A highlight of this figure is the red zone in the right-upper corner.
 This is obviously from the close button (I am using Windows).
@@ -29,15 +29,15 @@ This hotspot reflects my habit of launching task manager once entering windows, 
 See, data speaks.
 I also invited some friends to take part in the test, and get their heat map. Seems the mouse position can be an effective feature for person identification.
 
-![](http://pic002.cnblogs.com/img/grapeot/201003/2010030122040267.jpg)
+![Example result 2](http://pic002.cnblogs.com/img/grapeot/201003/2010030122040267.jpg)
  
 (This guy seems like the "show desktop" feature much)
   
-![](http://pic002.cnblogs.com/img/grapeot/201003/2010030122023947.jpg)
+![Example result 3](http://pic002.cnblogs.com/img/grapeot/201003/2010030122023947.jpg)
 
 (This guy relies on the buttons to minimize/close windows, and use click menu frequently)
 
-![](http://pic002.cnblogs.com/img/grapeot/201003/2010030122025659.jpg)
+![Example result 4](http://pic002.cnblogs.com/img/grapeot/201003/2010030122025659.jpg)
    
 (This looks like a user just finished DotA lol)
 

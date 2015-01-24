@@ -64,4 +64,4 @@ server.listen(4100)
 
 An example screenshot is also shown below, with the black texts updated along with the MATLAB computation, and the link pointing to the final `.mat` file.
 
-![](images/matlab-online-interface-screenshot.png)
+![Screenshot](images/matlab-online-interface-screenshot.png)

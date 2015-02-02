@@ -31,7 +31,7 @@ TRANSLATION_FEED_ATOM = None
 #         ('https://github.com/grapeot/', 'Github'),)
 
 # FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
-STATIC_PATHS = [ 'extra/robots.txt', ]
+STATIC_PATHS = [ 'extra/robots.txt', 'images' ]
 EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),

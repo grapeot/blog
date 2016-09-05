@@ -7,19 +7,19 @@ Tags: SmartHome
 
 晚上入睡一小时前，iphone提早把抽湿机打开，让住一楼的穷逼床单能干爽一点。到了入睡的时间，iphone把卧室灯光调暗，色温调低，连上蓝牙音箱播放海浪等声音催眠，慢慢调暗亮度最终关灯。
 
-<img style="max-width: 640px" src="images/smarthome_1.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_1.jpg" />
 
 到了早上，手机会根据麦克风的声音判断是不是适合唤醒的浅层睡眠，在适当的时机闹铃，同时慢慢调亮灯光，把窗帘从上往下打开，这样又不会被路人看到羞羞的东西又能被慢慢唤醒。随后会用摄像头和闪光灯测一个心率。
 
-<img style="max-width: 640px" src="images/smarthome_2.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_2.jpg" />
 
 洗漱完毕后，siri会问你今天多重（因为穷逼买不起无线体重秤），然后放到apple health中去。
 
-<img style="max-width: 640px" src="images/smarthome_3.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_3.jpg" />
 
 吃完早饭，骑车上班，gps定位显示我离开了家，把家里的动作传感器和门窗动作传感器arm上，如果检测到异常会响起警号并且打我电话。而所有数据，比如睡眠质量，心率，体重，骑车的轨迹和速度等等，会被手机记录下来，一方面app自己可以分析（比如天气和睡眠质量的相关性），一方面也被加密起来和医生共享。到了公司以后，ifttt自动记录我到公司的时间，结合trello的时间管理插件在周末自动生成时间利用简报。
 
-<img style="max-width: 640px" src="images/smarthome_4.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_4.jpg" />
 
 港真，五年前完全想不到现在生活是这样信息化，自动化的。但要真问有什么用，我也不知道。。可能就是有了更多的数据，对自己的生活习惯有了更多的了解，从而可以有针对性的优化。同时因为电脑帮你做了很多死的工作，比如每天9点自动开抽湿机，每隔两天扫地机器人自动吸尘，所以脑子更轻松了，也更有了生活质量上的保障。不过对我们不折腾会死星人来说，可能“酷”一个字就够了吧。（笑
 
@@ -37,14 +37,14 @@ Tags: SmartHome
 
 此外还有一些DIY的东西。因为能遥控的百叶窗/窗帘实在是太贵了，如果用商业的遥控窗帘（落地窗，三四米的跨度）要两三万人民币，把我卖了也买不起啊。。所以只好用了个rasperberry pi配合舵机控制板，钓鱼线，滑轮组，舵机自己撸了一个土法遥控窗帘，成本500人民币。可惜知乎传不了动图，静态图大概是这个样子的：
 
-<img style="max-width: 640px" src="images/smarthome_5.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_5.jpg" />
 
 原理图是这个样子的：
 
-<img style="max-width: 640px" src="images/smarthome_6.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_6.jpg" />
 
 还用简单的背景减除做了个阳台的监控，来看放在外面的豆子到底是谁偷走了。。两天以后发现小偷长这样。。（后来我撒了一把芥末豌豆，整个世界安静了，她再也没来过。。
 
-<img style="max-width: 640px" src="images/smarthome_7.jpg" />
+<img style="max-width: 640px" src="/images/smarthome_7.jpg" />
 
 未来还是有很多工作的，比如因为房子太老，Nest、EcoBee等先进的温控装置装不上（需要大改电路）。还有之前自己做的行车记录仪等等，以后再介绍吧~

@@ -10,7 +10,7 @@ Bought a camera (Leica SL) recently, and spent some time (and money) on some old
 One is 60mm f/2.8 macro with 1:1 adapter, one is 400mm f/6.8.
 I found both of them can be pretty good at making gigapixel panoramas. 
 
-Traditionally gigapixel panoramas are made by rotate the lens around the nodal point and shoot photos.
+Traditionally gigapixel panoramas are made by rotating the lens around the nodal point and shooting photos.
 Later, a stitching software is used (e.g. PTGui or Photoshop) to generate the final panorama.
 The final photo is so big that no screen can ever show it in full scale.
 Therefore, special renderers are often used to show a part of the image and allow users to zoom in/out and pan around.

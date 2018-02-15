@@ -40,7 +40,7 @@ THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
-PLUGIN_PATHS = [ 'plugins' ]
+PLUGIN_PATHS = [ './pelican-plugins' ]
 PLUGINS = ['render_math', 'sitemap', 'gravatar']
 SITEMAP = {
     'format': 'xml',

@@ -1,6 +1,6 @@
 Title: 知乎人脸的总结
 Category: Life
-Tag: zhihu, Image, Research
+Tags: zhihu, Image, Research
 Date: 2016-03-20 18:54
 
 以前发在知乎上：[https://www.zhihu.com/question/27621722/answer/88896906](https://www.zhihu.com/question/27621722/answer/88896906)

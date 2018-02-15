@@ -1,6 +1,6 @@
 Title: Inspiration Fragments
 Category: Life
-Tag: Inspiration Fragments
+Tags: Inspiration Fragments
 Date: 2013-05-21 18:54
 Slug: inspiration-fragments-20130521
 

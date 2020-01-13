@@ -1,5 +1,5 @@
 Title: 能理解聊天记录的微信机器人(二)
-Category: Alive
+Category: Life
 Date: 2017-03-27 9:00
 Slug: wechat-bot-2
 Tags: Wechat, AI, Bot

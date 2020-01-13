@@ -36,8 +36,8 @@
 
 <h4>Tags</h4>
 {% if tags %}
-	{% for tag in tag_cloud %}
-	    <span class="sidebar-tags tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0|e }}</a></span>
+	{% for tag, articles in tags|sort %}
+	    <span class="sidebar-tags tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></span>
 	{% endfor %}
 {% endif %}
 

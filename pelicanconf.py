@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Yan Wang'
+AUTHOR = u'grapeot'
 SITENAME = u'Computing Life'
 SITEURL = 'https://grapeot.me'
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'America/Los_Angeles'
 
 GITHUB_URL = 'https://github.com/grapeot/blog/'
 DEFAULT_LANG = u'en'
@@ -30,7 +30,6 @@ TRANSLATION_FEED_ATOM = None
 #         ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
 #         ('https://github.com/grapeot/', 'Github'),)
 
-# FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 STATIC_PATHS = [ 'extra/robots.txt', 'images' ]
 EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
 MENUITEMS = (('Archives', '/archives.html'),

@@ -1,5 +1,5 @@
 Title: 能理解聊天记录的微信机器人
-Category: Life
+Category: Computing
 Date: 2017-03-26 9:00
 Slug: wechat-bot
 Tags: Wechat, AI, Bot

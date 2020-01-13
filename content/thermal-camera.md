@@ -2,8 +2,6 @@ Title: Some experiments about thermal cameras
 Date: 2016-12-20 21:25
 Category: Computing
 
-This post was published on [zhihu](https://zhuanlan.zhihu.com/p/24437449) (in Chinese).
-
 The motivation is, it's getting cold in Seattle.
 And the condo we live reached an extent that we cannot bear any more.
 In addition to buying more (and more) heaters, I also began to think about where the energy went, because our monitoring system shows that the new heaters brought 110kWh additional cost, but only improved the temperature by 2 degrees.

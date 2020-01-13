@@ -26,11 +26,11 @@ Tags: Wechat, AI, Bot
 
 * 和ElasticSearch和Kibana连了起来，现在有了实时监控和可视化了。能看到每小时平均有多少次自动回复，多少次看群里话唠，多少次看标签云。令我意外的是已经过去一周了，可是大家的热情仍然没有消退。尤其是最简单的自动回复功能，你提到“鸭哥”机器人就会自动回复“嘎？”。这么简单的功能我以为用户会玩玩就腻了。但数据显示，直到今天还有每小时30多次的峰值调戏量。甚至有个群一晚上刷了几百个鸭哥。。真是不能随便猜用户喜欢什么东西啊。。
 
-<img src="/images/wechat-bot-stats-1.jpg" alt="Sample stats" style="max-width: 600px">
+<img src="/images/wechat-bot-stats-1.png" alt="Sample stats" style="max-width: 600px">
 
-<img src="/images/wechat-bot-stats-2.jpg" alt="Sample stats" style="max-width: 600px">
+<img src="/images/wechat-bot-stats-2.png" alt="Sample stats" style="max-width: 600px">
 
-<img src="/images/wechat-bot-stats-3.jpg" alt="Sample stats" style="max-width: 600px">
+<img src="/images/wechat-bot-stats-3.png" alt="Sample stats" style="max-width: 600px">
 
 * 第二个改动就是把标签云的算法从TF换成了TF-IDF。TF (Term-Frequency)就是最简单的数词频，这是最简单可靠的算标签云的方法，但有一个缺陷，如果没有对一些无意义的虚词做特殊处理的话，会很容易出现一些巨大但没啥意义的词。比如这个例子，“这个”，“就是”，“可以”等等。占据了大量的空间，但没啥信息量。
 

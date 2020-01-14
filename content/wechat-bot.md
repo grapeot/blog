@@ -2,7 +2,7 @@ Title: 能理解聊天记录的微信机器人
 Category: Computing
 Date: 2017-03-26 9:00
 Slug: wechat-bot
-Tags: Wechat, AI, Bot
+Tags: Wechat, AI, Bot, Image Understanding
 
 TL;DR: 做了个在两个群中间互相转发消息的机器人([github](https://github.com/grapeot/WechatForwardBot))，对聊天机器人的一些思考，可以把文本理解加进来做有意思的应用。
 

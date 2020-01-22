@@ -1,4 +1,4 @@
-Title: 
+Title: 一些关于高分辨率微距和人体艺术的实验
 Date: 2019-08-21 04:19
 Category: Life
 Tags: Photography, Macro
@@ -7,28 +7,27 @@ Slug: macro-photography
 今天出门和dalao吹逼（划掉）严肃讨论学习咖啡拉花，带了吃灰许久的100mm/2.8微距头。回来突发奇想，想看看能不能用现有的相机设备攒一个高分辨率微距摄影的系统出来。经过一些实验以后弄出来个这：
 
 ![Macro gear](/images/macro-gear.jpg)
-
 器材镇楼
 
 传感器是sony黑卡的传感器（振旺），84%的超高量子效率，2.4微米的超小像素，无AA滤镜和红外滤镜，用来榨取数码分辨率。层层转接到APO-Macro-Elmarit 100mm上，前面又接了个Elpro近摄镜用来榨取放大倍率。旁边放了个颜色奇怪的LED光源补光。做了一些实验，总结了一下技巧。想着分享一下。
 
 首先试着拍了一些静物。此时还都是传统的长曝。用的技巧不外乎大光圈对焦，小光圈拍摄以减小像差增大景深。
-金属物件
+
+### 金属物件
 
 ![Key](/images/macro-key.jpg)
-
 钥匙。可以看到上面铣刀加工的痕迹以及抽插锁孔带来的油脂。
 
 ![Fountain pen nib](/images/macro-pen-nib.jpg)
-
 钢笔尖
 
 ![Ballpoint pen](/images/macro-ballpoint.jpg)
-
 圆珠笔尖
 
 感觉不是太有意思。。主要这个传感器的动态范围太小了，金属反光厉害。所以接着拍摄了一些纤维。
-纤维制品
+
+### 纤维制品
+
 首先是钞票。一美元钞票长这样，我们拍摄的是红圈内的部分：
 
 ![Dollar bill](/images/macro-dollarbill-small.jpg)

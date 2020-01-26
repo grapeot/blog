@@ -3,6 +3,8 @@ Category: Life
 Tags: Photography
 Date: 2017-08-11
 
+[中文版](/full-frame-and-medium-format-1.html)
+
 I was recently investigating whether I should invest in a full frame or medium format camera. And here are some thoughts to share.
 
 Full frame sensor is the sensor that has the same size as a 35mm regular film. And medium format sensors refer to all the sensors that have a larger size, but smaller than a big format (4’’x6’’) sensor (which is always the case for consumer cameras). And the common sensor size for popular armature level DSLRs are APS-C size, which is about half the size of a full frame sensor. The definition of the medium format itself shows it’s not a very rigid concept, and there is indeed huge size difference among medium format sensors. For example, the medium format sensor I’m interested in is 68% larger than a full frame sensor.

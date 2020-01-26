@@ -2,7 +2,7 @@ Title: 全幅与中幅（一）
 Date: 2020-01-20 15:11
 Category: Life
 Tags: Photography, Medium Format, Full Frame
-Slug: full-frame-and-medium-format-1.md
+Slug: full-frame-and-medium-format-1
 
 （本文成文于2017年8月，[英文版](/full-frame-and-medium-fromat-cameras.html)）
 

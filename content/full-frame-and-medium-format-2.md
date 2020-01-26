@@ -1,5 +1,5 @@
 Title: 全幅与中幅（二）
-Date: 2020-01-19 15:00
+Date: 2020-01-21 15:00
 Category: Life
 Tags: Photography, Medium Format, Full Frame
 Slug: full-frame-and-medium-format-2

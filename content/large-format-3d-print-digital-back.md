@@ -20,7 +20,7 @@ Tags: Large Format, 3D Print, Photography, DIY
 
 关于建模，上网找到一个很好用的工具叫OpenSCAD。总之就是一个码农写的工具，写代码来建模。看教程上来先跟你讲什么叫变量，什么叫函数，如何用递归（？？？）来画一颗3D的树，然后学list comprehension。。雾草，建模建得爽到飞起。还可以git, vim, 库依赖管理，#include甚至python生成代码来建模，各种骚。。额扯远了。总之就是很容易就把后背设计好了：
 
-![3D model](/images/large-format-back-3d-printer.jpg)
+![3D model](/images/large-format-back-3d-model.jpg)
 
 大括号不能换行，不然打你
 

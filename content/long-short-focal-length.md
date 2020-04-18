@@ -1,4 +1,4 @@
-Title: 焦距在摄影中的意义
+Title: 焦距在摄影中的意义和用法
 Date: 2020-01-10 22:53
 Category: Life
 Slug: focal-length-in-photography

@@ -10,16 +10,16 @@ Slug: schlieren-photography
 
 要想达到比较好的效果，这套系统需要用Z字型的光路（如下图所示）。但我们在家也没这么好的条件。所以只能用一个寨版的方案了。
 
-![Ideal optical chart](images/SchlierenPhotography-framework.jpg)
+![Ideal optical chart](images/Schlieren-framework.jpg)
 图片来自 李华，杨臧健, 吴敏, 高增梁, 钟英杰，纹影系统中物平面的选择与刀口的设置，实验流体力学2011年2第5卷第3期
 
 大概的说，就是我们用手机的手电筒代替专业的光源，用淘宝上买的几十块的凹面镜（球面镜）来代替专业的抛物面镜。两个镜子也太多了，我们只要一个就好。然后用来遮光的东西也不用刀片，随便找个什么东西就好。我这里用的是三脚架的立柱。最后接个相机。整个系统长得像这样（凹面镜不在画面中）：
 
-![My gears](images/SchlierenPhotography-gears.jpg)
+![My gears](images/Schlieren-gears.jpg)
 
 我用灵魂画风画了一个光路图：
 
-![Actual optical chart](images/SchlierenPhotography-optical.jpg)
+![Actual optical chart](images/Schlieren-optical.jpg)
 
 其实整个系统挺好搭的。关键有两点，一个是架好手电以后可以用一张纸或者就用手看光斑的大小，找到焦点（光斑最小的地方），就在这个地方放置遮光的物体。然后相机放在后面一点点就好。一个是遮光物体位置准确的标志是，把物体放过去以后整个画面应该均匀变暗，而不是出现一个物体的阴影。之后就把手啊，打火机啊等等在凹面镜前放着拍视频就好了。我是用了手动对焦，事先对准镜子。
 

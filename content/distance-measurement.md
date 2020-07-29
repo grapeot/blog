@@ -61,7 +61,7 @@ Latex:
 
 看完了黄斑和裂像，下面我们来看一下历史最悠久的峰值测距。在大画幅的年代，摄影师用的毛玻璃对焦其实就是峰值测距了。它的光路和裂像都是一样的，我们这里还是有弥散斑的直径是$d=\frac{D\Delta u}{f}$。但和裂像不同，因为人眼是很难看出来“一个点是不是一个点”的，而且这里也没有一个一根线断成两截的视觉辅助，所以大家对焦的方法一般是找一个点或者线，反复拧动对焦环使得它最清晰。这里的“最清晰”看的其实不是这个点最小，而是基本上大小不变，也就是一个一阶导的概念。也就是说，这个对焦方法的限制在，如果手转了对焦环，屏幕上的光斑大小看不出改变（半径改变量低于人眼分辨率），那么就可以认为达到了最大量程。峰值测距的几何分析图和裂像是一样的。
 
-在对裂像的分析中我们有过计算，对于50mm f/1.4的标头，人手所能达到的\Delta u的最大精度是0.032mm，代入d=\frac{D\Delta u}{f}很容易得出此时d的变化值是0.023mm。但注意此时单边只会移动0.023/2=0.012mm，而人眼的分辨率约为0.015mm，所以此时机械精度不再是限制因素，光学成了更大的限制。用0.015mm反推\Delta u的精度，在最接近合焦的地方，要想产生肉眼可见的光斑变化，需要\Delta u变化0.042mm。也就是裂像分析中的\delta=0.042mm。代入误差公式\Delta v = \frac{f^2}{N\Delta u} - \frac{f^2}{N(\Delta u + \delta)}，可以得到这样的图表：
+在对裂像的分析中我们有过计算，对于50mm f/1.4的标头，人手所能达到的$\Delta u$的最大精度是0.032mm，代入$d=\frac{D\Delta u}{f}$很容易得出此时d的变化值是0.023mm。但注意此时单边只会移动0.023/2=0.012mm，而人眼的分辨率约为0.015mm，所以此时机械精度不再是限制因素，光学成了更大的限制。用0.015mm反推$\Delta u$的精度，在最接近合焦的地方，要想产生肉眼可见的光斑变化，需要$\Delta u$变化0.042mm。也就是裂像分析中的$\delta=0.042mm$。代入误差公式$\Delta v = \frac{f^2}{N\Delta u} - \frac{f^2}{N(\Delta u + \delta)}$，可以得到这样的图表：
 
 ![Error curve of ground glass](/images/distance_measurement_ground_glass_curve.png)
 
@@ -87,18 +87,20 @@ Depth from defocus。图片来自http://www.cs.columbia.edu/CAVE/projects/depth_
 
 * 双目测距，类似视差测距的数码版。但靠的不是人眼来检查合焦，而用的是电脑做像素匹配。如下所示。在这种情况下两张图象有很多良好的数学性质。比如会存在一个特别牛逼的矩阵叫做fundamental matrix。还有CMU的小哥写了一首歌叫The fundamenal matrix song: https://www.bilibili.com/video/av49649670。 有兴趣的同学可以去听听。
 
-![Stereo camera](/images/distance_measurement_stereo_camera.jpg)
+    ![Stereo camera](/images/distance_measurement_stereo_camera.jpg)
 
-典型的双目相机，可见不同的基线长度和镜头。图片来自https://nerian.com/products/karmin2-3d-stereo-camera/
+    典型的双目相机，可见不同的基线长度和镜头。图片来自https://nerian.com/products/karmin2-3d-stereo-camera/
+
 * 散斑测距：就是流行的Kinect 1了。它的主要原理是用红外激光投射出一个已知的散斑图案。这个图案会随着目标物体的高低起伏而改变自己的形状。通过做一些像素匹配就可以得知物体的具体形状了。如下图所示。
 	
-![Structured light from Kinect 1](/images/distance_measurement_structured_light.png)
+    ![Structured light from Kinect 1](/images/distance_measurement_structured_light.png)
 
-Kinect 1投射出的斑点图案。图片来自https://www.ign.com/boards/threads/on-the-differences-between-kinect-1-kinect-2-and-the-sony-camera.453537413/
+    Kinect 1投射出的斑点图案。图片来自https://www.ign.com/boards/threads/on-the-differences-between-kinect-1-kinect-2-and-the-sony-camera.453537413/
+
 * 激光测距：Kinect 2用的是time of flight，也就是流行的激光测距。它的基本原理就是光速x时间=距离。当然电子电路对极短时间（比如光走100m的距离只需要33ns）的测量还是比较昂贵，所以一般会把激光进行调制，然后测量相位的变化来反推时间进而反推距离。无人驾驶中常用的LiDAR也是同样的原理，只是因为需要360度的视野所以需要旋转激光器和传感器。但因为有了旋转的机械部件，刷新率受到了一定限制。所以现在逐渐兴起了相控阵LiDAR，通过电子系统而不是机械部件来实现信号的偏转。
 	
-![LiDAR](/images/distance_measurement_lidar.jpg)
+    ![LiDAR](/images/distance_measurement_lidar.jpg)
 
-LiDAR扫描得到的结果。图片来自http://spicergroup.blogspot.com/2013/09/spicer-group-first-north-american-leica.html。
+    LiDAR扫描得到的结果。图片来自http://spicergroup.blogspot.com/2013/09/spicer-group-first-north-american-leica.html。
 
 希望这些定量分析的过程和对机器视觉中深度测量的介绍能有所启发。

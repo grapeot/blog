@@ -6,19 +6,19 @@ Slug: resolution-limit-of-135-system
 
 先看一下这张照片，猜猜它是什么画幅的？
 
-![Final result](images/135-resolution-limit-result.jpg)
+![Final result](/images/135-resolution-limit-result.jpg)
 
 这张图的分辨率有7000万像素（70MP），100%放大如下，没有像素或者胶片的颗粒。甚至可以看到乐高颗粒顶上微小的LEGO四个字母（每个字母的宽度是0.8mm）。
 
-![100% crop](images/135-resolution-limit-100crop-film.jpg)
+![100% crop](/images/135-resolution-limit-100crop-film.jpg)
 
 为了有个对比，我们看一下这个大画幅的照片。
 
-![Large format photo](images/135-resolution-limit-large-format.jpg)
+![Large format photo](/images/135-resolution-limit-large-format.jpg)
 
 这个照片的分辨率是170MP，如果我们把它用同样的比例缩放的话，局部是这样的：
 
-![Large format 100% crop](images/135-resolution-limit-large-format-100crop.jpg)
+![Large format 100% crop](/images/135-resolution-limit-large-format-100crop.jpg)
 
 已经可以看到一些胶片的颗粒了。那么猜猜第一张是什么画幅的呢？4x5？6x9？645数码？还是全幅？
 
@@ -32,16 +32,16 @@ Slug: resolution-limit-of-135-system
 
 那这个胶片的分辨率到底是什么层次呢？首先我们来对比一下同样镜头，同样机位，ISO稍高的数码全幅的效果：
 
-![Full frame digital 100% crop](images/135-resolution-limit-100crop-digital.jpg)
+![Full frame digital 100% crop](/images/135-resolution-limit-100crop-digital.jpg)
 
 可以看到像素感相当明显了，而且和上面的胶片对比，明显感觉欠采样，这个圆都不圆。
 
 但如果和数码中画幅相比，就明显体会到底大一级压死人了。。十年前的中画幅后背就用600块的大画幅镜头，轻轻松松打爆135分辨率顶级的50AA。上面LEGO四个字母清晰可见。你大爷还是你大爷。。
 
-![Medium format digital 100% crop](images/135-resolution-limit-100crop-digital-MF.jpg)
+![Medium format digital 100% crop](/images/135-resolution-limit-100crop-digital-MF.jpg)
 
 这个胶片的分辨率这么高，扫描也是个很大的问题。传统平扫根本搞不定这么高的DPI。比如爱普生系列平扫，就算用湿扫也只能到3000 DPI，也就是扫到12MP。翻拍的话，用全幅+1:1微距毫无意义，因为瓶颈其实是翻拍的机器。如果用高于1:1来翻拍，且不论全幅镜头很少有这样的微距头，接片也要接死人。所幸我们看到中幅数码的分辨率是足够的，所以我们可以用中幅数码接在大画幅机身上，配合2:1的微距头来进行翻拍：
 
-![Use a MF back to scan the film](images/135-resolution-limit-gear.jpg)
+![Use a MF back to scan the film](/images/135-resolution-limit-gear.jpg)
 
 所以总的来说，要想实现这么高的分辨率，是一个系统工程。不是说装个卷就完了。要有精确的对焦（这里用的还是徕卡旁轴），像差修正良好的镜头，因为光圈不能开太小否则衍射会影响画质，专门的显影液，规范的冲洗，还要有靠谱的翻拍。不论是胶片还是数码，我觉得这个系统应该是当下135画质的极限了。胶片能超过数码我还是非常惊讶的。不过据说今年佳能索尼都要出1亿像素的全幅传感器，我们拭目以待吧。

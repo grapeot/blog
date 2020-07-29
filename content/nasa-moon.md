@@ -10,35 +10,35 @@ Tags: 3D, Rendering, Moon
 
 首先整个框架非常简单，月球的3D模型基本上就是一个球。我们往上贴个图就好了。NASA公布了很多月面的高精度地图，比如[这个链接](http://wms.lroc.asu.edu/lroc/view_rdr/WAC_HAPKE_NORMALIZED)，甚至有每个像素400米的高精度图像。其中含有7个波段的黑白图像，和合成出来的RGB图像。
 
-![Moon texture from NASA](images/nasa_moon_texture_map.jpg)
+![Moon texture from NASA](/images/nasa_moon_texture_map.jpg)
 
 但有个问题是这样的图像一般是矩形的，但和地球一样，月面是个球面。所以我们需要通过UV Mapping把这样的图像贴图贴到球面上去。方便的是3D渲染软件一般都有这样的功能（我用的是Maya），所以我们可以弄个球，把图往上一贴拉倒：
 
-![Rendered image without 3D](images/nasa_moon_without_3d.jpg)
+![Rendered image without 3D](/images/nasa_moon_without_3d.jpg)
 
 这里用的是平行光源，漫反射打到100%，Arnold渲染器。诶，看起来像那么回事了，而且分辨率也很高。但如果我们真的弄一张自己拍的月球来看，会发现差别还是不小的（这张图是很久以前拍的单张，分辨率不高）：
 
-![Real photo](images/nasa_moon_photo_mine.jpg)
+![Real photo](/images/nasa_moon_photo_mine.jpg)
 
 少了什么呢？月面的起伏和阴影。其实回想一下，大多数网上的视频和墙纸里出现的月面，也大都是我们前面渲染的效果。那哪里有月球起伏的图像呢？这要先从刚才的月面贴图说起了。这个月面贴图不是用地面望远镜拍摄的，而是NASA的LRO绕月飞行器在几年的时间里不断积累合成的。这个飞行器不仅有多波段相机，同时还有激光高程仪，可以精确测量月面的起伏。这个数据也是[公开的](http://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100)，大概长这样：
 
-![Displacement map from NASA](images/nasa_moon_displacement_map.jpg)
+![Displacement map from NASA](/images/nasa_moon_displacement_map.jpg)
 
 其中亮度代表海拔。如果我们用一个1737.4km为半径的基准球来代表月面的话，这个图像显示的就是和月面的相对高度偏差。在3D渲染软件里也有类似的功能可以直接加载这样的地图。Maya里面需要用displacement map而不能用bump map，因为后者不能真的造成阴影。我们把这个displacement map也放进去以后，还需要稍微调整一下displacement map shader的scale，让它和月面的直径相匹配。还有一个小坑是Maya会自动模糊贴图和displacement map，所以需要把filter这个参数打成0。完成之后maya的节点结构大概是这样的：
 
-![Node editor of Maya](images/nasa_moon_node_editor.jpg)
+![Node editor of Maya](/images/nasa_moon_node_editor.jpg)
 
 这时候渲染出来的图像就非常逼真了！
 
-![Rendered image with 3D](images/nasa_moon_with_3d.jpg)
+![Rendered image with 3D](/images/nasa_moon_with_3d.jpg)
 
 有了这样的渲染模型，下面什么样的图都可以轻松渲染出来了。比如新月（[6k下载地址](https://grapeot.me/images/nasa_moon_waxing_crescent_full.jpg)）：
 
-![Rendered image](images/nasa_moon_waxing_crescent.jpg)
+![Rendered image](/images/nasa_moon_waxing_crescent.jpg)
 
 甚至月球背面都可以做到（[6k下载地址](https://grapeot.me/images/nasa_moon_back_full.jpg)）：
 
-![Rendered image](images/nasa_moon_back.jpg)
+![Rendered image](/images/nasa_moon_back.jpg)
 
 拿来当手机墙纸也不错。dalao们新买的XDR显示器也有适合分辨率的高清墙纸了。
 

@@ -44,6 +44,6 @@ Setting the right price as early as possible, to the right item, is where you sh
 In order to help monitor and visualize the price, I developed a small utility [[github]](https://github.com/grapeot/AmazonPriceMonitor/), which uses a `phantomjs` script to crawl/parse the script and uses `flot` with `nodejs` to support a visualization webpage.
 Unfortunately, this utility successfully detects my price mistake, when Amazon received my shipment and updated their price to an unusually low one...
 
-![Amazon low price.](images/amazon_low_price.png)
+![Amazon low price.](/images/amazon_low_price.png)
 
 T_T

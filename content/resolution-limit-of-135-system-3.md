@@ -8,23 +8,23 @@ Slug: resolution-limit-of-135-system-3
 
 这个是135和4x5的等比例放大对比（上面135，下面4x5）：
 
-![Comparison with flatbed](images/scan_large_format_comparison_flatbed.jpg)
+![Comparison with flatbed](/images/scan_large_format_comparison_flatbed.jpg)
 
 135好像真的反杀。。等一下，哪里不对。135的100%放大里面已经可以看到细小的胶片颗粒，这说明胶片是画质的限制因素了。但大画幅的照片里面完全没有这样的现象。相反，这个更像是拍糊了。那这个大画幅胶片是怎么扫描出来的呢？其实就是用Epson V800 + 湿扫mount + 电分油 + 银快多重曝光HDR扫出来的。虽然这个比Epson自带的片夹的画质已经好了很多，但根据网上的评测指出，这样的有效分辨率其实仍然不到3000 dpi。即使可以在软件里面加分辨率，但出来的有效分辨率就这样了。这让我意识到，会不会是扫（金）描（钱）的问题？如果我们用和135一样的翻拍手段，有没有可能画质更好呢？
 
 所以我就用同样的手段翻拍+接图了一把。轻松拿到了8亿像素。看着细节，不得不承认，你大爷还是你大爷。大画幅的细节轻松打爆顶级135。其中LEGO四个字母不仅可以轻松辨认，甚至能清晰看到每个笔画。而且我觉得现在胶片也是限制因素了，我们甚至可以看到积木的边缘因为颗粒的原因显得不圆。
 
-![Result of camera scan](images/scan_large_format_panorama_100.jpg)
+![Result of camera scan](/images/scan_large_format_panorama_100.jpg)
 
 相比之下平扫的分辨率就是个渣。。但这个翻拍折腾了我一个小时，实在太麻烦了。主要原因是像我们普通法师，不可能像iXG那样搞一个永久性的台子。所以需要花很多时间去调相机和底片之间的相对关系。而且不像135翻拍，这个只要调一次就好了，大画幅翻拍因为面积大，需要用电分油平整底片，所以不可能把底片在油里面滑来滑去，都是连着mount一起动。这就造成每次翻拍都要重新精调。稍微一偷懒，就会糊一片。尤其是这种高分辨率实验，出来的效果和平扫差不多。其实这也体现了iXG之类系统的价值：稳定可靠自动化。它的核心不是说镜头多牛逼，后背多好，画质多好——其实都是正常的商用产品，你买一样的镜头和后背也能达到这样的程度。但一旦涉及到批量生产，讨论到速度，成本和良品率，就可以吊打我们老法师攒的土设备了。
 
 所以这又让我思考，有没有更稳定可靠的方法呢？其中一个思路是摇摇乐，因为摇摇乐只要在一个地方拍摄多张照片就好了，可以省掉重新调整设备的时间。所以我尝试了一下用四个照片来覆盖整个胶片。每个位置拍8张照片用来进行2倍摇摇乐，得到的照片也有6亿像素，100%放大在下图（上）。相比之下不用摇摇乐直接接片的结果（1亿5千万像素）在下图（下）：
 
-![Result of final solution](images/scan_large_format_comparison_panorama_highres_100.jpg)
+![Result of final solution](/images/scan_large_format_comparison_panorama_highres_100.jpg)
 
 这和正儿八经高倍放大接片能得到的结果还是差一些。但整个过程非常简单，大概5~10分钟就可以搞定。而且出品很稳定，没有出现一块清楚一块糊的情况。那么这个祖传辉夜姬的分辨率对比就到这里了。下面是一个总结图。我觉得中幅数码后背还是秒所有的，不仅细节清晰，而且特别干净。
 
-![Overall comparison](images/scan_large_format_comparison_overall.jpg)
+![Overall comparison](/images/scan_large_format_comparison_overall.jpg)
 
 基本结论是：
 

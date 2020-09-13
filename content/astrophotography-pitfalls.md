@@ -5,7 +5,7 @@ Tags: Photography, Astrophotography
 
 最近一个月西雅图终于天晴了。之前吃灰两年的深空设备也终于有了用途。但我是从hard模式入坑的，折腾了一个月之后感觉非常痛苦。有很多教训可以分享。看网上的教程大都是正面的教程，比如如果跟着我做这样的步骤，就可以得到这样的结果。但学习的过程中反面的教训也是很重要的，比如看到这个问题知道是这个原因，这样解决。这样的教程网上似乎很少，所以我开了这样一个系列，希望可以帮到像我一样踩坑的萌新们。
 
-![Final image](/images/astrophotography-fitfalls-final-image.jpg)
+![Final image](/images/astrophotography-pitfalls-final-image.jpg)
 
 市区曝光1小时的结果
 
@@ -22,7 +22,7 @@ Tags: Photography, Astrophotography
 3. 望远镜大了就更重了，对赤道仪的压力就更大。可能原来赤道仪带个6磅的折射镜轻轻松松，导星20min单帧随便来，升级以后一下压上去一个13磅的C8，5min单帧都要看人品，拍个十张只有六张能用，其他都是各种导星乱跳。
 4. 望远镜大了也更招风。可能大风天人家的小折射稳稳当当，大口径C8被直接掀翻。。返厂修比买个新的还贵。别问我怎么知道的。。
 
-![Broken telescope](/images/astrophotography-fitfalls-broken-telescope.jpg)
+![Broken telescope](/images/astrophotography-pitfalls-broken-telescope.jpg)
 
 好吧其实这个不是被风吹的
 
@@ -30,7 +30,7 @@ Tags: Photography, Astrophotography
 
 类似的，相机也有求大求全的倾向。虽然因为相机更贵一些，相对更好一些。所谓底大一级压死人，相机幅面的增大对信噪比其实是相当有好处的。还是之前的例子，100mm+1寸底和270mm+全幅相比，虽然视野相同，焦比相同，但全幅的进光量就是比1寸大2.7*2.7=7.3倍，信噪比也更高。但这也是有代价的。一般成像圈更大的望远镜更大更重，所以对赤道仪的压力更大。同时为了维持视野相同，焦距也要增加，对赤道仪的瑕疵也能看得更清楚。二者一正一反，对赤道仪的压力指数上涨。同时因为幅面大了，各种像差也难修正了，对光轴等等的问题看得也更明显了。总之一下冒出来很多技术问题要处理。
 
-![Cameras](/images/astrophotography-fitfalls-broken-cameras.jpg)
+![Cameras](/images/astrophotography-pitfalls-cameras.jpg)
 
 ## 大赤道仪坑
 

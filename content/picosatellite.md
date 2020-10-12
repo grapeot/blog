@@ -1,4 +1,4 @@
-Title: 设计和制造自己的个人卫星
+Title: 设计,制造,和发射自己的个人卫星
 Category: Life
 Tags: DIY
 Date: 2020-10-11 18:54

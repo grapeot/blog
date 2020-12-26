@@ -16,7 +16,7 @@ Micro-USB口供电，有图形化Web界面，可以在电脑和手机上访问�
 
 下面我们主要从三个方面简单介绍一下这个系统搭建的技术细节。其中所有代码都开源到了[github](https://github.com/grapeot/alexa-esp32-cam)上。
 
-# v0: 基于ESP32-Cam的监控相机
+## v0: 基于ESP32-Cam的监控相机
 
 首先介绍一下ESP68266, ESP32, ESP32-Cam这几个片子。
 ESP8266是一个类似Arduino升级版的单片机（也许可以这么叫？）。
@@ -44,7 +44,7 @@ ESP8266是一个类似Arduino升级版的单片机（也许可以这么叫？）
 
 ![Surveillance set up](/images/esp32_cam_mounted.jpg)
 
-# v1: 改善速度和自动曝光
+## v1: 改善速度和自动曝光
 
 ![Photos](/images/esp32_cam_squirrel.jpg)
 
@@ -76,7 +76,7 @@ ESP32-Cam其实也允许加装外置天线。
 另一种方法是拍几张照片，然后在电脑上进行叠加拉伸。
 这个还在进一步的实验中。
 
-# v2: 和Alexa和Apple Watch的集成
+## v2: 和Alexa和Apple Watch的集成
 
 v1虽然已经是一个比较实用的监控相机了，但用起来还是不够爽。
 比如很多时候我只想瞄一眼画面，看看有没有松鼠，或者有没有人。

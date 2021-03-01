@@ -29,7 +29,7 @@ Slug: 3d-print-faq
 
 目前价格亲民的打印机有两种不同的类似，一种叫FDM，一种叫SLA，如下图所示，左边是FDM，右边是SLA。
 
-![two categories of 3d printers](images/3d-printer-models.jpg)
+![two categories of 3d printers](/images/3d-printer-models.jpg)
 
 前者是传统的一个热熔打印头，里面挤出熔化的塑料，塑料离开喷头一段时间就会降温固化。
 后者则是把打印底座泡在液态树脂里面，然后有紫外光打上去，被紫外光打到的树脂就会固化，粘附在上一层。

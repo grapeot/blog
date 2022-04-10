@@ -1,11 +1,11 @@
 PY=python
-PELICAN=pelican
+PELICAN=python3 -m pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
-WEBDIR=$(BASEDIR)/../blog_webroot
+WEBDIR=$(BASEDIR)/../yage
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 

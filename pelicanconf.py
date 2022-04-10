@@ -34,7 +34,9 @@ STATIC_PATHS = [ 'extra/robots.txt', 'images' ]
 EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
-        ('Lab', 'http://lab.grapeot.me/'),)
+        #('Lab', 'http://lab.grapeot.me/'),)
+        ('Duck Sky Survey', 'dss/'),
+        )
 THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 

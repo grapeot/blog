@@ -2,6 +2,7 @@ Title: 佳能VR镜头系统的痛点和解决方法
 Date: 2022-04-25 00:11
 Category: Computing
 Tags: Photography, VR
+Slug: canon-vr-system-pain-points
 
 最近租了一个佳能的VR镜头用来拍娃，真的是革命性的体验。之前试着用360全景相机来拍娃，然后在Quest2上看，已经受了震惊了。但和佳能的VR镜头出的照片和视频比起来，全景相机就是个弟弟。一方面毕竟是全幅打1/2寸，画质碾压，一方面数码分辨率也更高，4k/180度比6k/360度还是更爽。而且这种立体的感觉，和看3D电影差不多，让人忍不住想去摸摸，或者有狗冲过来的时候会想躲开。我拍了一个松鼠吃东西的视频，youtube链接[在这里](https://www.youtube.com/watch?v=HhlxmclNLVk), Quest2里面可以用app直接看。B站也有一个版本，但我还不清楚怎么在Quest2上面看。
 

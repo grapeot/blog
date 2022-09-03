@@ -9,16 +9,16 @@ LaTeX: 1
 
 下图是一个成品例子，对乌贼星云，我们从黑客帝国中获得灵感，用带有警惕感的红色来给O为主的乌贼调色，而把背景缭绕的Ha+S云气用海蓝色来表现，以此来体现一只机械乌贼在海中警戒执行任务的观感。同时这两种颜色都不是正红正蓝，而是带有一点粉色的弱化版本，不会显得太城乡结合部。
 
-![Final result](images/sho-tune-final-result.jpg)
+![Final result](/images/sho-tune-final-result.jpg)
 
 这个是如何实现的呢？很简单，我们先介绍怎么做，然后介绍里面的数学原理。整个过程分为两步。首先我们先在PS里面选择想要的颜色。比如对H，我们想用海蓝色来表现，就在拾色器里面调出来我们想要的蓝色：
 
-![H](images/sho-tune-h.png)
+![H](/images/sho-tune-h.png)
 
 记下来它的RGB值是18, 65, 186。类似的，我们选用粉蓝色（56, 128, 235）来给S上色，选用带一点紫色的红色（235, 56, 174）来给O上色。
 
-![S](images/sho-tune-s.png)
-![O](images/sho-tune-o.png)
+![S](/images/sho-tune-s.png)
+![O](/images/sho-tune-o.png)
 
 那么，我们如果把这些RGB列成一个表的话，是这样的：
 
@@ -37,7 +37,7 @@ O	235	56	174
 
 把它输入到PixelMath里面，出来的图像是这样的：
 
-![Intermediate result](images/sho-tune-result.png)
+![Intermediate result](/images/sho-tune-result.png)
 
 可以看到红色基本上就是我们挑选的颜色。为什么背景和挑选的颜色不一样，主要是因为背景同时有H有S，两种蓝色一混合就变成了这种青色。不过没关系，我们在CurveTransform里面稍微拉一下色调，饱和和明度，就可以得到上面的成图了。
 

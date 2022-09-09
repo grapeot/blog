@@ -4,6 +4,8 @@ Date: 2022-09-08 19:30
 Tags: Career
 Slug: new-employee-suggestions-en
 
+[[中文版]](new-employee-suggestions)
+
 Recently some of my friends graduated from school and began their career as software engineers.
 And they asked me for suggestions on an effective start in the industry.
 I took this opportunity to think about my career, and summarized a few key learnings that I wish I knew as a new grad.

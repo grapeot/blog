@@ -84,12 +84,12 @@ The transform matrix is also trivial.
 It's just the collection (stacking) of the three new basis.
 So we have the transform as:
 
-$$ \text{RGB}^T = R \cdot \text{HSO}^T $$.
+$$ \text{RGB}^T = R \cdot \text{HSO}^T $$
 
 Here R is the transform matrix.
 If we take a look at the internal of the matrix, that is:
 
-$$ \begin{bmatrix} R \\ G \\ B \end{bmatrix} = \begin{bmatrix} H_R & S_R & O_R \\ H_G & S_G & O_G \\ H_B & S_B & O_B \end{bmatrix} \cdot \begin{bmatrix}H \\ S \\ O\end{bmatrix} $$.
+$$ \begin{bmatrix} R \\ G \\ B \end{bmatrix} = \begin{bmatrix} H_R & S_R & O_R \\ H_G & S_G & O_G \\ H_B & S_B & O_B \end{bmatrix} \cdot \begin{bmatrix}H \\ S \\ O\end{bmatrix} $$
 
 This is exactly the table we used above, with a simple transpose.
 So in this matrix, it's the first column instead of first row that indicates the RGB values of the H channel.

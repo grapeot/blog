@@ -1,5 +1,5 @@
 Title: Senior IC的一些思考
-Date: 2023-03-19 22:00
+Date: 2023-03-17 22:00
 Category: Life
 Tags: Career, IC
 Slug: senior-ic-thoughts

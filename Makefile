@@ -5,7 +5,8 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
-WEBDIR=$(BASEDIR)/../yage
+WEBDIR=/var/www/yage
+#WEBDIR=$(BASEDIR)/../yage
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 

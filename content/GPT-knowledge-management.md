@@ -1,6 +1,6 @@
 Title: GPT对知识管理和交互界面设计的重大变革
 Date: 2023-04-04 22:00
-Category: Life
+Category: Computing
 Tags: Machine Learning, gpt
 Slug: GPT-knowledge-management
 

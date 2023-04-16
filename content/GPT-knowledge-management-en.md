@@ -1,6 +1,6 @@
 Title: Destroying Traditional Knowledge Management Systems and GUIs with GPT
 Date: 2023-04-04 22:00
-Category: Life
+Category: Computing
 Tags: Machine Learning, gpt
 Slug: GPT-knowledge-management-en
 

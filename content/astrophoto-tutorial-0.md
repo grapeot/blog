@@ -15,3 +15,6 @@ Slug: astrophoto-tutorial-0
 如果用剑宗和气宗来做对比，正经教程类似气宗，而不正经教程类似剑宗，以器材带拍摄。当然，因为个人经历和经验所限，这个系列肯定有很多没有覆盖到的地方和一些谬误。所以这是一个迭代的写作过程，如果大家有意见和建议，可以在[这个网页](https://docs.qq.com/form/page/DQXdEb2VuRXBoamxC)里提供，我会进行针对性的修改。
 
 总之，我们的口号是：出片哪有器材好玩！何不花更多的钱在器材上寻求突破！
+
+![入门](/images/astrophoto-tutorial-0-begin.png)
+![破产](/images/astrophoto-tutorial-0-bankrupt.png)

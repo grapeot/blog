@@ -1,8 +1,10 @@
 Title: 深空摄影器材从观望到破产（一）——入门指南
 Date: 2023-04-26 20:30
 Category: Life
-Tags: Astrophoto
+Tags: astrophotography
 Slug: astrophoto-tutorial-1
+
+[[引子]](/astrophoto-tutorial-0.html)
 
 天文摄影是一个很大的领域。如果想入门天文摄影，首先需要做一系列基本决策。这些决策会决定你未来的发展方向以及投入的资金。简单来说，我们需要弄清楚自己想要什么。关于这个问题，需要从几个维度进行分析：题材、拍摄目标、器材选择以及前期方式（例如打野或远程）。接下来，我们将逐一讨论这些关键决策。
 

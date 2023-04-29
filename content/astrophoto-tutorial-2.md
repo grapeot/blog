@@ -1,4 +1,4 @@
-Title: 深空摄影器材从观望到破产（二）——赤道仪
+Title: 深空摄影器材从观望到破产（二）——赤道仪的选购
 Date: 2023-04-26 23:30
 Category: Life
 Tags: astrophotography

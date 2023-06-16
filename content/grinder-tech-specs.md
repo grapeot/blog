@@ -19,7 +19,7 @@ Slug: grinder-tech-specs
 这种认识不能说完全错误，但也是片面的。
 磨豆机的核心指标应该是磨出来的咖啡粉的颗粒大小分布，如下图所示。
 
-![coffee ground size distribution](images/hg1-quality.png)
+![coffee ground size distribution](/images/hg1-quality.png)
 
 在咖啡磨豆机磨出来的咖啡粉中，有些粉末颗粒较粗，有些颗粒较细。如果我们绘制一个二维分布图，横轴表示颗粒大小，纵轴表示占该大小颗粒的比例，就可以得到一个分布曲线。
 这个曲线之所以重要，是因为它直接影响到咖啡的萃取效果。
@@ -38,7 +38,7 @@ Slug: grinder-tech-specs
 如下图所示，一般来说，不同的咖啡需要用不同的粒度分布。对于意式咖啡来说，它更需要偏左的粒度分布，也就是咖啡粉的尺寸应该更小。
 而对于手冲咖啡来说，它需要偏右的粒度分布。这主要是由于二者的萃取原理和时间不同所决定的。
 
-![Curve shifting left and right](images/coffee_grinder_mean.gif)
+![Curve shifting left and right](/images/coffee_grinder_mean.gif)
 
 咖啡粉大小分布曲线的左右控制
 
@@ -58,7 +58,7 @@ Slug: grinder-tech-specs
 对于意式咖啡来说，因为它的萃取非常猛烈且快速，所以往往需要一个很集中的曲线。
 但是对手冲而言，因为它有其他变量，尤其是分阶段的冲煮和时间的控制，可以精细地调节每个阶段的萃取率和萃取方式，因而可以使用更加平缓的曲线。
 
-![Curve changing standard deviation](images/coffee_grinder_std.gif)
+![Curve changing standard deviation](/images/coffee_grinder_std.gif)
 
 咖啡粉大小分布曲线的平缓程度的控制
 

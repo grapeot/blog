@@ -1,4 +1,4 @@
-Title: 咖啡器材从观望到破产（一）———— 磨豆机的技术指标
+Title: 咖啡器材从观望到破产（一）—— 磨豆机的技术指标
 Category: Life
 Date: 2023-06-14 09:00
 Tags: Coffee, Gears

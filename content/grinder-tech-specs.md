@@ -39,6 +39,7 @@ Slug: grinder-tech-specs
 而对于手冲咖啡来说，它需要偏右的粒度分布。这主要是由于二者的萃取原理和时间不同所决定的。
 
 ![Curve shifting left and right](images/coffee_grinder_mean.gif)
+
 咖啡粉大小分布曲线的左右控制
 
 一个好的磨豆机应该能够自如地控制粒度分布的左右，也就是说，你让它偏左它就偏左，你让它偏右它就偏右，而不是只能在一个非常狭窄的范围内调整。
@@ -58,6 +59,7 @@ Slug: grinder-tech-specs
 但是对手冲而言，因为它有其他变量，尤其是分阶段的冲煮和时间的控制，可以精细地调节每个阶段的萃取率和萃取方式，因而可以使用更加平缓的曲线。
 
 ![Curve changing standard deviation](images/coffee_grinder_std.gif)
+
 咖啡粉大小分布曲线的平缓程度的控制
 
 和曲线的位置类似，这里并不是说好的磨豆机就一定会给出一个更平缓的曲线或者更集中的曲线，而是说它可以给用户提供一些控制。

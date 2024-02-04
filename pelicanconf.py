@@ -36,13 +36,14 @@ MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         #('Lab', 'http://lab.grapeot.me/'),)
         ('Duck Sky Survey', 'dss/'),
+        ('🔍Search', 'search/'),
         )
 THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
 PLUGIN_PATHS = [ './pelican-plugins' ]
-PLUGINS = ['render_math', 'sitemap', 'gravatar']
+PLUGINS = ['render_math', 'sitemap', 'gravatar', 'latex']
 SITEMAP = {
     'format': 'xml',
     'priorities': {

@@ -2,6 +2,7 @@ Title: Apple Vision Pro深度使用体验
 Date: 2024-02-22 19:00
 Category: Computing
 Tags: Apple Vision Pro
+Slug: apple-vision-pro-deep-review
 
 拿到Apple Vision Pro（AVP）也有两三周的时间了。在这两三周的时间里我尝试重度使用了AVP，写了几个App，也和苹果店的客服支持聊了几次。有一些在其他媒体上可能比较少看见的别致想法，想和大家分享一下。尤其是对AVP来说，一个非常重要且根本的问题是，它到底是一个怎样的设备，适合怎样的场景，不适合怎样的场景。在我们已经有了手机，平板和电脑的世界中，它所占据的生态位究竟是怎么样的。这篇文章主要就想探讨一下这些问题。
 

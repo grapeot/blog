@@ -1,4 +1,4 @@
-Title: 
+Title: 一些关于天文摄影自动对焦算法的思考和尝试
 Category: Computing
 Date: 2024-02-26 16:00
 Tags: Astrophotography

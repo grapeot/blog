@@ -1,4 +1,4 @@
-Title: Prompt Engineering高效指南
+Title: 高效Prompt Engineering指南
 Date: 2024-03-04 19:00
 Category: Computing
 Tags: AI

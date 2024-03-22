@@ -1,7 +1,7 @@
 Title: 一些关于反卷积的实验
 Category: Life
 Date: 2019-12-26 16:00
-Tags: Image Understanding, Computational Photography, Photography
+Tags: Image Understanding, Computational Photography, Photography, Chinese
 Slug: deconv-exp
 Latex: 
 

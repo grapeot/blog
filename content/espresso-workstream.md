@@ -1,7 +1,7 @@
 Title: 咖啡器材从观望到破产（二）——意式咖啡的工作流
 Date: 2023-10-29 17:30
 Category: Life
-Tags: espresso, coffee, gears
+Tags: espresso, coffee, gears, Chinese
 Slug: espresso-workstream
 
 最近在折腾烘焙咖啡豆和萃取espresso，头都秃了。

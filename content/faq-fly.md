@@ -1,7 +1,7 @@
 Title: FAQs to Learning to Fly
 Date: 2014-10-13 08:14
 Category: Life
-Tags: Aviation
+Tags: Aviation, English
 
 Finally got my private pilot certificate... 
 Become a certified airplane pilot en.

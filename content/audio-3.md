@@ -1,7 +1,7 @@
 Title: 音频碎碎念（三）—— 频率的玄学
 Date: 2022-12-23 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-3-frequency
 
 今日HiFi玄学：跟响度一样，音调也是一个没办法简单定义的极其主观的东西。因为：

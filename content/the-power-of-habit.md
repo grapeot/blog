@@ -1,7 +1,7 @@
 Title: Reading Notes: the Power of Habit
 Date: 2013-11-18 22:58
 Category: Life
-Tags: ReadingNotes
+Tags: ReadingNotes, English
 
 I was reading the book "The power of habit" recently and got some inspirations.
 This is not a summary of the book, but more like a narration from my point of view.

@@ -1,6 +1,6 @@
 Title: Gigapixel Panoramas
 Category: Computing
-Tags: Photography, Computational Photography, Image
+Tags: Photography, Computational Photography, Image, English
 Date: 2017-08-03
 
 <style type="text/css"> iframe { width: 100%; height: 400px; } </style>

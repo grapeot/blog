@@ -1,7 +1,7 @@
 Title: 人工智能对于IT领域的深远影响
 Date: 2024-03-03 19:00
 Category: Computing
-Tags: AI
+Tags: AI, Chinese
 Slug: ai-it-impact
 
 最近一个星期，我大量使用GPT和Copilot来帮助我编写代码，有了一些新的感悟。

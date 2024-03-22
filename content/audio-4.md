@@ -1,7 +1,7 @@
 Title: 音频碎碎念（四）—— 线材的玄学
 Date: 2022-12-24 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-4-cables
 
 今日HiFi玄学：线材。学习了以后，我发现其实线材是一个博大精深的领域。从电报时代开始，它一百多年发展的核心在于对抗电磁干扰。目前常用的两种对抗干扰的方法是：

@@ -1,7 +1,7 @@
 Title: 美国留学PhD和Master的选择 
 Date: 2015-03-08 13:00
 Category: Life
-Tags: PhD
+Tags: PhD, Chinese
 Slug: phd-master-selection
 
 一切起源于知乎上面的[这个讨论](http://www.zhihu.com/question/28538556)。

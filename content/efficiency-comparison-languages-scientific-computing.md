@@ -1,6 +1,6 @@
 Title: Efficiency comparison among several platforms for scientific computing
 Category: Computing
-Tags: PhD, Research, Parallel
+Tags: PhD, Research, Parallel, English
 Date: 2012-12-03 22:45
 
 [Update2] I used the library [eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) to reimplement the algorithm, reducing the code from 84 lines to 41 lines (wow), and time increases 11%. Looks acceptable, with similar workload as unoptimized C#, but the same speed as heavily optimized C# (with 164 lines of code and unsafe compilation). What's even better is eigen is a header library requires no pre-building or linking. 

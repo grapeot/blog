@@ -1,7 +1,7 @@
 Title: 一些关于时间管理的总结
 Category: Life
 Date: 2016-08-20 20:45
-Tags: TimeManagement
+Tags: TimeManagement, Chinese
 
 最初发在知乎上：[https://www.zhihu.com/question/19727341/answer/118801649](https://www.zhihu.com/question/19727341/answer/118801649)
 

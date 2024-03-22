@@ -1,7 +1,7 @@
 Title: Updates on Beamer Outline Generator
 Date: 2011-12-10 11:16
 Category: Computing
-Tags: BeamerWriter
+Tags: BeamerWriter, English
 
 Beamer Outline Generator is a tool for fast beamer writing. 
 This tool enables you to express your outlines with indents and generate elegant beamer code automatically.

@@ -1,7 +1,7 @@
 Title: Using a Timer to do Time Management
 Category: Life
 Date: 2015-02-20 1:00
-Tags: TimeManagement
+Tags: TimeManagement, English
 
 Recently I begin to use a free app named [timer](https://itunes.apple.com/us/app/timer/id507518845?mt=8).
 Yes it's just a timer.

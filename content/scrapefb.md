@@ -1,6 +1,7 @@
 Title: Scraping photos from Facebook groups
 Date: 2014-06-27 12:00:00
 Category: Computing 
+Tags: English
 
 ## Motivation
 

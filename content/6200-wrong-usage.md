@@ -1,7 +1,7 @@
 Title: 如何错误地使用ASI6200MM及其后果
 Category: Life
 Date: 2021-11-19 16:00
-Tags: Astrophotography, Gears, ZWO
+Tags: Astrophotography, Gears, ZWO, Chinese
 Slug: 6200-wrong-usage
 Latex: 
 

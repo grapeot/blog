@@ -1,7 +1,7 @@
 Title: 如何拍摄银河 
 Date: 2018-07-08 12:49
 Category: Life
-Tags: Photography, Astrophotography
+Tags: Photography, Astrophotography, Chinese
 Slug: milky-way-photo
 
 没想到在西雅图的郊区也能看到壮美的银河。

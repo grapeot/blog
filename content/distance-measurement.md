@@ -1,7 +1,7 @@
 Title: 不同对焦技术的测距精度
 Date: 2020-07-29 20:15
 Category: Life
-Tags: Photography
+Tags: Photography, Chinese
 Slug: distance-measurement-with-focusing
 Latex: 
 

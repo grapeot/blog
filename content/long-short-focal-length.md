@@ -2,7 +2,7 @@ Title: 焦距在摄影中的意义和用法
 Date: 2020-01-10 22:53
 Category: Life
 Slug: focal-length-in-photography
-Tags: Photography
+Tags: Photography, Chinese
 
 焦距对老法师来说是非常熟悉的一个概念了。主要想用这篇文章来澄清一下焦距中间常见的一些误解，以及如何利用焦距来达到摄影中想要实现的效果。懒人包：焦距本身严格等价于裁剪，焦距不改变透视，长焦不会带来压缩感。带来透视的只有站位的差别，离得远才带来压缩感。
 

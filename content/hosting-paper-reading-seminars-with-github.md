@@ -1,7 +1,7 @@
 Title: Host paper reading seminars with github
 Category: Computing
 Date: 2012-08-30 22:57
-Tags: github, PhD
+Tags: github, PhD, English
 
 [Github](https://github.com/) is a well-known tool within the dev community. People use git(http://git-scm.com/) and github to collaboratively build awesome stuffs and also enjoy the social life (xD, geeks). I find it also useful in our daily research, say, to host a paper reading seminar. (I assume you are familiar with git in the following text)
 

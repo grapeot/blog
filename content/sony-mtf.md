@@ -1,7 +1,7 @@
 Title: 关于Sony虚标MTF的一些疑问
 Date: 2020-01-18 21:30
 Category: Life
-Tags: Photography, MTF
+Tags: Photography, MTF, Chinese
 Slug: sony-mtf
 
 最近出了一个Sony镜头，想起来查查sony一些镜头的MTF，直接吓尿了。。画风都是这样的。。这个是135/1.8 @ f/8:  

@@ -1,7 +1,7 @@
 Title: 音频碎碎念（六）—— 模电
 Date: 2022-12-26 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-6-analog-circuits
 
 今日HiFi玄学：看了一天模电，已经被无穷多种电子管弄疯了。。几个感想：

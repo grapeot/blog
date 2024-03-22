@@ -1,6 +1,6 @@
 Title: 135系统的分辨率极限 —— CMS 20 II胶片评测
 Category: Life
-Tags: Photography
+Tags: Photography, Chinese
 Date: 2020-07-03
 Slug: resolution-limit-of-135-system
 

@@ -1,7 +1,7 @@
 Title: 人工智能的一些随想
 Category: Computing
 Date: 2023-02-04 16:00
-Tags: AI, Machine Learning
+Tags: AI, Machine Learning, Chinese
 Slug: AI-thoughts
 
 玩了一晚上OpenAI的ChatGPT，有一些关于技术的看法：ChatGPT的核心优势两点：1. 它对交互的目的有了很准确的把握；2. 它可以记住上下文，准确知道你在下一句话说的对上一句话的指代是什么意思。还有第3点是它生成的文本都是符合格式的，比如你要叫它分析东西，他会列12345，叫它写信会知道落款等等。但一方面这个GPT-3已经演示过了，一方面只要解决了第1点（目的的理解），基本上就可以做到，所以我没有把这一点列入核心优势。

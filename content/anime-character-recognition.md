@@ -1,6 +1,6 @@
 Title: 百万级别二次元角色识别数据集
 Category: Computing
-Tags: Image Understanding, Recognition, Anime
+Tags: Image Understanding, Recognition, Anime, Chinese
 Date: 2019-06-21 18:54
 Slug: anime-character-recognition
 

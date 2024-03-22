@@ -1,7 +1,7 @@
 Title: 黑白相机可以给我们更准确的颜色吗？（二）
 Date: 2020-07-06 21:30
 Category: Life
-Tags: Photography, BlackAndWhite, Color
+Tags: Photography, BlackAndWhite, Color, Chinese
 Slug: black-and-white-photo-colorization-2
 
 [上一次](black-and-white-photo-colorization.html)我们提到了黑白相机可以用分光的方法拍摄彩色照片，但是还是有一些问题，一个是彩色的暗角，一个是色彩不准确。这个文章主要介绍一下如何解决这些问题，同时给出一个完整的可操作的拍摄指南。

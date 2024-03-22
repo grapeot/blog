@@ -1,7 +1,7 @@
 Title: Effective Prompt Engineering
 Date: 2024-03-04 19:00
 Category: Computing
-Tags: AI
+Tags: AI, English
 Slug: prompt-engineering-guide-en
 
 I've always believed that the emergence of large language models (LLMs)/AI, such as GPT, has significantly lowered the barriers in many fields. Recently, following my strong recommendation, many people around me started to experiment with LLMs for more complex tasks. However, after discussing their experiences, it became clear that many of them were facing various challenges, often leading to poor user experiences. Upon analyzing their experiences and use cases, I realized a potential key issue: even though interacting with LLMs only requires natural language dialogue, it's not yet so straightforward that one can use it effectively without any learning. In particular, crafting the right questions still requires some experience, or what is known as prompt engineering. This post aims to share some insights into prompt engineering.

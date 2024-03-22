@@ -1,7 +1,7 @@
 Title: Markov Random Field (MRF) and Graph-Cut (3)
 Category: Computing
 Date: 2011-11-08 10:08
-Tags: PhD, Math
+Tags: PhD, Math, English
 Latex:
 
 <style>.centered { max-width: 400px; display: block; margin-left: auto; margin-right: auto } </style>

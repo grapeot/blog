@@ -1,7 +1,7 @@
 Title: 咖啡器材从观望到破产（一）—— 磨豆机的技术指标
 Category: Life
 Date: 2023-06-14 09:00
-Tags: Coffee, Gears
+Tags: Coffee, Gears, Chinese
 Slug: grinder-tech-specs
 
 在过去的几个月里，有不少朋友问我如何选择各种咖啡器材，包括咖啡机、磨豆机、烘豆机等。

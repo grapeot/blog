@@ -1,6 +1,6 @@
 Title: 树莓派上的目标检测智能相机
 Category: Computing
-Tags: Photography, AI, Machine Learning, Object Detection, Raspberry Pi
+Tags: Photography, AI, Machine Learning, Object Detection, Raspberry Pi, Chinese
 Date: 2020-06-04 22:00
 Slug: raspberry-pi-object-detection
 

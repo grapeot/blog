@@ -2,7 +2,7 @@ Title: Lyn Weber HG-1手动磨豆机简单评测
 Date: 2020-02-11 22:53
 Category: Life
 Slug: HG-1-coffee-grinder-review
-Tags: Coffee
+Tags: Coffee, Chinese
 
 其实我已经有了一个电磨，但（大多数）电磨有一个问题是切换豆子非常不方便。突然想喝decaf的，总不能把豆子全倒出来，再把新豆子倒进去。。所以一个手磨就非常有必要了——每次只磨一次的量。之前有一个手磨是LIDO 3，用得还挺好的，但是在单位用了，所以想着在家里也买一个。上Pinterest看了一圈，发现一个尤物叫Lyn Weber HG-1，颜值真的爆表。果断下单买了一个。看网上好像评测不太多，做一个法师评测。
 

@@ -1,7 +1,7 @@
 Title: Some Technical Details about KinectFusion
 Category: Computing
 Date: 2013-09-17 16:00
-Tags: Kinect, Math, PhD
+Tags: Kinect, Math, PhD, English
 Latex:
 
 KinectFusion is a powerful 3D reconstruction technique based on Microsoft Kinect Sensor.

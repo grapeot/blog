@@ -1,7 +1,7 @@
 Title: Exposing an online interface for MATLAB (and potentially any language)
 Category: Computing 
 Date: 2014-01-13 14:30
-Tags: nodejs
+Tags: nodejs, English
 
 I was always interested in building a small cluster with my (old) computers for my research project (just like MATLAB Distributed Server or a Hadoop cluster).
 While MATLAB is one of the most mature platforms for scientific computing, it's also extremely expensive, so expensive that an Ivy League college determines to exclude MATLAB Distributed Server in its academic license.

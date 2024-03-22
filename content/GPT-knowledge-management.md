@@ -1,7 +1,7 @@
 Title: GPT对知识管理和交互界面设计的重大变革
 Date: 2023-04-04 22:00
 Category: Computing
-Tags: Machine Learning, gpt
+Tags: Machine Learning, gpt, Chinese
 Slug: GPT-knowledge-management
 
 这篇文章想聊聊GPT在知识管理领域的重大变革。

@@ -1,7 +1,7 @@
 Title: Creating Novel Narrowband Palettes Using Simple Linear Algebra
 Date: 2022-09-03 15:00
 Category: Life
-Tags: astrophotography
+Tags: astrophotography, English
 Slug: sho-tune-en
 LaTeX: 1
 

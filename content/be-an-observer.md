@@ -1,7 +1,7 @@
 Title: Be An Observer
 Date: 2014-11-06 19:33
 Category: Life
-Tags: TimeManagement
+Tags: TimeManagement, English
 
 ### Looking Down at Yourself
 

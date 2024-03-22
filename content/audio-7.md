@@ -1,7 +1,7 @@
 Title: 音频碎碎念（七）—— 放大器
 Date: 2022-12-27 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-7-amplifiers
 
 今天主要学习了（固态）放大器，就是一般说的石机。感慨一下国外的教材写得真的是太好了，我当时学模电的时候，看到课本上来就讲理想运算放大器，一脸懵逼：我是谁？这是什么？我为什么要学这个？为什么要无限增益？这有什么用？然后看了国外的教材，终于理解为什么要有运算放大器这个东西了。一些笔记：

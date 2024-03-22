@@ -1,7 +1,7 @@
 Title: Timeshare的一些思考
 Date: 2019-11-29 18:05
 Category: Computing
-Tags: Timeshare, Travel, Finance
+Tags: Timeshare, Travel, Finance, Chinese
 Latex:
 
 还是没忍住在夏威夷买了个time share vacation home。。

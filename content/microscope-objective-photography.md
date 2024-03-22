@@ -1,7 +1,7 @@
 Title: 用显微镜物镜做微距镜头拍摄iPhone Retina像素的一些实验
 Date: 2019-09-09 11:00
 Category: Life
-Tags: Photography, Microscope, Macro
+Tags: Photography, Microscope, Macro, Chinese
 Slug: microscope-objective-photography
 
 之前我们用1:1的微距+小像素传感器进行了一些人体艺术的拍摄 ([传送门](/macro-photography.html))，几周过去了，我们当然要追问一个问题：老师，能不能再给力一些呢？

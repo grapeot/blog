@@ -1,7 +1,7 @@
 Title: 使用血糖作为减肥的间接指标
 Category: Life
 Date: 2022-09-19 18:30
-Tags: Health, Metrics
+Tags: Health, Metrics, Chinese
 Slug: blood-sugar-weight-management
 
 推荐一个健康管理神器，CGM，持续血糖监测仪。是一个小传感器，“贴”在肚皮上，就可以每5分钟测一次血糖，并且和手机同步。它有什么好处呢，对我们非糖尿病人来说主要是为体重管理提供几乎实时的反馈。

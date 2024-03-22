@@ -1,7 +1,7 @@
 Title: AI最近到底有哪些进展？
 Category: Computing
 Date: 2023-04-17 16:00
-Tags: AI, Machine Learning, GPT
+Tags: AI, Machine Learning, GPT, Chinese
 Slug: recent-AI-advancement
 
 近期，在AI领域发生了许多变革，让业内人士和普通人都感到不安。我们每天都会看到各种关于AI的知识和新闻，虽然标题常常让人心惊肉跳，但我们却无法完全理解它们对我们的影响。因此，我对这个问题进行了一些思考和总结。我认为，在自然语言处理（NLP）和计算机视觉（CV）领域，最近的变化有着许多相似之处，主要表现在以下三个方面：

@@ -1,7 +1,7 @@
 Title: Drizzle
 Date: 2018-12-14 15:11
 Category: Life
-Tags: Photography, Astrophotography
+Tags: Photography, Astrophotography, Chinese
 
 在某些特定的情况下，可以通过后期的方式来提升数码分辨率，把光学系统的光学分辨率榨取出来。这种提高分辨率的方法叫drizzle，在天文摄影和医学图像处理中被广泛使用。
 

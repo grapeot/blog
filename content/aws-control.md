@@ -1,7 +1,7 @@
 Title: Easy EC2 Sharing (While You Pay the Bill)
 Category: Computing
 Date: 2014-11-08 20:00
-Tags: AWS, github
+Tags: AWS, github, English
 
 AWS is becoming more and more useful for our research, given its [ease to build clusters](https://grapeot.me/easy-and-cheap-cluster-building-on-aws.html), and the generous sponsor from [people.co](http://blog.people.co/?p=90), we are using it extensively for research.
 To save cost, we definitely want to shut the machines down when they are not in use.

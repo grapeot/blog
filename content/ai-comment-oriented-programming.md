@@ -1,7 +1,7 @@
 Title: 从面向对象到面向注释——如何管理AI来辅助编程
 Date: 2024-03-17 17:00
 Category: Computing
-Tags: AI, Machine Learning, Programming
+Tags: AI, Machine Learning, Programming, Chinese
 Slug: ai-comment-oriented-programming
 
 严肃使用过 AI 进行编程的人都会有个明显的感觉。不论是 GPT-4、Claude V3，还是 Copilot，它们对我们编程的效率、效果和方法都产生了巨大的影响。由于大多数情况下，实战的程序里用的数据结构和算法都非常简单，人类可以通过面向 Stack Overflow 编程，AI 也可以基于巨量的训练数据来轻松搞定。但是，这篇文章不是想渲染编程不存在了，AI 要卷掉人类这种焦虑感，而是想思考一下，在这个新的工具的加持下，我们如何有效地利用这个工具，从而实现效果和速度的巨大提升。

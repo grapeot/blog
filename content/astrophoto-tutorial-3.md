@@ -1,7 +1,7 @@
 Title: 深空摄影器材从观望到破产（三）——天文相机的选购
 Date: 2023-04-28 20:30
 Category: Life
-Tags: astrophotography
+Tags: astrophotography, Chinese
 Slug: astrophoto-tutorial-3
 
 这篇文章主要介绍深空摄影器材中非常核心的一个部分，相机。请注意，这篇文章包含了我的很多主观看法，所以请大家谨慎鉴别，带着批判的态度去看待。

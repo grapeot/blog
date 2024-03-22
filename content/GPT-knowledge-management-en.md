@@ -1,7 +1,7 @@
 Title: Destroying Traditional Knowledge Management Systems and GUIs with GPT
 Date: 2023-04-04 22:00
 Category: Computing
-Tags: Machine Learning, gpt
+Tags: Machine Learning, gpt, English
 Slug: GPT-knowledge-management-en
 
 This article discusses the significant transformation GPT has brought to the field of knowledge management. First, let's understand what knowledge management systems are. I have a personal interest in productivity and knowledge management and have conducted many experiments in this field. Typically, knowledge management systems help us accomplish three tasks: 1. Acquire knowledge; 2. Store and analyze knowledge; 3. Access and serve knowledge.

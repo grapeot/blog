@@ -1,7 +1,7 @@
 Title: What metric should you use for weight management?
 Category: Life
 Date: 2022-09-19 19:30
-Tags: Health, Metrics
+Tags: Health, Metrics, English
 
 I recently started a new project of my own weight management, and had some learnings on the which metrics to optimize. I share it here hoping it would inspire someone in selecting metrics in ML systems.
 

@@ -1,7 +1,7 @@
 Title: 音频碎碎念（八）—— 放大器输出级
 Date: 2022-12-28 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-8-amp-output-stage
 
 今日Hifi玄学：终于看到了放大器的输出级。但越看越觉得这玩意就是一门玄学。。一些笔记和感想：

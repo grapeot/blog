@@ -1,7 +1,7 @@
 Title: 鸭阵巡天
 Date: 2022-03-27 18:05
 Category: Computing
-Tags: Astrophotography, Sky Survey
+Tags: Astrophotography, Sky Survey, Chinese
 Slug: duck-sky-survey
 
 身处一年下一场雨，一场下半年的西雅图，我有很多有意思的天文摄影想法都没办法实现。自从去年11月开始接触在云南的远程台，终于有了足够的晴天和暗空环境。在花费200多小时拍了一些新手村目标比如[M31](https://www.astrobin.com/fnoihw/)和[M42](https://www.astrobin.com/c7romg/I/)以后，我终于寻求到了足够的器材上的支持，可以进行一些更有意思也更长期的项目，比如鸭阵巡天。

@@ -1,7 +1,7 @@
 Title: 上流社会的摄影器材
 Date: 2020-01-19 01:15
 Category: Life
-Tags: Photography
+Tags: Photography, Chinese
 Slug: alpa-camera
 
 今天在一个法师群里面看到一个dalao发了一个拍摄现场图，好奇dalao们用的都是什么相机，咋都没见过... 发扬侦探精神搜了一下... 被有钱人的生活深深地震撼了...

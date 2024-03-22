@@ -1,7 +1,7 @@
 Title: 胶片摄影
 Date: 2017-12-17 20:09
 Category: Life
-Tags: Photography
+Tags: Photography, Chinese
 Slug: film-photography
 
 TL;DR: 胶片摄影好玩不贵，有多种机型，画幅，胶卷，步骤可以影响最终的结果。中大画幅画质也许更高，但坑也多。下回介绍大画幅和自己冲洗。

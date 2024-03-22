@@ -1,7 +1,7 @@
 Title: Deep Space Photography Tricks that Every Star Photographer Needs to Know
 Category: Life
 Date: 2022-08-02 23:00
-Tags: Astrophotography
+Tags: Astrophotography, English
 Slug: star-photography-en
 
 Those who are familiar with my series should know that my primary interest is in wide-field sky surveys. To complete an all-sky survey, the best tool is a lens. After all, the aperture is larger than that of a telescope, the focal length is shorter, and it is much faster to shoot. For various reasons, I only recently started trying to shoot with a lens, and tried some astrophotography in addition to sky surveys. After talking with some experienced astrophotographers, I discovered several significant differences in the habits of deep space photography and "regular" star astrophotography (which means using a lens and a DSLR, instead of a telescope and an astro-camera, to capture wide field photos such as the milky way. We will refer this as "astrophotography" in the following text). These differences are not particularly complex things, do not require spending a lot of money, but I believe that doing them will greatly improve the final image. Of course, these techniques are not secrets, many star photographers have been using them for a long time. I am not an expert in astrophotography, I am just sharing some deep space shooting tips here, maybe they will be useful.

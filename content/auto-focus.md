@@ -1,7 +1,7 @@
 Title: 一些关于天文摄影自动对焦算法的思考和尝试
 Category: Computing
 Date: 2024-02-26 16:00
-Tags: Astrophotography
+Tags: Astrophotography, Chinese
 Slug: auto-focus
 
 我最近因为想利用AI来控制天文摄影设备，所以正在开发一个类似NINA的系统。也因此开始研究自动对焦算法，有一些思考分享一下。在详细介绍算法之前，我想先谈谈我对自动对焦的两个基本思考。首先，如果我们有两种不同的算法，A算法和B算法，我们应该如何判断哪个效果更好。其次，自动对焦为什么难，我们需要面对和解决哪些技术挑战。

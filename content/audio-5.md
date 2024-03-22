@@ -1,7 +1,7 @@
 Title: 音频碎碎念（五）—— 听音环境
 Date: 2022-12-25 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-5-environment
 
 今日Hifi玄学：（录音工作室和我们听音乐的）应该如何布置听音室？这也是个有很多研究的领域，科学家们从几百年前的教堂设计就开始探索，一直到近年仍有进展。基本观察是，听音环境非常非常非常重要，烂音箱+好听音环境可以干掉好音箱+烂听音环境，好听音环境甚至可以突破音箱物理极限。玩箱子的话，最重要的一步可能不是改善音频系统，而是从头修建或者装修已有的听音室。

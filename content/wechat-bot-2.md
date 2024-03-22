@@ -2,7 +2,7 @@ Title: 能理解聊天记录的微信机器人(二)
 Category: Computing
 Date: 2017-03-27 9:00
 Slug: wechat-bot-2
-Tags: Wechat, AI, Bot, Image Understanding
+Tags: Wechat, AI, Bot, Image Understanding, Chinese
 
 根据[(一)](./wechat-bot.html)的一些思路，今天把一些简单的统计功能给做了出来，部署在了个人微信号上。主要的功能是：
 

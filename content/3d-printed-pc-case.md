@@ -1,6 +1,6 @@
 Title: 关于3D打印机箱的一些实验
 Category: Life
-Tags: 3D Print, DIY
+Tags: 3D Print, DIY, Chinese
 Date: 2019-10-21 18:54
 Slug: 3d-printed-pc-case
 

@@ -1,7 +1,7 @@
 Title: When and How Not to Use AI
 Date: 2024-03-13 23:00
 Category: Computing
-Tags: AI, Machine Learning
+Tags: AI, Machine Learning, English
 Slug: ai-writing-limit-en
 
 I've been touting the mantra "AI can solve everything" in my social circles for more than a minute, but today, I'm about to switch tunes and indulge in a bit of self-contradiction. That is, once we've got a grip on the capabilities and limitations of AI, understanding what it can and cannot do, it's crucial not just to dive headfirst into using AI for everything. Instead, we should judiciously decide where AI should step in to truly achieve the outcomes we desire.

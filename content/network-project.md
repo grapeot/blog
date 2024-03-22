@@ -1,7 +1,7 @@
 Title: 偷网指南和一些网络心得
 Category: Computing
 Date: 2021-02-28 16:00
-Tags: Network
+Tags: Network, Chinese
 Slug: network-proejct
 
 最近网络服务商comcast地下的线缆有问题导致上不了网。报修说the fix could be as quick as two months. 因为要申请许可，然后用工程机械在路面下面施工。只能自救了。做了很多尝试，折腾了很多东西，把心得记录一下。

@@ -2,7 +2,7 @@ Title: 穷人的飞思XT——一些关于645d中幅的实验（二）
 Date: 2019-12-07 21:06
 Category: Life
 Slug: lower-end-phase-one-xt-2
-Tags: PhaseOne, Medium Format, Photography, DIY
+Tags: PhaseOne, Medium Format, Photography, DIY, Chinese
 
 在[上一集](/lower-end-phase-one-xt-1.html)里面，我们介绍了如何山寨一个飞思XT出来。在3D打印的同时，其实还买了Cambo的WRC-400机身，同时定做了对焦桶，希望用商业的解决方案来提升精度。等了两个月终于全部到货，在用3D打印了解决了对焦桶不能在无穷远合焦的问题以后，现在不仅功能顺手，而且感觉颜值爆表：
 

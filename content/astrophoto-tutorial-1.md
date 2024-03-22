@@ -1,7 +1,7 @@
 Title: 深空摄影器材从观望到破产（一）——入门指南
 Date: 2023-04-26 20:30
 Category: Life
-Tags: astrophotography
+Tags: astrophotography, Chinese
 Slug: astrophoto-tutorial-1
 
 [[引子]](/astrophoto-tutorial-0.html)

@@ -1,6 +1,7 @@
 Title: Lumia 900
 Date: 2012-05-14 19:41
 Category: Alive
+Tags: English
 
 Got a Lumia 900 after using iPhone for quite a long time. It's very different from iPhone. Some are good, while some are bad. 
 

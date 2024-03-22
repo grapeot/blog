@@ -1,7 +1,7 @@
 Title: 利用简单的线性代数实现精确可控的窄带调色
 Date: 2022-09-02 15:00
 Category: Life
-Tags: astrophotography
+Tags: astrophotography, Chinese
 Slug: sho-tune
 LaTeX: 1
 

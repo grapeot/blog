@@ -2,7 +2,7 @@ Title: 超高精度月球三维模型的制作和渲染（附墙纸下载）
 Date: 2020-07-11 15:31
 Category: Life
 Slug: nasa-moon-3d-model
-Tags: 3D, Rendering, Moon
+Tags: 3D, Rendering, Moon, Chinese
 
 一切的起因是在我们的量子键摄法师群里面有dalao提到，希望有一个连续变化的月相的动态壁纸。最好能显出月面的彩色，同时分辨率高一些。我自己虽然也拍月亮，但没有积累足够的数据来显示月相的变化。所以就想着，有没有可能用一个模型来渲染出来一个月面图像呢？经过一些努力，真的成功了。渲染出10k的视频没有问题。4k的效果见这个视频：https://www.bilibili.com/video/BV1wC4y1h7u5/。
 

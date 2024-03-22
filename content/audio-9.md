@@ -1,7 +1,7 @@
 Title: 音频碎碎念（⑨）—— D类放大器
 Date: 2022-12-29 19:00
 Category: Life
-Tags: Sound Engineering
+Tags: Sound Engineering, Chinese
 Slug: sound-engineering-9-class-d-amp
 
 今日HiFi玄学：今天学习了D类放大器的设计，感觉实在是太精巧了，非常兴奋。也终于懂了HiFi电源插座在什么情况下不是玄学，什么情况下是玄学了。分享一些感想。

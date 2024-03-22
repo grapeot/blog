@@ -1,7 +1,7 @@
 Title: 何时以及如何不使用AI工作
 Date: 2024-03-13 23:00
 Category: Computing
-Tags: AI, Machine Learning
+Tags: AI, Machine Learning, Chinese
 Slug: ai-writing-limit
 
 我一直在朋友圈鼓吹万物皆可AI解决也不是一两天了，但今天我想唱个反调，自我精神分裂一把。就是说，当我们对AI的能力边界有了一定的了解，知道了哪些事情可以用AI来完成之后，很多时候还是要有所不为，恰当地决定哪些环节让AI介入，以真正实现我们的想要的效果。

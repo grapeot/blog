@@ -1,7 +1,7 @@
 Title: 深空摄影器材从观望到破产（四）——望远镜的选购
 Date: 2023-04-28 22:30
 Category: Life
-Tags: astrophotography
+Tags: astrophotography, Chinese
 Slug: astrophoto-tutorial-4
 
 这篇文章主要讨论主镜（Optical Tube Assembly, OTA）的相关指标和选购标准。主镜的作用相对简单，它就是一个接收光子的筒，将来自遥远的暗弱星光聚焦到一个很小的成像圈内，从而大幅提升光线的亮度。通过这种方式，再加上相机的长时间曝光，我们可以看到遥远地方的暗弱天体。如果说相机是一个时间上的放大器，那么主镜就是一个空间上的放大器。

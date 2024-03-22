@@ -1,7 +1,7 @@
 Title: Things I Wish I Knew as a New Grad -- Suggestions on a Software Engineer's Career
 Category: Life
 Date: 2022-09-08 19:30
-Tags: Career
+Tags: Career, Chinese
 Slug: new-employee-suggestions-en
 
 [[中文版]](/new-employee-suggestions.html)

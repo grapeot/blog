@@ -1,7 +1,7 @@
 Title: 全幅与中幅（四）
 Date: 2020-01-23 15:00
 Category: Life
-Tags: Photography, Medium Format, Full Frame
+Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-4
 
 （本文成文于2018年11月）

@@ -1,7 +1,7 @@
 Title: Auto focus solution for SharpStar FMA180 
 Date: 2021-05-29 18:05
 Category: Computing
-Tags: Photography, Astrophotography, 3D Print
+Tags: Photography, Astrophotography, 3D Print, English
 
 Bought a SharpStar FMA180 recently for wide field use.
 Probably because of the small aperture (40mm f/4.5, 180mm focal length), it doesn't come with a regular focuser, but has a focus ring just like regular lens.

@@ -1,7 +1,7 @@
 Title: 全幅与中幅（二）
 Date: 2020-01-21 15:00
 Category: Life
-Tags: Photography, Medium Format, Full Frame
+Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-2
 
 （本文成文于2018年1月）

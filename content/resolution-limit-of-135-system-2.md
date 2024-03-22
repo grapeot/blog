@@ -1,6 +1,6 @@
 Title: 135系统的分辨率极限（二）—— 逼近衍射极限
 Category: Life
-Tags: Photography
+Tags: Photography, Chinese
 Date: 2020-07-12
 Slug: resolution-limit-of-135-system-2
 

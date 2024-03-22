@@ -1,7 +1,7 @@
 Title: GPT知识管理工具的第三轮迭代
 Date: 2023-04-16 15:00
 Category: Computing
-Tags: Machine Learning, gpt, AI
+Tags: Machine Learning, gpt, AI, Chinese
 Slug: GPT-shortcut
 
 我们之前开发的基于GPT的语音录入工具已经经历了两次迭代。最初的构想是一个简单的快速录入工具，让我们能够在短时间内通过语音输入生成大量文字，例如我现在甚至可以每分钟输入300个汉字左右。上一轮迭代主要将应用场景转向知识管理方面，我们发现它不仅是一个输入工具，在知识的沉淀处理和输出上也有很大用途。为了支持这个应用思路的转变，我们将用户界面从基于Web App转移到了Telegram Bot上，这带来了很多好处，如自动拥有session和user的概念，每个人都有自己的聊天记录，我们可以轻松地记录数据。同时，我们意外地发现这些记录可以作为很好的训练数据，用于微调现有的LLM，实现类似GPT-4的功能。

@@ -2,7 +2,7 @@ Title: 穷人的飞思XT——一些关于645d中幅的实验（一）
 Date: 2019-12-06 21:06
 Category: Life
 Slug: lower-end-phase-one-xt-1
-Tags: PhaseOne, Medium Format, Photography, DIY
+Tags: PhaseOne, Medium Format, Photography, DIY, Chinese
 
 飞思最近发布了一款便携相机[XT](https://phaseonext.com/). 基本上就是一个电子版ALPA+自家的镜头+自家后背。颜值很高，看得我口水不止。同时作为一个老法师，数毛是创意的源泉。之前为了达到高分辨率，弄了个接片后背，分辨率的确上去了，但限制还是很多。比如只能拍静态场景，非常静态的那种，有云的都不行。还有大画幅相机5斤重，搬来搬去还是很烦。飞思XT的出现一下解决了我旅拍数毛的需求，同时也能和那帮拿着徕卡甚至4433哈苏的妖艳贱货拉开差距。所以我非常愉快地拨通了飞思的电话，然后知道了这个相机多少钱。。嘛，也就是一部宝马的价格，没多少钱。。在下告辞！
 

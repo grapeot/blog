@@ -1,6 +1,7 @@
 Title: Attempts to make money from BF deals and lessons learned
 Date: 2014-01-10 15:15
 Category: Alive
+Tags: English
 
 Black Friday comes and goes.
 This always seems a good time to stock (or over-stock) stuffs with all kinds of sweet deals.

@@ -37,6 +37,7 @@ MENUITEMS = (('Archives', '/archives.html'),
         #('Lab', 'http://lab.grapeot.me/'),)
         ('Duck Sky Survey', 'dss/'),
         ('🔍Search', 'search/'),
+        ('Services', 'pages/services.html'),
         )
 THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))

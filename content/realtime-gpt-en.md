@@ -14,7 +14,7 @@ However, during this process, I encountered a major pain point: speed. On one ha
 
 ## First Iteration: Integrating Real-Time API
 
-Recently, OpenAI released their [Real-Time API](https://openai.com/index/introducing-the-realtime-api/), the technology behind the new ChatGPT real-time voice conversations. I integrated this API with my existing system to create a web-based tool available at [https://f.gpty.ai/](https://f.gpty.ai/).
+Recently, OpenAI released their [Real-Time API](https://openai.com/index/introducing-the-realtime-api/), the technology behind the new ChatGPT real-time voice conversations. I integrated this API with my existing system to create a web-based tool available at [https://f.gpty.ai/](https://f.gpty.ai/). The code is open-sourced on [https://github.com/grapeot/brainwave/](https://github.com/grapeot/brainwave/).
 
 After some experimentation, I found the experience to be excellent. On one hand, this tool sends the recorded voice to OpenAI in real-time as the user speaks. The processing starts immediately, so by the time the user finishes speaking, the voice recognition result is output almost instantly. This reduces the delay by dozens of times. For example, previously after spending fifteen minutes thinking out loud, I had to wait two or three minutes for the voice recognition results, often needing to retry due to timeouts. Now, it only takes a second or two for results to start popping out.
 

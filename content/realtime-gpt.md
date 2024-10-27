@@ -14,7 +14,7 @@ Slug: realtime-gpt
 
 ## 第一轮迭代：集成实时API
 
-最近，OpenAI 发布了他们的[实时 API](https://openai.com/index/introducing-the-realtime-api/)，这个 API 就是新版的 ChatGPT 实时语音对话背后的技术。我把这个 API 和现有的系统进行了集成，做了一个 Web版本的工具，网址是[https://f.gpty.ai/](https://f.gpty.ai/)。
+最近，OpenAI 发布了他们的[实时 API](https://openai.com/index/introducing-the-realtime-api/)，这个 API 就是新版的 ChatGPT 实时语音对话背后的技术。我把这个 API 和现有的系统进行了集成，做了一个 Web版本的工具，网址是[https://f.gpty.ai/](https://f.gpty.ai/)，代码开源在[https://github.com/grapeot/brainwave/](https://github.com/grapeot/brainwave/)。
 
 在进行一些试验之后，我发现它的体验非常好。一方面，这个工具可以在用户录音的过程中，就把已经录下来的语音发给 OpenAI。同时那边就会立即开始处理。这样，当用户讲完话的时候，它就可以非常迅速地输出语音识别的结果。这一下把延迟降低了几十倍。比如以前我花了十五分钟做了一个think out loud的长考之后，要等个两三分钟才会出语音识别的结果，中间可能还要超时重试。但是现在就只需要等一两秒，它就开始非常迅速地往外吐结果。
 

@@ -2,6 +2,7 @@ Title: 使用GPT实时语音API实现零延时AI辅助写作
 Date: 2024-10-27 12:45
 Category: Computing
 Tags: AI, Speech Recognition, OpenAI, Chinese, Realtime
+Slug: realtime-gpt
 
 最近一两年我一直致力于[使用AI来增加写作和输入的效率](https://yage.ai/GPT-knowledge-management.html)，而且确实感觉到了效率的质的提升。一个重要的观察是，当我们在写文章或者思考的时候，可能有一半以上的时间花在打字和改正错别字上面。这个东西不仅花时间，更重要的是它会打断我们的思路。所以写作的时候，一个非常常见的问题就是回读。写了一句话，回头改改错别字，这时候就忘了自己想要写什么了，再回头看几眼，终于反应过来，继续写。然后又陷入改错别字的循环。
 

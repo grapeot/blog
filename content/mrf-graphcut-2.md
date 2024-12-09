@@ -4,6 +4,17 @@ Date: 2011-07-01 05:58
 Tags: PhD, Math, English
 Latex:
 
+
+---
+
+本文是《MRF GraphCut系列》系列的一部分：
+
+* [Markov Random Field (MRF) and Graph-Cut (1)](/mrf-graphcut-1.html)
+* Markov Random Field (MRF) and Graph-Cut (2)（本文）
+* [Markov Random Field (MRF) and Graph-Cut (3)](/mrf-graphcut-3.html)
+
+---
+
 <style>.centered { display: block; margin-left: auto; margin-right: auto } </style>
 
 In [the previous post](/markov-random-field-mrf-and-graph-cut-1.html), we've seen applications of MRF in image restoration. This post will illustrate some more insights on MRF and graph-cut, a fast solution for global optimal.

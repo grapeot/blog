@@ -4,6 +4,19 @@ Category: Life
 Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-3
 
+
+---
+
+本文是《全画幅和中画幅系列》系列的一部分：
+
+* [全幅与中幅（一）](/full-frame-and-medium-format-1.html)
+* [全幅与中幅（二）](/full-frame-and-medium-format-2.html)
+* 全幅与中幅（三）（本文）
+* [全幅与中幅（四）](/full-frame-and-medium-format-4.html)
+* [全幅与中幅（五）](/full-frame-and-medium-format-5.html)
+
+---
+
 （本文成文于2018年5月）
 
 最近在一些讨论中感觉不少人对由幅面变化引出的曝光和信噪比的变化有些误解。但一旦牵扯到画幅的讨论就不可避免曝光，景深，信噪比的比较。在这里想引入一个直观的比方/模型，希望能讲清楚这个问题。

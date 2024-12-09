@@ -4,6 +4,19 @@ Category: Life
 Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-1
 
+
+---
+
+本文是《全画幅和中画幅系列》系列的一部分：
+
+* 全幅与中幅（一）（本文）
+* [全幅与中幅（二）](/full-frame-and-medium-format-2.html)
+* [全幅与中幅（三）](/full-frame-and-medium-format-3.html)
+* [全幅与中幅（四）](/full-frame-and-medium-format-4.html)
+* [全幅与中幅（五）](/full-frame-and-medium-format-5.html)
+
+---
+
 （本文成文于2017年8月，[英文版](/full-frame-and-medium-fromat-cameras.html)）
 
 前一段时间在调研是应该买全画幅的相机还是中画幅的数码相机，有了一些比较和心得分享一下。

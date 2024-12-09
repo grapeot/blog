@@ -4,6 +4,17 @@ Date: 2011-06-16 03:10
 Tags: PhD, Math, English
 Latex:
 
+
+---
+
+本文是《MRF GraphCut系列》系列的一部分：
+
+* Markov Random Field (MRF) and Graph-Cut (1)（本文）
+* [Markov Random Field (MRF) and Graph-Cut (2)](/mrf-graphcut-2.html)
+* [Markov Random Field (MRF) and Graph-Cut (3)](/mrf-graphcut-3.html)
+
+---
+
 ## MRF for image restoration
  
 Actually we discussed how to use MRF for image restoration before. Here we'd like to talk more about how an image restoration problem can be formulated as MRF and how to solve it.

@@ -4,6 +4,20 @@ Category: Life
 Tags: astrophotography, Chinese
 Slug: astrophoto-tutorial-5
 
+
+---
+
+本文是《深空摄影器材从观望到破产系列》系列的一部分：
+
+* [深空摄影器材从观望到破产（零）——引子](/astrophoto-tutorial-0.html)
+* [深空摄影器材从观望到破产（一）——入门指南](/astrophoto-tutorial-1.html)
+* [深空摄影器材从观望到破产（二）——赤道仪的选购](/astrophoto-tutorial-2.html)
+* [深空摄影器材从观望到破产（三）——天文相机的选购](/astrophoto-tutorial-3.html)
+* [深空摄影器材从观望到破产（四）——望远镜的选购](/astrophoto-tutorial-4.html)
+* 深空摄影器材从观望到破产（五）——控制系统的选择（本文）
+
+---
+
 本文主要介绍天文生态摄影中心的控制系统。控制系统主要是一种电脑软件，具有多种不同的用途。各个控制系统的差异主要体现在两个方面：一是所提供的功能（以及未提供的功能）；二是它们的易用程度和稳定性如何。我们可以先了解一下控制系统提供了哪些功能，然后再探讨如何选择合适的控制系统。
 
 ## 控制系统

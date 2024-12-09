@@ -4,6 +4,17 @@ Tags: Photography, Chinese
 Date: 2020-07-12
 Slug: resolution-limit-of-135-system-2
 
+
+---
+
+本文是《135系统分辨率极限系列》系列的一部分：
+
+* [135系统的分辨率极限 —— CMS 20 II胶片评测](/resolution-limit-of-135-system.html)
+* 135系统的分辨率极限（二）—— 逼近衍射极限（本文）
+* [135系统的分辨率极限（三）—— 与大画幅胶片的角逐](/resolution-limit-of-135-system-3.html)
+
+---
+
 TL; DR: 我用135系统拍出来了2亿6千万像素的彩色照片（非接图），而且看上去还是有效分辨率。
 
 ![Overall illustration](/images/135_resolution_limit_2_demo_figure.jpg)

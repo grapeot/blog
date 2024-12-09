@@ -4,6 +4,17 @@ Tags: Photography, Chinese
 Date: 2020-07-03
 Slug: resolution-limit-of-135-system
 
+
+---
+
+本文是《135系统分辨率极限系列》系列的一部分：
+
+* 135系统的分辨率极限 —— CMS 20 II胶片评测（本文）
+* [135系统的分辨率极限（二）—— 逼近衍射极限](/resolution-limit-of-135-system-2.html)
+* [135系统的分辨率极限（三）—— 与大画幅胶片的角逐](/resolution-limit-of-135-system-3.html)
+
+---
+
 先看一下这张照片，猜猜它是什么画幅的？
 
 ![Final result](/images/135-resolution-limit-result.jpg)

@@ -4,6 +4,19 @@ Category: Life
 Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-2
 
+
+---
+
+本文是《全画幅和中画幅系列》系列的一部分：
+
+* [全幅与中幅（一）](/full-frame-and-medium-format-1.html)
+* 全幅与中幅（二）（本文）
+* [全幅与中幅（三）](/full-frame-and-medium-format-3.html)
+* [全幅与中幅（四）](/full-frame-and-medium-format-4.html)
+* [全幅与中幅（五）](/full-frame-and-medium-format-5.html)
+
+---
+
 （本文成文于2018年1月）
 
 以前做过一个[关于画幅的讨论](/full-frame-and-medium-format-2.html)。当时主要是比较全幅和中幅（残幅）的数码。现在半年多时间过去了，我接触了全幅更全面的镜头群，玩了胶片全幅，胶片中幅（6x6），胶片大画幅，也自己冲洗了4x5胶片，对于画幅有了更多的见解。以前我们提到过，全幅指的是传感器/胶片尺寸是36x24mm，中幅有多种规格，胶片尺寸从6x4.5cm，6x6cm, 6x9到全景的6x12cm甚至更长不等。大画幅胶片一般是4x5英寸（10.2x12.7cm）。不考虑历史问题，人们为什么要用这些不同的画幅，什么情况下应该用什么画幅呢？我说下我的体会。

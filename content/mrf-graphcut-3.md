@@ -4,6 +4,17 @@ Date: 2011-11-08 10:08
 Tags: PhD, Math, English
 Latex:
 
+
+---
+
+本文是《MRF GraphCut系列》系列的一部分：
+
+* [Markov Random Field (MRF) and Graph-Cut (1)](/mrf-graphcut-1.html)
+* [Markov Random Field (MRF) and Graph-Cut (2)](/mrf-graphcut-2.html)
+* Markov Random Field (MRF) and Graph-Cut (3)（本文）
+
+---
+
 <style>.centered { max-width: 400px; display: block; margin-left: auto; margin-right: auto } </style>
 
 Implemented Loopy Belief Propagation [[wiki]](http://en.wikipedia.org/wiki/Belief_propagation), which is a more general optimization approach for Markov Random Field [[post 1]](https://grapeot.me/markov-random-field-mrf-and-graph-cut-1.html) [[post 2]](https://grapeot.me/markov-random-field-mrf-and-graph-cut-2.html).

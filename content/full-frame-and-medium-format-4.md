@@ -4,6 +4,19 @@ Category: Life
 Tags: Photography, Medium Format, Full Frame, Chinese
 Slug: full-frame-and-medium-format-4
 
+
+---
+
+本文是《全画幅和中画幅系列》系列的一部分：
+
+* [全幅与中幅（一）](/full-frame-and-medium-format-1.html)
+* [全幅与中幅（二）](/full-frame-and-medium-format-2.html)
+* [全幅与中幅（三）](/full-frame-and-medium-format-3.html)
+* 全幅与中幅（四）（本文）
+* [全幅与中幅（五）](/full-frame-and-medium-format-5.html)
+
+---
+
 （本文成文于2018年11月）
 
 玩了中画幅大画幅一段时间，对非技术中画幅胶片相机的优势非常困惑。下面是我的一些思考，但又总觉得哪里不对。。懒人版结论是，不考虑技术相机的话，中大画幅唯一的优势就是能放大，能放巨大。除此以外相比全幅并无可感技术优势。下面是我的具体想法。很长，在反驳前可以只看感兴趣的点。

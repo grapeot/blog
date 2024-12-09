@@ -4,6 +4,17 @@ Date: 2017-03-27 9:00
 Slug: wechat-bot-2
 Tags: Wechat, AI, Bot, Image Understanding, Chinese
 
+
+---
+
+本文是《WeChat Bot系列》系列的一部分：
+
+* [能理解聊天记录的微信机器人](/wechat-bot.html)
+* 能理解聊天记录的微信机器人(二)（本文）
+* [能理解聊天记录的微信机器人(三)](/wechat-bot-3.html)
+
+---
+
 根据[(一)](./wechat-bot.html)的一些思路，今天把一些简单的统计功能给做了出来，部署在了个人微信号上。主要的功能是：
 
 * 如果群里有人发`/tagcloud`，就统计群里最近500条消息的标签云，然后发上去

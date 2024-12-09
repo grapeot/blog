@@ -4,6 +4,20 @@ Category: Life
 Tags: astrophotography, Chinese
 Slug: astrophoto-tutorial-3
 
+
+---
+
+本文是《深空摄影器材从观望到破产系列》系列的一部分：
+
+* [深空摄影器材从观望到破产（零）——引子](/astrophoto-tutorial-0.html)
+* [深空摄影器材从观望到破产（一）——入门指南](/astrophoto-tutorial-1.html)
+* [深空摄影器材从观望到破产（二）——赤道仪的选购](/astrophoto-tutorial-2.html)
+* 深空摄影器材从观望到破产（三）——天文相机的选购（本文）
+* [深空摄影器材从观望到破产（四）——望远镜的选购](/astrophoto-tutorial-4.html)
+* [深空摄影器材从观望到破产（五）——控制系统的选择](/astrophoto-tutorial-5.html)
+
+---
+
 这篇文章主要介绍深空摄影器材中非常核心的一个部分，相机。请注意，这篇文章包含了我的很多主观看法，所以请大家谨慎鉴别，带着批判的态度去看待。
 
 ## 信噪比

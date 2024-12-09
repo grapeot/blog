@@ -4,6 +4,17 @@ Date: 2017-03-26 9:00
 Slug: wechat-bot
 Tags: Wechat, AI, Bot, Image Understanding, Chinese
 
+
+---
+
+本文是《WeChat Bot系列》系列的一部分：
+
+* 能理解聊天记录的微信机器人（本文）
+* [能理解聊天记录的微信机器人(二)](/wechat-bot-2.html)
+* [能理解聊天记录的微信机器人(三)](/wechat-bot-3.html)
+
+---
+
 TL;DR: 做了个在两个群中间互相转发消息的机器人([github](https://github.com/grapeot/WechatForwardBot))，对聊天机器人的一些思考，可以把文本理解加进来做有意思的应用。
 
 最近看到了一些基于微信机器人的有意思的应用，比如用微信汇报模型的训练状态（[TensorFlow](https://zhuanlan.zhihu.com/p/25597975)，[Keras](https://zhuanlan.zhihu.com/p/25670072)）。这个是个很好的出发点。聊天机器人(chatbot)这个概念在slack, telegram, skype甚至最早的google wave上面流行已经有一段时间了。大家主要用它来：

@@ -67,7 +67,7 @@ energy storage without solar panels, you may not be eligible for this tax credit
 ### New Challenges
 
 The recent multi-day power outage in Seattle exposed some new issues. None of them were major problems, but I'd like to share my thoughts. First, let's talk about fuel. We use
-15-pound propane tanks for our generator. After this test, we found that one tank can support 1-2 days of household usage, equivalent to 20-25 kWh of electricity. A single tank
+15-pound propane tanks for our generator. After this test, we found that one tank can support 1-2 days of household usage, equivalent to 15-20 kWh of electricity. A single tank
 costs around $30 at a physical store and $20 online. We usually keep three tanks on hand, which should last us about a week.
 
 Next, the network issue was unexpected. Due to the large-scale power outage, all major service providers' backup power sources were depleted, leaving most of Seattle without
@@ -78,6 +78,7 @@ couldn't work remotely.
 
 We're now considering getting a Starlink satellite network. However, we have concerns about the cost and speed. It would be an expensive solution that only provides value when
 there's no other signal available. Spending tens of dollars per month to maintain an account that might only be used for a few days a year doesn't seem worth it.
+(Update: after more research, we found that Starlink's roam plan does have a pause service option, so we ended up getting one.)
 
 Another unexpected issue was navigation. Since the power outage occurred during windy weather without snow, roads remained accessible, but online maps and navigation services were
 unavailable (I had previously downloaded offline maps, but they didn't sync with my new phone). This taught me to download or update offline maps before such events occur.

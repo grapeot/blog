@@ -23,4 +23,4 @@ Time for the first series of the goals.
 2. Jog every two days till leaving for intern.
 3. Do morning reading till intern ends.
 
-In summary, feeling a new life growing with the semester ends. Let it begin. 
+In summary, feeling a [new life](https://yage.ai/inspiration-fragments-20131130.html) growing with the semester ends. Let it begin.

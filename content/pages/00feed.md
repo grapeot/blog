@@ -1,6 +1,10 @@
 Title: Feed
 Status: hidden
 
+### Email
+
+* [Subscribe to our insightsletter](https://subscribe.yage.ai/)
+
 ### RSS
 
 * [Posts](/feeds/rss.xml)

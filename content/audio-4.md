@@ -9,16 +9,16 @@ Slug: sound-engineering-4-cables
 
 本文是《音频碎碎念系列》系列的一部分：
 
-* [音频碎碎念（一）—— HiFi科学派](/audio-1.html)
-* [音频碎碎念（二）—— 响度的玄学](/audio-2.html)
-* [音频碎碎念（三）—— 频率的玄学](/audio-3.html)
+* [音频碎碎念（一）—— HiFi科学派](/sound-engineering-1-scientific-hifi.html)
+* [音频碎碎念（二）—— 响度的玄学](/sound-engineering-2-loudness.html)
+* [音频碎碎念（三）—— 频率的玄学](/sound-engineering-3-frequency.html)
 * 音频碎碎念（四）—— 线材的玄学（本文）
-* [音频碎碎念（五）—— 听音环境](/audio-5.html)
-* [音频碎碎念（六）—— 模电](/audio-6.html)
-* [音频碎碎念（七）—— 放大器](/audio-7.html)
-* [音频碎碎念（八）—— 放大器输出级](/audio-8.html)
-* [音频碎碎念（⑨）—— D类放大器](/audio-9.html)
-* [音频碎碎念（十）—— 地狱听音环境实操](/audio-10.html)
+* [音频碎碎念（五）—— 听音环境](/sound-engineering-5-environment.html)
+* [音频碎碎念（六）—— 模电](/sound-engineering-6-analog-circuits.html)
+* [音频碎碎念（七）—— 放大器](/sound-engineering-7-amplifiers.html)
+* [音频碎碎念（八）—— 放大器输出级](/sound-engineering-8-amp-output-stage.html)
+* [音频碎碎念（⑨）—— D类放大器](/sound-engineering-9-class-d-amp.html)
+* [音频碎碎念（十）—— 地狱听音环境实操](/sound-engineering-10-real-example.html)
 
 ---
 

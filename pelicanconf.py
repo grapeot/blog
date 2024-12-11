@@ -44,7 +44,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
 PLUGIN_PATHS = [ './pelican-plugins' ]
-PLUGINS = ['render_math', 'sitemap', 'gravatar', 'latex']
+PLUGINS = ['render_math', 'sitemap', 'gravatar', 'render_math']
 SITEMAP = {
     'format': 'xml',
     'priorities': {

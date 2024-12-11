@@ -63,4 +63,3 @@ For switches like `--sshlogin 8/m1`, `--sshlogin` means to send the task to remo
 `8/m1` tells `parallel` to send it to a ssh host named `m1`, which you can configure in `~/.ssh/config`, and maintain at most 8 tasks on that host.
 `bash -c '{}'` is the actual command to execute on the remote machine, with `{}` as the placeholder for each line from `stdin`.
 `parallel` is much more flexible than this, and I'd leave the exploration of more switches and usage to you. :)
-

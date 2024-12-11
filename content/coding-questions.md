@@ -57,7 +57,7 @@ Tags: Chinese
 
 那么这个面试系列到这里就告一段落了。感兴趣的同学可以看一下：
 
-* [总纲](/new-employee-suggestions.html)
-* [Behavior Questions](/behavior-questions.html)
-* [Coding Questions](/coding-questions.html)
-* [System Design Questions](/ML-system-design-interview.html)
+* [职场新手必备](/new-employee-suggestions.html)
+* [行为问题](/behavior-questions.html)
+* [编程问题](/coding-questions.html)
+* [系统设计](/ML-system-design-interview.html)

@@ -19,14 +19,14 @@ Note wget/curl may not get the download file properly from codeplex, therefore d
  
 Why not using newer version like 2.0 and 2.5?
 Because I haven't figured out how to solve some problems for these versions.
-For 2.0, there is an issue reported in [this post](http://blogengine.codeplex.com/workitem/12077), and 2.5 is targeting at ASP.NET 4.0, which Mono doesn’t support yet.
+For 2.0, there is an issue reported in [this post](http://blogengine.codeplex.com/workitem/12077), and 2.5 is targeting at ASP.NET 4.0, which Mono doesn't support yet.
 There may be solutions, but currently I don't know how.
 Seems 1.6 is the version easiest to port to linux.
 Fortunately this blog is 1.6. :)
  
 Next step of the plan is, to config, deploy and test the overall blog environment in a linux virtual machine.
-If it’s stable enough, I’ll install linux on my server, and use VirtualBox to host the tested virtual image, which avoids reconfiguration, saves time, and makes future deployment more flexible.
+If it's stable enough, I'll install linux on my server, and use VirtualBox to host the tested virtual image, which avoids reconfiguration, saves time, and makes future deployment more flexible.
  
 P.S. But Mono doesn't support ASP.NET 4.0 is really a problem.
 I may still need the server to host some demos written in ASP.NET 4.0... 
-Need to figure it out.
+Need to figure it out. See more discussion in [this post](https://yage.ai/running-aspnet-40-applications-in-debianlinux.html).

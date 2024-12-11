@@ -3,7 +3,7 @@ Date: 2024-09-02 12:45
 Category: Computing
 Tags: AI, Speech Recognition, AssemblyAI, OpenAI, Chinese
 
-在之前我们做了[很多尝试](/GPT-API-usage-creation.html)，使用AI语音识别和AI来辅助进行表达和输入。经过一年多的时间，一方面我觉得这个工具特别有用，可以极大地拓展了我思维的深度，让我不用浪费时间在修改打错的字上；另外一方面，整个系统也经历了很多改动，比如后台的AI从GPT-4换成了Claude 3.5。
+在之前我们做了[一些尝试](/GPT-API-usage-creation.html)，使用AI语音识别和AI来辅助进行表达和输入。经过一年多的时间，一方面我觉得这个[工具特别有用](/GPT-shortcut.html)，可以极大地拓展了我思维的深度，让我不用浪费时间在修改打错的字上；另外一方面，整个系统也经历了很多改动，比如后台的AI从GPT-4换成了Claude 3.5。
 
 最近另外一个问题变得越来越严重，就是我用的语音识别引擎是OpenAI的Whisper API，它变得越来越不稳定，经常显示Timeout需要重试。为了解决这个问题，我尝试过在本地host一个开源的Whisper模型，但是速度比OpenAI的还是要慢很多，他们确实做了很多infrastructure方面的优化。
 

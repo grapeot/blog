@@ -2,6 +2,7 @@ Title: Build a Small-World Fish-Eye Style Panorama
 Category: Computing
 Date: 2012-12-05 21:46
 Tags: Image, Math, PhD, English
+Slug: build-small-world-fisheye-panorama
 Latex:
 
 Sometimes a small-world panorama is quite stunning. For comparison, a regular panorama is shown below.

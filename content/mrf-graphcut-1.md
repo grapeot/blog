@@ -2,6 +2,7 @@ Title: Markov Random Field (MRF) and Graph-Cut (1)
 Category: Computing
 Date: 2011-06-16 03:10
 Tags: PhD, Math, English
+Slug: markov-random-field-and-graph-cut-part-1
 Latex:
 
 

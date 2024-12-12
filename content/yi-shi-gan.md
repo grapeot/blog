@@ -2,6 +2,7 @@ Title: 人为什么需要仪式感？
 Category: Life
 Date: 2016-09-18 22:00
 Tags: Chinese
+Slug: why-do-people-need-a-sense-of-ritual
 
 这是一个[幸存者偏差](https://yage.ai/correctness-is-meaningless.html)的现象，类似陨石总是落到陨石坑里（陨石坑不是陨石掉在那个地方的原因，而是结果），或者维修人员发现空战中飞机总是翅膀中弹（这是因为机身/引擎中弹的飞机已经坠毁了，很少能返回被维修）。在这里，有些仪式不会给人带来快感，它们消失了。有些仪式会给人带来快感，他们留存了下来。给人一种感觉就是人们需要仪式感。
 

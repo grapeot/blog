@@ -2,6 +2,7 @@ Title: Install DotNetBlogEngine 1.6 on Debian
 Date: 2011-12-06 11:06
 Category: Computing
 Tags: Linux, English
+Slug: install-dotnetblogengine-on-debian
 
 The motivation is, I am trying to move this blog to a linux machine. Anyway, in my old server, Windows Server 2008 is rather slow.
  

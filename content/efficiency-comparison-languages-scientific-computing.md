@@ -15,7 +15,7 @@ Please consult the [prezi slides](http://prezi.com/6wpbvnq56ddn/efficiency-compa
  * For loops turn to be "speed killer" in MATLAB and Python. On the contrary, C family languages are able to optimize such loops well.
  * It's also a bit surprising to see C# only costs twice the time as C++. But only limited to tedious imperative style without using any libraries.
  * Functional style (map for Python, arrayfun for MATLAB, LINQ for C#) and imperative style (for for all the three languages) make no difference for MATLAB, but C# prefers imperative style, while Python favors functional style.
- * I'd use C# for its flexibility from dev speed to running speed.
+ * I'd use C# for its flexibility from [dev speed](https://yage.ai/no-silver-bullet-in-scientific-computing.html) to running speed.
 
 Code is available on [github](https://github.com/grapeot/EfficiencyComparison).
 

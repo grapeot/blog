@@ -4,7 +4,7 @@ Tags: Photography, AI, Machine Learning, Object Detection, Raspberry Pi, Chinese
 Date: 2020-06-04 22:00
 Slug: raspberry-pi-object-detection
 
-故事的缘由是晚上睡觉的时候偶尔会听到外面有响动，总是要起来看一下是怎么回事。所以就想着装一个监控相机。正好手头有一个原来做小项目用的树莓派和相机，就贴在阳台上做了一个小相机用来串流。这下在被窝里也可以暗中观察了。
+故事的缘由是晚上睡觉的时候偶尔会听到外面有响动，总是要起来看一下是怎么回事。所以就想着装一个监控相机。正好手头有一个原来做小项目用的[树莓派和相机](https://yage.ai/smart-home-air-quality.html)，就贴在阳台上做了一个小相机用来串流。这下在被窝里也可以暗中观察了。
 
 ![Raspberry pi camera](/images/rpi-od-gears-3.jpg)
 

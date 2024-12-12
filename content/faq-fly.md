@@ -37,5 +37,5 @@ Some higher performance planes which can cruise at 200mph is more expensive, sta
 That really depends, on how expensive your training plane is (a two-seat $99/hour trainer is totally different from a $150 glass cockpit four-seater), and how fast you learn.
 I'd compare it to half of a part-time master's degree, in invested time and money.
 I spent more than $10k given the cheap two-seat trainer cannot hold me, my instructor, and enough fuel, and thus we have to train in the (50%) more expensive trainers.
-And the time span is like half a year, during which time I have to spend nearly 100% of the spare time in learning aircraft systems, aerodynamics, aeronautical risk management, weather system, airspace, navigation, radio communication, (performance) take-offs and landings, and related regulations.
+And the time span is like half a year, during which time I have to spend nearly 100% of the spare time in learning [aircraft systems](https://yage.ai/drone-aerodynamics-a.html), [aerodynamics](https://yage.ai/drone-aerodynamics-b.html), aeronautical risk management, weather system, airspace, navigation, radio communication, (performance) take-offs and landings, and related regulations.
 For me it ends up with 60+ hours logged time, and lots of reference books having read.

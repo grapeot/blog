@@ -51,7 +51,7 @@ Oh shit I just overwrote the unstaged changes!
 
 And they cannot be retrieved back because it's overwriting, not deleting!
 
-当时满脑子想的都是。。自作孽。。不可活啊。。
+当时满脑子想的都是。。[自作孽不可活](https://yage.ai/inspiration-fragments-20131130.html)啊。。
 
 So the lessons are:
 1) Stop doing anything when an emergency happens. Think twice before you act.

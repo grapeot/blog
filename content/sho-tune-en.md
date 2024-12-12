@@ -8,7 +8,7 @@ LaTeX: 1
 Narrowband imaging is a powerful tool to reveal the physical/chemical composition of nebulae.
 Most emission nebulae have a deep red tone if viewed using the regular broadband because excited hydrogen dominates their composition.
 With narrowband imaging, those nebulae would become much more colorful, which is important for both science and artistic effects.
-This post assumes the reader is familiar with narrowband imaging, and introduces a method to create novel palettes other than the popular SHO (the Hubble Palette), HOO, or HSO.
+This post assumes the reader is familiar with [narrowband imaging](https://yage.ai/shen-kong-she-ying-de-meng-xin-fan-mian-zhi-nan-qi-cai-keng.html), and introduces a method to create novel palettes other than the popular SHO (the Hubble Palette), HOO, or HSO.
 From an art point of view, the problem of those palettes is, the saturation of the colors are much too high (pure red, green, or blue).
 Although it's possible to do some hue and saturation adjustment after color synthesis, the degree of freedom is quite limited.
 Therefore, One straightforward question to ask is, if I have a set of colors in mind, is there a way to realize that into an image?

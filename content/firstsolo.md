@@ -5,7 +5,7 @@ Tags: Aviation, Chinese
 
 <img src="images/FirstSolo.jpg" />
 
-终于到了训练的25%处。。放单飞啦! 视频戳这里，自备梯子：[youtube](https://www.youtube.com/watch?v=ciD0mPNDieU)。
+终于到了[训练的25%](https://yage.ai/faqs-to-learning-to-fly.html)处。。放单飞啦! 视频戳这里，自备梯子：[youtube](https://www.youtube.com/watch?v=ciD0mPNDieU)。
 
 单飞的过程比之前想象的顺利很多，尤其是最后一次着陆很完美。突然领悟到教练说，Landing an airplane is just like your first sex with your girlfriend. you slip in a bit, if she doesn't slap you, then try a little more, a little more. If things don't work out, slip out and make corrections… 他说完这个话就下飞机了，然后我就顿悟了着陆水平暴涨。。就是单飞的时候空中突然比较繁忙，无线电声音模糊，飞行员讲话又快，我们这个公共频率还能听到附近机场的通信，妈蛋太挑战听力了，有些没听清楚老担心突然有某位大哥出现在我面前将我击落。。左顾右盼脖子都酸了。。
 

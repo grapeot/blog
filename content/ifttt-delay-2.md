@@ -8,8 +8,8 @@ After I released the [IFTTT delay API](/adding-a-delay-to-ifttt-recipes.html), t
 
 Here is a sample implementation of how to set up the recipes to publish a Blogger post 15 minutes after ublishing a Wordpress post.
 
-<img style="max-width: 640px" src="/images/IFTTT_Wordpress.png" />
+<img style="max-width: 640px" src="/images/IFTTT_Wordpress.png" / alt="IFTTT integration with WordPress for automated blogging" alt="IFTTT integration with Wordpress for automated posts">
 
-<img style="max-width: 640px" src="/images/IFTTT_Blogger.png" />
+<img style="max-width: 640px" src="/images/IFTTT_Blogger.png" / alt="A robot博主creating blog posts Automatically" alt="Person using a laptop with IFTTT and Blogger logos">
 
 Now I can dramatically reduce the number of Maker recipes in order to automate my devices.

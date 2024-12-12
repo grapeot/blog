@@ -4,7 +4,7 @@ Category: Alive
 Tags: Aviation, Chinese
 Slug: first-solo
 
-<img src="images/FirstSolo.jpg" />
+<img src="images/FirstSolo.jpg" / alt="A musician performing a solo on stage" alt="A musician performing a solo guitar act onstage">
 
 终于到了[训练的25%](/faqs-to-learning-to-fly.html)处。。放单飞啦! 视频戳这里，自备梯子：[youtube](https://www.youtube.com/watch?v=ciD0mPNDieU)。
 

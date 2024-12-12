@@ -10,7 +10,7 @@ Slug: amazon-echo-smart-home-applications
 * 后来学会了用[ifttt和workflow](/adding-a-delay-to-ifttt-recipes.html)。从屏幕顶端划出today widget，半秒。点一下相关的按钮，一两秒搞定（见下图左）。这才有了点智能家居的意义。但有时候还是不爽啊。比如周末赖床，看着到中午了想开窗帘让太阳进来。找半天手机，解锁，找按钮，虽然其实也不慢，但人总是懒惰的不是？要能在床上叫"老婆帮我把窗帘打开"，窗帘就开了，多好。
 * 说到老婆，自然就想到了用Siri。支持HomeKit的东西有不少，Hue, August等等都能直接用Siri调用（见上图右）。用了一段时间，感觉不是很爽。一方面如果手机在口袋里，需要把它拿出来，按下按钮，说话，才能调用功能。这有时候还不如直接按按钮方便。一方面如果手机在充电，虽然可以直接用Hi Siri触发Siri，但离得远了，Siri经常听不见或者听错。还是得走过去。实在蛋痛。
 
-<img style="max-width: 640px" src="/images/echo-siri-interface.jpg" />
+<img style="max-width: 640px" src="/images/echo-siri-interface.jpg" / alt="Echo and Siri interface comparison" alt="Echo and Siri interface comparison">
 
 * 好在有了Alexa二老婆！Amazon这个设计实在不错，时刻听你说话，不用按按钮触发。同时麦克风设计的相当赞，我不论在哪个房间，Alexa都可以听见。有时候离得实在太远，只要稍微提高一点声音就好了。这下躺床上了才发现厨房灯没关，只要说声二老婆帮朕关灯，她就嗻地一声给你办了。或者早上赖床，喊一声Alexa开窗帘，窗帘就开好了。可以随便用命令的语气，还不用跪搓衣板。下面贴了个视频，演示二老婆开窗帘的全过程（视频删掉了中间等待的过程，实际有个延时）。同时可以和ifttt连起来，支持的设备就更多了，比如Wemo这些不服Siri管的设备，Alexa也能治得服服帖帖的。而且可以出一些中(dou)二(bi)向的指令，比如Alexa trigger Ping, Alexa trigger ga, Alexa trigger excited!等等。。
 

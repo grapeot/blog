@@ -45,7 +45,7 @@ So I investigated on the Trello API, and wrote a simple `nodejs` script (100+ li
 It pulls out Plus records (as comments) every day, computes the project and task level statistics, draws pie charts, and sends an email to me in the early morning, to help the daily review and planning process.
 A sample email is shown below.
 
-<img style="max-width: 100%" src="/images/TrelloSampleEmail.png" />
+<img style="max-width: 100%" src="/images/TrelloSampleEmail.png" / alt="Email template with Trello task checklist" alt="An email interface showing a Trello board invitation">
 
 ## Overall System
 

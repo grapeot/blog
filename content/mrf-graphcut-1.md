@@ -44,7 +44,7 @@ in which $\lambda(y_i) = \frac{\ln p(y_i|x_i=1)}{\ln p(y_i|x_i=0)}$. Note when $
  
 Another view is graphical model. MRF is a typical undirected graphical model, whose clique contains only two nodes (as the following figure shows). Thus it's easy to write out its potential function the same as $p(X|Y)$ above.
 
-![](/images/mrf_graphical_model.png)
+![Graphical model of MrF illustrating nodes and edges.](/images/mrf_graphical_model.png)
 
 Graphical model view of Morkov Random Field, figure from Pattern Recognition and Machine Learning.
  
@@ -67,11 +67,11 @@ Given the [min-cut/max-flow theorem](http://en.wikipedia.org/wiki/Max-flow_min-c
  
 I did some simple implementations. Here are the results. The first image is the noisy image, the second one is the result from ICM, and the third is from graph-cut. To my surprise, the C++-implemented graph-cut is even several times faster then MATLAB-implemented ICM.
  
-![](/images/mrf_input.jpg) 
+![Man in red fluid attire standing inputting data](/images/mrf_input.jpg) 
 
-![](/images/mrf_icm.jpg)
+![Man in red shirt with ice cream cone](/images/mrf_icm.jpg)
 
-![](/images/mrf_graphcut.jpg)
+![GraphCut algorithm visualization for MRFS](/images/mrf_graphcut.jpg)
 
 Experiment result of MRF-based image restoration. The images are 1) input noisy image, 2) result from ICM, 3) result from graph-cut.
 

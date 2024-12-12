@@ -10,7 +10,7 @@ That is, convex optimization provides a general modeling language, with which it
  
 I used image denoising as the example for quite a few algorithms in the blog [post1, post2, post3], and demonstrated how different algorithms help improve the performance. But what if we treat it as a optimization problem? We wish to have less effort to fix/change the image, and the fixed image tends to have smoother changes, i.e. less variations. This is a typical problem named total variation reconstruction, trying to minimize a weighted sum of some L1 norms, and it's convex! By writing 4 lines of MATLAB code, we get this result: 
  
-![](/images/convex-denoising-result.png)
+![Convex shape after noise removal process](/images/convex-denoising-result.png)
 
 The left one is the noisy image, while the right is the recovered one. Compared with the result from [Loopy Belief Propagation](/markov-random-field-mrf-and-graph-cut-3.html), the improvement is obvious. So we can see that the optimization approach is intuitive to model, fast to implement, and easier to debug. The code written with [CVX](http://cvxr.com/cvx/), a MATLAB convex optimization package, is put as follows for the record. We can see how elegant it is. 
  

@@ -26,5 +26,3 @@ But now since this specific app makes timer so lightweight, combined with [Launc
 And it's quiet and not demanding when its task is done -- but still obvious enough for you to note it.
 Now I can comfortably switching between (small) tasks and don't need to worry about getting distracted to a totally irrelevant task.
 * It's from the same company of [LaunchCenter](http://contrast.co/launch-center-pro/), which means it provides many APIs for other apps to invoke, and also very easy to set with one tap (drag) in LaunchCenter. This is also important to make the previous three usage possible.
-
-![](http://a2.mzstatic.com/us/r30/Purple/v4/d1/c3/fe/d1c3fe7f-ecb8-ff3a-7e14-0394348e1ac6/screen568x568.jpeg)

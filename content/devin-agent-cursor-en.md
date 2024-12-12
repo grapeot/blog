@@ -59,7 +59,7 @@ Another related difference is their management and iteration of knowledge.
 In using Devin, it strongly emphasizes knowledge and experience summary and accumulation.
 For example, in the CVPR crawling example above, I gave feedback: "You need to first check how many articles there are, and if there are many articles, you need to choose to use a program for batch processing." After I gave this feedback, it automatically generated a knowledge entry stating that next time when doing web crawling, it needs to handle situations differently based on the data scale. Then when I asked it to do the CVPR task again, it didn't fall into the same trap.
 
-![Devin accessing knowledge](/images/devin-accessing-knowledge.jpg)
+![Devin accessing knowledge](/images/devin-access-knowledge.jpg)
 
 This design of dynamic iteration and evolution makes the whole process feel especially like mentoring an intern.
 Including when I had Devin onboard a new Github repo, I guided it through initializing the repo, installing various dependencies, and taught it how to run various tests and what indicates which components are working properly.

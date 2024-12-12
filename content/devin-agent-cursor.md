@@ -55,7 +55,7 @@ Cursor能调用的agent主要是文件系统、生成代码和执行命令。
 另一个相关的差别是，他们对于知识的管理和迭代。
 在Devin的使用中他非常强调知识和经验的总结和积累，比如在上面的CVPR抓取的例子里，我给了他一个反馈是："你需要先看一下有多少个文章，如果文章数量多的话，你需要选择用程序来批处理。"在我给了他这个feedback以后，他就自动生成一条知识，说下次如果在做网络抓取的时候，需要根据数据的规模来分情况处理。接着当我又让他做一遍CVPR这个任务之后，他就没有再掉到同样的坑里了。
 
-![Devin accessing knowledge](/images/devin-accessing-knowledge.jpg)
+![Devin accessing knowledge](/images/devin-access-knowledge.jpg)
 
 这种动态迭代与进化的设计，让整个过程特别像带一个实习生。
 包括我让Devin onboard一个新的Github repo的时候，也是我带着他一起去初始化这个repo、安装各种依赖，以及教他怎么样跑各种测试，在什么情况下说明什么组件没有问题。

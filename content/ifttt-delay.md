@@ -2,6 +2,7 @@ Title: Adding a Delay to IFTTT Recipes
 Category: Computing
 Date: 2016-10-04 10:00
 Tags: SmartHome, English
+Slug: adding-delay-to-ifttt-recipes
 
 Ifttt is the de facto hub for [智能家居](https://yage.ai/smart-home-lighting-control.html) now. Nearly everything can be connected to it and personally I have ~20 connected devices (hue, WeMo, echo, lock, thermostat, ...) and tens of recipes. But one thing ifttt still cannot do is adding delay to the recipes. Say, I have a good night trigger which will dim the bedroom lights when Alexa hears I say good night to her. But using official ifttt channels, you cannot further turn off the lights after 15 minutes. There are some discussions [online](http://webapps.stackexchange.com/questions/33674/ifttt-can-you-specify-a-delay-for-an-action) but looks there are no easy solutions yet. 
 

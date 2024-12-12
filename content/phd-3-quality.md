@@ -2,6 +2,7 @@ Title: 3 Qualities of Successful Ph.D. Students: Perseverance, Tenacity and Coge
 Date: 2013-07-16 19:39
 Category: Life
 Tags: PhD, English
+Slug: 3-qualities-of-successful-phd-students
 Summary: It all begins from the blog post [3 qualities of successful Ph.D. students: Perseverance, tenacity and cogency](http://matt.might.net/articles/successful-phd-students/). I put it in our mailing list and here are some insightful disucssion (with authors' permission).
 
 It all begins from the blog post [3 qualities of successful Ph.D. students: Perseverance, tenacity and cogency](http://matt.might.net/articles/successful-phd-students/). I put it in our mailing list and here are some insightful disucssion (with authors' permission).

@@ -1,6 +1,7 @@
 Title: How to shoot photos for the total eclipse
 Category: Life
 Tags: Photography, English
+Slug: how-to-shoot-photos-for-total-eclipse
 Date: 2017-08-15
 
 I was preparing shooting the great total eclipse on 8/21, and learned a lot about shooting with long lenses.

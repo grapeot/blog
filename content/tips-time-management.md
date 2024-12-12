@@ -2,6 +2,7 @@ Title: More Tips about Time Management
 Category: Life
 Date: 2015-02-01 19:00
 Tags: TimeManagement, nodejs, Chinese
+Slug: more-tips-about-time-management
 
 Was keeping thinking about and trying out new time management methods/tools recently, and had some new thoughts.
 I'd share it here and hopefully it can also benefit others.

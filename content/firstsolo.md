@@ -2,6 +2,7 @@ Title: First solo!
 Date: 2014-06-01 19:00:00
 Category: Alive
 Tags: Aviation, Chinese
+Slug: first-solo
 
 <img src="images/FirstSolo.jpg" />
 

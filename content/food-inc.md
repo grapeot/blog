@@ -2,6 +2,7 @@ Title: Food Inc.
 Category: Alive
 Date: 2016-10-16 9:00
 Tags: Chinese
+Slug: food-inc
 
 今天看了一个纪录片叫Food Inc。主题是食品工业已被寡头控制，向上勾结立法执法部门，向下欺压工人农民。导致的后果是食品安全事故频发，大众不健康（肥胖等）。
 具体地说：

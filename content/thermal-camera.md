@@ -74,5 +74,5 @@ One possibly had plastic surgeries before if his/her nose is much cooler than th
 
 In summary, thermal cameras are fun.
 They give us a quantitative metric to do optimization and evaluation.
-It's a thumb rule to have a [measurable and quantifiable metric](https://yage.ai/what-metric-should-you-use-for-weight-management.html) before doing any optimization.
+It's a thumb rule to have a [measurable and quantifiable metric](/what-metric-should-you-use-for-weight-management.html) before doing any optimization.
 Otherwise, one might feel busy, fulfilled, and even accomplished, while bringing no real changes.

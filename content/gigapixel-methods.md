@@ -52,4 +52,4 @@ ICE的主要问题在于太自动化了，有时候出现合成上的瑕疵也�
 * 考虑到现代彩色相机的bayer matrix，drizzle有对应的彩色版本叫drizzle debayer。它的基本思路一致，可以提升色彩准确度和有效分辨率。 
 * 相关的工具有photoshop，deepskystacker
 
-具体可以参考[这篇教程](https://yage.ai/drizzle.html)。
+具体可以参考[这篇教程](/drizzle.html)。

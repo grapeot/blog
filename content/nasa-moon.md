@@ -6,7 +6,7 @@ Tags: 3D, Rendering, Moon, Chinese
 
 一切的起因是在我们的量子键摄法师群里面有dalao提到，希望有一个连续变化的月相的动态壁纸。最好能显出月面的彩色，同时分辨率高一些。我自己虽然也拍月亮，但没有积累足够的数据来显示月相的变化。所以就想着，有没有可能用一个模型来渲染出来一个月面图像呢？经过一些努力，真的成功了。渲染出10k的视频没有问题。4k的效果见这个视频：https://www.bilibili.com/video/BV1wC4y1h7u5/。
 
-整个过程挺有意思的，能够学到一些[3D的基础知识](https://yage.ai/3d-print-faq.html)，记录一下过程。也许对后来的人有帮助。
+整个过程挺有意思的，能够学到一些[3D的基础知识](/3d-print-faq.html)，记录一下过程。也许对后来的人有帮助。
 
 首先整个框架非常简单，月球的3D模型基本上就是一个球。我们往上贴个图就好了。NASA公布了很多月面的高精度地图，比如[这个链接](http://wms.lroc.asu.edu/lroc/view_rdr/WAC_HAPKE_NORMALIZED)，甚至有每个像素400米的高精度图像。其中含有7个波段的黑白图像，和合成出来的RGB图像。
 
@@ -32,11 +32,11 @@ Tags: 3D, Rendering, Moon, Chinese
 
 ![Rendered image with 3D](/images/nasa_moon_with_3d.jpg)
 
-有了这样的渲染模型，下面什么样的图都可以轻松渲染出来了。比如新月（[6k下载地址](https://grapeot.me/images/nasa_moon_waxing_crescent_full.jpg)）：
+有了这样的渲染模型，下面什么样的图都可以轻松渲染出来了。比如新月（[6k下载地址](/images/nasa_moon_waxing_crescent_full.jpg)）：
 
 ![Rendered image](/images/nasa_moon_waxing_crescent.jpg)
 
-甚至月球背面都可以做到（[6k下载地址](https://grapeot.me/images/nasa_moon_back_full.jpg)）：
+甚至月球背面都可以做到（[6k下载地址](/images/nasa_moon_back_full.jpg)）：
 
 ![Rendered image](/images/nasa_moon_back.jpg)
 

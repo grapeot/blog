@@ -5,7 +5,7 @@ Tags: Chinese
 Slug: yage-hobby-nb
 
 有很多人都好奇过，为什么鸭哥有这么多热情和时间来做这么多复杂的 hobby projects，并且把它们做得很深入。
-我一般会打哈哈说因为干啥啥不行，划水第一名。把别人工作的时间都用来做[咖啡](https://yage.ai/HG-1-coffee-grinder-review.html)，做咖啡自然就好喝了。
+我一般会打哈哈说因为干啥啥不行，划水第一名。把别人工作的时间都用来做[咖啡](/HG-1-coffee-grinder-review.html)，做咖啡自然就好喝了。
 但其实仔细想想，这是一个蛮值得深入探讨的问题。
 
 这里面最重要的一个原因，我觉得是对复杂系统的习惯程度，或者说 comfortable with complicated systems。
@@ -14,7 +14,7 @@ Slug: yage-hobby-nb
 我们很难总结出来只要我做ABC，就可以完成XYZ。
 成功有很多条路径，失败的路径更多。
 
-举个例子，[升职加薪](https://yage.ai/four-field-interview.html)是一个非常典型的复杂系统。
+举个例子，[升职加薪](/four-field-interview.html)是一个非常典型的复杂系统。
 你可能做得很好，升职加薪很快，也可能做得不好。
 但是，很难推断其中到底是什么原因能够让你升职加薪得更快。
 大家可能会有一些感觉，会有一些模糊的想法，会做简单的实验，但是很难真的把它归因到某个特定的因素上去。
@@ -30,13 +30,13 @@ Slug: yage-hobby-nb
 
 为什么要强调复杂系统这一点呢？
 是因为绝大多数有意思、或者说有难度的兴趣都属于这种复杂系统。
-比如[摄影](https://yage.ai/focal-length-in-photography.html)，为什么你觉得照出来的照片好看？
+比如[摄影](/focal-length-in-photography.html)，为什么你觉得照出来的照片好看？
 或者咖啡，为什么你觉得出来的这杯咖啡好喝？
-或者[音响设备](https://yage.ai/sound-engineering-1-scientific-hifi.html)，为什么你觉得这首歌用这个器材听得就更好听？
+或者[音响设备](/sound-engineering-1-scientific-hifi.html)，为什么你觉得这首歌用这个器材听得就更好听？
 都牵扯到很多方面，也牵扯到复杂的归因和改进。
 
 而鸭哥的一个特点，就是对这种复杂系统的忍耐程度非常高。
-这可能是因为和[读博](https://yage.ai/phd-master-selection.html)以及职业训练有关。
+这可能是因为和[读博](/phd-master-selection.html)以及职业训练有关。
 在我的整个求学和工作生涯中，每天接触到的都是类似的复杂系统。
 不停地在做针对各种复杂原因的归因和改进。
 而且在走出学校以后，我逐渐发现这其实是一种超能力。

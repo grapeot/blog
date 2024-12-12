@@ -42,7 +42,7 @@ I also invited some friends to take part in the test, and get their heat map. Se
    
 (This looks like a user just finished DotA lol)
 
-About the implementation stage, I am using C# + WinAPI + [PowerShell background task](https://yage.ai/using-a-timer-to-do-time-management.html) to collect mouse positions timely.
+About the implementation stage, I am using C# + WinAPI + [PowerShell background task](/using-a-timer-to-do-time-management.html) to collect mouse positions timely.
 And use a C# script with OpenCV/EmguCV to plot the heat map manually.
 The source codes can be found in the [original post](http://www.cnblogs.com/grapeot/archive/2010/03/01/1675335.html).
 It should be easy to extract the code although the original post is in Chinese.

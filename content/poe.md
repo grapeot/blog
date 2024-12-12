@@ -6,7 +6,7 @@ Slug: poe
 
 今天退订了付费的ChatGPT订阅。
 
-除了GPT的智能水平不断降低、偷懒程度不断升高之外，还有一个重要的原因：我发现了Quora的一个AI平台，叫做Poe。Poe是一个集成式的AI平台和社区，上面可以一站式地使用[GPT](https://yage.ai/ai-coding.html)、Claude、Llama、Flux、Pika等各种开源或闭源的AI模型。而且我发现它可以相当程度上取代ChatGPT的核心功能：
+除了GPT的智能水平不断降低、偷懒程度不断升高之外，还有一个重要的原因：我发现了Quora的一个AI平台，叫做Poe。Poe是一个集成式的AI平台和社区，上面可以一站式地使用[GPT](/ai-coding.html)、Claude、Llama、Flux、Pika等各种开源或闭源的AI模型。而且我发现它可以相当程度上取代ChatGPT的核心功能：
 
 1. 在Poe上，我仍然可以使用最新的GPT-4系列模型。
 2. 它可以分享与AI的聊天记录，而且一个比ChatGPT更好的地方是，分享以后即使删除这个聊天，也不会让分享链接失效。
@@ -27,6 +27,6 @@ Slug: poe
 1. 在这个平台上除了GPT之外，还可以直接使用其他开源或闭源的AI模型，包括Claude。
 2. 可以用同一个prompt，针对不同的AI进行对比，这对于搞清楚不同AI的优势和劣势尤其有帮助。
 3. 它可以对所有AI分享聊天内容，创建类似GPTs的问答机器人，甚至有自己的社区。这等于是把ChatGPT的一系列功能平移搬到了其他AI上。
-4. 一个让我尤其觉得有意思的功能是多bot协作。虽然ChatGPT也有这个功能，但因为大家都是GPT，只是[prompt不同](https://yage.ai/prompt-engineering-guide.html)，换汤不换药，更像是左右互搏。但Poe是真的把不同的模型，不同的modality都混在了一起。比如可以Claude根据简单的提示生成一个完整的prompt，然后把这个prompt扔给Flux生成图片，然后Pika接着从这个图片生成视频。一套体验挺有意思。
+4. 一个让我尤其觉得有意思的功能是多bot协作。虽然ChatGPT也有这个功能，但因为大家都是GPT，只是[prompt不同](/prompt-engineering-guide.html)，换汤不换药，更像是左右互搏。但Poe是真的把不同的模型，不同的modality都混在了一起。比如可以Claude根据简单的提示生成一个完整的prompt，然后把这个prompt扔给Flux生成图片，然后Pika接着从这个图片生成视频。一套体验挺有意思。
 
 总的来说，我觉得PoE是一个优点和缺点都很鲜明的产品。目前来看，对我而言它已经可以完全替代ChatGPT的核心功能。相比于Claude来说，唯一欠缺的也仅仅是Artifact这个独特的GUI而已（至于静态网页预览已经实现了）。接下来我会在进一步试用之后决定要不要把Claude的订阅也取消掉。

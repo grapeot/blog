@@ -28,8 +28,8 @@ Other than shooting for the eclipse, the long lenses are not very useful in the 
 It's not a good deal to buy one just for the eclipse.
 So I did some research on some more economical ways to shoot far away objects, and had some interesting findings.
 
-First we need to understand who need [long lenses](https://yage.ai/lens-chromatic-aberration.html).
-Usually they are two types of people, one is [astrophotographers](https://yage.ai/star-photography-en.html), and the other is birders.
+First we need to understand who need [long lenses](/lens-chromatic-aberration.html).
+Usually they are two types of people, one is [astrophotographers](/star-photography-en.html), and the other is birders.
 Both will have a telescope, but astrophotographers usually use astronomy telescopes, and the birders use spotting scopes.
 There are methods of hooking up a camera with each kind of the telescopes.
 It became especially popular to use a spotting scope to replace a heavy-duty telephoto lens among birders since 1990s.

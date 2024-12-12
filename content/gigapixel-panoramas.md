@@ -8,7 +8,7 @@ Date: 2017-08-03
 
 Bought a camera (Leica SL) recently, and spent some time (and money) on some old Leica R lenses.
 One is 60mm f/2.8 macro with 1:1 adapter, one is 400mm f/6.8.
-I found both of them can be pretty good at making [gigapixel photos](https://yage.ai/gigapixel-photo.html). 
+I found both of them can be pretty good at making [gigapixel photos](/gigapixel-photo.html). 
 
 Traditionally gigapixel panoramas are made by rotating the lens around the nodal point and shooting photos.
 Later, a stitching software is used (e.g. PTGui or Photoshop) to generate the final panorama.

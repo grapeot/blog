@@ -29,4 +29,4 @@ If it's stable enough, I'll install linux on my server, and use VirtualBox to ho
  
 P.S. But Mono doesn't support ASP.NET 4.0 is really a problem.
 I may still need the server to host some demos written in ASP.NET 4.0... 
-Need to figure it out. See more discussion in [this post](https://yage.ai/running-aspnet-40-applications-in-debianlinux.html).
+Need to figure it out. See more discussion in [this post](/running-aspnet-40-applications-in-debianlinux.html).

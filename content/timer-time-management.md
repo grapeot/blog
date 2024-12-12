@@ -10,7 +10,7 @@ a) it will only vibrate once when time is up (no annoying pop-ups, you don't nee
 b) it will change to a stopwatch when the time is up.
 That's it, but I found it's super helpful because of these two simple changes.
 
-* It's perfect for the Pomodoro Technique as introduced in the [previous post](https://grapeot.me/more-tips-about-time-management.html). It does its job while brings the least disturb if you want to concentrate for a while.
+* It's perfect for the Pomodoro Technique as introduced in the [previous post](/more-tips-about-time-management.html). It does its job while brings the least disturb if you want to concentrate for a while.
 And even if you missed some alarm, you can still know how much time you focused. 
 * I get a habit of keep it running now.
 First I estimate this thing will need this much time, and then make timer tick.

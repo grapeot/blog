@@ -18,7 +18,7 @@ Tags: Coffee, Chinese
 
 ![Grind quality](/images/hg1-quality.png)
 
-其中红色的是我的电磨（Eureka Spetialita）。两个感觉[磨豆质量](https://yage.ai/grinder-tech-specs.html)差不多。考虑到电磨大约750刀，手磨1000刀，也算是破解了"同价位的电磨远不如手磨"的迷思。不过也许这个价格里面很大程度是花在了颜值上？
+其中红色的是我的电磨（Eureka Spetialita）。两个感觉[磨豆质量](/grinder-tech-specs.html)差不多。考虑到电磨大约750刀，手磨1000刀，也算是破解了"同价位的电磨远不如手磨"的迷思。不过也许这个价格里面很大程度是花在了颜值上？
 
 关于使用感受：
 
@@ -28,6 +28,6 @@ Tags: Coffee, Chinese
 4. 静电真的是个问题。一定要装随附的塑料小刮子，不然粉全粘在出粉的小盘子上。为什么知道是静电呢，因为放一段时间不管它这个粉会自己掉下来。
 5. 附送的接粉的小盆子很有意思。但可能还是因为静电，无法实现广告里那样随便甩甩就非常顺滑地把粉弄到portafilter里面去，要稍微刮一刮。不过总的来说还是很好用的。
 
-但用手磨有一个不方便的地方，就是每次做咖啡都需要称豆子，不像电磨都是自动计时。所以Lyn Weber还有一个叫[coffee cellar](https://yage.ai/coffee-cellar-comparison.html)的东西，就是一坨试管一样的东西，事先把咖啡豆称好放在里面，要做的时候直接倒出来就好了。但总觉得花275刀买这样一个东西很傻啊。。所以就自己3D打印了一个，感觉海星。
+但用手磨有一个不方便的地方，就是每次做咖啡都需要称豆子，不像电磨都是自动计时。所以Lyn Weber还有一个叫[coffee cellar](/coffee-cellar-comparison.html)的东西，就是一坨试管一样的东西，事先把咖啡豆称好放在里面，要做的时候直接倒出来就好了。但总觉得花275刀买这样一个东西很傻啊。。所以就自己3D打印了一个，感觉海星。
 
 ![Coffee cellar](/images/hg1-cellar.jpg)

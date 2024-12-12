@@ -4,7 +4,7 @@ Category: Computing
 Tags: AI, Machine Learning, Chinese
 Slug: ai-writing-limit
 
-我一直在朋友圈鼓吹[万物皆可AI解决](https://yage.ai/ai-it-impact.html)也不是一两天了，但今天我想唱个反调，自我精神分裂一把。就是说，当我们对[AI的能力边界](https://yage.ai/foundation-models.html)有了一定的了解，知道了哪些事情可以用AI来完成之后，很多时候还是要有所不为，恰当地决定哪些环节让AI介入，以真正实现我们的想要的效果。
+我一直在朋友圈鼓吹[万物皆可AI解决](/ai-it-impact.html)也不是一两天了，但今天我想唱个反调，自我精神分裂一把。就是说，当我们对[AI的能力边界](/foundation-models.html)有了一定的了解，知道了哪些事情可以用AI来完成之后，很多时候还是要有所不为，恰当地决定哪些环节让AI介入，以真正实现我们的想要的效果。
 
 具体来说，前段时间在课代表的号召下幡然醒悟，AI的尽头是卖课。要卖课就需要有一个足够装逼的自我介绍。根据之前我的一向观点，这个东西得试试用AI来说效果怎么样。但和其他任何问题一样，使用AI与否并不是一个非黑即白的问题。很多时候，我们的选择都处于完全使用AI和完全不使用AI之间的某个点。如何选择这个点则是最见功力的地方。
 
@@ -12,7 +12,7 @@ Slug: ai-writing-limit
 
 > Dr. Ya Ge, a visionary in the field of Computer Vision and Machine Learning with a Ph.D. from Columbia University, stands at the forefront of innovative applications of GPT. With 10+ U.S. patents, 20+ papers on top conferences/journals, and impactful algorithms used by billions globally, Ya's expertise bridges the gap between theoretical research and real-world applications. His commitment to exploring GPT's capabilities since its inception underpins his belief that humanity is on the cusp of a new industrial revolution, where proficiency in GPT can provide a decisive productivity advantage. Ya's diverse achievements, from being an Olympic torchbearer to hosting a photography exhibition with Leica, underscore his multifaceted approach to innovation and makes him an unparalleled mentor for those seeking to leverage GPT's transformative power in their professional journey.
 
-第二档是，我人肉挑选了最重要的信息，写了一个提纲，然后用[最直白的语言](https://yage.ai/prompt-engineering-guide.html)口述出来，让AI整理文字。在这种情况下，AI主要承担的是文书工作。以下是AI输出的自我介绍。
+第二档是，我人肉挑选了最重要的信息，写了一个提纲，然后用[最直白的语言](/prompt-engineering-guide.html)口述出来，让AI整理文字。在这种情况下，AI主要承担的是文书工作。以下是AI输出的自我介绍。
 
 > Dr. Ya Ge is deeply committed to creating functional products by developing specific mechanisms, fostering continuous innovation, and utilizing effective tools. His algorithm has been integrated into Photoshop, Bing, and Pinterest, benefiting millions of users. His achievements have also attracted global media attention. Ya has contributed to advancing human science by publishing over 20 papers at top-tier conferences and securing more than 10 U.S. patents. Since the emergence of GPT, Ya has been diligently exploring its potential, gradually forming a strong belief that we are at the cusp of a technological revolution akin to that of steam engines. He posits that individuals proficient in AI could have a significant advantage over those who are not. Leveraging his proven career coaching skills, Ya has discovered a practical and effective method to enhance productivity.
 

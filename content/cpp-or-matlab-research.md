@@ -28,5 +28,5 @@ And if we agree that research is mainly about prototyping in the shortest time, 
 
 Yes.
 
-* No silver bullet. See [my other thoughts](https://yage.ai/no-silver-bullet-in-scientific-computing.html).
+* No silver bullet. See [my other thoughts](/no-silver-bullet-in-scientific-computing.html).
 * Research is about prototyping so choose the tools for fast development and verification. Transfer to other platforms if really reaching the production/demo stage (which, to be honest, is pretty rare in research field)

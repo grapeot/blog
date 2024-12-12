@@ -14,36 +14,36 @@ Slug: maui-hawaii-travel-diary
 
 潜艇的外观（当时正在下潜，旁边那个船是在海面照应的船）
 
-<img src="/images/submarineDiving.jpg" alt="正在下潜的潜艇" />
+<img src="/images/submarineDiving.jpg" alt="正在下潜的潜艇" / alt="Submarine descending into ocean depths">
 
-<img src="/images/submarineDiving2.jpg" alt="正在下潜的潜艇" />
+<img src="/images/submarineDiving2.jpg" alt="正在下潜的潜艇" / alt="Submarine descending into ocean depths">
 
 潜艇的操作间和客舱。其实空间很大，装了50个人左右。
 
-<img src="/images/submarine.jpg" alt="潜艇内部" />
+<img src="/images/submarine.jpg" alt="潜艇内部" / alt="A submarine submerged in dark blue water.">
 
 在海底拍到的蝠鲼（stingray）:
 
-<img src="/images/hawaii_stingrays.gif" alt="Stingrays undersea" />
+<img src="/images/hawaii_stingrays.gif" alt="Stingrays undersea" / alt="Hawaii stingrays swimming in clear blue water">
 
 以及海底的鲨鱼。
 
-<img src="/images/shark.jpg" alt="A shark on the seafloor" />
+<img src="/images/shark.jpg" alt="A shark on the seafloor" / alt="A fierce shark swims in the ocean.">
 
 * 看山。茂宜有个哈喇叽里咕噜火山（好吧是蛤来啊咔啦火山），主要看点是高，视野好，云海，日出，植被变化，顶峰像火星表面。国家公园开车玩就太没创意了，这个有种有意思的玩法是租个自行车骑上去（划掉，疯了啊，3000多米一言不合就飙车要骑上去。。）好吧，其实是自行车公司开个车把你和自行车一起运上去，然后你从上面溜下来。据说06年是从顶峰往下骑，每个月都要出几起事故。后来公园怒了，规定只能从国家公园大门外开始骑，结果事故率骤降，侧面说明了国家公园内部道路维护有多差（划掉，其实是因为公园内部路太陡太险了）。体验了一把，连拍照带骑车，一个小时就速降了一个黄山的高度，带的矿泉水瓶到了山下都瘪得和老年妇女一样。人说上坡如吃翔，下坡如拉稀。来到茂宜岛，不妨尝试一下拉稀35公里的痛快感觉。
 
 峰顶看到的云海：
 
-<img src="/images/cloudsea.gif" alt="峰顶看到的云海" />
+<img src="/images/cloudsea.gif" alt="峰顶看到的云海" / alt="Endless white clouds over a vibrant blue sea.">
 
 骑车下坡时眼前的公路和海湾。
 
-<img src="/images/mauiRoadAndSea.jpg" alt="汽车下坡时眼前的公路海湾" />
+<img src="/images/mauiRoadAndSea.jpg" alt="汽车下坡时眼前的公路海湾" / alt="Road alongside sea in Maui">
 
 * 看景。茂宜的主要地形是三座大山压在全岛人民的头上（划掉）两座大山占据了全岛大部分面积。公路（包括知名的天堂之路）基本都是绕着山走，所以其实整个岛大多数面积车都是到不了的。这时候就要上飞机了。然鹅，我们傻逼地把直升机游览安排在最后一天，因为云层太低毛都看不见而被取消。所以，这里要注意的地方是，如果你想要安排直升机/飞机游览的话，最好安排在比较早的时候，这样即使因为天气被取消也可以重新安排到后面几天。如果像我们一样心疼钱的话不妨安排在最后一天，到时候被取消退款心里还暗爽。。
 * 坑：首先声明，我觉得的坑可能其他人觉得不错，可能只是我没玩好。然后我觉得最大的坑就是什么天堂之路（Road to Hana），674个弯开的老子七荤八素，两边除了瀑布，雨林和大海毛都没有。也可能是其他国家公园已经看腻了，觉得相当一般。旅途中的景点比如伊甸植物园，黑沙滩等等感觉也都是坑，并不好玩。只是黑沙滩所在的州立公园海边的景色挺不错的，还有个blow hole（额。。潮吹洞？）还不错，潮水打过来的时候里面会吹出大风和海水，打围观吃瓜群众一脸。回去一头一墨镜都是盐粒。Hana也是个坑，查了yelp毛好吃的都没有，硬是撑着又原路开回去才吃的饭。潮吹洞的动图见此（7.7M）：
 
-<img src="/images/blowhole.gif" alt="潮吹洞" />
+<img src="/images/blowhole.gif" alt="潮吹洞" / alt="A whale's blowhole spraying mist into the air">
 
 这次还有个收获是被酒店抓过去洗(chuan)脑(xiao)，知道了原来还有timeshare这种东西。大概地说就是夏威夷海滩边上一个两室一厅的房子实在是太贵了（千万人民币起），更关键的是即便有土豪买了一套其实大多数时间也用不上，还是得交给专业公司维护出租。所以有一些公司（比如喜达屋，万豪等等）就建了一个海边的度假村，里面有很多单元房。然后把一套单元房卖给52个人（对应一年52个星期，有产权），大家平均摊钱，轮流来用。没人用的时候就当酒店运营。于是就实现了人人有假度，人人有逼装的大同境界。
 

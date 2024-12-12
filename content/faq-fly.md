@@ -27,7 +27,7 @@ The following prices are all "wet prices", which means it include all fuels, and
 
 If you rent from a flight school or typical FBO (Fixed Base Operator, where you can rent planes and get services in an airport), a four-seater cruising at 150mph usually costs $130/hour if that's "steam-gauged", or $145/hour if that's "glass-cockpit" (like the following image shows) in PNW.
 
-<img style="max-width:720px;" src="images/fly-controls.jpg" alt="Glass cockpit" />
+<img style="max-width:720px;" src="images/fly-controls.jpg" alt="Glass cockpit" / alt="Flight controls including yoke and 仪表板">
 
 But renting from a flying club is usually much cheaper.
 The steam-gauge planes can be $100 per hour, charged by tach time instead of hobbs, which generally counts as an extra 20% off.

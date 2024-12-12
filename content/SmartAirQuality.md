@@ -121,7 +121,7 @@ The only difference is it also has an infrared driving pin ILED for input.
 This pin controls when the infrared is on (high) and when it's off (low).
 According to the [data sheet](https://www.sparkfun.com/datasheets/Sensors/gp2y1010au_e.pdf), in order for the sensor to work accurately, the pin should be driven in a PWM manner (As below).
 
-<img alt="How to drive the ILED pin" src="/images/SharpDustSensorPWM.png" style="max-width: 300px" />
+<img alt="How to drive the ILED pin" src="/images/SharpDustSensorPWM.png" style="max-width: 300px" / alt="PWM signal for sharp dust sensor readings">
 
 It's a trivial task on Arduino because it runs a real time OS, but for Raspberry Pi running multi-tasking OSes like Linux, it's not an easy task.
 Fortunately we have a cool library named [WiringPi](http://wiringpi.com/), which allows us to sleep in hundreds of microsecond level, although it's not guaranteed to be accurate due to the nature of the OS.

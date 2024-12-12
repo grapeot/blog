@@ -2,6 +2,7 @@ Title: Automatic Email Notification on Github Pushes
 Date: 2013-09-24 17:28
 Category: Computing
 Tags: github, Linux, English
+Slug: automatic-email-notifications-for-github-pushes
 
 It would be sweet if we can get auto email notifications whenever someone pushes to our github project.
 Unfortunately, the default email service hook of github only supports 2 email addresses at most. 

@@ -1,6 +1,7 @@
 Title: Photography and optics
 Category: Life
 Tags: Photography, English
+Slug: photography-and-optics
 Date: 2017-08-08
 
 I was learning about photography recently, especially beginning from optics. Surprisingly, some incomplete dots I learned before was connected in the processs.

@@ -2,6 +2,7 @@ Title: Sending Emails from Cygwin
 Date: 2013-03-29 21:28
 Category: Computing
 Tags: Cygwin, Linux, English
+Slug: sending-emails-from-cygwin
 
 Googled a lot but couldn't find tutorials about how to send emails from Windows command line. After playing with the mail tools in Cygwin, found it's pretty straightforward and put it up here for future reference.
 

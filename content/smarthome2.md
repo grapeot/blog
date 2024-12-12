@@ -2,6 +2,7 @@ Title: 自己动手改造智能家居生活（二）
 Category: Computing
 Date: 2016-10-05 09:00
 Tags: SmartHome, Chinese
+Slug: diy-smart-home-life-part-2
 
 一个月前介绍了当前的[智能家居生活](https://zhuanlan.zhihu.com/p/22247615)，最近一个月又有了一些新的探索和心得。
 

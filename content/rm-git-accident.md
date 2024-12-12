@@ -2,6 +2,7 @@ Title: An rm and git accident
 Category: Alive
 Date: 2013-12-13 11:00
 Tags: Linux, Chinese
+Slug: rm-and-git-accident
 
 The background is, I have a git repo of `nodejs` code.
 There is a `controllers` folder in the repo, which I just made some (well, a lot of) changes and am about to commit the staged changes.

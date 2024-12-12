@@ -2,6 +2,7 @@ Title: 慢慢来比较快
 Category: Alive
 Date: 2012-08-26 23:07
 Tags: Chinese
+Slug: slow-and-steady-wins-the-race
 
 其实想说的就是最近的生活渐趋平稳，每天一罐酒，第一箱已经喝完，第二箱刚搬了进来。
 

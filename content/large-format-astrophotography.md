@@ -2,6 +2,7 @@ Title: 用大画幅胶片进行广域深空摄影（一）
 Date: 2020-09-12 22:30
 Category: Life
 Tags: Photography, Astrophotography, Large format, Chinese
+Slug: large-format-film-deep-sky-astrophotography-part-1
 
 用数码相机玩[深空摄影](/astrophoto-tutorial-1.html)玩了一段时间，画幅从1/3"逐渐升级到了全幅。但看着平时摄影玩的都是4x5的胶片，总觉得135小邮票不给力啊老师。所以一直在思考怎么把大画幅也用来拍星云。想想如果能在一张4x5上面放出来M31，实在是太震撼了。这里面的技术挑战非常多。最近雾霾+下雨，终于可以抽一段时间来把这些问题系统性地捋清楚。
 

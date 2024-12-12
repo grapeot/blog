@@ -2,6 +2,7 @@ Title: 夏威夷茂宜岛游记分享
 Category: Alive
 Date: 2016-11-29 10:55
 Tags: Travel, Chinese
+Slug: maui-hawaii-travel-diary
 
 最近去夏威夷茂宜岛玩了一圈，感觉学到不少有意思的东西，写出来分享一下。主要分为两个部分，一个是茂宜岛一些感觉有意思的景点，一个是一种以前不知道的[低价度假的方式](/timesharede-yi-xie-si-kao.html)。
 

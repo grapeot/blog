@@ -2,6 +2,7 @@ Title: Running ASP.NET 4.0 applications in Debian/Linux
 Date: 2011-12-23 11:33
 Category: Computing
 Tags: Linux, English
+Slug: running-aspnet-applications-in-debian-linux
 
 ### Introduction
 

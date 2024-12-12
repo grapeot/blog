@@ -2,6 +2,7 @@ Title: New features of Beamer Writer
 Category: Computing
 Date: 2012-09-08 00:09
 Tags: BeamerWriter, English
+Slug: new-features-of-beamer-writer
 
 Finally time for an upgrade of our [Beamer Writer](http://lab.grapeot.me/beamer/). I added two features recently.
 

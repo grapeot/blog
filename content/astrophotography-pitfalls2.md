@@ -2,6 +2,7 @@ Title: 深空摄影的萌新反面指南——前期坑
 Date: 2020-09-13 22:30
 Category: Life
 Tags: Photography, Astrophotography, Chinese
+Slug: beginners-guide-mistakes-deep-space-photography
 
 在[上一篇文章](/shen-kong-she-ying-de-meng-xin-fan-mian-zhi-nan-qi-cai-keng.html)中我们介绍了关于器材方面的很多萌新坑。这篇文章主要介绍一下我在前期拍摄中踩过的坑。因为坑都是很琐碎的，所以这个主要以FAQ的问答形式展现。每个问答先展示问题所在，然后阐述原因和解决方法。食用方法是，可以先浏览一下，等以后遇到问题的时候再来搜索。此外，这个文章仅仅包括在前期时候就能发现的坑，还有很多陷阱是要到后期才能发现的，我们之后再说。
 

@@ -1,6 +1,7 @@
 Title: 知乎人脸的总结
 Category: Life
 Tags: zhihu, Image Understanding, Research, Chinese
+Slug: zhihu-face-recognition-summary
 Date: 2016-03-20 18:54
 
 在轮带逛的领导下，知乎的秘密已经被发掘得差不多了。。但是，轮子哥毕竟还要休息，要陪AI，还有年薪百万的工作，不能24小时带领大家逛知乎。所以我们搞了一套头像带逛系统，帮助大家根据头像科学follow高质量的用户。大概地说，给定一个用户，这个系统会告诉你哪些用户和这个用户的头像长得像。那什么，种瓜得瓜，种豆得豆。比如你给它一个严肃的卡通人物，它就会告诉你这些用户可以follow：

@@ -2,6 +2,7 @@ Title: Self-Updating Node.js Web App
 Date: 2013-11-25 18:17
 Category: Computing 
 Tags: nodejs, English
+Slug: self-updating-nodejs-web-app
 
 Can a node.js/express.js web app update itself from a github repo? (i.e. whenever we do a `git push` to github, the server side will also use `git pull` to update itself)
 

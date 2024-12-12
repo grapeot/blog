@@ -2,6 +2,7 @@ Title: 快乐的因素
 Category: Alive
 Date: 2012-08-20 3:50
 Tags: Chinese
+Slug: factors-of-happiness
 
 从加州回纽约，着实适应了一个星期。期间经历了寂寞，孤单，PhD life的压力，当然也离不开朋友的支持。痛苦之余难免自问，到底为什么不开心？什么样的生活是快乐的，是自己真正喜欢的呢？
 

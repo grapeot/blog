@@ -92,22 +92,59 @@ def process_file(filepath):
         logger.error(f"Error processing {filepath}: {e}")
         return False
 
+def update_todo(filepath):
+    """Mark a file as processed in todo.txt."""
+    todo_path = os.path.expanduser("~/todo.txt")
+    try:
+        with open(todo_path, "r", encoding='utf-8') as f:
+            lines = f.readlines()
+
+        with open(todo_path, "w", encoding='utf-8') as f:
+            for line in lines:
+                if filepath in line and "[ ]" in line:
+                    f.write(line.replace("[ ]", "[x]"))
+                else:
+                    f.write(line)
+    except Exception as e:
+        logger.error(f"Failed to update todo.txt: {e}")
+
+def get_unprocessed_files():
+    """Get list of unprocessed files from todo.txt."""
+    todo_path = os.path.expanduser("~/todo.txt")
+    unprocessed = []
+    try:
+        with open(todo_path, "r", encoding='utf-8') as f:
+            for line in f:
+                if "- [ ]" in line:
+                    filepath = line.strip().replace("- [ ] ", "")
+                    unprocessed.append(filepath)
+    except Exception as e:
+        logger.error(f"Failed to read todo.txt: {e}")
+    return unprocessed
+
 def main():
-    """Main function to process a single file."""
-    if len(sys.argv) != 2:
-        logger.error("Usage: python3 process_links.py <markdown_file>")
-        sys.exit(1)
-
-    filepath = sys.argv[1]
-    if not os.path.exists(filepath):
-        logger.error(f"File not found: {filepath}")
-        sys.exit(1)
-
+    """Main function to process all unprocessed files."""
     if not setup_logging():
         sys.exit(1)
 
-    success = process_file(filepath)
-    sys.exit(0 if success else 1)
+    files = get_unprocessed_files()
+    if not files:
+        logger.info("No files to process")
+        sys.exit(0)
+
+    processed_count = 0
+    for filepath in files:
+        if not os.path.exists(filepath):
+            logger.error(f"File not found: {filepath}")
+            continue
+
+        logger.info(f"Processing {filepath}...")
+        if process_file(filepath):
+            update_todo(filepath)
+            processed_count += 1
+
+    logger.info(f"Processed {processed_count} files")
+    sys.exit(0 if processed_count > 0 else 1)
 
 if __name__ == "__main__":
     main()

@@ -10,7 +10,7 @@ Slug: esp32-cam-1
 
 ![Final product](/images/esp32_cam_case.jpg)
 
-Micro-USB口供电，有图形化Web界面，可以在电脑和手机上访问串流，支持[基于深度学习的物体检测和报警](http://grapeot.me/raspberry-pi-object-detection.html)。同时和[Alexa可以联动](https://yage.ai/smart-home-air-quality.html)。比如可以跟Alexa说，"turn on camera one"，手机就会收到一个推送，上面是这个相机的画面，点进去可以跳转到图形化界面里面去看实时场景。
+Micro-USB口供电，有图形化Web界面，可以在电脑和手机上访问串流，支持[基于深度学习的物体检测和报警](/raspberry-pi-object-detection.html)。同时和[Alexa可以联动](/smart-home-air-quality.html)。比如可以跟Alexa说，"turn on camera one"，手机就会收到一个推送，上面是这个相机的画面，点进去可以跳转到图形化界面里面去看实时场景。
 
 ![Notification](/images/esp32_cam_notification.jpg)
 
@@ -22,7 +22,7 @@ Micro-USB口供电，有图形化Web界面，可以在电脑和手机上访问�
 ESP8266是一个类似Arduino升级版的单片机（也许可以这么叫？）。
 它的CPU，内存，存储空间都比Arduino强很多，带Wifi，而且开发板也很便宜，贸易战前只要不到2美元。
 可以用Arduino IDE或者Visual Studio开发调试，用Arduino C或者MicroPython。
-这里走个题，我觉得ESP8266其实也是[树莓派的直接竞争对手](https://yage.ai/smart-home-air-quality.html)。
+这里走个题，我觉得ESP8266其实也是[树莓派的直接竞争对手](/smart-home-air-quality.html)。
 你看网上那些树莓派的使用示例，很多是用GPIO口拿来读传感器的。
 毕竟现在家里都有老电脑，如果只是拿来当个媒体服务器啊啥的，直接用老电脑一分钱都不花没有购买树莓派的动力。
 但读传感器这种事情ESP8266也可以干，带Wifi也很方便，稳定性更好，买一个树莓派的钱能买20个，它不香吗？
@@ -108,7 +108,7 @@ v1虽然已经是一个比较实用的监控相机了，但用起来还是不够
 
 解决了语音控制的问题，第二步就是和Apple Watch集成起来了。
 这里我用的是IFTTT这个服务。
-它也是个老牌的[智能家居的服务](https://yage.ai/adding-a-delay-to-ifttt-recipes.html)了，提供WebHook功能，也就是如果某个URL被访问的话，就可以做一些动作，比如在手机上弹个提醒之类。
+它也是个老牌的[智能家居的服务](/adding-a-delay-to-ifttt-recipes.html)了，提供WebHook功能，也就是如果某个URL被访问的话，就可以做一些动作，比如在手机上弹个提醒之类。
 这个提醒是可以有一些更多的数据的，比如提供一个缩略图，可以点进一个链接等等。
 所以我们就是在这个Wemo插座打开的回调函数里面向IFTTT发送一个请求就好，然后手机和Apple Watch就会弹出通知和缩略图了。
 

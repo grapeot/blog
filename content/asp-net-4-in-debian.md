@@ -24,7 +24,7 @@ There are also tools written by others to simplify this process. For example, [t
 
 But the problem doesn't stop here, especially if we are trying to migrate .NET applications to Mono. One serious issue is the difference of file systems of Linux and Windows. Windows simply ignores all the letter cases in the path, while Linux doesn't, i.e. Bin != bin in Linux. Fortunately, Mono provides a simple solution or switch [IOMap](http://www.mono-project.com/IOMap).
 
-I did succeed in migrating some simple applications. But [DotNetBlogEngine](https://yage.ai/install-dotnetblogengine-16-on-debian.html) seems not that easy. I can make the homepage display normally, but clicking any link will cause a 500 internal error. Don't know what's going on inside because I even cannot find error logs (not the logs for nginx, but for FastCGI). For suggestions about more general migration from .NET to Mono, Novell has [a good article](http://www.novell.com/connectionmagazine/2010/02/mono_tools.html) and several useful tools.
+I did succeed in migrating some simple applications. But [DotNetBlogEngine](/install-dotnetblogengine-16-on-debian.html) seems not that easy. I can make the homepage display normally, but clicking any link will cause a 500 internal error. Don't know what's going on inside because I even cannot find error logs (not the logs for nginx, but for FastCGI). For suggestions about more general migration from .NET to Mono, Novell has [a good article](http://www.novell.com/connectionmagazine/2010/02/mono_tools.html) and several useful tools.
 
 ### Windows or Linux on this server?
 

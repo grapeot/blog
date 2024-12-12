@@ -12,7 +12,7 @@ Slug: black-and-white-photo-colorization
 
 ![Astrophotography filters](/images/blackandwhite-color-filter-professional.JPG)
 
-可以发现，后者一方面截止频率非常明晰，直上直下；一方面效率也是校准好的，不需要进行亮度调整。所以启发我做一个实验，如果我们用专业的天文摄影的颜色滤镜，加上[黑白相机](https://yage.ai/yasselblad.html)，这样有可能得到更准确的颜色吗？于是我买了2英寸的LRGB和。。肯定是买不起8495美元的徕卡M10M的，于是我买了一卷黑白胶卷，装在了[中画幅相机](https://yage.ai/full-frame-and-medium-format-1.html)上，用RGB三个滤镜，分别拍摄一个场景，然后把黑白胶片冲洗出来。这样立省8500！
+可以发现，后者一方面截止频率非常明晰，直上直下；一方面效率也是校准好的，不需要进行亮度调整。所以启发我做一个实验，如果我们用专业的天文摄影的颜色滤镜，加上[黑白相机](/yasselblad.html)，这样有可能得到更准确的颜色吗？于是我买了2英寸的LRGB和。。肯定是买不起8495美元的徕卡M10M的，于是我买了一卷黑白胶卷，装在了[中画幅相机](/full-frame-and-medium-format-1.html)上，用RGB三个滤镜，分别拍摄一个场景，然后把黑白胶片冲洗出来。这样立省8500！
 
 ![Mounted](/images/blackandwhite-color-filter-mounted.jpg)
 

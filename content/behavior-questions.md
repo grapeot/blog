@@ -4,9 +4,9 @@ Date: 2023-08-26 23:30
 Slug: behavior-questions
 Tags: Chinese
 
-在之前的文章中，我们已经介绍过[Coding面试](https://yage.ai/coding-questions.html)和[System Design面试](https://yage.ai/system-design-interview.html)。这次，我们打算讨论在Project Experience和Behavior面试中，面试官主要关注的信号是什么，以及如何为这些面试做准备。
+在之前的文章中，我们已经介绍过[Coding面试](/coding-questions.html)和[System Design面试](/system-design-interview.html)。这次，我们打算讨论在Project Experience和Behavior面试中，面试官主要关注的信号是什么，以及如何为这些面试做准备。
 
-从大的方面来看，[Coding面试](https://yage.ai/coding-questions.html)主要考察的是编码和调试的能力，而[系统设计面试](https://yage.ai/system-design-interview.html)则主要看你在软件工程方面的思维深度和熟练程度。至于Project Experience和Behaviour Question，主要是考察你在工程内外的思维深度。具体来说，面试官在进行Behavior面试时，主要关注三个方面：一是你的项目scope有多大，impact有多广；二是从工程决策或实践的角度看，你是否展现出深度思考或优秀特质；三是从工程之外的角度，如主动性或沟通等软实力方面，你是否有深度思考和熟练度。我们经常在网上看到一些Behavior Question很空洞，比如让你谈谈过去的项目中出现的错误、失败，以及你从中学到的经验教训，或者你和其他组员或老板之间的冲突，是如何解决的。很多网上的教程都建议你避重就轻，不要谈论真正的失败，或者要靠近Leadership Principle。虽然有些公司可能有自己的特殊情况，比如麻厂的Behaviour Question可能就要靠近Leadership Principle，但总的来说，我并不赞同这种观点。
+从大的方面来看，[Coding面试](/coding-questions.html)主要考察的是编码和调试的能力，而[系统设计面试](/system-design-interview.html)则主要看你在软件工程方面的思维深度和熟练程度。至于Project Experience和Behaviour Question，主要是考察你在工程内外的思维深度。具体来说，面试官在进行Behavior面试时，主要关注三个方面：一是你的项目scope有多大，impact有多广；二是从工程决策或实践的角度看，你是否展现出深度思考或优秀特质；三是从工程之外的角度，如主动性或沟通等软实力方面，你是否有深度思考和熟练度。我们经常在网上看到一些Behavior Question很空洞，比如让你谈谈过去的项目中出现的错误、失败，以及你从中学到的经验教训，或者你和其他组员或老板之间的冲突，是如何解决的。很多网上的教程都建议你避重就轻，不要谈论真正的失败，或者要靠近Leadership Principle。虽然有些公司可能有自己的特殊情况，比如麻厂的Behaviour Question可能就要靠近Leadership Principle，但总的来说，我并不赞同这种观点。
 
 我认为，behavior question的本质是为candidate提供一个展示自己的机会。它的真正目的并不是让你在一个虚拟的场景问题中，用一些含糊其辞的故事来回避问题，让面试官觉得你没有明显的缺点。如果你真的这样做，那就太浪费这个机会了。实际上，我们应该把behavior question看作是一个展示自我能力和思维深度的机会。有些人可能会说，由于各种主观和客观的原因，他们的项目可能只影响到一两个人或者一个小团队，所以他们的scope并不大。对于这种情况，我想说的是，scope并不是决定性的因素。真正决定性的因素是你的思维深度和熟练程度，无论是在工程内还是工程外。接下来，我们将用上述两个behavior question作为例子，简单介绍一下如何把握这样的问题，将其视为一个展示自己的机会，并简单分析一下面试官从这些回答中能得到什么样的signal。
 
@@ -30,4 +30,4 @@ Tags: Chinese
 
 总的来说，当面对"你和其他人，包括同事和老板之间是否有过冲突"的问题时，回答不仅仅是"有冲突，我通过实验说服了他们"，或者"有冲突，我选择了disagree and commit"。这些直观的答案只是问题的一部分，这个问题其实是一个舞台，你可以在上面描述复杂的情境和思考过程，这才是面试官真正想看到的，也是他们能收集到足够多signal的回答。
 
-因此，通过这两个示例的题目和回答，我认为behavior questions既可以提前准备，又不能提前准备。如果你只是简单地查看网上的常见的behavior question，并提前准备答案，这在节省时间和提高答题熟练程度方面确实有一定的优势。但是，这并不能有效提升你的回答深度，也不能有效地给出一些额外的正面signal，因为这些正面signal取决于你的思考深度和视野，这通常是无法在短期内有效提升的。然而，behavior question又是可以有效准备的，因为网上的这些问题，每一个都是你在工作中需要注意的地方。如果你真的把它当作一个职业发展问题来思考，而不是当作一个面试题来准备。如果长期对照自己现有的工作项目进行思考，这通常是一个非常有效的提升自己深度的方法，甚至还可以让你在工作中有实质性的提升。从这个角度来看，behavior question又是可以准备的，但这种准备并不是投机取巧的准备，而是实实在在的准备，就像[写简历](https://yage.ai/new-employee-suggestions.html)最好的方法是通过工作来写简历一样。
+因此，通过这两个示例的题目和回答，我认为behavior questions既可以提前准备，又不能提前准备。如果你只是简单地查看网上的常见的behavior question，并提前准备答案，这在节省时间和提高答题熟练程度方面确实有一定的优势。但是，这并不能有效提升你的回答深度，也不能有效地给出一些额外的正面signal，因为这些正面signal取决于你的思考深度和视野，这通常是无法在短期内有效提升的。然而，behavior question又是可以有效准备的，因为网上的这些问题，每一个都是你在工作中需要注意的地方。如果你真的把它当作一个职业发展问题来思考，而不是当作一个面试题来准备。如果长期对照自己现有的工作项目进行思考，这通常是一个非常有效的提升自己深度的方法，甚至还可以让你在工作中有实质性的提升。从这个角度来看，behavior question又是可以准备的，但这种准备并不是投机取巧的准备，而是实实在在的准备，就像[写简历](/new-employee-suggestions.html)最好的方法是通过工作来写简历一样。

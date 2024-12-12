@@ -4,7 +4,7 @@ Category: Life
 Slug: hermes-scarf-photography
 Tags: Still life, Macro, Photography, Chinese
 
-最近家里挂的丝巾挂了几年了，终于换了一条。以前挂的丝巾特别喜欢，现在也绝版了买不到了，所以就想着先拍一张照片留念一下，同时也作为一个测试，看看能不能再弄一张[超过10亿像素的照片](https://yage.ai/gigapixel-photo.html)出来。因为是接片不做摇摇乐，也许技术难度低一些。最终的效果是这样的：
+最近家里挂的丝巾挂了几年了，终于换了一条。以前挂的丝巾特别喜欢，现在也绝版了买不到了，所以就想着先拍一张照片留念一下，同时也作为一个测试，看看能不能再弄一张[超过10亿像素的照片](/gigapixel-photo.html)出来。因为是接片不做摇摇乐，也许技术难度低一些。最终的效果是这样的：
 
 ![Final results](/images/hermes-scarf-horse-result.jpg)
 
@@ -22,6 +22,6 @@ Tags: Still life, Macro, Photography, Chinese
 	2. 一个是即使全部拍完了，接图因为各种原因还是可能会失败。这个时候就要迭代，看看到底是什么地方挂了，把那一块的图删的删，重拍的重拍，然后再试一次。
 	3. 当像素过多的时候也有个坑。这时候什么Lightroom, Photoshop肯定都不用想了，Microsoft ICE是唯一可行的工具。但这个工具有个坑是，当图片过大的时候没办法导出成tiff只能导出成psb。但psb的导出比tiff慢很多很多，可能要几天时间。所以一个解决办法是，可以先在LR里面修图，然后导出成tiff，在ICE里合成，然后直接导出成jpg。这个很快。最后再稍微修一下就可以出片了。
 
-感觉都是非常专门的没用的知识。只能当一个总结参考吧，也许未来有同学要做[高分辨率接片](https://yage.ai/ssd-raid-exp.html)能用得上。至于这个老的丝巾换成了什么呢，变成了这个沙雕风格hhhhh：
+感觉都是非常专门的没用的知识。只能当一个总结参考吧，也许未来有同学要做[高分辨率接片](/ssd-raid-exp.html)能用得上。至于这个老的丝巾换成了什么呢，变成了这个沙雕风格hhhhh：
 
 ![New scarf](/images/hermes-scarf-motorcycle.jpg)

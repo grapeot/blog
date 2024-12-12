@@ -62,4 +62,4 @@ Tags: Wechat, AI, Bot, Image Understanding, Chinese
 <img src="/images/wechat-bot-tag-cloud-7.jpg" alt="Sample tag cloud" style="max-width: 600px">
 
 所以在某种程度上，这个机器人已经可以理解大家说话的内容了。比如可以区分内容中独特的部分。这对于分类，聚类等等进一步的应用都是非常有帮助的。如果你有什么有意思的应用，也可以在评论中提出来，我们来帮你实现。
-代码也已经开源[ [github]](https://github.com/grapeot/WechatForwardBot)。此外，你也可以了解[斗图功能的开发](https://yage.ai/wechat-bot-3.html)和[自动转发功能](https://yage.ai/wechat-bot.html)。
+代码也已经开源[ [github]](https://github.com/grapeot/WechatForwardBot)。此外，你也可以了解[斗图功能的开发](/wechat-bot-3.html)和[自动转发功能](/wechat-bot.html)。

@@ -20,7 +20,7 @@ But this habit will help reveal out problems often and quick, and push us out of
 
 ## Plus for Trello
 
-Since I generally use [Trello](https://trello.com/) to [manage time and projects](https://yage.ai/using-trello-to-do-time-management.html), a tool to record my time on each project and task would be extremely useful.
+Since I generally use [Trello](https://trello.com/) to [manage time and projects](/using-trello-to-do-time-management.html), a tool to record my time on each project and task would be extremely useful.
 Previously I paid $60/year for [RescueTime](https://www.rescuetime.com/), which uses a system-wide app to monitor the title of the active window to provide an automatic time recording.
 But it still lacks finer-scale ability to tell which project I am working on, especially when most of my work was performed in a terminal.
 That turned me to [Plus for Trello](https://chrome.google.com/webstore/detail/plus-for-trello-time-trac/gjjpophepkbhejnglcmkdnncmaanojkf?hl=en), which provides card-level time recording and analysis as a Chrome Extension.
@@ -49,7 +49,7 @@ A sample email is shown below.
 
 ## Overall System
 
-The development of this automatic system fills the last part in my [overall time management system](https://yage.ai/yi-xie-guan-yu-shi-jian-guan-li-de-zong-jie.html).
+The development of this automatic system fills the last part in my [overall time management system](/yi-xie-guan-yu-shi-jian-guan-li-de-zong-jie.html).
 The basic principles are (_italic fonts_ denote Trello terminologies): 
 
 * Tasks are arranged as _cards_ on Trello, with progress and thoughts in the _description_, and project as _labels_.

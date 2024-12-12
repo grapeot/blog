@@ -11,7 +11,7 @@ Besides GPT's declining intelligence and increasing laziness, there's another im
 1. On Poe, I can still use the latest GPT-4 series models.
 2. It allows sharing chat histories, and a better feature compared to ChatGPT is that even if you delete the chat after sharing, the link remains valid.
 3. It also has features similar to GPTs, allowing prompt reuse, file uploads, and knowledge-based Q&A.
-4. For [GPTs applications](https://yage.ai/GPT-product-iteration-en.html) based on your own server, Poe offers a better experience with fewer restrictions. For example, GPTs require a one-question-one-answer interaction between the bot and the user, but Poe allows users to ask a question and have the bot dynamically update its response while thinking. Additionally, its timeout mechanism is more flexible.
+4. For [GPTs applications](/GPT-product-iteration-en.html) based on your own server, Poe offers a better experience with fewer restrictions. For example, GPTs require a one-question-one-answer interaction between the bot and the user, but Poe allows users to ask a question and have the bot dynamically update its response while thinking. Additionally, its timeout mechanism is more flexible.
 
 However, compared to ChatGPT, it also has a few limitations:
 

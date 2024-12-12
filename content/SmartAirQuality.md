@@ -171,8 +171,8 @@ Find a 20inch box fan, and a 20 or 21 inch furnace filter.
 Use a tape or whatever to stick them together.
 Bang, it's done.
 A small trick is, you can actually use some WiFi plugins to make it "smart" and controllable from Raspberry Pi.
-Wemo and [IFTTT的Maker Channel](https://yage.ai/adding-a-delay-to-ifttt-recipes.html) can do this job pretty well.
+Wemo and [IFTTT的Maker Channel](/adding-a-delay-to-ifttt-recipes.html) can do this job pretty well.
 The only concern is, the WiFi plugin is sometimes even more expensive than the purifier itself.
 
-In summary, the take-away message I wish you to remember is not (only) how to wire the sensors, how to read GPIO code to read the metrics, and how to write Tornado apps to host them on a website, but more importantly, the idea of [test-driven development](https://yage.ai/3-qualities-of-successful-phd-students-perseverance-tenacity-and-cogency.html), the importance of reading data sheets, and the general idea of putting everything together to build a reliable and easy-to-use system.
+In summary, the take-away message I wish you to remember is not (only) how to wire the sensors, how to read GPIO code to read the metrics, and how to write Tornado apps to host them on a website, but more importantly, the idea of [test-driven development](/3-qualities-of-successful-phd-students-perseverance-tenacity-and-cogency.html), the importance of reading data sheets, and the general idea of putting everything together to build a reliable and easy-to-use system.
 Hope this post is useful.

@@ -8,7 +8,7 @@ Long time no updates here... Need to have some fresh new start. Anyway, blog is 
  
 ### Record the life
 
-As getting busier, it's also harder for friends to get to know your life. As a PhD student, with less time for twittering, fbing, and calling with friends, blog is becoming one of the few ones surviving for friends to know me. That pushes me to restart the posts with "Alive" tags, which is for recording the life. This tag was closed for about 2 years because I just want to make the blog look professional, but it seems the [demo website](http://lab.grapeot.me/) and the academic homepage fit better.
+As getting busier, it's also harder for friends to get to know your life. As a PhD student, with less time for twittering, fbing, and calling with friends, blog is becoming one of the few ones surviving for friends to know me. That pushes me to restart the posts with "Alive" tags, which is for recording the life. This tag was closed for about 2 years because I just want to make the blog look professional, but it seems the [demo website](/) and the academic homepage fit better.
 
 So, will try to make this a frequently-updating place, and hopefully you'll see my life here, unlike the fragments in facebook.
  
@@ -24,4 +24,4 @@ Time for the first series of the goals.
 2. Jog every two days till leaving for intern.
 3. Do morning reading till intern ends.
 
-In summary, feeling a [new life](https://yage.ai/inspiration-fragments-20131130.html) growing with the semester ends. Let it begin.
+In summary, feeling a [new life](/inspiration-fragments-20131130.html) growing with the semester ends. Let it begin.

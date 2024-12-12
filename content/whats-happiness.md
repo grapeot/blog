@@ -16,4 +16,4 @@ Slug: factors-of-happiness
 
 所以最终的结论就是良好的客观环境或者真心热爱的明确的工作内容至少得有一个才能过得开心。要不让平时工作的内容变成享受，要不就让工作的过程变成享受。至于生活中的吃喝玩乐，总有办法开心的。从公司的角度来说，如果想让员工过得爽从而留在这里的话，也是从这两个方面着手。
 
-所以从明天开始，要早起去Low steps早读，多去图书馆和草地上工作。还要尽快把下一波research的具体问题明确出来。嗯，[慢慢来比较快](https://yage.ai/man-man-lai-bi-jiao-kuai.html)。Bear patience in mind, 开始行动吧。
+所以从明天开始，要早起去Low steps早读，多去图书馆和草地上工作。还要尽快把下一波research的具体问题明确出来。嗯，[慢慢来比较快](/man-man-lai-bi-jiao-kuai.html)。Bear patience in mind, 开始行动吧。

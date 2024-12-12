@@ -62,7 +62,7 @@ Compact yet flexible syntax. The unique syntax like pattern matching, treating t
     :::fsharp
     match mandelbrot (Complex(x, y)) with | DidNotEscape -> (x, y, 0) | Escaped i -> (x, y, i)
 
-Convenient collection interfaces. F# not only supports traditional functional ones like map, filter, fold, and also lazy sequence generation. The keywords like yield makes long [LINQ statements](https://yage.ai/efficiency-comparison-among-several-platforms-for-scientific-computing.html) in C# like nested SelectMany and Select pretty easy and intuitive to write. An example is the kochChange function above.
+Convenient collection interfaces. F# not only supports traditional functional ones like map, filter, fold, and also lazy sequence generation. The keywords like yield makes long [LINQ statements](/efficiency-comparison-among-several-platforms-for-scientific-computing.html) in C# like nested SelectMany and Select pretty easy and intuitive to write. An example is the kochChange function above.
 
 Easy asynchronous and parallel programming, such as non-blocked operations, parallel operations, etc. This is clearly illustrated in Don's post.
  

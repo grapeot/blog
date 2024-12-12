@@ -15,7 +15,7 @@ Tags: Wechat, AI, Bot, Image Understanding, Chinese
 
 ---
 
-花了几个小时用Caffe撸了个最简单的[斗图机器人](https://yage.ai/wechat-bot-2.html)，现在逐渐可以理解聊天的内容了。大概的思路是用随便什么网络把表情库都抽出来一个feature，然后形成一个内容数据库。如果有人在群里发图的话，抽feature，在数据库里面找最近邻，做一些简单的dedup。然后把最像的图发回去。效果意外地好。在一些不知情的群里面跟人直接斗起来了。。
+花了几个小时用Caffe撸了个最简单的[斗图机器人](/wechat-bot-2.html)，现在逐渐可以理解聊天的内容了。大概的思路是用随便什么网络把表情库都抽出来一个feature，然后形成一个内容数据库。如果有人在群里发图的话，抽feature，在数据库里面找最近邻，做一些简单的dedup。然后把最像的图发回去。效果意外地好。在一些不知情的群里面跟人直接斗起来了。。
 
 <img src="/images/wechat-bot-image-understanding-1.jpg" alt="Meme fight" style="max-width: 600px">
 

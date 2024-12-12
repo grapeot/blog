@@ -4,7 +4,7 @@ Date: 2014-11-08 20:00
 Tags: AWS, github, English
 Slug: easy-ec2-sharing-while-you-pay
 
-AWS is becoming more and more useful for our research, given its [ease to build clusters](https://grapeot.me/easy-and-cheap-cluster-building-on-aws.html), and the generous sponsor from [people.co](http://blog.people.co/?p=90), we are using it extensively for research.
+AWS is becoming more and more useful for our research, given its [ease to build clusters](/easy-and-cheap-cluster-building-on-aws.html), and the generous sponsor from [people.co](http://blog.people.co/?p=90), we are using it extensively for research.
 To save cost, we definitely want to shut the machines down when they are not in use.
 However, the fact that I am the "manager" who pays the bill also means only I can turn on the machine through the AWS console.
 

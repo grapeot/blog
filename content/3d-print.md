@@ -10,7 +10,7 @@ Slug: 3d-print-faq
 ## 3D打印有什么用？
 
 不同的人用3D打印干的事情是不一样的。
-比如我主要用来打印各种工件，比如[相机的转接环](https://yage.ai/yong-3dda-yin-jiang-leica-sljing-tou-zhuan-jie-dao-tian-wen-xiang-ji-de-yi-xie-chang-shi.html)，喂鸟的盒子，手机支架，敲咖啡渣的盒子等等。
+比如我主要用来打印各种工件，比如[相机的转接环](/yong-3dda-yin-jiang-leica-sljing-tou-zhuan-jie-dao-tian-wen-xiang-ji-de-yi-xie-chang-shi.html)，喂鸟的盒子，手机支架，敲咖啡渣的盒子等等。
 也有人喜欢手办，用打印机打印底模然后抛光喷漆上色。
 有人喜欢铸造，用打印机打印出来翻模铸造。
 

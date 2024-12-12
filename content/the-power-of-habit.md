@@ -55,7 +55,7 @@ Keep doing this, and with the help of the cue and rewards, this process can be m
 ## The willpower
 
 What if the routine itself is miserable?
-Usually you have to use your [willpower](https://yage.ai/reading-notes-the-willpower-instinct.html).  
+Usually you have to use your [willpower](/reading-notes-the-willpower-instinct.html).  
 Research shows that willpower is like muscle.
 It will be tired if being overused, but will also grow when you use it often.
 So the correct way to cultivate it is like working out.

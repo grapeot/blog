@@ -6,7 +6,7 @@ Slug: be-an-observer
 
 ### Looking Down at Yourself
 
-After doing meditation for years, reading about [self-control/willpower stuffs](https://yage.ai/reading-notes-the-willpower-instinct.html), and receiving professional pilot training, I gradually notice an interesting status -- being an observer.
+After doing meditation for years, reading about [self-control/willpower stuffs](/reading-notes-the-willpower-instinct.html), and receiving professional pilot training, I gradually notice an interesting status -- being an observer.
 This is in contrast with the status of being a star in your own stage, diving in the surroundings and reacting relying on the first reactions.
 Being an observer is more like you're watching "someone", which happens to be yourself, living and doing things, from above. 
 It sounds a bit vague, and I'll try to describe such a status in the post...
@@ -26,7 +26,7 @@ And this looks natural for any observer, including us after the emotional moment
 
 ### When It Comes to Time Management
 
-Such an observer perspective is especially useful when [managing time](https://yage.ai/using-a-timer-to-do-time-management.html).
+Such an observer perspective is especially useful when [managing time](/using-a-timer-to-do-time-management.html).
 From my experience, there look to be two different kinds of "focus".
 One is to focus one single affair, doing it for hours.
 And the other is to focus on whatever is at our hand, more like a stack -- whenever there is a new task ringing, you push the old one into a (possibly very shallow) stack.

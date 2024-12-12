@@ -12,7 +12,7 @@ I used image denoising as the example for quite a few algorithms in the blog [po
  
 ![](/images/convex-denoising-result.png)
 
-The left one is the noisy image, while the right is the recovered one. Compared with the result from [Loopy Belief Propagation](https://yage.ai/markov-random-field-mrf-and-graph-cut-3.html), the improvement is obvious. So we can see that the optimization approach is intuitive to model, fast to implement, and easier to debug. The code written with [CVX](http://cvxr.com/cvx/), a MATLAB convex optimization package, is put as follows for the record. We can see how elegant it is. 
+The left one is the noisy image, while the right is the recovered one. Compared with the result from [Loopy Belief Propagation](/markov-random-field-mrf-and-graph-cut-3.html), the improvement is obvious. So we can see that the optimization approach is intuitive to model, fast to implement, and easier to debug. The code written with [CVX](http://cvxr.com/cvx/), a MATLAB convex optimization package, is put as follows for the record. We can see how elegant it is. 
  
     :::matlab
     cvx_begin 

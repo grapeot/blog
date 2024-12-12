@@ -4,7 +4,7 @@ Category: Life
 Tags: Photography, Gigapixel, High Resolution, Computational Photography, Chinese
 Slug: gigapixel-photo
 
-近半年来，我一直在试图把一张照片的分辨率推到极致。这个分辨率不仅是光学分辨率，也是数码分辨率。一般来说，在一个相机的前提下，提升分辨率主要靠[接片](https://yage.ai/gigapixel-methods.html)或者摇摇乐。接片接出来比较大的照片比较可行，但有一个问题是它往往只能提升数码分辨率而不能提升光学分辨率。所以很多时候还要靠[摇摇乐](https://yage.ai/drizzle.html)。这篇文章主要介绍一下最近做的一个实验。这个实验用中画幅数码后背+中画幅高分辨率微距镜头+摇摇乐实现了10亿像素的分辨率。
+近半年来，我一直在试图把一张照片的分辨率推到极致。这个分辨率不仅是光学分辨率，也是数码分辨率。一般来说，在一个相机的前提下，提升分辨率主要靠[接片](/gigapixel-methods.html)或者摇摇乐。接片接出来比较大的照片比较可行，但有一个问题是它往往只能提升数码分辨率而不能提升光学分辨率。所以很多时候还要靠[摇摇乐](/drizzle.html)。这篇文章主要介绍一下最近做的一个实验。这个实验用中画幅数码后背+中画幅高分辨率微距镜头+摇摇乐实现了10亿像素的分辨率。
 
 我们的场景大致是这样的。
 
@@ -20,7 +20,7 @@ Slug: gigapixel-photo
 
 ![S1R and 50AA x8](/images/high_res_50aa_x8.jpg)
 
-可以看到分辨率有明显提升。然后下面这个是[飞思IQ180](https://yage.ai/resolution-limit-of-135-system-3.html)+大画幅镜头（施耐德72/5.6）的结果：
+可以看到分辨率有明显提升。然后下面这个是[飞思IQ180](/resolution-limit-of-135-system-3.html)+大画幅镜头（施耐德72/5.6）的结果：
 
 ![IQ180 and Schneider x1](/images/high_res_iq180_x1.jpg)
 

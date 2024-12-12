@@ -49,7 +49,7 @@ Graphical model view of Morkov Random Field, figure from Pattern Recognition and
  
 ## Solving MRF
  
-A fairy simple approach to solve MRF is Iterated Conditional Modes (ICM), which optimizes each pixel in order with fixing all the other pixels. This approach can produce somehow good result, as last blog post shows (check the experiment part). But a problem is, it's easy to stuck in local minima. Fortunately, a clever transform of this optimization problem into finding a minimum cut in a graph, which appeared in 1989 and is called graph-cut, can produce a global optima.
+A fairy simple approach to solve MRF is [Iterated Conditional Modes](https://yage.ai/markov-random-field-mrf-and-graph-cut-3.html) (ICM), which optimizes each pixel in order with fixing all the other pixels. This approach can produce somehow good result, as last blog post shows (check the experiment part). But a problem is, it's easy to stuck in local minima. Fortunately, a clever transform of this optimization problem into finding a [minimum cut](https://yage.ai/markov-random-field-mrf-and-graph-cut-2.html) in a graph, which appeared in 1989 and is called graph-cut, can produce a global optima.
  
 As we saw in the energy function reduction, the image can be treated as a graph, in which vertices are pixels, and there are edges connecting neighbor pixels. If we add another two vertices, s (for the source) and t (for the sink) with some more edges, there will be a new graph which has interesting properties. The detailed rules to construct the new graph are:
 

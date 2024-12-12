@@ -14,13 +14,13 @@ Tags: PhaseOne, Medium Format, Photography, DIY, Chinese
 
 ---
 
-在[上一集](/lower-end-phase-one-xt-1.html)里面，我们介绍了如何山寨一个飞思XT出来。在3D打印的同时，其实还买了Cambo的WRC-400机身，同时定做了对焦桶，希望用商业的解决方案来提升精度。等了两个月终于全部到货，在用3D打印了解决了对焦桶不能在无穷远合焦的问题以后，现在不仅功能顺手，而且感觉颜值爆表：
+在[上一集](/lower-end-phase-one-xt-1.html)里面，我们介绍了如何山寨一个飞思XT出来。在3D打印的同时，其实还买了Cambo的WRC-400机身，同时定做了对焦桶，希望用商业的解决方案来提升精度。等了两个月终于全部到货，在用[3D打印](/3d-print-faq.html)了解决了对焦桶不能在无穷远合焦的问题以后，现在不仅功能顺手，而且感觉颜值爆表：
 
 ![Appearence](/images/phase-one-xt-2-mine-1.jpg)
 
 ![Appearence](/images/phase-one-xt-2-mine-2.jpg)
 
-然后就进行了一系列功能测试，基本感受就是。。数码表现很好，总的来说还是可以吊打全幅的。比如下面是全幅100%（Leica SL + 50AA，f/8）：
+然后就进行了一系列功能测试，基本感受就是。。数码表现很好，总的来说还是可以吊打[全幅](/full-frame-and-medium-format-1.html)的。比如下面是全幅100%（Leica SL + 50AA，f/8）：
 
 ![Full frame sample photo](/images/phase-one-xt-2-sl.jpg)
 
@@ -58,4 +58,4 @@ f/16，修正光轴
 
 100%放大
 
-总之我觉得这个寨版还是比较成功的。之前一直觉得高像素机器没有用，双盲看不出来。发现645D还是香，虽然也对镜头提出了新的要求。所以，等贤者时间过了，就要开始采购镜头了。。
+总之我觉得这个寨版还是比较成功的。之前一直觉得高像素机器没有用，双盲看不出来。发现645D还是香，虽然也对[镜头](/lens-chromatic-aberration.html)提出了新的要求。所以，等贤者时间过了，就要开始采购镜头了。。

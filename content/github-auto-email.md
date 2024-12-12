@@ -15,5 +15,5 @@ We then get a php script parsing the payload and send out the summary emails.
 
 Note `mail()` function in php may need extra setup.
 Check [here](http://grapeot.me/sending-emails-from-cygwin.html) for a brief introduction about the configuration.  
-Of course this can be used to do more such as blog deployment.
+Of course this can be used to do more such as [blog deployment](https://yage.ai/easy-ec2-sharing-while-you-pay-the-bill.html).
 [Stephen Zhang](https://github.com/StephenPCG) got his blog deployed [this way](https://github.com/StephenPCG/onebitbug.me/blob/master/cgi-bin/update.cgi).

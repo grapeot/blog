@@ -55,7 +55,7 @@ electrical circuit modifications, cost around $13,000, but it provides our famil
 instrumental during the recent multi-day power outage.
 
 Since our water heater and stove run on natural gas, they require minimal electricity for control. So cooking and hot water weren't affected by the power outage. Our home lighting and internal network
-functioned normally, making life relatively convenient. However, we had to limit high-power appliances like air conditioning (we don’t use furnace) and clothes dryers. We also
+functioned normally, making life relatively convenient. However, we had to limit high-power appliances like air conditioning (we don't use furnace) and clothes dryers. We also
 couldn't use our dishwasher due to its unexpectedly high energy consumption (1-2 kW!). But using high-power devices for short periods was fine, such as microwaving milk or using a
 hair dryer.
 

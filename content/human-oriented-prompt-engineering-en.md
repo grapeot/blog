@@ -5,7 +5,7 @@ Tags: AI, Prompt Engineering
 
 I often lurk in various communities and frequently see people seeking help and others offering assistance. Unfortunately, I find that the majority of this help is ineffective, with very few actually resolving the issue. For example, someone might ask in a group, "I'm facing problem X, how do I solve it?" and people might offer suggestions like, "Try A, see if it works, or try B." But ultimately, after trying them, nothing seems to work, and the whole request for help just fades away.
 
-The reasons behind this are complex, but here I want to discuss a small angle. In many cases, simply using some straightforward human-oriented prompt engineering techniques and slightly altering the way we phrase our questions can greatly enhance the effectiveness of seeking help, potentially leading to more useful responses quickly.
+The reasons behind this are complex, but here I want to discuss a small angle. In many cases, simply using some [straightforward prompt engineering](https://yage.ai/prompt-engineering-guide.html) techniques and slightly altering the way we phrase our questions can greatly enhance the effectiveness of seeking help, potentially leading to more useful responses quickly.
 
 Before looking at this small technique, let's first observe the biggest problem people face when seeking help and assisting each other. My observation is that the biggest problem is people just guessing what could explain the problem the person is facing. In other words, A could lead to X, so you should try fixing A.
 
@@ -19,7 +19,7 @@ For the light bulb example, you might first test if other lights on the same pow
 
 But why don't people help others this way online? Part of it is because few people have this reverse debugging mindset, but another crucial reason is the way questions are asked. Most help-seeking posts ask, "What should I do?" leading others to suggest what you should try, like replacing the bulb or power strip. This way of asking implies you're looking for a direct final solution, and consequently, you receive scattered and unmethodical answers.
 
-How to solve this problem? In AI, there's a prompt engineering technique called Chain of Thought, which can be applied here. Rather than asking for the final solution, a better question is to ask, "What could be causing this, and how can I verify it's the reason?" In the light bulb example, you might say, "My light isn't working, are there any methods to help me identify which part is the problem?" This way of questioning encourages people to consider multiple possible issues, not just a broken bulb, leading to more effective answers.
+How to solve this problem? In [AI](https://yage.ai/recent-AI-advancement.html), there's a prompt engineering technique called Chain of Thought, which can be applied here. Rather than asking for the final solution, a better question is to ask, "What could be causing this, and how can I verify it's the reason?" In the light bulb example, you might say, "My light isn't working, are there any methods to help me identify which part is the problem?" This way of questioning encourages people to consider multiple possible issues, not just a broken bulb, leading to more effective answers.
 
 From another perspective, thinking this way might reveal you don't need to ask others online and could solve it yourself. Or, when you realize you truly can't solve it and need to ask others, you'll naturally write out your thought process, which greatly helps in receiving more effective assistance.
 

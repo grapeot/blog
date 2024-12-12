@@ -17,14 +17,14 @@ Lots of operations are among the central area.
 This is also easy to understand.
 The other two interesting points are the column in the right boundary, and the row of the task bar in the bottom.
 
-It’s interesting that there is only one vertical column on the right rather than left.
+It's interesting that there is only one vertical column on the right rather than left.
 This is not the scroll bar because I usually use the scroll wheel instead of dragging the scroll bar.
-After some experiments, I found if you are holding the mouse with the right hand, it’s fairly easy to reach the screen’s right boundary, but reaching the left boundary requires some intentional efforts.
+After some experiments, I found if you are holding the mouse with the right hand, it's fairly easy to reach the screen's right boundary, but reaching the left boundary requires some intentional efforts.
 That causes the vertical bar only appearing on the right.
 Interesting finding, but not sure whether the analysis is correct.
 
 About the task bar, there is only one yellow hotspot.
-After checking the windows, I found that’s the task manager.
+After checking the windows, I found that's the task manager.
 This hotspot reflects my habit of launching task manager once entering windows, and often checking its status.
 
 See, data speaks.
@@ -42,7 +42,7 @@ I also invited some friends to take part in the test, and get their heat map. Se
    
 (This looks like a user just finished DotA lol)
 
-About the implementation stage, I am using C# + WinAPI + PowerShell background task to collect mouse positions timely.
+About the implementation stage, I am using C# + WinAPI + [PowerShell background task](https://yage.ai/using-a-timer-to-do-time-management.html) to collect mouse positions timely.
 And use a C# script with OpenCV/EmguCV to plot the heat map manually.
 The source codes can be found in the [original post](http://www.cnblogs.com/grapeot/archive/2010/03/01/1675335.html).
 It should be easy to extract the code although the original post is in Chinese.

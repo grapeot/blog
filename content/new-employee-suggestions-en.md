@@ -84,7 +84,7 @@ But I want to name a few points that are often overlooked by junior devs:
 * Actually execution still occupies a fundamental position in software engineering, but not in the ability to write code fast, but the ability to **debug**. 
   It's not practical to expect a complex system works like a leetcode practice, we write the code, hit run, and it runs perfectly.
   When we face an unexpected output, how to debug is our daily work.
-  Junior devs often take an approach of random debugging.
+  Junior devs often take an approach of [random debugging](/seeking-help-effectively-through-human-oriented-prompt-engineering.html).
   They randomly come up a reason, and change something, expecting them to work.
   If not, another possible reason is tried.
   Sometimes they get lucky and solve the problem.

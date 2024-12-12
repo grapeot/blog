@@ -75,4 +75,4 @@ A demo video can be found below. In this video, we first specify some area as ba
 
 [1] V. Kolmogorov and R. Zabih, "What energy functions can be minimized via graph cuts?," IEEE transactions on pattern analysis and machine intelligence, vol. 26, Feb. 2004, pp. 147-59.
 
-[2] Y. Boykov and G. Funka-Lea, “Graph Cuts and Efficient N-D Image Segmentation,” International Journal of Computer Vision, vol. 70, Nov. 2006, pp. 109-131.
+[2] Y. Boykov and G. Funka-Lea, "Graph Cuts and Efficient N-D Image Segmentation," International Journal of Computer Vision, vol. 70, Nov. 2006, pp. 109-131.

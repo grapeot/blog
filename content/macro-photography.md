@@ -4,7 +4,7 @@ Category: Life
 Tags: Photography, Macro, Chinese
 Slug: macro-photography
 
-今天出门和dalao吹逼（划掉）严肃讨论学习咖啡拉花，带了吃灰许久的100mm/2.8微距头。回来突发奇想，想看看能不能用现有的相机设备攒一个高分辨率微距摄影的系统出来。经过一些实验以后弄出来个这：
+今天出门和dalao吹逼（划掉）严肃讨论学习咖啡拉花，带了吃灰许久的100mm/2.8微距头。回来突发奇想，想看看能不能用现有的相机设备攒一个[高分辨率](https://yage.ai/resolution-limit-of-135-system.html)微距摄影的系统出来。经过一些实验以后弄出来个这：
 
 ![Macro gear](/images/macro-gear.jpg)
 器材镇楼

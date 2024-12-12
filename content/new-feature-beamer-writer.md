@@ -10,4 +10,4 @@ Finally time for an upgrade of our [Beamer Writer](http://lab.grapeot.me/beamer/
 
 So, that's it. Enjoy!
 
-[See also: Previous updates on Beamer Writer](https://yage.ai/updates-on-beamer-writer.html)
+See also: Previous updates on Beamer Writer

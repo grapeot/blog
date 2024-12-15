@@ -35,7 +35,7 @@ EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         #('Lab', 'http://lab.grapeot.me/'),)
-        ('Duck Sky Survey', 'dss/'),
+        ('Duck Sky Survey', 'dssv2/'),
         ('🔍Search', '/search/'),
         ('Services', 'pages/services.html'),
         )

@@ -47,3 +47,5 @@ Slug: deep-space-photography-beginners-guide-equipment-pitfalls
 * 一个[控制系统](/astrophoto-tutorial-5.html)。这里我用的是振旺的ASIAir Pro盒子，真的非常方便了。就是把赤道仪，导星镜，主相机和这个盒子接起来，然后就可以在手机app上控制了。虽然理论上电脑也可以做到所有功能，但一方面电脑的供电是个大问题，一方面举着电脑看对焦/光轴也还是非常痛苦。所以我觉得盒子还是比较适合萌新的。电源管理我用的就是带12V输出的充电宝，撑一个晚上没问题。
 
 诶？至于我当时是怎么入门的。。小mount CEM25p+大镜子C8+超快焦比HyperStar+黑白相机，每天都非常痛苦，折腾了很久才把坑趟差不多了开始出片。。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

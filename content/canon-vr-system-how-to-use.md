@@ -35,3 +35,5 @@ correctAllImages()函数。在处理完以后，可以选用Topaz或者PS批量�
 视频的话稍微复杂一些，主要我的工作流里面需要先把视频转换成图像，然后转成180 SBS格式，做一些处理，然后转回视频。具体地说，如果需要使用RAW（输出佳能专有格式而不是mp4）的话，需要先用Premiere等软件解码+color grading+调整，然后转成mp4。如果不使用RAW而是机内直出mp4的话，即使使用了CanonLog，我的工具也可以帮助进行解码，color grading，和自动的一些色彩调整。接下来不论用不用raw都是正常的180 SBS转换。然后videoCombiner.py会调用多个Topaz Sharpen AI实例来进行批量锐化，最后调用ffmpeg来合成视频，包括加入原先的音频。整个流程几乎不需要用户交互（Sharpen AI需要点一个Apply按钮），高度并行，而且（间接）支持RAW和CanonLog。
 
 目前这还是个脚本，需要用户有python经验，装有ffmpeg等。如果有同学有兴趣一起把它做成一个软件的话，也欢迎加入哈。此外，我对如何使用一般的相机进行3D拍摄也有了一些实验，比如如何用超长基线（就是相机的瞳距）来让风光片也有3D效果，也在开发一些工具，让佳能的这个VR镜头可以可靠输出360度的3D全景照。这对于虚拟看房等领域应该有很大帮助。欢迎各位拍砖讨论。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

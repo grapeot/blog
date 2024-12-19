@@ -32,3 +32,5 @@ Slug: astrophoto-tutorial-0
 
 ![入门](/images/astrophoto-tutorial-0-begin.png)
 ![破产](/images/astrophoto-tutorial-0-bankrupt.png)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

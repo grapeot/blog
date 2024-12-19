@@ -27,3 +27,5 @@ Slug: large-format-film-deep-sky-astrophotography-part-1
 似乎坑就这么多了。我打印了vixen接板把Linhof MT2000接到了赤道仪上，打印了转接口把导星镜接到了冷靴口上。打算天晴的时候出门试一把了。
 
 ![Gears](/images/large-format-astrophotography-gears.jpg)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

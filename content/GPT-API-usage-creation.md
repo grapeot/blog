@@ -17,3 +17,5 @@ Slug: GPT-API-usage-creation
 总之，通过使用GPT-4和Whisper API，我成功地构建了一个能够将语音识别的文字纠正和重新组织的应用程序。尽管在开发过程中遇到了一些挑战，但在AI的帮助下，我仍然能够在短时间内完成这个项目。这个应用程序的开源代码可以为有兴趣的朋友提供一个很好的参考，帮助大家更高效地进行写作。
 
 (本文使用这个软件在5分钟内写成)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

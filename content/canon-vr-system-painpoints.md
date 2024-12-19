@@ -26,3 +26,5 @@ Slug: canon-vr-system-pain-points
 6. 传到VR眼镜里面观看，或者分享。
 
 感觉VR拍娃实在非常革命，尤其是和父母不在一个地方的，可以买一个VR眼镜配好送回去。以后可以直接分享这种VR视频/照片，跟在现场几乎完全一样。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

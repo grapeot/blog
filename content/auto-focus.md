@@ -24,3 +24,5 @@ Slug: auto-focus
 我在自己的远程台上实践了一下这个算法，使用折射望远镜进行了测试。下面这张图展示了信息熵随着对焦步数的变化情况。我们可以看到，即使在f/4快镜和离合焦点大约500步的地方，这个曲线依然非常稳定，没有出现变成先高后低的折线。这个曲线不对称是一个比较常见的现象，是因为望远镜焦前和焦后的光斑未必一致。还得在更多的数据和器材上测试才能知道这个算法效果怎么样。至少现在鸭哥版NINA（叫NIYA）已经可以完整的执行拍摄任务了（goto，解析，自动对焦，导星，制冷，拍摄，park等等）。
 
 ![Auto focus curve fitting](/images/auto_focus_curve.png)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

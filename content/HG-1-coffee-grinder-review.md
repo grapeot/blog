@@ -31,3 +31,5 @@ Tags: Coffee, Chinese
 但用手磨有一个不方便的地方，就是每次做咖啡都需要称豆子，不像电磨都是自动计时。所以Lyn Weber还有一个叫[coffee cellar](/coffee-cellar-comparison.html)的东西，就是一坨试管一样的东西，事先把咖啡豆称好放在里面，要做的时候直接倒出来就好了。但总觉得花275刀买这样一个东西很傻啊。。所以就自己3D打印了一个，感觉海星。
 
 ![Coffee cellar](/images/hg1-cellar.jpg)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

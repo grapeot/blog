@@ -36,3 +36,5 @@ Slug: foundation-models
 而实现Few-shot Learning和Conversational UI这两个关键特质的技术手段则是大规模的预训练。一个非常有趣的观察是，从Transformer到GPT、到GPT-3、再到GPT-Instruct和ChatGPT，其中模型的基本单元，也就是Transformer和Self-Attention机制，从来没有改变过。变化的主要是预训练的数据规模。BERT只用了33亿个单词，但到了GPT-3，这个规模增大了500倍，而GPT-Instruct通过RLHF实现了几乎无限的对齐数据。更多的训练数据让我们能更好地覆盖非常复杂的问题解决空间，从而更好地支持各种不同的任务。
 
 所以总的来说，我认为基础大模型的核心并不在于"大小"，"大"只是用来实现其两种核心特质的技术手段，而并非目标。从机器学习的角度来看，它的核心特征是Few-shot Learning，不需要科学家的参与，仅凭最终用户的力量就可实现任务的适配。从UI的角度来看，另一个可选的特质是对话式UI，这种界面进一步极大地降低了使用的门槛，让更多人能够受益。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

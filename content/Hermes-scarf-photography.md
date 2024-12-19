@@ -25,3 +25,5 @@ Tags: Still life, Macro, Photography, Chinese
 感觉都是非常专门的没用的知识。只能当一个总结参考吧，也许未来有同学要做[高分辨率接片](/ssd-raid-exp.html)能用得上。至于这个老的丝巾换成了什么呢，变成了这个沙雕风格hhhhh：
 
 ![New scarf](/images/hermes-scarf-motorcycle.jpg)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

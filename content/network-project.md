@@ -23,3 +23,5 @@ Slug: network-proejct
 玩到了这一层以后下一步就会自然提出问题：家用路由器的硬件其实都比较弱鸡，就算用OpenWRT的话，不久也会碰到性能瓶颈。有没有可能自己攒机做路由器/网关呢？那是肯定的。我这里也没有什么经验，但有很多人自己组fanless机器装pfsense或者OPNSense来实现非常灵活的网络功能的。我自己因为时间限制不能折腾得过深，用了firewalla的菜鸟版路由也还行。
 
 嘛，总之希望网络尽快修好吧。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -46,3 +46,5 @@ Slug: raspberry-pi-object-detection
 * 为什么不做成大相机+PIR传感器这样的形式？这也是有可能的，实际上就有其他up主已经做出来了。我选择现在目标检测的路线主要是历史原因——就算没有大相机我也是需要这个功能的。
 
 有其他问题欢迎讨论鸭。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -26,3 +26,5 @@ Slug: full-frame-and-medium-format-5
 总之，玩了两年全幅中幅，还是觉得绝大多数人无脑买全幅。老法师的话其实不用选，因为总之会所有的坑都踩一遍的。可玩性的话，中大画幅远远更好。
 
 ![medium format film camera](/images/medium-format-gx28.jpg)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

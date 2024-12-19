@@ -39,3 +39,5 @@ Slug: astro-mosaic
 如果实在需要网络分享，也只能退而求其次了。但99%的人都是没有耐心等一张100多MB的马赛克图片加载完成的。所以我们需要一些技术手段来实现逐层渲染（progressive rendering），就像百度地图一样，随着你不断放大，总会有新的细节出来给你惊喜。而且因为只要动态加载视野里面相应分辨率的图片，速度也很快。这里有一个例子：[https://lab.grapeot.me/gigapixel/DeepAndWideFieldOrion/](https://lab.grapeot.me/gigapixel/DeepAndWideFieldOrion/)。这样的图做起来也很简单，在Photoshop里面直接选择文件->导出->Zoomify就可以了。
  
 以上简述了一些马赛克的过程中可能会遇到的挑战，如何在实战中解决，以及相关的理论知识。希望可以让大家在开始马第一张图的时候不要那么头秃。我现在在做天马球赛克，不是，天球马赛克，里面遇到的问题又更复杂了一个层次，比如要了解不同球面投影的方式从而进行坐标换算，自己写程序来生成每天的拍摄计划（几百个panel一个个加进NINA手要点烂掉），使用更复杂的可视化软件来实现VR观星等等。等有更多进展我再来汇报鸭。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

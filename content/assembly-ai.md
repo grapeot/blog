@@ -24,3 +24,5 @@ Slug: assemblyai-speech-recognition-api-review
 4. AssemblyAI还有Speaker recognition的功能，类似Zoom AI companion，OpenAI也没有这个功能。
 
 总的来说，我觉得AssemblyAI看上去是一个相当靠谱的而且很容易集成的语音识别API，而且集成起来也特别简单，感觉不妨作为OpenAI的一个Alternative。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

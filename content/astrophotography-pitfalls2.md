@@ -48,3 +48,5 @@ Slug: beginners-guide-mistakes-deep-space-photography
 ![Guiding wind](/images/astrophotography-pitfalls-wind.jpg)
 
 嗯，以上所有的坑，我一个一个全都踩了一遍。。希望能对萌新们有所帮助。下一期我们继续介绍后期里面的坑，和只有到了后期才能发现的前期的坑。这些坑并不可怕，关键是不要瞎试企图瞎猫碰上死耗子解决问题。而要用逻辑去分析，探求背后的原理，用一系列小实验来分割问题可能的来源，提出假设并且用实验去验证。当然我拍深空也只有一个月，很多理解也可能是错的。也希望各位dalao不吝指正。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

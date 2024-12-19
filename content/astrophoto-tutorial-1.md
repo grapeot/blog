@@ -127,3 +127,5 @@ Slug: astrophoto-tutorial-1
 
 ![破产](/images/astrophoto-tutorial-0-bankrupt.png)
 天文摄影的破产器材，照片由海洋拍摄，经授权使用
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

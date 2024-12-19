@@ -21,3 +21,5 @@ Slug: reverse-lens-extreme-macro
 ![Sample photo](/images/reverse-lens-sample.jpg)
 
 其中上面图像的内容是iphone屏幕的像素。总的来看效果相当不错。显微镜有的几个问题都解决了。而且因为是技术相机，所以移轴等等技术动作也可以用，灵活性也好了很多。有兴趣的同学不妨试试。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

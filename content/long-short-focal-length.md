@@ -77,3 +77,5 @@ Tags: Photography, Chinese
 再次注意这里的透视变化不是焦距导致的，而是站位导致的。"焦距决定透视，长焦带来压缩感"，这是一个广泛的误解。
 
 希望能带来启发。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

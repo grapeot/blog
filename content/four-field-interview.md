@@ -53,3 +53,5 @@ Tags: Chinese
 * 面试标准
     * Junior dev：面试一般是写码。虽然实际工作比学校里学的简单很多（比如我从来没用过继承派生红黑树），但还是要看学校里的track record。刷题是基本要求，题都懒得刷就没办要聊下去了。面试区分度不大。加分项：思路清楚，讲清楚思考脉络，自顶向下逐步求精；go beyond expectation，问是不是简要答为什么；用功勤奋，但这个面试很难看出来。
     * Senior dev：[design标准](/system-design-interview.html)，给一个笼统的问题去分析。希望看到：思路的系统性（能想到这一点）；知识的深度（为什么这么做）；经验（我不这么做是因为有这个坑）；知识的更新程度（我读过这个去年的paper/blog）；能吹，讲话精准沟通顺畅。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

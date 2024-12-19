@@ -30,3 +30,5 @@ Slug: poe
 4. 一个让我尤其觉得有意思的功能是多bot协作。虽然ChatGPT也有这个功能，但因为大家都是GPT，只是[prompt不同](/prompt-engineering-guide.html)，换汤不换药，更像是左右互搏。但Poe是真的把不同的模型，不同的modality都混在了一起。比如可以Claude根据简单的提示生成一个完整的prompt，然后把这个prompt扔给Flux生成图片，然后Pika接着从这个图片生成视频。一套体验挺有意思。
 
 总的来说，我觉得PoE是一个优点和缺点都很鲜明的产品。目前来看，对我而言它已经可以完全替代ChatGPT的核心功能。相比于Claude来说，唯一欠缺的也仅仅是Artifact这个独特的GUI而已（至于静态网页预览已经实现了）。接下来我会在进一步试用之后决定要不要把Claude的订阅也取消掉。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -61,3 +61,5 @@ Tags: Chinese
 * [行为问题](/behavior-questions.html)
 * [编程问题](/coding-questions.html)
 * [系统设计](/ML-system-design-interview.html)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -46,3 +46,5 @@ Slug: espresso-workstream
 3. 最后，我们需要有一个设备来实现我们的想法。比如，在见识到有pressure profiling的设备之前，我没有意识到对于prefusion可以有各种灵活的控制。在了解了这些设备之后，我就有了更多的工具来调整这些参数，从而实现最终对口味的控制。
 
 这些是我最近关于制作咖啡的一些体会。我肯定有很多遗漏或者错误，也希望大家能批评指正。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

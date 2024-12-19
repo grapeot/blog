@@ -61,3 +61,5 @@ Slug: cursor-to-devin
 因此我们可以看出，虽然Devin的产品形态和设计理念确实非常先进，但是从技术壁垒上来说，它和现有的Agentic AI的工具之间的沟壑并没有我们想象的那么大。使用基于15到20美元每个月的流行工具，比如Cursor和Windsurf，我们完全可以在一小时内实现Devin 90%的功能，并且用它来完成以魔改前做不到的复杂任务。比如我给Cursor布置了一个任务，是分析一下近5年来热门科技股票的收益率，做一个深度的数据分析，它给了一个非常[详尽完善的报告](https://yage.ai/cursor_stock/)。另外，我又让Windsurf抓取我的博客前100篇文章的发贴时间，并且把它用github贡献图这样的方式可视化出来，它也可以全自动的完成。像这两种任务用传统的cursor和Windsurf都是没办法做出来的，只有用Devin才可以，但是在做了这个简单的更改之后，我们用一个月只要是20美元的工具，也可以实现一个月500美元的工具的效果。我甚至做了一个更深度的实验，作为一个完全不懂前端的dev，花了一个半小时做出来了一个有前端后端五脏俱全的[招聘网站](https://github.com/grapeot/WeiLaiKeJi/)。这个效率和Devin相当接近甚至更高了。
 
 最后，在文中提到的所有文件都可以在[这个github repo](https://github.com/grapeot/devin.cursorrules)下载，只需要把里面的内容拷到你当前工程的文件夹下面就可以了。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

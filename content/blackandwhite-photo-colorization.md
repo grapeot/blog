@@ -27,3 +27,5 @@ Slug: black-and-white-photo-colorization
 可以看到效果出来了，我们真的可以用纯黑白照片得到一个彩色的照片。但也还是有一些问题的。一个是边角有一些红色的"暗角"，这可能是因为不同滤镜的暗角因为某些原因不尽相同，导致颜色混合之后在边角出现了问题。这也许可以通过拍摄平场进行解决。另一个问题是这个颜色看起来还是有些奇怪，不是特别准确。这也许可以通过拍摄标准色卡进行校色。下面主要就会从这两个方面进行改进。另外，这种方法显然不太适合动态场景，比如有风的树叶hhhh：
 
 ![Result image outdoor](/images/blackandwhite-color-result-2.jpg)
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

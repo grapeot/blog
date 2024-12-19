@@ -53,3 +53,5 @@ R是变换矩阵。或者如果我们把这个矩阵展开，就是：
 $$ \begin{bmatrix} R \\ G \\ B \end{bmatrix} = \begin{bmatrix} H_R & S_R & O_R \\ H_G & S_G & O_G \\ H_B & S_B & O_B \end{bmatrix} \cdot \begin{bmatrix}H \\ S \\ O\end{bmatrix} $$
 
 也就是我们上面列的那个表格。这里只是转置了一下，第一列是H对应的RGB值，而不是第一行。以此类推。所以用简单的线性代数，我们就可以定量精确地控制SHO的出图，甚至因为这里不要求R是正交矩阵，可以提供多于三通道的投影。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

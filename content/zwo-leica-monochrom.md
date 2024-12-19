@@ -37,3 +37,5 @@ Slug: yasselblad
 总的来说我的感受如上图所示。众所周知，中文是从右向左读的，跟我一起念，鸭苏香！现在问题来了，如果我把这个设计改进并且小批量试产，卖12000左右，会有小伙伴感兴趣吗？
 
 感谢黄一凯对本文的贡献！
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

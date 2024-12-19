@@ -89,3 +89,5 @@ Slug: grinder-tech-specs
 这也是商业机器价格较高的原因。
 然而，对于非商业制作咖啡来说，很多时候出品的过程本身就是一种放松和享受，因此并不需要高速磨豆功能。
 所以，我们没有必要特别追求商业磨豆机。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

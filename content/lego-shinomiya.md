@@ -103,3 +103,5 @@ Slug: lego-mosaic
 ![Final result](/images/lego-mosaic-result.jpg)
 
 有感兴趣的小伙伴也可以试试哈！
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

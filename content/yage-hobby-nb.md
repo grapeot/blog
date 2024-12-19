@@ -65,3 +65,5 @@ Slug: yage-hobby-nb
 广告时间：
 因为我觉得这是一个特别重要的能力，因此一直想着怎么把这种debug的能力分享给大家。
 所以我和[课代表](https://space.bilibili.com/491306902/)开发了一个[AI相关的课程](https://www.superlinear.academy/c/ai/)，希望带着大家受控地犯错误，在犯错的过程中学会怎么设计实践，快速归因，从而高效debug。感兴趣的同学可以戳链接了解一下。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

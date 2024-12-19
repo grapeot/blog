@@ -31,3 +31,5 @@ Slug: astrophotography-snr-telescope
 所以我觉得如果真要搞这种巡天的话，巨炮其实没用（那是拍小天体用的），多炮才是王道。搞几个碳纤维快镜，Side by Side架在一个赤道仪上，用Voyager控制，感觉会很爽。
 
 PS: 这个计算也是我自己琢磨出来的公式。如果有问题欢迎讨论指正。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

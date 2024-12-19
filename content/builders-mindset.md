@@ -23,3 +23,5 @@ Slug: builders-mindset
 因此，具备这种Builder's Mindset的人，可能是AI时代最大的受益者，并且会与那些被动的User拉开明显的差距。不过，这种Mindset的转变并不是一蹴而就的。一方面，它是一个专门的领域，有许多陷阱和技巧；另一方面，它需要时间和经验的积累。比如，我之所以知道Bing Maps有这个功能，也是因为在过去构建其他工具时，学到了相关知识。
 
 如果要我从过去两年甚至更长时间的AI使用经验中只教给你一样东西，我会毫不犹豫地选择Builder's Mindset。这也是[课代表](https://www.superlinear.academy/)和我一起创建了From Users to Builders这个AI课程的原因之一。感兴趣的同学可以参加我们最新的[免费试听课程](https://maven.com/p/36a1f5/level-up-team-productivity-with-personalized-ai-agents?utm_medium=ll_share_link&utm_source=instructor)，或者去[现场课程](https://maven.com/kedaibiao/genai/)看看学员们的评价。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -71,3 +71,5 @@ Slug: correctness-is-meaningless
 所以从这个角度来说，这三样东西对于把项目落地非常有价值，但对于讨论，尤其是在线讨论来说，价值相当有限。因为我就算把压箱底的一个Multi-Million Dollar Insight给说出来，你们也不信，而且我也很难在短时间内说清楚这个东西为什么是正确的。如果真的想要学的话，可能得一方面做一两个小时的1-1深度讨论，另外一方面真的带着去做一个项目，用比较长时间的传帮带才能够真正学会。
 
 以上就是我想分享的主要内容。以后在网上拍砖，别再因为一个东西正确不正确跟人撕了，而需要更加关注别人对于Prioritization, Connection和Verification的思考。尤其是你佩服的人，看看他们对这些方面有什么观点和方法论，对于未来的成长很有好处。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -61,3 +61,5 @@ Slug: video-transcribe
     第二个好的地方是，它的结果也可以以多种形式加以利用，比如我的shortcut里面，会不仅把结果显示出来，而且会把结果复制到剪贴板里。这样当你想要去再粘到其他APP里，比如notes，或者notion里面的时候就很方便。同时它也可以直接把这个结果放到与其他APP交互，比如你可以自己编辑这个shortcut，给它加上一个自定义的prompt，然后扔给ChatGPT，让它做问答。或者直接把它插入Notion里面，新建一个page，都是可以的。
 
 总的来说，以上就是我在做这个project的过程中得到的技术收获。罗里吧嗦讲的一大堆，也是想跟大家分享一下，我的开发流程大约是什么样的，在整个过程中间是怎么又玩耍写代码，又学习积累经验的。也很好奇大家对于这个工具的想法。我的网页端在[这个URL](https://yage.ai/caption/)，Shortcut可以在[这里](https://www.icloud.com/shortcuts/4db043a4acb74152be3d8833afaeb9c2)下载。目前都是免费的工具，也很期待大家的反馈。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -104,3 +104,5 @@ Depth from defocus。图片来自http://www.cs.columbia.edu/CAVE/projects/depth_
     LiDAR扫描得到的结果。图片来自http://spicergroup.blogspot.com/2013/09/spicer-group-first-north-american-leica.html。
 
 希望这些定量分析的过程和对机器视觉中深度测量的介绍能有所启发。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

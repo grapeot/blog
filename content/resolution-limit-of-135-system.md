@@ -56,3 +56,5 @@ Slug: resolution-limit-of-135-system
 ![Use a MF back to scan the film](/images/135-resolution-limit-gear.jpg)
 
 所以总的来说，要想实现这么高的分辨率，是一个系统工程。不是说装个卷就完了。要有精确的对焦（这里用的还是徕卡旁轴），像差修正良好的镜头，因为光圈不能开太小否则衍射会影响画质，专门的显影液，规范的冲洗，还要有靠谱的翻拍。不论是胶片还是数码，我觉得这个系统应该是当下135画质的极限了。胶片能超过数码我还是非常惊讶的。不过据说今年佳能索尼都要出1亿像素的全幅传感器，我们拭目以待吧。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

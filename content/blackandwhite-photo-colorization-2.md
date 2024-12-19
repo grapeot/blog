@@ -38,3 +38,5 @@ Slug: black-and-white-photo-colorization-2
 8. 进行正常的其他后期。
 
 希望有所启发。下面一步就是用[CMS 20 II](resolution-limit-of-135-system.html)来挑战彩色135摄影的分辨率极限了。。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

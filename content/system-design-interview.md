@@ -14,3 +14,5 @@ Slug: system-design-interview
 4. decision making process。很多junior candidate常犯的错误是，没有意识到自己无意中已经做了一个工程决策。稍微好一点的情况是，意识到这里有个决策，但决策过程非常adhoc。最好的情况是，首先看这个决策是否重要，不重要就有意用adhoc的方法来决策，重要再正儿八经分析利弊。在整个过程中如何做工程上的权衡，是很能体现candidate能力的。
 
 举个例子，比如bing有个object detection system，想实现：用户访问数据库中间100亿张图的任意一张，都可以看到一个bounding box，点这个box就可以触发visual search。如何设计一个系统来实现这样的功能。我们不讨论如何设计，就讨论一个问题，这个系统是应该offline（事先把结果算好，用户访问的时候直接读取），还是online（用户访问的时候现场算）。很多junior candidate会自动assume是offline或者online，直接开始讨论这个offline或者online系统的设计细节。这就是没有意识到这里有个决策要做。有的意识到了有两个选项，但给出的理由非常superficial，比如offline快很多啊，当然offline。或者数据量太大啦，当然online。更好一点的candidate会合计一下，offline的优点是快，缺点是贵+不灵活，online的优点是便宜，缺点是慢+traffic不稳定，然后给出决策和理由。但其实这里我挖了个坑，最好的方法其实既不是（纯粹的）online也不是offline，而是二者的结合，online+cache+offline bootstrap。这个坑不是为了害candidate，而是这就是我们的日常工作。我们面临选项A和B的时候，往往最终的决策就是A+B或者C。最好的candidate可以走到这一步，给出这种方案。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

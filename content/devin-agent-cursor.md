@@ -84,3 +84,5 @@ Devin更强调对于软件工程进行复杂开发。比如他一个月要500美
 只有当最终想要的deliverable是一个复杂的软件工程的时候，Devin才是一个更适合的工具。
 
 下面我也会继续探索Devin有没有什么更好玩的用法，来让我们每天的工作和生活更加便利。
+
+<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

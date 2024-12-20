@@ -52,7 +52,7 @@ Slug: cursor-to-devin
 
 最后一个非常有意思的特性是全自动执行。Devin因为是在一个完全虚拟化的云端环境中执行，因此我们可以放心地让它执行各种命令，而不用担心它被LLM攻击或者抽风运行什么危险的命令。就算你把整个系统都删了，只要开一个新的container，又是一条好汉。但Cursor则由于在本机宿主系统上运行，则有很强的安全顾虑。这是为什么在Cursor的agent mode里面，我们每执行一个命令之前，都需要手工去确认。对于相对简单的任务，这样是可以接受的，但由于我们现在有了复杂的流程规划和自我进化的能力，Cursor也可以有能力去完成长时间的复杂的任务，因而这种交互方式就显得不适应Cursor的能力了。
 
-为了解决这个问题，我目前还没找到基于Cursor的解决方法，但是Windsurf对这个是有所考量的，甚至我觉得从它的设计里面可以看出，它从一开始就是想奔着Devin这种产品形态走，而现有的代码编辑器只是它的一个中间形态而已。更具体的说，Windsurf有一个功能是直接和一个Docker container连起来，在那里面跑，或者如果我们有一个配置文件的话，它可以直接帮你新起一个Docker container，做一些初始化，然后把你本地的一个文件夹映射过去。因此它执行的所有命令除了对本地文件夹的更改以外，全都是在Docker container里面进行的，对宿主系统没有任何影响，因而安全性得到了极大的提高。[[示例配置]](https://github.com/grapeot/devin.cursorrules/blob/master/.devcontainer/devcontainer.json)[[文档]](https://docs.codeium.com/windsurf/advanced#dev-containers-beta)
+为了解决这个问题，我目前还没找到基于Cursor的解决方法（更新：12/17/2024 Cursor也加入了这个功能，叫Yolo Mode，但还不支持在Docker里开发），但是Windsurf对这个是有所考量的，甚至我觉得从它的设计里面可以看出，它从一开始就是想奔着Devin这种产品形态走，而现有的代码编辑器只是它的一个中间形态而已。更具体的说，Windsurf有一个功能是直接和一个Docker container连起来，在那里面跑，或者如果我们有一个配置文件的话，它可以直接帮你新起一个Docker container，做一些初始化，然后把你本地的一个文件夹映射过去。因此它执行的所有命令除了对本地文件夹的更改以外，全都是在Docker container里面进行的，对宿主系统没有任何影响，因而安全性得到了极大的提高。[[示例配置]](https://github.com/grapeot/devin.cursorrules/blob/master/.devcontainer/devcontainer.json)[[文档]](https://docs.codeium.com/windsurf/advanced#dev-containers-beta)
 
 在这个基础上，它又引入了黑白名单机制，对于黑名单上的命令一概自动拒绝执行，对于白名单上的命令一概予以放行。对于二者都不在的命令，则由LLM智能判断，对宿主系统是否有风险，比如如果它要删除文件夹中的某个文件的话，它会让用户确认，但是一般的`pip install`之类的命令，它会直接放过。但注意这个特性似乎只有在Docker container里面运行的时候，才会被启用。如果我们是在宿主系统中运行命令的话，体验仍然和Cursor很像，还是需要频繁地按确认。同时，自动的命令执行也需要在配置中进行开启。[[文档]](https://docs.codeium.com/windsurf/cascade#terminal-commands)
 

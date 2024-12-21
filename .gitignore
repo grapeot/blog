@@ -1,6 +1,1 @@
-*.pid
-*.pyc
-*.swp
-output
-webroot
-cache
+circle-visualization/node_modules/

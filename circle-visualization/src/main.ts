@@ -91,24 +91,26 @@ window.addEventListener('resize', () => {
 });
 
 // Animation timing variables
-let lastFrameTime = 0;
-let lastSampleTime = 0;
+let lastFrameTime = performance.now();
+let lastSampleTime = performance.now();
 
 // Animation loop with precise frame timing
 function animate(currentTime: number) {
-  requestAnimationFrame(animate);
-
   // Ensure consistent frame rate
-  if (currentTime - lastFrameTime < FRAME_TIME) {
+  const frameDelta = currentTime - lastFrameTime;
+  if (frameDelta < FRAME_TIME) {
+    requestAnimationFrame(animate);
     return;
   }
 
   // Update timing
   lastFrameTime = currentTime;
+  console.log('Frame delta:', frameDelta);
 
   // Check if it's time for a new sample
   if (currentTime - lastSampleTime >= SAMPLE_INTERVAL) {
     lastSampleTime = currentTime;
+    console.log('Creating new chord at time:', currentTime);
     createNewChord();
   }
 
@@ -116,6 +118,7 @@ function animate(currentTime: number) {
   for (let i = activeChords.length - 1; i >= 0; i--) {
     const chord = activeChords[i];
     chord.frameCount++;
+    console.log('Updating chord:', i, 'frame:', chord.frameCount);
 
     if (chord.frameCount >= FADE_FRAMES) {
       // Set final dark green state with semi-transparency
@@ -127,11 +130,12 @@ function animate(currentTime: number) {
       const startColor = new THREE.Color(0xFFD700);
       const endColor = new THREE.Color(0x004400);
       chord.material.color.copy(startColor).lerp(endColor, progress);
-      chord.material.opacity = 1.0 - (0.7 * progress);
+      chord.material.opacity = Math.max(0.3, 1.0 - (0.7 * progress));
     }
   }
 
   renderer.render(scene, camera);
+  requestAnimationFrame(animate);
 }
 
 // Start the animation loop

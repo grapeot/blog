@@ -1,8 +1,20 @@
-Title: Using Cursor as a Universal Entry Point for AI
+Title: [Agentic AI] Using Cursor as a Universal Entry Point for AI
 Date: 2024-12-19 15:00
 Category: Computing
 Tags: AI, Cursor, English, Agentic
 Slug: cursor-ai-entry-en
+Summary: After completing [the previous article](/cursor-to-devin-en.html) introducing the modifications to Cursor, using Agentic AI in a "I say, you do" mode has become my primary method for leveraging AI. This further inspired me: is it possible to use Cursor or a similar editor as a universal entry point for AI? 
+
+---
+
+This article is part of the "Understanding and Deploying Agentic AI" series:
+
+* [Agentic AI Series 1: Comparison between Devin and Agent Cursor](/devin-vs-agent-cursor-en.html)
+* [Agentic AI Series 2: From Thinker to Doer — The Paradigm Revolution and Technical Architecture of Agentic AI](/agentic-ai-en.html)
+* [Agentic AI Series 3: Turning &#36;20 into &#36;500 - Transforming Cursor into Devin in One Hour](/cursor-to-devin-en.html)
+* Agentic AI Series 4: Using Cursor as a Universal Entry Point for AI (This Article)
+
+---
 
 After completing the [previous article](/cursor-to-devin-en.html) introducing the modifications to Cursor, using Agentic AI in a "I say, you do" mode has become my primary method for leveraging AI. This further inspired me: is it possible to use Cursor or a similar editor as a universal entry point for AI?
 

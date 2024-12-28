@@ -1,8 +1,20 @@
-Title: 搏一搏，$20变$500：一小时魔改Cursor变身Devin
+Title: [Agentic AI] 搏一搏，$20变$500：一小时魔改Cursor变身Devin
 Date: 2024-12-17 11:00
 Category: Computing
-Tags: AI, Agentic, Chinese, Cursor
+Tags: AI, Agentic AI, Chinese, Cursor
 Slug: cursor-to-devin
+Summary: 在[上一篇文章](/devin-vs-agent-cursor.html)中，我们提到了Devin这种可以全自动进行编程的Agentic AI。相比于其他Agentic AI工具，比如Cursor和Windsurf，它有几个核心优势，尤其是流程规划、自我进化、更多的工具使用和全自动的工作方式。这让Devin显得是一个下一代的工具，和现有的Agentic AI工具拉开了一个身位。但是在用了它一段时间之后，我的Builder's Mindset又开始蠢蠢欲动，驱使我魔改了Windsurf和Cursor，让它们也能实现Devin 90%的功能。
+
+---
+
+本文是《理解和部署Agentic AI》系列的一部分：
+
+* [Agentic AI系列1：Devin和Agent Cursor使用体验对比](/devin-vs-agent-cursor.html)
+* [Agentic AI系列2：从智者到行者——Agentic AI的范式革命与技术架构](/agentic-ai.html)
+* Agentic AI系列3：搏一搏，&#36;20变&#36;500：一小时魔改Cursor变身Devin（本文）
+* [Agentic AI系列4：使用Cursor作为AI的通用入口](/cursor-ai-entry.html)
+
+---
 
 在[上一篇文章](https://yage.ai/devin-vs-agent-cursor.html)中，我们提到了Devin这种可以全自动进行编程的Agentic AI。相比于其他Agentic AI工具，比如Cursor和Windsurf，它有几个核心优势，尤其是流程规划、自我进化、更多的工具使用和全自动的工作方式。这让Devin显得是一个下一代的工具，和现有的Agentic AI工具拉开了一个身位。
 

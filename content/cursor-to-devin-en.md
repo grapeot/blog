@@ -1,10 +1,22 @@
-Title: Turning $20 into $500 - Transforming Cursor into Devin in One Hour
+Title: [Agentic AI] Turning $20 into $500 - Transforming Cursor into Devin in One Hour
 Date: 2024-12-17 10:00
 Category: Computing
-Tags: AI, Agentic, English, Cursor
+Tags: AI, Agentic AI, English, Cursor
 Slug: cursor-to-devin-en
+Summary: In the [previous article](/devin-vs-agent-cursor-en.html), we discussed Devin, an Agentic AI capable of fully automated programming. Compared to other Agentic AI tools like Cursor and Windsurf, it has several core advantages, particularly in process planning, self-evolution, expanded tool usage, and fully automated operation. This makes Devin appear to be a next-generation tool, setting itself apart from existing Agentic AI tools.
 
-In the [previous article](https://yage.ai/devin-vs-agent-cursor-en.html), we discussed Devin, an Agentic AI capable of fully automated programming. Compared to other Agentic AI tools like Cursor and Windsurf, it has several core advantages, particularly in process planning, self-evolution, expanded tool usage, and fully automated operation. This makes Devin appear to be a next-generation tool, setting itself apart from existing Agentic AI tools.
+---
+
+This article is part of the "Understanding and Deploying Agentic AI" series:
+
+* [Agentic AI Series 1: Comparison between Devin and Agent Cursor](/devin-vs-agent-cursor-en.html)
+* [Agentic AI Series 2: From Thinker to Doer — The Paradigm Revolution and Technical Architecture of Agentic AI](/agentic-ai-en.html)
+* Agentic AI Series 3: Turning &#36;20 into &#36;500 - Transforming Cursor into Devin in One Hour (This Article)
+* [Agentic AI Series 4: Using Cursor as a Universal Entry Point for AI](/cursor-ai-entry-en.html)
+
+---
+
+In the [previous article](/devin-vs-agent-cursor-en.html), we discussed Devin, an Agentic AI capable of fully automated programming. Compared to other Agentic AI tools like Cursor and Windsurf, it has several core advantages, particularly in process planning, self-evolution, expanded tool usage, and fully automated operation. This makes Devin appear to be a next-generation tool, setting itself apart from existing Agentic AI tools.
 
 However, after using it for a while, my Builder's Mindset started stirring again, driving me to modify Windsurf and Cursor to achieve 90% of Devin's functionality. I've also open-sourced these modifications, allowing you to transform Cursor or Windsurf into Devin in just one minute. This article mainly introduces the specific approach to these modifications, using this example to demonstrate how efficient both building and expanding can be in the Agentic AI era. For simplicity in our discussion, we'll use Cursor to refer to this type of tool, and at the end, we'll discuss what minor adjustments would be needed if you want to use Windsurf instead.
 

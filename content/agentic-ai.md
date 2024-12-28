@@ -1,8 +1,21 @@
-Title: 从智者到行者——Agentic AI的范式革命与技术架构
+Title: [Agentic AI] 从智者到行者——Agentic AI的范式革命与技术架构
 Date: 2024-12-13 15:00
 Category: Computing
 Tags: AI, Agentic, Chinese, Cursor
 Slug: agentic-ai
+Math: false
+Summary: 在讨论Agentic AI之前，我想先讲两个小故事。我在网上和别人聊天的时候，想要比较一下亚马逊和谷歌最近五年的股票走势来佐证我的一个观点。我先是上网搜索了有没有现成的比较和工具，发现没有。接着问了ChatGPT，你能不能帮我寻找或者生成一个股价对比图。他说做不到。这时候我已经想着放弃了，因为聊天的过程中，不值当特别花个5分钟去专门做个图出来。最后我死马当活马医，用了Cursor最新的Agent模式，就直接把要求丢给它，让它给我生成一张图，上面有谷歌和亚马逊最近五年的股价，同时把两个股票的起点对齐，这样方便我比较。结果没想到的是，Cursor就开始全自动写程序，装依赖，debug，改程序，重新执行，然后在一分钟之内就给了我想要的图，如下图所示。真是令我大受震撼。It just works。
+
+---
+
+本文是《理解和部署Agentic AI》系列的一部分：
+
+* [Agentic AI系列1：Devin和Agent Cursor使用体验对比](/devin-vs-agent-cursor.html)
+* Agentic AI系列2：从智者到行者——Agentic AI的范式革命与技术架构（本文）
+* [Agentic AI系列3：搏一搏，&#36;20变&#36;500：一小时魔改Cursor变身Devin](/cursor-to-devin.html)
+* [Agentic AI系列4：使用Cursor作为AI的通用入口](/cursor-ai-entry.html)
+
+---
 
 ## 从“我问你答”到“我问你做”
 

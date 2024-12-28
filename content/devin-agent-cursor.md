@@ -1,8 +1,20 @@
-Title: Devin和Agent Cursor使用体验对比
+Title: [Agentic AI] Devin和Agent Cursor使用体验对比
 Date: 2024-12-12 09:00
 Category: Computing
-Tags: Chinese, AI, Programming, Cursor
+Tags: Chinese, AI, Programming, Cursor, Agentic
 Slug: devin-vs-agent-cursor
+Summary: 最近我充了500美元一个月的AI编程工具Devin。他号称是一个全能的实习生，可以做很多传统的AI工具，比如Cursor和Windsurf之类做不了的事情。在使用了一段时间之后，我确实感到了他和Cursor在设计理念和使用体验上有着巨大的不同，在这篇文章里面总结一下。
+
+---
+
+本文是《理解和部署Agentic AI》系列的一部分：
+
+* Agentic AI系列1：Devin和Agent Cursor使用体验对比（本文）
+* [Agentic AI系列2：从智者到行者——Agentic AI的范式革命与技术架构](/agentic-ai.html)
+* [Agentic AI系列3：搏一搏，&#36;20变&#36;500：一小时魔改Cursor变身Devin](/cursor-to-devin.html)
+* [Agentic AI系列4：使用Cursor作为AI的通用入口](/cursor-ai-entry.html)
+
+---
 
 最近我充了500美元一个月的AI编程工具Devin。
 他号称是一个全能的实习生，可以做很多传统的AI工具，比如Cursor和Windsurf之类做不了的事情。

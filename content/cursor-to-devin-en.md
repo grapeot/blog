@@ -1,7 +1,7 @@
 Title: Turning $20 into $500 - Transforming Cursor into Devin in One Hour
 Date: 2024-12-17 10:00
 Category: Computing
-Tags: AI, Agentic, English
+Tags: AI, Agentic, English, Cursor
 Slug: cursor-to-devin-en
 
 In the [previous article](https://yage.ai/devin-vs-agent-cursor-en.html), we discussed Devin, an Agentic AI capable of fully automated programming. Compared to other Agentic AI tools like Cursor and Windsurf, it has several core advantages, particularly in process planning, self-evolution, expanded tool usage, and fully automated operation. This makes Devin appear to be a next-generation tool, setting itself apart from existing Agentic AI tools.

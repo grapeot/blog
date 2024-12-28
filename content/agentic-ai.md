@@ -1,7 +1,7 @@
 Title: 从智者到行者——Agentic AI的范式革命与技术架构
 Date: 2024-12-13 15:00
 Category: Computing
-Tags: AI, Agentic, Chinese
+Tags: AI, Agentic, Chinese, Cursor
 Slug: agentic-ai
 
 ## 从“我问你答”到“我问你做”

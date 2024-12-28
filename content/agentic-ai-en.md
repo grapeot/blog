@@ -1,7 +1,7 @@
 Title: From Thinker to Doer — The Paradigm Revolution and Technical Architecture of Agentic AI
 Date: 2024-12-13 14:00
 Category: Computing
-Tags: AI, Agentic, English
+Tags: AI, Agentic, English, Cursor
 Slug: agentic-ai-en
 
 ## From "Ask and Answer" to "Ask and Do"

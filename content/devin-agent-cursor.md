@@ -1,7 +1,7 @@
 Title: Devin和Agent Cursor使用体验对比
 Date: 2024-12-12 09:00
 Category: Computing
-Tags: Chinese, AI, Programming
+Tags: Chinese, AI, Programming, Cursor
 Slug: devin-vs-agent-cursor
 
 最近我充了500美元一个月的AI编程工具Devin。

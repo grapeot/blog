@@ -1,7 +1,7 @@
 Title: Comparison between Devin and Agent Cursor
 Date: 2024-12-12 08:00
 Category: Computing
-Tags: English, AI, Programming
+Tags: English, AI, Programming, Cursor
 Slug: devin-vs-agent-cursor-en
 
 I recently subscribed to Devin, an AI programming tool, for $500 per month.

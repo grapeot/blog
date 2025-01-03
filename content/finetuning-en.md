@@ -1,7 +1,7 @@
 Title: From Prompting to Fine-tuning: Making AI More Like "Me"
 Date: 2024-12-23 18:00
 Category: Computing
-Tags: Prompt Engineering, Finetuning, AI, Agentic AI, English
+Tags: Prompt Engineering, Finetuning, AI, English
 Slug: finetuning-en
 
 Have you ever noticed how AI has a distinct "AI-like" way of speaking? Here's an example: when I asked AI to translate a Chinese sentence, a human might say something like "We need a few APIs so clients can submit tasks and get task IDs to track progress." But AI translates it as "The system shall provide multiple distinct APIs that facilitate client task submission and generate corresponding task identifiers for subsequent progress monitoring purposes." It just feels off - like a leader giving a formal speech, official, bureaucratic, and distant.

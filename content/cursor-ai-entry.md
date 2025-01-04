@@ -1,7 +1,7 @@
 Title: [Agentic AI] 使用Cursor作为AI的通用入口
 Date: 2024-12-19 15:30
 Category: Computing
-Tags: AI, Cursor, Chinese, Agentic
+Tags: AI, Cursor, Chinese, Agentic AI
 Slug: cursor-ai-entry
 Summary: 在做完[上篇文章](/cursor-to-devin.html)介绍的Cursor魔改之后，将Agentic AI用"我说你做"的模式进行使用，已经成为了我对AI利用的主要方式。而这又进一步启发我：有没有可能把Cursor或者类似的编辑器作为使用AI的通用入口呢？
 

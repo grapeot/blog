@@ -1,7 +1,7 @@
 Title: [Agentic AI] Comparison between Devin and Agent Cursor
 Date: 2024-12-12 08:00
 Category: Computing
-Tags: English, AI, Programming, Cursor
+Tags: English, AI, Programming, Cursor, Agentic AI
 Slug: devin-vs-agent-cursor-en
 Summary: I recently subscribed to Devin, an AI programming tool, for $500 per month. It claims to be a versatile intern capable of performing many tasks that traditional AI tools like Cursor and Windsurf cannot handle. After using it for a while, I noticed significant differences between Devin and Cursor in terms of design philosophy and user experience, which I'll summarize in this article.
 

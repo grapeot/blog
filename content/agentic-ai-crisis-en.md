@@ -123,5 +123,3 @@ Finally deepened this technical problem: the significance of this technical solu
 <p>But actually these explorations weren't done by me alone, many core viewpoints came from <a href="/o1-pro-en.html">o1 Pro</a>. This is also something I want to share. On one hand o1 Pro gives me feeling its capabilities completely different from other AI models. If my attitude toward GPT-4p is "you go help me do this work," toward normal o1 is "wow, this AI knows this thing, not bad!" my attitude or expectation toward o1 Pro often is "big brother, teach me." Under appropriate prompting, it can really bring very deep insights, even deeper than my thoughts. If other AIs often check omissions and fill gaps, telling me things I don't know, o1 Pro truly breaks my capability boundaries, letting me reach previously unreachable realms. I'm now very looking forward to trying o3 model, and also decided to renew $200/month ChatGPT Pro Plan.</p>
 
 </details>
-
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

@@ -72,4 +72,6 @@ Slug: multi-agent
 
 希望我们的这些思考、经验，尤其是教训，能够给你在构建自己的multi-agent应用的时候带来一些启发。或许下次当你再遇到上下文丢失、上下文失忆、对话丢失的时候，就会想到应该从context window的角度来逆向思考LLM接收到的输入是什么。有必要把它们的context window分开，并且给它们准备好一个适当的沟通渠道。
 
+此外，这个Multi-Agent的实现也已经[开源](https://github.com/grapeot/devin.cursorrules/tree/multi-agent)，欢迎大家参考。
+
 <script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

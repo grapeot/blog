@@ -54,4 +54,4 @@ So the most crucial mindset shift is to stop focusing on making yourself stronge
 2. If I were new, what materials would I want when receiving this task?
 3. Are there any general methods that could guide thinking without getting into technical details?
 
-After all, teaching AI to fix its own bugs is the best productivity hack for programmers.
+After all, the most scarce resource isn't AIs that can write code, but AI managers that can enable AI to deliver.

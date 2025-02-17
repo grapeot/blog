@@ -22,11 +22,9 @@ These three benefits build on one another and even correspond to three ways (or 
 
 What makes Agentic AI special is that it’s so new, and everyone has a different perspective on how it should work. By choosing a particular framework, you effectively lock yourself into that framework’s perspective on Agentic AI. Take a few examples:
 
-AutoGen is built on the idea that an LLM can handle everything through asynchronous collaboration among multiple agents exchanging messages to tackle highly complex tasks.
-
-LangGraph is built on the idea that the agentic workflow can be represented as a graph. To address the challenge of a static graph structure, it introduces conditional edges, persistence, events, asynchrony, and other complex elements.
-
-SmolAgents is built on the idea (or assumption) that agents shouldn’t be invoked simply as tools. Instead, code should serve as a key intermediate medium, since it is clearer and more concrete.
+* AutoGen is built on the idea that an LLM can handle everything through asynchronous collaboration among multiple agents exchanging messages to tackle highly complex tasks.
+* LangGraph is built on the idea that the agentic workflow can be represented as a graph. To address the challenge of a static graph structure, it introduces conditional edges, persistence, events, asynchrony, and other complex elements.
+* SmolAgents is built on the idea (or assumption) that agents shouldn’t be invoked simply as tools. Instead, code should serve as a key intermediate medium, since it is clearer and more concrete.
 
 You can see that these are more than just libraries offering a set of functions. They each have a strong, sometimes heavy, design philosophy—almost a “worldview.” Such an approach can greatly benefit your Agentic AI development, but it can also limit you. If you deeply understand and agree with their viewpoint, you’ll be productive and comfortable. But if, over time, you develop or discover a different way of thinking—either through your own experience or changes in the field—sticking with that framework can become extremely painful. Switching later can be difficult. Imagine migrating from SmolAgents to LangGraph—since their foundational ideas aren’t compatible, such a move would be complex, maybe more complicated than starting from scratch.
 

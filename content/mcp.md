@@ -18,6 +18,8 @@ Slug: mcp
 
 后来LangChain给出了自己的[工具协议](https://python.langchain.com/docs/concepts/tools/)，凭借生态的先发和组件的丰富性吸引了不少人。类似的Pydantic也引入了一个[基于Python Decorator的协议](https://ai.pydantic.dev/tools/)，主打强类型和Pythonic的风格。在这些工具协议中，最有名的可能是大家所熟知的 [Model Context Protocol](https://modelcontextprotocol.io/)，也就是MCP。那为什么在这个竞争激烈的领域，MCP可以迅速获得先机，得到很多公司和用户的支持呢？为了理解这个问题，我们得先退一步，看一看这样的标准从技术上需要满足哪些基本要求。
 
+![MCP framework](/images/mcp.jpeg)
+
 ## 技术优势
 
 从纯技术角度看，这个工具协议的基本要求是提供一个抽象层，这样可以让Agentic AI的开发者一次实现到处运行。但它又不能过度抽象，比如LangChain在这方面就臭名昭著，常常被人吐槽需要跟进800个抽象类才能搞清楚要改动哪个地方。此外，它应当支持足够多的功能，因为如果开发者发现有一个功能这个协议不支持的话，他还是会去转向其他兼容性更好的协议。最后一个要求则是要方便debug，因为在典型的开发过程中，debug所花的时间会远远大于写代码本身的时间。如果你从这几个技术维度来审视的话，就会发现目前市场上没有特别优秀的产品。比如：

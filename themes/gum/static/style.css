@@ -249,7 +249,7 @@ table th[class*="span"],
 #navigation {
   display: flex;
   align-items: center; /* Vertically align items */
-  /* justify-content: space-between; /* Let margin-left: auto on button handle right alignment */
+  justify-content: space-between; /* Add space between items */
 }
 
 #navigation ul.columns {
@@ -360,27 +360,34 @@ a:focus { color: var(--link-focus-color); }
 
   /* Adjust navigation order for mobile */
   #navigation {
-    /* Ensure flex is still active if overridden by Gumby */
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
   }
 
-  #navigation a.toggle {
-    order: -1; /* Move hamburger to the start */
-    /* Reset any Gumby positioning if necessary */
-    /* float: none; */
-    /* position: static; */
-    margin-right: 10px; /* Add some space between icon and nav items */
-    margin-left: 0; /* Remove auto margin if present */
+  #navigation a.toggle { /* Hamburger */
+    /* order: 0; */
+    order: -1; /* Hamburger first */
+    margin-left: 0;
+    margin-right: 10px; /* Add some space to its right */
+    float: none !important;
+    position: static !important;
+    flex-shrink: 0; /* Prevent shrinking */
   }
 
-  #navigation ul.columns {
-    order: 0; /* Keep nav items in the middle (they will likely be hidden by Gumby JS anyway) */
+  #navigation ul.columns { /* Nav list */
+    /* order: 1; */
+    order: 0; /* Nav list middle (hidden) */
+    flex-grow: 1; /* Allow list to take up space if needed */
   }
 
-  #theme-toggle {
-    order: 1; /* Keep theme toggle at the end */
-    margin-left: auto; /* Ensure it stays pushed right */
+  #theme-toggle { /* Theme Toggle */
+    /* order: -1; */
+    order: 1; /* Theme toggle last */
+    /* margin-right: auto; */
+    margin-left: auto; /* Push theme toggle to the right */
+    margin-right: 0;
+    flex-shrink: 0; /* Prevent shrinking */
   }
 }
 

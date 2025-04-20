@@ -3,6 +3,8 @@
     const lightCss = document.querySelector('link[href*="pygment.css"]:not([href*="dark"])'); // Find the light pygments CSS
     const darkCss = document.getElementById('pygment-dark-link');
     const htmlElement = document.documentElement;
+    const moonIcon = '🌙';
+    const sunIcon = '☀️';
 
     // Function to apply the theme
     function applyTheme(theme) {
@@ -10,12 +12,12 @@
             htmlElement.setAttribute('data-theme', 'dark');
             if (darkCss) darkCss.disabled = false;
             if (lightCss && darkCss) lightCss.media = 'not all'; // Disable light theme by setting media query to something that doesn't match
-            if (toggleButton) toggleButton.textContent = 'Light Mode'; // Update button text/icon
+            if (toggleButton) toggleButton.textContent = sunIcon; // Show sun icon when in dark mode
         } else {
             htmlElement.removeAttribute('data-theme');
             if (darkCss) darkCss.disabled = true;
             if (lightCss) lightCss.media = 'all'; // Re-enable light theme
-            if (toggleButton) toggleButton.textContent = 'Dark Mode'; // Update button text/icon
+            if (toggleButton) toggleButton.textContent = moonIcon; // Show moon icon when in light mode
         }
         // Store the preference
         try {

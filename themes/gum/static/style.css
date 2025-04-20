@@ -7,6 +7,98 @@
 
 */
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #3498DB;
+  --link-focus-color: #34495E;
+  --border-color: #dddddd;
+  --border-color-light: #ccc;
+  --footer-bg: #eee;
+  --footer-border: #3498DB;
+  --inline-code-color: #d14;
+  --inline-code-bg: #f7f7f9;
+  --inline-code-border: #e1e1e8;
+  --pre-bg: #f5f5f5;
+  --pre-border: #ccc;
+  --table-bg: #ffffff;
+  --table-stripe-bg: #f9f9f9;
+  --table-hover-bg: #f5f5f5;
+  --nav-active-bg: #868d92;
+  --nav-active-text: #ffffff; /* Assuming white text on active nav */
+  --post-list-border: #ccc;
+  --sidebar-tag-bg: #3498db;
+  --sidebar-tag-color: #fff;
+  --button-text-hover-focus: #eee; /* Used in .btn a:hover */
+  --label-hover-focus-color: #eee; /* Used in .label:hover */
+  --hll-bg: #eee; /* Background for highlighted code lines */
+  --body-bg: #ffffff; /* Explicit body background */
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #e0e0e0;
+  --link-color: #90caf9;
+  --link-focus-color: #bb86fc;
+  --border-color: #444444;
+  --border-color-light: #555555;
+  --footer-bg: #2a2a2a;
+  --footer-border: #90caf9;
+  --inline-code-color: #f9a8d4;
+  --inline-code-bg: #333333;
+  --inline-code-border: #555555;
+  --pre-bg: #2b2b2b;
+  --pre-border: #444444;
+  --table-bg: #1e1e1e;
+  --table-stripe-bg: #2c2c2c;
+  --table-hover-bg: #3a3a3a;
+  --nav-active-bg: #555555;
+  --nav-active-text: #e0e0e0;
+  --post-list-border: #444444;
+  --sidebar-tag-bg: #90caf9;
+  --sidebar-tag-color: #121212;
+  --button-text-hover-focus: #1e1e1e;
+  --label-hover-focus-color: #1e1e1e;
+  --hll-bg: #333333;
+  --body-bg: #121212; /* Slightly different dark for body */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Apply dark mode by default if no theme is explicitly set */
+  :root:not([data-theme]) {
+    --bg-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --link-color: #90caf9;
+    --link-focus-color: #bb86fc;
+    --border-color: #444444;
+    --border-color-light: #555555;
+    --footer-bg: #2a2a2a;
+    --footer-border: #90caf9;
+    --inline-code-color: #f9a8d4;
+    --inline-code-bg: #333333;
+    --inline-code-border: #555555;
+    --pre-bg: #2b2b2b;
+    --pre-border: #444444;
+    --table-bg: #1e1e1e;
+    --table-stripe-bg: #2c2c2c;
+    --table-hover-bg: #3a3a3a;
+    --nav-active-bg: #555555;
+    --nav-active-text: #e0e0e0;
+    --post-list-border: #444444;
+    --sidebar-tag-bg: #90caf9;
+    --sidebar-tag-color: #121212;
+    --button-text-hover-focus: #1e1e1e;
+    --label-hover-focus-color: #1e1e1e;
+    --hll-bg: #333333;
+    --body-bg: #121212;
+  }
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  /* Assuming Gumby sets a base font-family, size, etc. */
+}
 
 /* Code Highlighting */
 code,
@@ -14,7 +106,7 @@ pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
-  color: #333333;
+  color: var(--text-color);
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -22,10 +114,10 @@ pre {
 
 code {
   padding: 2px 4px;
-  color: #d14;
+  color: var(--inline-code-color);
   white-space: nowrap;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
+  background-color: var(--inline-code-bg);
+  border: 1px solid var(--inline-code-border);
 }
 
 pre {
@@ -38,9 +130,8 @@ pre {
   word-wrap: break-word;
   white-space: pre;
   white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: var(--pre-bg);
+  border: 1px solid var(--pre-border);
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -55,8 +146,6 @@ pre code {
   color: inherit;
   white-space: pre;
   white-space: pre-wrap;
-  background-color: transparent;
-  border: 0;
 }
 
 .pre-scrollable {
@@ -64,16 +153,17 @@ pre code {
   overflow-y: scroll;
 }
 
-
-
-
+/* Pygments Highlight Line Background */
+.hll {
+  background-color: var(--hll-bg);
+}
 
 /* Table
 --------------------------------------------------------- */
 
 table {
   max-width: 100%;
-  background-color: transparent;
+  background-color: var(--table-bg);
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -89,7 +179,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid var(--border-color);
 }
 
 .table th {
@@ -110,11 +200,11 @@ table {
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 2px solid var(--border-color);
 }
 
 .table .table {
-  background-color: #ffffff;
+  background-color: var(--table-bg);
 }
 
 .table-condensed th,
@@ -123,7 +213,7 @@ table {
 }
 
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid var(--border-color);
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -134,12 +224,12 @@ table {
 
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-  background-color: #f9f9f9;
+  background-color: var(--table-stripe-bg);
 }
 
 .table-hover tbody tr:hover > td,
 .table-hover tbody tr:hover > th {
-  background-color: #f5f5f5;
+  background-color: var(--table-hover-bg);
 }
 
 table td[class*="span"],
@@ -151,22 +241,20 @@ table th[class*="span"],
   margin-left: 0;
 }
 
-
 /* Navigation
 --------------------------------------------------------- */
 #banner strong {display:block;}
 #banner h1 { font-size:3.25rem }
 
 .no-touch .navbar ul li.active > a {
-  
-  background: #868d92;
-
+  background: var(--nav-active-bg);
+  color: var(--nav-active-text);
 }
 /* Posts
 --------------------------------------------------------- */
 
 #post-list { margin-left:0; }
-#post-list > li {list-style:none;  border-bottom: 2px solid #ccc;  margin-bottom: 20px;  padding-bottom: 15px;}
+#post-list > li {list-style:none;  border-bottom: 2px solid var(--post-list-border);  margin-bottom: 20px;  padding-bottom: 15px;}
 
 .tag-row {margin-top:20px;}
 
@@ -176,23 +264,33 @@ address { font-size:14px; margin-bottom:10px;}
 --------------------------------------------------------- */
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #3498DB;
+    color: var(--link-color);
 }
 
-a, a:hover { color: #3498DB; }
-a:focus { color: #34495E; }
+a { color: var(--link-color); }
+a:hover { color: var(--link-color); }
+a:focus { color: var(--link-focus-color); }
 
-.btn a:hover, 
-.btn a:focus {color:#eee; }
+.btn a:hover,
+.btn a:focus {
+    /* color:#eee; */
+    color: var(--button-text-hover-focus);
+}
 
 .label:hover,
-.label:focus {color:#eee; }
+.label:focus {
+    /* color:#eee; */
+    color: var(--label-hover-focus-color);
+}
 
 /* Footer
 --------------------------------------------------------- */
-.bg { background:#eee; margin-top:35px; padding-top:25px; border-top:5px solid #3498DB; }
-
-
+.bg {
+  background: var(--footer-bg);
+  margin-top:35px;
+  padding-top:25px;
+  border-top:5px solid var(--footer-border);
+}
 
 /* Responsive fixes
 --------------------------------------------------------- */
@@ -217,7 +315,7 @@ img.dsq-widget-avatar {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: #fff 0.3em solid;
+    border: var(--bg-color) 0.3em solid;
     padding: 5px 3px 3px 3px!important;
     margin-right: 5px!important;
     margin-bottom: 5px!important;
@@ -229,14 +327,14 @@ img.dsq-widget-avatar {
     margin-top: 30px;
 }
 .sidebar-tags a {
-    background-color: #3498db;
+    background-color: var(--sidebar-tag-bg);
     height: 20px;
     display: inline-block;
     font-family: Helvetica, arial, verdana, sans-serif;
     font-weight: bold;
     line-height: 20px;
     text-align: center;
-    color: #fff;
+    color: var(--sidebar-tag-color);
     padding: 0 10px;
     font-size: 12px;
     font-size: 0.75rem;

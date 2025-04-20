@@ -38,6 +38,7 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/gumby.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment-dark.css" media="(prefers-color-scheme: dark)" id="pygment-dark-link" disabled />
 
         <script src="{{ SITEURL }}/theme/js/libs/modernizr-2.6.2.min.js"></script>
 
@@ -92,6 +93,7 @@
             {% endif %}
 
               </ul>
+              <button id="theme-toggle" style="/* Basic styling, refine later */ padding: 5px 10px; margin-left: 15px; cursor: pointer;">Toggle Theme</button>
             </div>
 
           {% block content %}
@@ -145,6 +147,7 @@
   <script src="{{ SITEURL }}/theme/js/libs/jquery-1.9.1.min.js"></script>
   <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js"></script>
   <script src="{{ SITEURL }}/theme/js/plugins.js"></script>
+  <script src="{{ SITEURL }}/theme/js/theme-toggle.js"></script>
   {% if article and article.latex %}
   {{ article.latex }}
   {% endif %}

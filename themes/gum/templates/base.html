@@ -92,8 +92,18 @@
               {% endif %}
             {% endif %}
 
+                <!-- Add Theme Toggle Icon Button Here -->
+                <!--
+                <li style="float: right;"> 
+                  <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; line-height: inherit; color: inherit;">
+                  </button>
+                </li>
+                -->
               </ul>
-              <button id="theme-toggle" style="/* Basic styling, refine later */ padding: 5px 10px; margin-left: 15px; cursor: pointer;">Toggle Theme</button>
+              <!-- Move button here, outside the ul but inside the navbar div -->
+              <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; margin-left: auto; /* Push to right with flex */ color: inherit;">
+                <!-- Initial icon set by JS -->
+              </button>
             </div>
 
           {% block content %}

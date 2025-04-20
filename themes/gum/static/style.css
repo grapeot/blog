@@ -36,61 +36,61 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: #1e1e1e;
-  --text-color: #e0e0e0;
-  --link-color: #90caf9;
-  --link-focus-color: #bb86fc;
-  --border-color: #444444;
-  --border-color-light: #555555;
-  --footer-bg: #2a2a2a;
-  --footer-border: #90caf9;
-  --inline-code-color: #f9a8d4;
-  --inline-code-bg: #333333;
-  --inline-code-border: #555555;
-  --pre-bg: #2b2b2b;
-  --pre-border: #444444;
-  --table-bg: #1e1e1e;
-  --table-stripe-bg: #2c2c2c;
-  --table-hover-bg: #3a3a3a;
-  --nav-active-bg: #555555;
-  --nav-active-text: #e0e0e0;
-  --post-list-border: #444444;
-  --sidebar-tag-bg: #90caf9;
-  --sidebar-tag-color: #121212;
-  --button-text-hover-focus: #1e1e1e;
-  --label-hover-focus-color: #1e1e1e;
-  --hll-bg: #333333;
-  --body-bg: #121212; /* Slightly different dark for body */
+  --bg-color: #3c3836; /* Gruvbox dark bg1 */
+  --text-color: #ebdbb2; /* Gruvbox light text */
+  --link-color: #d8b56f; /* Gruvbox yellow - less saturated */
+  --link-focus-color: #fe8019; /* Gruvbox orange */
+  --border-color: #504945; /* Gruvbox dark gray */
+  --border-color-light: #665c54; /* Gruvbox dark gray lighter */
+  --footer-bg: #32302f; /* Gruvbox dark bg0_h */
+  --footer-border: #d8b56f;
+  --inline-code-color: #ebdbb2;
+  --inline-code-bg: #504945;
+  --inline-code-border: #665c54;
+  --pre-bg: #3c3836;
+  --pre-border: #504945;
+  --table-bg: #3c3836;
+  --table-stripe-bg: #504945;
+  --table-hover-bg: #665c54;
+  --nav-active-bg: #7c6f64; /* Gruvbox gray */
+  --nav-active-text: #fbf1c7; /* Gruvbox lightest text */
+  --post-list-border: #504945;
+  --sidebar-tag-bg: #d8b56f;
+  --sidebar-tag-color: #282828; /* Use body bg for contrast */
+  --button-text-hover-focus: #fbf1c7;
+  --label-hover-focus-color: #fbf1c7;
+  --hll-bg: #504945;
+  --body-bg: #282828; /* Gruvbox dark bg */
 }
 
 @media (prefers-color-scheme: dark) {
   /* Apply dark mode by default if no theme is explicitly set */
   :root:not([data-theme]) {
-    --bg-color: #1e1e1e;
-    --text-color: #e0e0e0;
-    --link-color: #90caf9;
-    --link-focus-color: #bb86fc;
-    --border-color: #444444;
-    --border-color-light: #555555;
-    --footer-bg: #2a2a2a;
-    --footer-border: #90caf9;
-    --inline-code-color: #f9a8d4;
-    --inline-code-bg: #333333;
-    --inline-code-border: #555555;
-    --pre-bg: #2b2b2b;
-    --pre-border: #444444;
-    --table-bg: #1e1e1e;
-    --table-stripe-bg: #2c2c2c;
-    --table-hover-bg: #3a3a3a;
-    --nav-active-bg: #555555;
-    --nav-active-text: #e0e0e0;
-    --post-list-border: #444444;
-    --sidebar-tag-bg: #90caf9;
-    --sidebar-tag-color: #121212;
-    --button-text-hover-focus: #1e1e1e;
-    --label-hover-focus-color: #1e1e1e;
-    --hll-bg: #333333;
-    --body-bg: #121212;
+    --bg-color: #3c3836;
+    --text-color: #ebdbb2;
+    --link-color: #d8b56f;
+    --link-focus-color: #fe8019;
+    --border-color: #504945;
+    --border-color-light: #665c54;
+    --footer-bg: #32302f;
+    --footer-border: #d8b56f;
+    --inline-code-color: #ebdbb2;
+    --inline-code-bg: #504945;
+    --inline-code-border: #665c54;
+    --pre-bg: #3c3836;
+    --pre-border: #504945;
+    --table-bg: #3c3836;
+    --table-stripe-bg: #504945;
+    --table-hover-bg: #665c54;
+    --nav-active-bg: #7c6f64;
+    --nav-active-text: #fbf1c7;
+    --post-list-border: #504945;
+    --sidebar-tag-bg: #d8b56f;
+    --sidebar-tag-color: #282828;
+    --button-text-hover-focus: #fbf1c7;
+    --label-hover-focus-color: #fbf1c7;
+    --hll-bg: #504945;
+    --body-bg: #282828;
   }
 }
 
@@ -215,7 +215,6 @@ table {
 .table-bordered {
   border: 1px solid var(--border-color);
   border-collapse: separate;
-  *border-collapse: collapse;
   border-left: 0;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -246,6 +245,27 @@ table th[class*="span"],
 #banner strong {display:block;}
 #banner h1 { font-size:3.25rem }
 
+/* Make navigation a flex container */
+#navigation {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  /* justify-content: space-between; /* Let margin-left: auto on button handle right alignment */
+}
+
+#navigation ul.columns {
+  /* Ensure ul doesn't force button to wrap if space is tight */
+  flex-shrink: 1; /* Allow shrinking */
+  flex-grow: 1;   /* Allow growing */
+  margin-bottom: 0; /* Override potential default margin */
+  /* Remove float if Gumby applies it */
+  float: none !important; 
+}
+
+/* Ensure the toggle button itself doesn't shrink */
+#theme-toggle {
+    flex-shrink: 0;
+}
+
 .no-touch .navbar ul li.active > a {
   background: var(--nav-active-bg);
   color: var(--nav-active-text);
@@ -265,6 +285,47 @@ address { font-size:14px; margin-bottom:10px;}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: var(--link-color);
+}
+
+/* Dark Mode Heading Override for Contrast */
+[data-theme="dark"] h1 a,
+[data-theme="dark"] h2 a,
+[data-theme="dark"] h3 a,
+[data-theme="dark"] h4 a,
+[data-theme="dark"] h5 a,
+[data-theme="dark"] h6 a {
+  color: var(--nav-active-text); /* Use lightest text for headings */
+}
+
+/* Dark Mode Heading Color Override */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--text-color); /* Ensure sufficient contrast for non-link headings */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) h1 a,
+  :root:not([data-theme]) h2 a,
+  :root:not([data-theme]) h3 a,
+  :root:not([data-theme]) h4 a,
+  :root:not([data-theme]) h5 a,
+  :root:not([data-theme]) h6 a {
+    color: var(--nav-active-text);
+  }
+
+  /* Dark Mode Heading Color Override */
+  :root:not([data-theme]) h1,
+  :root:not([data-theme]) h2,
+  :root:not([data-theme]) h3,
+  :root:not([data-theme]) h4,
+  :root:not([data-theme]) h5,
+  :root:not([data-theme]) h6 {
+    color: var(--text-color); /* Ensure sufficient contrast for non-link headings */
+  }
 }
 
 a { color: var(--link-color); }
@@ -294,8 +355,33 @@ a:focus { color: var(--link-focus-color); }
 
 /* Responsive fixes
 --------------------------------------------------------- */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) { /* Assuming 600px is the mobile breakpoint, adjust if needed */
   #banner h1 a {font-size:22px!important; line-height:24px;}
+
+  /* Adjust navigation order for mobile */
+  #navigation {
+    /* Ensure flex is still active if overridden by Gumby */
+    display: flex;
+    align-items: center;
+  }
+
+  #navigation a.toggle {
+    order: -1; /* Move hamburger to the start */
+    /* Reset any Gumby positioning if necessary */
+    /* float: none; */
+    /* position: static; */
+    margin-right: 10px; /* Add some space between icon and nav items */
+    margin-left: 0; /* Remove auto margin if present */
+  }
+
+  #navigation ul.columns {
+    order: 0; /* Keep nav items in the middle (they will likely be hidden by Gumby JS anyway) */
+  }
+
+  #theme-toggle {
+    order: 1; /* Keep theme toggle at the end */
+    margin-left: auto; /* Ensure it stays pushed right */
+  }
 }
 
 /* Fixes about recent comments, added by Yan

@@ -2,7 +2,7 @@
 ##
 # This section should match your Makefile
 ##
-PY=python
+PY=python3
 PELICAN=pelican
 PELICANOPTS=
 
@@ -10,6 +10,7 @@ BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
+SRV_PORT=8013
 
 ###
 # Don't change stuff below here unless you are sure
@@ -66,7 +67,7 @@ function start_up(){
   pelican_pid=$!
   echo $pelican_pid > $PELICAN_PID
   cd $OUTPUTDIR
-  $PY -m pelican.server &
+  $PY -m pelican.server $SRV_PORT &
   srv_pid=$!
   echo $srv_pid > $SRV_PID
   cd $BASEDIR

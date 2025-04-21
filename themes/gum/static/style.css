@@ -63,37 +63,6 @@
   --body-bg: #282828; /* Gruvbox dark bg */
 }
 
-@media (prefers-color-scheme: dark) {
-  /* Apply dark mode by default if no theme is explicitly set */
-  :root:not([data-theme]) {
-    --bg-color: #3c3836;
-    --text-color: #ebdbb2;
-    --link-color: #d8b56f;
-    --link-focus-color: #fe8019;
-    --border-color: #504945;
-    --border-color-light: #665c54;
-    --footer-bg: #32302f;
-    --footer-border: #d8b56f;
-    --inline-code-color: #ebdbb2;
-    --inline-code-bg: #504945;
-    --inline-code-border: #665c54;
-    --pre-bg: #3c3836;
-    --pre-border: #504945;
-    --table-bg: #3c3836;
-    --table-stripe-bg: #504945;
-    --table-hover-bg: #665c54;
-    --nav-active-bg: #7c6f64;
-    --nav-active-text: #fbf1c7;
-    --post-list-border: #504945;
-    --sidebar-tag-bg: #d8b56f;
-    --sidebar-tag-color: #282828;
-    --button-text-hover-focus: #fbf1c7;
-    --label-hover-focus-color: #fbf1c7;
-    --hll-bg: #504945;
-    --body-bg: #282828;
-  }
-}
-
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
@@ -305,27 +274,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 [data-theme="dark"] h5,
 [data-theme="dark"] h6 {
   color: var(--text-color); /* Ensure sufficient contrast for non-link headings */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) h1 a,
-  :root:not([data-theme]) h2 a,
-  :root:not([data-theme]) h3 a,
-  :root:not([data-theme]) h4 a,
-  :root:not([data-theme]) h5 a,
-  :root:not([data-theme]) h6 a {
-    color: var(--nav-active-text);
-  }
-
-  /* Dark Mode Heading Color Override */
-  :root:not([data-theme]) h1,
-  :root:not([data-theme]) h2,
-  :root:not([data-theme]) h3,
-  :root:not([data-theme]) h4,
-  :root:not([data-theme]) h5,
-  :root:not([data-theme]) h6 {
-    color: var(--text-color); /* Ensure sufficient contrast for non-link headings */
-  }
 }
 
 a { color: var(--link-color); }

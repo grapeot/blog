@@ -385,3 +385,22 @@ img.dsq-widget-avatar {
     -o-border-radius: 2px;
     border-radius: 2px;
 }
+
+/* Add borders to markdown tables */
+.entry-content table, 
+.entry-content th, 
+.entry-content td {
+    border: 1px solid #ccc; /* Light grey border */
+}
+
+.entry-content table {
+    border-collapse: collapse; /* Merge borders */
+    margin-bottom: 1em; /* Space below table */
+    width: 100%; /* Make table full width */
+}
+
+.entry-content th, 
+.entry-content td {
+    padding: 0.5em; /* Cell padding */
+    text-align: left !important; /* Ensure left alignment, overriding inline styles */
+}

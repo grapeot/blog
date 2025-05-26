@@ -1,4 +1,4 @@
-Title: 上一篇文章写崩了，但AI没错
+Title: 上一篇文章写崩了，但不是AI的锅
 Date: 2025-05-08 11:00
 Category: Computing
 Tags: AI, Chinese, Agentic AI, AI Centric

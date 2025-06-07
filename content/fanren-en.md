@@ -25,7 +25,7 @@ This methodology can be summarized by a somewhat counter-intuitive formula: Dumb
 
 When building an AI system, it's easy to fall into a kind of data purity obsession, expecting the AI to produce perfectly accurate results from the very first step. For instance, when extracting characters, we might hope it instantly recognizes that Mr. Li from Chapter 1 and Li Feiyu from Chapter 100 are the same person and provide a precise description. In a fragmented environment lacking global context, this is unrealistic. It's even a common failure pattern. Many people try to use AI for similar text comprehension tasks, find that it has all sorts of problems, and after a few attempts, conclude that AI isn't there yet and give up.
 
-So my first principle is to embrace the inherent clumsiness of the initial data. The entire system was designed with the assumption that the data from the first pass would be of poor quality—full of duplicates, errors, and omissions. That's okay. It's like learning any complex skill; we can't get it perfect in one go. The key is to build a [self-correcting loop](/closed-loop-learnings-en.html).
+So my first principle is to embrace the inherent clumsiness of the initial data. The entire system was designed with the assumption that the data from the first pass would be of poor quality—full of duplicates, errors, and omissions. That's okay. It's like learning any complex skill; we can't get it perfect in one go. The key is to build a [self-correcting loop](/closed-loop-learning-en.html).
 
 To this end, I first built two fundamental data access modules that could be repeatedly called by higher-level processes.
 

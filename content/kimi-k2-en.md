@@ -1,7 +1,7 @@
 Title: Kimi K2: An In-Depth Review Beyond the Chatbox
 Date: 2025-07-12 17:00
 Category: Computing
-Tags: AI, Kimi, Agentic AI, LLM
+Tags: AI, Agentic AI, LLM, English
 Slug: kimi-k2-en
 
 Whenever a new large model is released, a wave of reviews inevitably follows. But there's an interesting phenomenon: the vast majority of these reviews are confined to the one environment we're all most familiar with: the chatbox.

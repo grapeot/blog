@@ -4,7 +4,7 @@ Category: Computing
 Tags: AI, Chinese
 Slug: gpt-5
 
-今年OpenAI发布了GPT-5。首先我想推荐一个文档，是OpenAI给它写的[Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)。这个文档与model card不同，解释了很多怎么把它用好的技术细节，更面向API用户而不是研究人员。对使用API构建产品的工程师尤其有价值。
+今天OpenAI发布了GPT-5。首先我想推荐一个文档，是OpenAI给它写的[Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)。这个文档与model card不同，解释了很多怎么把它用好的技术细节，更面向API用户而不是研究人员。对使用API构建产品的工程师尤其有价值。
 
 经过各种调研，实验，代码编写，我最大的感受是，GPT-5可能不是一次重大的模型升级，但是它是一个重大的产品升级。它的很多feature都是针对让API用户能构建更好的产品来设计的。
 

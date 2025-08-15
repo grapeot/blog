@@ -4,7 +4,7 @@ Category: Computing
 Tags: AI, English
 Slug: gpt-5-en
 
-This year, OpenAI released GPT-5. First off, I want to recommend the [Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide) that OpenAI wrote for it. Unlike a typical model card, this guide dives into the technical details of how to use it effectively, targeting API users rather than researchers. It's especially valuable for engineers building products with the API.
+Today OpenAI released GPT-5. First off, I want to recommend the [Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide) that OpenAI wrote for it. Unlike a typical model card, this guide dives into the technical details of how to use it effectively, targeting API users rather than researchers. It's especially valuable for engineers building products with the API.
 
 After extensive research, experimentation, and coding, my biggest takeaway is that GPT-5 might not be a major *model* upgrade, but it is a significant *product* upgrade. Many of its features are specifically designed to help API users build better products.
 

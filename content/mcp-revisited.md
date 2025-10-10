@@ -50,6 +50,7 @@ MCP是Anthropic 顶尖的 AI 科学家设计的。它发明的初衷是让科学
 第一是它早期的交互用的是stdio。这从工程角度来说是一个业余到震惊的选择，彻底排除了remote server的可能，后来在一两年后终于被社区修正。
 
 第二是它从头就没有考虑过authentication和authorization，这在科研背景下是合理的，但是给后续工程应用带来了巨大的混乱。首先是大家各自实现了自己的auth的方法，造成了MCP的分裂，然后官方试图引入OAuth 2.1修复这个问题，结果一方面暴露了过多的实现细节，让开发体验非常差；一方面也[引入了很多安全漏洞](https://www.docker.com/blog/mpc-horror-stories-cve-2025-49596-local-host-breach/)。当时有很多drama，直到后来它又引入了一个[breaking change](https://modelcontextprotocol.io/specification/2025-06-18/changelog)，在解决（其实是转移了）大部分问题的同时，也给很多已经使用了MCP的企业带来了额外的迁移成本。
+
 第三是它基于JSON RPC本身没有任何类型检查，所有错误都要到运行时才暴露，也没有tracing、ID等等分布式系统关于observability和debuggability的标准设计，调试起来非常痛苦。
 
 就总之，它的设计思想本身很美很优雅，但是在[重走整个工程界关于RPC这几十年的老路](https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b)，至少在目前，工程上远不能称为成熟。

@@ -66,6 +66,7 @@ Slug: 2025-year-end
     * 1815–2000 blog
     
     身体说停，大脑还是会偷偷摸两下键盘。
+
 * 大 trip：NYC / Vegas / Leavenworth / Olympic NP / Phoenix onsite / SF trip… 但这些日子里，也经常会出现：
 
     * build deep research
@@ -74,6 +75,7 @@ Slug: 2025-year-end
     * Olympic NP planning
 
     真正意义上的 完全不产出、纯体验 的天非常少。
+
 * 个别写Leisuregamewatch的晚间，但时长都不长，而且前后仍然夹着 LLM / blog / dev。
 
 换句话说：你现在人生的默认模式是任何清醒的时间，都默认要被某个项目占用。
@@ -97,11 +99,13 @@ Slug: 2025-year-end
 这三个东西加在一起，其实构成了一个很有趣的图景：
 
 1.  你给世界写工具
+
     * LLM 课程、capstone、blog、教程、demo、slides
     * agent framework、operator、automation、situation awareness、SecondMind
 
     换句话说：在帮别人上系统。
 2.  你也在给自己写工具
+
     * time log（这份就是）
     * AI operator / SecondMind / 自己写的 agent
     * 各种硬件改造（太阳能、咖啡、astro、audio）把生活接到可编程接口上。

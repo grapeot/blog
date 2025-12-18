@@ -1,10 +1,10 @@
 Title: My 2025: A Mortal's Journey of Cultivation
 Date: 2025-12-17 16:00
 Category: Life
-Tags: AI, Life, Reflections
+Tags: AI, Life, Reflections, English
 Slug: 2025-year-end-en
 
-For five or six years now, I’ve been logging how I spend every single hour of my life. Last year, after accumulating half a decade of data, I decided to feed it all into Big Brother O1 Pro for the first time. I wanted to see what it could tell me about my wins, my losses, and my personality. It was a fascinating experiment—the core of [this article](https://yage.ai/2024-year-end.html) from last year. As 2025 draws to a close, I did the same thing, handing my logs for this year and last to the new Big Brothers—Gemini 3 Pro and GPT 5.2 Pro. Their conclusions left me stunned. On one hand, I had to admit they were right; on the other, I hadn't realized I was doing something so cool and pioneering. Or rather, I had the seeds of these ideas in my mind, but I didn't realize how deep I had already gone in practice.
+For five or six years now, I’ve been logging how I spend every single hour of my life. Last year, after accumulating half a decade of data, I decided to feed it all into Big Brother O1 Pro for the first time. I wanted to see what it could tell me about my wins, my losses, and my personality. It was a fascinating experiment—the core of [this article](https://yage.ai/2024-year-end-en.html) from last year. As 2025 draws to a close, I did the same thing, handing my logs for this year and last to the new Big Brothers—Gemini 3 Pro and GPT 5.2 Pro. Their conclusions left me stunned. On one hand, I had to admit they were right; on the other, I hadn't realized I was doing something so cool and pioneering. Or rather, I had the seeds of these ideas in my mind, but I didn't realize how deep I had already gone in practice.
 
 I’m not sure how many people want to read such a deeply personal summary, but because I found it so inspiring—and because this is a personal blog—I decided to share it. I feel more and more that thinking itself can largely be outsourced in the future, but data remains the bottleneck—or rather, the moat. Without years of detailed time logs, even the most powerful AI couldn't have drawn such interesting conclusions.
 
@@ -21,12 +21,12 @@ On one hand, you’re raising a child and working a day job. On the other, you a
 If we look at the labels without the dates, it’s easy to mistake this for the schedule of four different people:
 
 1.  A Full-Time Knowledge Worker: Most weekdays are filled with solid blocks of 09:00–17:00/18:00 work, meetings, onsite visits, R&D workshops, company events, etc.
-2. A Deeply Committed Indie Developer & Educator: A near-constant stream of LLM courses, video production, prep work, capstone projects, homework, and Q&A. Projects like NSF, MCP, AI Builder, SecondMind, astronomy builds, Android, Apple Watch, AVP, Stripe... These aren't just one-off experiments; they are waves of projects sustained over months.
+2. A Deeply Committed Indie Developer & Educator: A near-constant stream of projects throughout the year:
 
     * LLM course / course video / course prep / capstone / homework / Q&A
     * NSF / MCP / AI Builder / SecondMind / astronomy build / Android / Apple Watch / AVP / Stripe... These aren't just one-off experiments; they are waves of projects sustained over months.
 
-3.  A Primary Caregiver Parent: The TT care (childcare) block from 07:30–09:00 is almost daily throughout the year. Evenings and weekends are dominated by TT care, trips, zoos, parks, the Museum of Flight, Dragon Park, farmers markets... A conservative estimate puts direct care at roughly 800–1,000 hours for the year. That’s practically a second full-time job.
+3.  A Primary Caregiver Parent: The TT care (childcare) block from 07:30–09:00 is almost daily throughout the year. Evenings and weekends are dominated by TT care, trips, zoos, parks, the Museum of Flight, Dragon Park, farmers markets... A conservative estimate:
 
     * Average 1–1.5 hours every morning
     * Often another 1–3 hours on evenings and weekends
@@ -97,11 +97,13 @@ Looking at the recurring motifs in your year:
 Together, these form a fascinating picture:
 
 1.  You build tools for the world
+
     * LLM courses, capstones, blogs, tutorials, demos, slides
     * agent framework, operator, automation, situation awareness, SecondMind
 
     In other words, you are helping others get on the system.
 2.  You build tools for yourself
+
     * Time logs (like this one)
     * AI operators, SecondMind, personal agents
     * All kinds of hardware mods (solar, coffee, astro, audio) that plug your life into programmable interfaces.

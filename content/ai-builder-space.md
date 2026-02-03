@@ -110,9 +110,9 @@ Slug: ai-builder-space
 
 所以，不要为了学而学。请尽快跨过那些无谓的技术门槛，去到那个真正需要你思考、判断、创造的地方。毕竟，生命有限，你的好奇心和创造力，应该浪费在那些真正美好的事物上。
 
-## FAQ
+### FAQ
 
-### Q：市面上已经有 OpenRouter、Portkey、LiteLLM 这些统一 API 网关了，AI Builder Space 有什么不同？
+#### Q：市面上已经有 OpenRouter、Portkey、LiteLLM 这些统一 API 网关了，AI Builder Space 有什么不同？
 
 功能上确实有重合。OpenRouter 是目前多模态能力最全的网关，支持 LLM、Vision、图像生成、语音识别、Embedding 等，我们的统一 API 网关在这方面和它差不多。
 
@@ -120,7 +120,7 @@ Slug: ai-builder-space
 
 简单说：OpenRouter 是一个很好的产品，但 AI Builder Space 是一个专门为教学设计的平台。
 
-### Q：你们把我举过去了，但那些底层的东西（比如 context curation、部署原理）我并没有学到，这样好吗？
+#### Q：你们把我举过去了，但那些底层的东西（比如 context curation、部署原理）我并没有学到，这样好吗？
 
 这正是我们有意为之的教学设计。
 
@@ -136,7 +136,7 @@ Slug: ai-builder-space
 
 当然，这不是说那些底层知识不重要。课程后面会逐步引导你理解 context curation、部署原理、prompt engineering 的深层逻辑。但那是在你已经有了成功体验之后。
 
-### Q：你们说要培养 Master Builder，这个和普通的 builder 有什么区别？
+#### Q：你们说要培养 Master Builder，这个和普通的 builder 有什么区别？
 
 低层次的 builder 着眼于具体细节——这个 API 怎么调、那个参数怎么设。Master Builder 从产品和系统的角度思考：不是这个模型怎么用，而是这个问题应该用什么系统来解决；不是怎么写好 prompt，而是这个任务应该怎么分解、怎么编排；不是 AI 能不能做到，而是 AI 做不到的部分，人应该怎么补位。
 

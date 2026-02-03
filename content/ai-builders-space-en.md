@@ -110,9 +110,9 @@ As for configuring environments, debugging ports, applying for tokens—these ar
 
 So don't learn for the sake of learning. Please cross those pointless technical barriers as quickly as possible and get to the place where you truly need to think, judge, and create. After all, life is finite—your curiosity and creativity should be wasted on things that are truly beautiful.
 
-## FAQ
+### FAQ
 
-### Q: There are already unified API gateways like OpenRouter, Portkey, and LiteLLM in the market. How is AI Builder Space different?
+#### Q: There are already unified API gateways like OpenRouter, Portkey, and LiteLLM in the market. How is AI Builder Space different?
 
 Functionally, there is indeed overlap. OpenRouter is currently the gateway with the most comprehensive multimodal capabilities, supporting LLM, Vision, Image Generation, Speech Recognition, Embedding, etc., and our unified API gateway is similar in this regard.
 
@@ -120,7 +120,7 @@ But the positioning is different. First, friction-free start—you automatically
 
 Simply put: OpenRouter is a great product, but AI Builder Space is a platform specifically designed for teaching.
 
-### Q: You helped me skip ahead, but I didn't learn the underlying things (like context curation, deployment principles). Is this okay?
+#### Q: You helped me skip ahead, but I didn't learn the underlying things (like context curation, deployment principles). Is this okay?
 
 This is exactly our intentional instructional design.
 
@@ -136,7 +136,7 @@ Third, learning too much at once can be overwhelming. Skip unnecessary complexit
 
 Of course, this isn't to say those underlying knowledge points aren't important. The course will gradually guide you to understand the deeper logic of context curation, deployment principles, and prompt engineering later. But that's after you've already had a successful experience.
 
-### Q: You talk about cultivating Master Builders. How is this different from ordinary builders?
+#### Q: You talk about cultivating Master Builders. How is this different from ordinary builders?
 
 Low-level builders focus on specific details—how to call this API, how to set that parameter. Master Builders think from a product and system perspective: not how to use this model, but what system should be used to solve this problem; not how to write a good prompt, but how this task should be decomposed and orchestrated; not whether AI can do it, but how humans should fill the gap where AI falls short.
 

@@ -112,6 +112,10 @@ So don't learn for the sake of learning. Please cross those pointless technical 
 
 ### FAQ
 
+#### Q: What is the AI Builder Space mentioned in the article? Where can I use it?
+
+This is an exclusive educational platform for students of our **AI Architect** course. Its website is at [space.ai-builders.com](https://space.ai-builders.com), but free access is limited to enrolled students. If you are interested in this course, you can check out [this link](https://www.superlinear.academy/c/aa/).
+
 #### Q: There are already unified API gateways like OpenRouter, Portkey, and LiteLLM in the market. How is AI Builder Space different?
 
 Functionally, there is indeed overlap. OpenRouter is currently the gateway with the most comprehensive multimodal capabilities, supporting LLM, Vision, Image Generation, Speech Recognition, Embedding, etc., and our unified API gateway is similar in this regard.

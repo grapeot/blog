@@ -112,6 +112,10 @@ Slug: ai-builder-space
 
 ### FAQ
 
+#### Q：文章里提到的 AI Builder Space 是什么？哪里可以使用？
+
+这个是我们 **AI Architect** 这门课程的学生专属的一个教学平台。它的网页在 [space.ai-builders.com](https://space.ai-builders.com)，但是需要学生才有免费的访问权限。如果对这门课感兴趣的话，可以看一下[这个链接](https://www.superlinear.academy/c/aa/)。
+
 #### Q：市面上已经有 OpenRouter、Portkey、LiteLLM 这些统一 API 网关了，AI Builder Space 有什么不同？
 
 功能上确实有重合。OpenRouter 是目前多模态能力最全的网关，支持 LLM、Vision、图像生成、语音识别、Embedding 等，我们的统一 API 网关在这方面和它差不多。

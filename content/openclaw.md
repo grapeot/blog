@@ -1,4 +1,4 @@
-Title: OpenClaw深度分析：为什么突然就火了，以及对普通人意味着什么
+Title: OpenClaw深度分析：为什么突然就火了，以及对我们意味着什么
 Date: 2026-02-14 23:00
 Category: Computing
 Tags: AI, Agentic AI, OpenClaw, Chinese
@@ -6,7 +6,7 @@ Slug: openclaw
 
 OpenClaw在2026年1月底爆火。公众号铺天盖地都在介绍怎么配置，云服务厂商都速度上线了一键部署，生怕错过这波热度。与此同时，各种行为艺术又满天飞：ClawdBot、MoltBot、OpenClaw，一周内改了三次名；结果改名的时候账号还被抢注，被一个叫$CLAWD的代币诈骗了1600万美元。与此同时，安全漏洞也层出不穷：有12%的第三方skills含恶意代码，有不少人把控制台裸露在公网上没设密码。一时间让人感觉整个领域全是相互矛盾的噪音，无所适从：这东西到底要不要装？不装会错过什么？装了有什么风险？这到底是下一个生产力革命还是又一个两周就过气的玩具？
 
-这篇文章就想从更高层的角度抽丝剥茧：OpenClaw到底做对了什么，为什么是它火，以及这跟普通人有什么关系。
+这篇文章就想从更高层的角度抽丝剥茧：OpenClaw到底做对了什么，为什么是它火，以及这跟我们有什么关系。
 
 ## 为什么会火的暴论
 
@@ -109,6 +109,8 @@ Skills方面，OpenCode生态有大量MCP server和Skills可以接入——日�
 为了解决这个问题，我们做了一个原生的iOS App作为OpenCode的远程客户端。注意这个App不是把聊天窗口搬到手机上——它是一个真正为移动端设计的工作界面：能看到AI的实时工作进度，每一步工具调用、每一个文件操作；能切换模型做A/B测试；能浏览Markdown文件和审查更改；支持语音输入；支持基于HTTPS或者SSH隧道的公网访问；iPad上还有三栏分屏。
 
 这个客户端已经在github上[开源](https://github.com/grapeot/opencode_ios_client)了。欢迎大家也来体验。未来可能会加入TestFlight。效果是吃灰很久的iPad重新变成了生产力工具，在沙发上指挥AI干活的体验比OpenClaw的聊天窗口爽得多。外出吃饭的时候接到oncall，也可以直接给AI小弟布置任务，当场就搞清楚了原因。而且全程都有对AI完全的掌控，知道它不会出幺蛾子，也不会把你的信息po到Moltbook上。
+
+![iPad客户端](/images/opencode_ios_client.jpeg)
 
 ## 总结
 

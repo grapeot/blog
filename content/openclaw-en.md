@@ -110,6 +110,8 @@ To bridge this gap, we built a native iOS app as a remote client for OpenCode. T
 
 The client is [open-sourced](https://github.com/grapeot/opencode_ios_client) on GitHub. Feel free to check it out; it might even hit TestFlight soon. The result is that my dusty iPad is finally a productivity beast again. Directing an AI from the couch is a much, much better experience than using OpenClaw’s chat window. If I get an on-call notification while I'm out for dinner, I can just assign the task to my "AI intern" and have the root cause figured out before the check arrives. And the whole time, I have total control over the AI—I know it isn't going to go rogue or leak my info to Moltbook.
 
+![iPad Client](/images/opencode_ios_client.jpeg)
+
 ## Conclusion
 
 Let's go back to my "hot take" at the beginning. The viral success of both OpenClaw and DeepSeek points to the same underlying truth: it's about taking capabilities a small elite group is already enjoying and pushing them to a broader audience for the first time. DeepSeek gave people their first taste of searching, reasoning AI; OpenClaw gave them their first hands-on experience with an Agentic AI that has disk access, memory, and the power to self-evolve.

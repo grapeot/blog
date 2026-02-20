@@ -33,6 +33,14 @@
   --label-hover-focus-color: #eee;
   --hll-bg: #eee;
   --body-bg: #ffffff;
+  /* Gumby override variables (light mode) */
+  --gumby-text: #555555;
+  --gumby-heading: #444444;
+  --gumby-link: #d04526;
+  --gumby-link-hover: #c03d20;
+  --gumby-muted: #777;
+  --gumby-border: #cccccc;
+  --gumby-blockquote-border: #cccccc;
 }
 
 [data-theme="dark"] {
@@ -61,11 +69,49 @@
   --label-hover-focus-color: #c0caf5;
   --hll-bg: #292e42;
   --body-bg: #16161e;
+  /* Gumby overrides for dark mode */
+  --gumby-text: #c0caf5;
+  --gumby-heading: #c0caf5;
+  --gumby-link: #7aa2f7;
+  --gumby-link-hover: #bb9af7;
+  --gumby-muted: #a9b1d6;
+  --gumby-border: #292e42;
+  --gumby-blockquote-border: #3b4261;
 }
 
+/* Override Gumby hardcoded colors with CSS variables (loads after gumby.css) */
 body {
-  background-color: var(--body-bg);
-  color: var(--text-color);
+  background-color: var(--body-bg) !important;
+  background: var(--body-bg) !important;
+  color: var(--text-color) !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--gumby-heading) !important;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: var(--gumby-link) !important;
+}
+a {
+  color: var(--gumby-link) !important;
+}
+a:hover {
+  color: var(--gumby-link-hover) !important;
+}
+.subhead, h1 small, h2 small, h3 small, h4 small, h5 small,
+blockquote, blockquote p, blockquote cite, blockquote cite a, blockquote cite a:visited {
+  color: var(--gumby-muted) !important;
+}
+blockquote {
+  border-left-color: var(--gumby-blockquote-border) !important;
+}
+hr, abbr, acronym {
+  border-color: var(--gumby-border) !important;
+  color: var(--gumby-text) !important;
+}
+@media print {
+  p a, p a:visited {
+    color: var(--gumby-text) !important;
+  }
 }
 
 /* Code Highlighting */

@@ -15,6 +15,7 @@
 9. `30687b2` - 统一 pelicanconf/publishconf 配置、添加 make test
 10. `18c9a08` - 切换夜间模式到 Tokyo Night
 11. `待提交` - 修复 style.css 覆盖问题、添加 code review
+12. `待提交` - Code review 修复：Gumby CSS 变量、https、Disqus、RSS、测试
 
 **改动：**
 - **Google Analytics**: ga.js → GA4 gtag.js，ID 改为 `G-03MXLX12W1`
@@ -25,7 +26,8 @@
 - **夜间模式**: Monokai → Gruvbox Dark（配色统一）
 - **Disqus**: 更新到最新嵌入代码
 - **IE 兼容**: 删除 .ie7/.ie8/.ie9 CSS 代码
-- **测试**: 扩展到 11 个 Playwright 测试（含导航测试）
+- **测试**: 扩展到 20 个 Playwright 测试（含 sitemap、feed、gravatar 验证）
+- **Code Review 修复**: Gumby 硬编码颜色 → CSS 变量覆盖 + 夜间模式；http→https；Disqus 直接用 https；RSS/Atom 启用 FEED_ALL_* 修复 404；sitemap/feed/gravatar 测试
 
 **JS 体积优化:** ~109KB → ~88KB（-21KB）
 

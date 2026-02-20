@@ -63,32 +63,27 @@
    - 建议：考虑迁移到 Tailwind CSS 或 Bulma
    - 风险：未来浏览器兼容性问题
 
-2. **gumby.css 硬编码颜色**
-   - 大量硬编码 `#555555`、`#d04526` 等
-   - 部分未被 CSS 变量覆盖
-   - 影响：夜间模式不完整
+2. ~~**gumby.css 硬编码颜色**~~ ✅ 已修复
+   - 用 style.css 的 CSS 变量覆盖，支持夜间模式
 
 ### 中优先级
 
-3. **模板中的 http:// 链接**
-   - `base.html:119-122` 有 http:// 链接
-   - 建议：改为 https://
+3. ~~**模板中的 http:// 链接**~~ ✅ 已修复
+   - base.html 改为 https://
 
-4. **article.html 中 Disqus 协议检测**
-   - 仍有 `'https:' == ... ? 'https://' : 'http://'` 代码
-   - 建议：直接用 https://
+4. ~~**article.html 中 Disqus 协议检测**~~ ✅ 已修复
+   - 直接用 https://
 
-5. **gravatar 插件未验证**
-   - 配置了但未确认是否正常工作
+5. ~~**gravatar 插件未验证**~~ ✅ 已修复
+   - 添加 test_gravatar_plugin_enabled 测试
 
 ### 低优先级
 
-6. **缺少 sitemap.xml 验证**
-   - sitemap 插件已启用，但未测试输出
+6. ~~**缺少 sitemap.xml 验证**~~ ✅ 已修复
+   - 添加 test_sitemap_exists、test_sitemap_valid_xml
 
-7. **feed 配置**
-   - `FEED_ALL_ATOM = None`（禁用）
-   - 如果需要 RSS，需要重新启用
+7. ~~**feed 配置**~~ ✅ 已修复
+   - 启用 FEED_ALL_ATOM、FEED_ALL_RSS，修复 RSS 404
 
 ---
 

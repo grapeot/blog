@@ -7,7 +7,8 @@
 1. `086b595` - 升级主题：GA4、jQuery 3.7.1、删除 Google+、合并官方 2025 功能
 2. `de71b1f` - 用 3 行 shim 替换 16KB Modernizr 2.6.2
 3. `2f9cf66` - 添加测试计划、初始化 pelican-plugins submodule
-4. `待提交` - 添加 Playwright 集成测试
+4. `3c7d251` - 添加 Playwright 测试、修复 Modernizr.load shim
+5. `7d225ad` - 更新 README 环境/测试指南、补充 pytz 依赖
 
 **改动：**
 - **Google Analytics**: ga.js → GA4 gtag.js，ID 改为 `G-03MXLX12W1`

@@ -40,6 +40,7 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment-dark.css" media="(prefers-color-scheme: dark)" id="pygment-dark-link" disabled />
+
         {% if CUSTOM_CSS_FILES %}
           {% for item in CUSTOM_CSS_FILES %}
             <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ item }}" />
@@ -147,6 +148,7 @@
     </div>
 
 
+  <script src="{{ SITEURL }}/theme/js/libs/modernizr-shim.js"></script>
   <script src="{{ SITEURL }}/theme/js/libs/jquery-3.7.1.min.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/plugins.js" defer></script>

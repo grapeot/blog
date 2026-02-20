@@ -40,6 +40,13 @@
 - **新增测试**: tests/test_summary_coverage.py
 - **使用 8 个并行 agent** 处理 Summary 生成
 
+### 2025-02-20 Translation 字段修复
+
+修复了 86 篇中文文章错误地包含 Translation 字段的问题。Translation 字段应该只存在于英文翻译版本（-en.md）中，而不是原始中文版本。
+
+- **commit**: 87dd778
+- **修复**: 移除中文文章的 Translation 字段，消除 "All items are translations" 警告
+
 ### 运行测试
 
 ```bash

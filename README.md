@@ -83,6 +83,8 @@ tests/test_blog.py::TestNavigation::test_navigation_links PASSED  # 导航链接
 tests/test_blog.py::TestNavigation::test_click_random_article PASSED  # 随机文章可访问
 tests/test_blog.py::TestNavigation::test_click_archives_then_article PASSED  # 归档→文章导航
 tests/test_blog.py::TestNavigation::test_tags_page_or_sidebar PASSED  # 标签页正常
+tests/test_blog.py::TestNavigation::test_disqus_scripts_present PASSED  # Disqus 脚本存在
+tests/test_blog.py::TestNavigation::test_disqus_no_empty_shortname PASSED  # Disqus shortname 正确
 ```
 
 **常见失败：**

@@ -10,7 +10,8 @@
 4. `3c7d251` - 添加 Playwright 测试、修复 Modernizr.load shim
 5. `7d225ad` - 更新 README 环境/测试指南、补充 pytz 依赖
 6. `1fab1ec` - 更新 working.md
-7. `待提交` - 夜间模式统一、Disqus 更新、清理 IE 代码、扩展 Playwright 测试
+7. `8f610a2` - 夜间模式统一 Gruvbox、清理 IE CSS、扩展测试
+8. `待提交` - 修复 Disqus 空短名称问题、添加 Disqus 测试
 
 **改动：**
 - **Google Analytics**: ga.js → GA4 gtag.js，ID 改为 `G-03MXLX12W1`

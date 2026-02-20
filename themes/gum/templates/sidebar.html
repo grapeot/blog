@@ -41,10 +41,12 @@
 	{% endfor %}
 {% endif %}
 
+{% if DISQUS_SITENAME %}
 <h4>Recent Comments</h4>
 <div id="dsq-recentcomments" class="dsq-widget">
     <script src="https://{{ DISQUS_SITENAME }}.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=10&excerpt_length=26"></script>
 </div>
+{% endif %}
 
 {% if SOCIAL %}
 <nav class="widget">

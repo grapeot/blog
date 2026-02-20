@@ -210,3 +210,30 @@ class TestNavigation:
             assert len(errors) == 0, f"JS errors on tag page: {errors}"
             
             browser.close()
+
+    def test_disqus_scripts_present(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/")
+            
+            content = page.content()
+            
+            assert "disqus.com/count.js" in content, "Disqus count.js script not found"
+            assert "disqus.com/recent_comments_widget.js" in content, "Disqus recent_comments_widget.js not found"
+            assert "computinglife.disqus.com" in content, "Disqus shortname not found in scripts"
+            
+            browser.close()
+    
+    def test_disqus_no_empty_shortname(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/")
+            
+            content = page.content()
+            
+            assert "//.disqus.com" not in content, "Empty Disqus shortname detected (//.disqus.com)"
+            assert "https://.disqus.com" not in content, "Empty Disqus shortname detected (https://.disqus.com)"
+            
+            browser.close()

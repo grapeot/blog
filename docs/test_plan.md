@@ -1,24 +1,34 @@
 # Blog Test Plan
 
+## 快速开始
+
+```bash
+source .venv/bin/activate
+make test
+```
+
+**当前测试：13 个 Playwright 测试，覆盖构建、集成、导航、Disqus**
+
+---
+
 ## Test Strategy
 
 静态博客的测试分为三层：
 
 ```
 ┌─────────────────────────────────────────────┐
-│  L3: Integration (Browser)                  │  ← Playwright
+│  L3: Integration (Browser)                  │  ← Playwright (13 tests)
 │  - JS 执行无报错                              │
 │  - 主题切换功能                               │
 │  - GA4 tag 正确注入                          │
+│  - Disqus 脚本正确加载                        │
+│  - 导航功能（archives、文章、tags）            │
 ├─────────────────────────────────────────────┤
-│  L2: Static Analysis                        │  ← linkchecker, html5validator
-│  - 链接完整性                                 │
-│  - HTML 有效性                               │
+│  L2: Static Analysis                        │  ← 文件存在性检查
 │  - CSS/JS 文件存在                           │
 ├─────────────────────────────────────────────┤
 │  L1: Build                                  │  ← make html
 │  - Pelican 构建成功                          │
-│  - 无插件加载错误                             │
 └─────────────────────────────────────────────┘
 ```
 
@@ -28,18 +38,14 @@
 
 ### 1.1 构建测试
 ```bash
-# 在 .venv 环境中执行
 source .venv/bin/activate
 make html
 # 期望: exit code 0, 无 ERROR 日志
 ```
 
-### 1.2 插件检查
-当前缺失的插件:
-- `sitemap` - 生成 sitemap.xml
-- `gravatar` - Gravatar 头像支持
-
-**Action**: 修复或移除这些插件配置
+### 1.2 插件状态
+- ✅ `sitemap` - 已修复（需要 pytz）
+- ⚠️ `gravatar` - 已配置但未验证
 
 ---
 

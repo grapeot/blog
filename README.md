@@ -42,30 +42,29 @@ playwright install chromium
 ```bash
 source .venv/bin/activate
 
-# 开发模式（无 GA4）
+# 开发模式
 make html
 
-# 生产模式（有 GA4）
+# 生产模式（编译 + copy 到 /var/www/yage）
 make publish
 ```
 
-**区别：**
-- `make html` 用 `pelicanconf.py`，无 GA4
-- `make publish` 用 `publishconf.py`，有 GA4
+**注意**：GA4 和 Disqus 在 `pelicanconf.py` 和 `publishconf.py` 中都已启用，确保开发/测试/生产环境一致。
 
 ---
 
 ## 测试
 
-### 运行全量测试
+### 运行测试
 
 ```bash
 source .venv/bin/activate
 
-# 先构建（测试需要 output/ 目录）
-make publish 2>/dev/null || true
+# 方式一：make test（推荐）
+make test
 
-# 运行测试
+# 方式二：手动运行
+make html
 pytest tests/ -v
 ```
 

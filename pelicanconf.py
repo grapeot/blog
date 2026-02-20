@@ -64,3 +64,7 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# Analytics and Comments (also used in development for testing)
+GOOGLE_ANALYTICS_ID = "G-03MXLX12W1"
+DISQUS_SITENAME = "computinglife"

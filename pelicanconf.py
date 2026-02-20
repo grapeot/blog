@@ -14,9 +14,13 @@ FAVICON_URL = 'static/images/favicon.ico'
 
 SHOW_PAGES_IN_SIDEBAR = False
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+# Feed generation (enabled for local testing; publishconf overrides for production)
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_ALL_RSS = 'feeds/rss.xml'
+CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
+FEED_MAX_ITEMS = 10
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll

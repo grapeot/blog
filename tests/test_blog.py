@@ -47,6 +47,29 @@ class TestBuild:
         for f in files:
             assert os.path.exists(f), f"{f} not found"
 
+    def test_sitemap_exists(self):
+        import os
+        assert os.path.exists("output/sitemap.xml"), "sitemap.xml not found"
+
+    def test_sitemap_valid_xml(self):
+        import xml.etree.ElementTree as ET
+        with open("output/sitemap.xml") as f:
+            ET.parse(f)
+
+    def test_feed_rss_exists(self):
+        import os
+        assert os.path.exists("output/feeds/rss.xml"), "feeds/rss.xml not found"
+
+    def test_feed_atom_exists(self):
+        import os
+        assert os.path.exists("output/feeds/atom.xml"), "feeds/atom.xml not found"
+
+    def test_gravatar_plugin_enabled(self):
+        import sys
+        sys.path.insert(0, ".")
+        from pelicanconf import PLUGINS
+        assert "gravatar" in PLUGINS, "gravatar plugin not in PLUGINS"
+
 
 class TestIntegration:
     def test_page_loads_without_js_errors(self, server):
@@ -236,4 +259,26 @@ class TestNavigation:
             assert "//.disqus.com" not in content, "Empty Disqus shortname detected (//.disqus.com)"
             assert "https://.disqus.com" not in content, "Empty Disqus shortname detected (https://.disqus.com)"
             
+            browser.close()
+
+    def test_subscribe_page_rss_accessible(self, server):
+        """Verify RSS feed is reachable from Subscribe page (fixes 404)."""
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            resp = page.goto(server + "/feeds/rss.xml")
+            assert resp and resp.status == 200, f"RSS feed returned {resp.status if resp else 'None'}"
+            content = page.content()
+            assert "<rss" in content or "<?xml" in content, "RSS feed has no valid content"
+            browser.close()
+
+    def test_subscribe_page_atom_accessible(self, server):
+        """Verify Atom feed is reachable (fixes 404)."""
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            resp = page.goto(server + "/feeds/atom.xml")
+            assert resp and resp.status == 200, f"Atom feed returned {resp.status if resp else 'None'}"
+            content = page.content()
+            assert "<feed" in content or "<?xml" in content, "Atom feed has no valid content"
             browser.close()

@@ -15,10 +15,10 @@ RELATIVE_URLS = True
 
 FEED_DOMAIN = 'https://grapeot.me'
 FEED_ATOM = 'feeds/atom.xml'
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 FEED_RSS = 'feeds/rss.xml'
-FEED_ALL_RSS = None
+FEED_ALL_RSS = 'feeds/rss.xml'
 CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
 FEED_MAX_ITEMS = 10
 

@@ -3,6 +3,7 @@ Category: Computing
 Date: 2019-08-12 10:00
 Tags: Chinese, Hardware, DIY
 Slug: ssd-raid-exp
+Summary: 对比测试HDD、SATA SSD与NVMe SSD的RAID 0性能表现：NVMe远超其他方案，软RAID对HDD效果明显但对SSD提升有限，记录RDOC配置踩坑经历。
 
 今天做了关于硬盘性能的一系列实验。
 

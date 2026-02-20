@@ -3,6 +3,7 @@ Category: Life
 Tags: English, Photography
 Slug: photography-and-optics
 Date: 2017-08-08
+Summary: Connecting photography concepts with optics: glasses diopter equals 1/focal length, aperture affects depth of field and diffraction, and macro lens design for close focusing.
 
 I was learning about photography recently, especially beginning from optics. Surprisingly, some incomplete dots I learned before was connected in the processs.
 

@@ -3,6 +3,7 @@ Category: Computing
 Date: 2014-01-13 14:30
 Tags: English, Tutorial
 Slug: exposing-online-matlab-interface
+Summary: Building a web interface for MATLAB using Node.js and Express, enabling file upload, real-time status updates, and result download—useful for collaborative research and distributed computing.
 
 I was always interested in building a small cluster with my (old) computers for my research project (just like MATLAB Distributed Server or a Hadoop cluster).
 While MATLAB is one of the most mature platforms for scientific computing, it's also extremely expensive, so expensive that an Ivy League college determines to exclude MATLAB Distributed Server in its academic license.

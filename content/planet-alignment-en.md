@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Astrophotography, Research
 Slug: planet-alignment-en
 Translation: planet-alignment.html
+Summary: A quantitative approach to identifying planetary alignments using orbital mechanics and Skyfield library, combining visibility, linear alignment, and longitude clustering metrics to search decades of astronomical data.
 ---
 
 When city lights grow dim and the night sky becomes crystal clear, you might notice several particularly bright planets, as though they’ve agreed to line themselves up in the heavens. That’s what we call a planetary alignment. Even though these celestial bodies don’t actually form a perfect geometric line in space, they can appear to align from our viewpoint on Earth, creating a visually striking row. Since the start of 2025, various media outlets around the world have been abuzz with talk of so-called six-planet or seven-planet alignments. Some are awed by it, while others question the science behind it. If we’d like to identify all possible n-planet alignments over the past 20 years (or any chosen time span), how might we go about it?

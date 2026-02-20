@@ -3,6 +3,7 @@ Date: 2022-12-29 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-9-class-d-amp
+Summary: 音频碎碎念之D类放大器：利用数字电路实现高效率放大，详解PWM调制、bus pumping、负反馈延迟、电磁干扰等独特挑战与解决方案。
 
 
 ---

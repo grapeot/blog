@@ -3,6 +3,7 @@ Date: 2023-03-19 22:00
 Category: Life
 Slug: some-product-thoughts
 Tags: Chinese, Review
+Summary: 索尼SA-Z1音箱用FPGA神经网络处理实现大空间音场效果，石头S7 MaxV Ultra扫拖一体机比云鲸更干净更聪明，两个让人印象深刻的产品体验。
 
 分享两个产品使用体验。
 

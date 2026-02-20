@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Management
 Slug: ai-management
 Translation: ai-management-en.html
+Summary: 以一次debug经历说明三个AI管理技巧：克制抢键盘的冲动、提供可视化上下文而非模糊抱怨、授之以渔而非授之以鱼——即从IC到Manager的思维蜕变。
 ---
 
 今天晚上，我让 AI 从多个本地小图出发，把它们按照一定规则拼接成一张大图。整个过程倒没有戏剧化的转折，我只用了五分钟就帮助 AI 完成了任务。但是，在这个过程中，我发现自己有意识地用了几种管理 AI 的技巧，而这些技巧往往是新手最欠缺的。所以，我把具体用的技巧分享出来，看会不会对大家有启发。

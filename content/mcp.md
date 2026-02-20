@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: mcp
 Translation: mcp-en.html
+Summary: 分析MCP解决LLM工具调用标准化痛点的技术优势和Anthropic的商业推动策略，以及开发者何时应该使用MCP、何时可以不用。
 ---
 
 我们在推广Agentic AI的过程中，有一个问题经常被问到：我们怎样对接MCP（Model Context Protocol）？有哪些好用的MCP Server？这篇文章就想梳理一下大家很少问，但可能更重要的问题，比如：我们为什么需要MCP？MCP提供了哪些功能，解决了哪些痛点？为什么MCP这么受欢迎？我们什么时候要用MCP？什么时候不要用？

@@ -3,6 +3,7 @@ Date: 2023-04-26 20:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-1
+Summary: 深空摄影器材入门指南：分析星野、行星、深空三种题材差异，详解赤道仪、相机、主镜、控制系统等核心组件，推荐新手入门器材配置。
 
 
 ---

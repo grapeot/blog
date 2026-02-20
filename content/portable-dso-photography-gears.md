@@ -3,6 +3,7 @@ Date: 2020-08-07 20:55
 Category: Life
 Tags: Chinese, Astrophotography
 Slug: portable-dso-photography-gears
+Summary: 分享便携深空摄影器材搭配：星野赤道仪加黑白冷冻相机配合窄带滤镜，实现城市光害区拍摄、轻装出行和坐飞机都可行的灵活拍摄方案。
 
 虽然西雅图不是一个拍天文的好地方（天天下雨），但是作为老法师，关键在玩器材，所以我也整了一套深空的器材（HyperStar）：
 

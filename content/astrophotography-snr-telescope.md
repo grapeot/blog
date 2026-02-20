@@ -3,6 +3,7 @@ Date: 2021-09-05 13:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophotography-snr-telescope
+Summary: 如何选镜子最大化信噪比：分析口径与焦比对效率的影响，小天体仅与口径相关，接片场景仅与焦比相关，附带效率计算器。
 
 一切缘起最近一个对M31的实验。最近才知道，原来在M31附近是有一些Ha云可以拍出来的（dalao说是银河系内的，具体是什么暂时不深究）。但这玩意非常难拍。我用中黄曝了25个小时Ha，2x2马赛克接片搞出来了这样的效果：
 

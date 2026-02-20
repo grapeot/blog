@@ -3,6 +3,7 @@ Category: Computing
 Date: 2017-03-26 9:00
 Slug: wechat-bot
 Tags: Chinese, AI
+Summary: 探讨聊天机器人的核心价值：利用聊天记录做跨群转发、主题归并、脉络梳理和统计分析，让碎片化信息变得有组织，提供比单纯推送更独特的价值。
 
 
 ---

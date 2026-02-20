@@ -3,7 +3,7 @@ Date: 2020-01-24 15:00
 Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-5
-
+Summary: 两年后再谈全画幅与中画幅：全幅仍是绝大多数人的最佳选择，但中大画幅的可玩性和大幅输出能力无可替代。
 
 ---
 

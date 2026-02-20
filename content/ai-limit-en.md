@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Reflection
 Slug: ai-writing-limit-en
 Translation: ai-limit.html
+Summary: Compares three approaches to writing a course introduction—fully AI, AI-assisted, and fully human. Reveals that human writing conveys tension and engagement that AI's diplomatic, detached style lacks, and choosing not to use AI can itself show respect to users.
 ---
 
 I've been touting the mantra "AI can solve everything" in my social circles for more than a minute, but today, I'm about to switch tunes and indulge in a bit of self-contradiction. That is, once we've got a grip on the [capabilities and limitations of AI](/recent-AI-advancement.html), understanding what it can and cannot do, it's crucial not just to dive headfirst into using AI for everything. Instead, we should judiciously decide where AI should step in to truly achieve the outcomes we desire.

@@ -3,6 +3,7 @@ Date: 2023-03-17 22:00
 Category: Life
 Tags: Chinese, Career
 Slug: senior-ic-thoughts
+Summary: Staff+ IC职业发展心得：与同级别Manager平行而非隶属、不同级别间是并列而非递进关系、升职很大程度上靠命和贵人相助，别卷，接受自己能影响的边界。
 
 最近在爬career ladder上有一些新的学习体会，尤其是在senior IC方面，分享一下。这里的senior IC指的是staff+ IC。这里面有很多个人的偏见，而且可能只适用于北美，请批判鉴别。因为针对的是北美，所以会中英文夹杂。
 

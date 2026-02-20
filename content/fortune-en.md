@@ -5,6 +5,7 @@ Category: Life
 Tags: English, Reflection
 Slug: fate-en
 Translation: fortune.html
+Summary: A philosophical exploration of fate and success, proposing that luck acts as underlying parameters affecting outcome probabilities, and examining the structural relationship between effort and achievement.
 ---
 
 ## Introduction: Why Does Your Carefully Crafted Long Post Get Ignored While Someone Else's Meme Goes Viral?

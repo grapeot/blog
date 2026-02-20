@@ -3,6 +3,7 @@ Date: 2021-08-16 21:25
 Category: Life
 Slug: sharpstar-13028hnt-review
 Tags: Chinese, Astrophotography, Review
+Summary: 锐星13028HNT小小房望远镜评测：f/2.8快速系统入门友好，光轴调整技巧分享，小幅面相机出片与广域接片bin8遮百丑两种找乐子方式。
 
 最近测试了锐星的小小房（13028HNT），是个很有意思的镜子。我也是第一次调牛反光轴，断断续续摸索了三个星期才差不多调好。写这篇文章总结一下一些思考和调整的心得。
 

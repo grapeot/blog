@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Review
 Slug: deepseek-r1-en
 Translation: deepseek-r1.html
+Summary: A critical review of DeepSeek r1 comparing it to GPT-4o and o1, finding it lacking in instruction following and reasoning depth, but exceptional in Chinese language mastery and creative writing.
 ---
 
 Recently, the DeepSeek r1 model has been attracting a lot of attention. Looking at the benchmark rankings, this model's intelligence level appears to be comparable to flagship models like OpenAI's o1. Various social media and public accounts have been lavishing praise on it. As mentioned in my [previous analysis article](https://yage.ai/DeepSeek-hospital-en.html), I also believe that from an academic perspective, both DeepSeek v3 and r1 models are highly inspiring. They reveal some rather counter-intuitive and insightful approaches to the academic community. However, through my actual experience using DeepSeek r1 and comparing it with various common AI models, I've formed some firsthand experiences and insights. I'd like to share these observations here.

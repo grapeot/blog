@@ -5,6 +5,7 @@ Category: Life
 Tags: English, DIY, Tutorial
 Slug: lego-mosaic-en
 Translation: lego-shinomiya.html
+Summary: How to create a Lego mosaic from any photo: use Photoshop to convert to actual Lego colors, then optimize piece selection with a program to reduce cost from $650 to $300 for a 75x75cm artwork.
 ---
 
 Recently, I passed by a Lego store and saw a Lego Master who had created a wall-sized picture using Lego bricks. This made me wonder if I could make one myself - not a whole wall, just something that could be displayed at home like a photo. So I did some experiments and created a 75x75cm mosaic of Kaguya Shinomiya. Below, I'll explain how to go from a photo to a list of Lego pieces that you can purchase and assemble. Obviously, this process has two steps: first, converting a photo into a low-resolution, 8-bit-like image based on available Lego colors; second, generating a parts list and assembly guide based on the different colored Lego shapes. Let's go through each step.

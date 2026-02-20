@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Product
 Slug: ai-products
 Translation: ai-products-en.html
+Summary: 分析为什么模型越来越强但用户感受不到：App设计滞后于模型能力。对比Claude、Gemini和ChatGPT的产品体验，发现OpenAI是唯一同等重视产品设计和模型能力的公司。
 ---
 
 我一直是AI的坚定支持者。身边不少朋友问起AI能干什么，我会给出非常具体的答案：它可以帮你规划日程、调研资料，甚至在生活里处理很多琐碎但耗时的任务比如下单和砍价。我会根据他们的场景给出prompt模板，尽量降低他们尝试的门槛。但我这一两年向几百个人推荐了AI，观察是大多数人用完之后的反馈相当冷淡。最常见的回应是：还好吧，没觉得多有用。有时候还会补一刀：还不如我自己上手做嘞。

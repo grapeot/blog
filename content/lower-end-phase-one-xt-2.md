@@ -3,6 +3,7 @@ Date: 2019-12-07 21:06
 Category: Life
 Slug: lower-end-phase-one-xt-2
 Tags: Chinese, Photography, DIY
+Summary: 用Cambo WRC-400和645D中幅组装山寨版飞思XT技术相机的实践记录，测试了不同光圈成像效果和160MP接片能力，数码中幅画质明显优于全幅。
 
 
 ---

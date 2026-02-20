@@ -3,6 +3,7 @@ Date: 2018-07-08 12:49
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: milky-way-photo
+Summary: 从拍摄、清晰到有趣的完整银河摄影指南，涵盖天时地利条件选择、器材和堆栈降噪技巧、慧差处理和创意构图思路。
 
 没想到在西雅图的郊区也能看到壮美的银河。
 

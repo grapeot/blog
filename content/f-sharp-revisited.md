@@ -3,6 +3,7 @@ Category: Computing
 Date: 2012-05-16 02:55
 Tags: English, Tutorial
 Slug: f-sharp-revisited
+Summary: Explores F# for implementing domain-specific languages, demonstrating turtle graphics and fractal generation with elegant syntax, async support, and parallel computing capabilities.
 
 I was interested in F# because of some of its fun usages, and the ease to do asynchronous and parallel computing. Used F# to implement some domain specific language like Turtle and fractal effect this afternoon. Basically the tasks themselves are nearly the same as this post and this post, some own thoughts were inspired.
 

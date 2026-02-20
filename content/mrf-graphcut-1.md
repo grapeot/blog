@@ -4,6 +4,7 @@ Date: 2011-06-16 03:10
 Tags: English, Research, AI Technique
 Slug: markov-random-field-and-graph-cut-part-1
 Latex:
+Summary: Introducing how to formulate image restoration as a Markov Random Field optimization problem and solve it using graph-cut algorithm to achieve global optimal results efficiently.
 
 
 ---

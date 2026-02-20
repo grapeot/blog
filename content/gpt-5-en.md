@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Review
 Slug: gpt-5-en
 Translation: gpt-5.html
+Summary: GPT-5 is a major product upgrade, not just a model upgrade: new API parameters for reasoning_effort and verbosity enable unprecedented controllability for building AI-powered products.
 ---
 
 Today OpenAI released GPT-5. First off, I want to recommend the [Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide) that OpenAI wrote for it. Unlike a typical model card, this guide dives into the technical details of how to use it effectively, targeting API users rather than researchers. It's especially valuable for engineers building products with the API.

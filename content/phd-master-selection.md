@@ -3,6 +3,7 @@ Date: 2015-03-08 13:00
 Category: Life
 Tags: Chinese, Career, Research
 Slug: phd-master-selection
+Summary: PhD是面向学术界的职业教育而非通识教育，想去工业界读Master性价比更高；选校时导师和方向比学校排名更关键。
 
 一切起源于知乎上面的[这个讨论](http://www.zhihu.com/question/28538556)。
 正好我一直也有这方面的思考，所以这里就把上面我的回答整理一下，加入一些新的见解放在这里。

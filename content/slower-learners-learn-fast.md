@@ -3,6 +3,7 @@ Category: Alive
 Date: 2012-08-26 23:07
 Tags: Chinese, Reflection
 Slug: slow-and-steady-wins-the-race
+Summary: 通过paper reading seminar的体验悟出的道理：bear patience摒弃干扰、静下心来做好重复性工作、规划后专注于当下，静水流深的从容蕴含更大张力。
 
 其实想说的就是最近的生活渐趋平稳，每天一罐酒，第一箱已经喝完，第二箱刚搬了进来。
 

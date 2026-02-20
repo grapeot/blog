@@ -3,6 +3,7 @@ Date: 2011-05-10 02:19
 Category: Computing
 Tags: English, Research, Reflection
 Slug: no-silver-bullet-in-scientific-computing
+Summary: No single language fits all scientific computing needs. Following UNIX philosophy—combining C#, MATLAB, and Python through files and system calls—achieves both development and runtime efficiency.
 
 Is there a language/platform which can suit all the applications?
  

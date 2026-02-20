@@ -3,6 +3,7 @@ Category: Life
 Date: 2015-02-20 1:00
 Tags: English, Time Management
 Slug: using-timer-for-time-management
+Summary: A minimal timer app that vibrates once and switches to stopwatch—perfect for Pomodoro technique, time tracking, and asynchronous workflows without distracting popups.
 
 Recently I begin to use a free app named [timer](https://itunes.apple.com/us/app/timer/id507518845?mt=8).
 Yes it's just a timer.

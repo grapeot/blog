@@ -4,6 +4,7 @@ Category: Life
 Tags: Chinese, Aviation, Tutorial
 Slug: drone-aerodynamics-a
 Latex:
+Summary: 无人机空气动力学入门：机翼升力原理、失速现象、螺旋桨工作方式、周期变距器的作用，以及为什么四轴有速度上限。
 
 * [从鸡翅膀谈起——无人机的空气动力学（上）](/drone-aerodynamics-a.html)
 * [从鸡翅膀谈起——无人机的空气动力学（下）](/drone-aerodynamics-b.html)

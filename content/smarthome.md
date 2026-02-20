@@ -3,6 +3,7 @@ Category: Computing
 Date: 2016-08-30 16:00
 Tags: Chinese, Smart Home, DIY
 Slug: diy-smart-home-transformation
+Summary: 从睡眠监测、智能闹钟、窗帘控制到安防监控的全套智能家居改造：利用Sleep Cycle、Hue、Wemo、IFTTT等工具打造自动化生活，以及树莓派DIY遥控窗帘。
 
 花了两个月的时间，断断续续做了一些[智能/自动家居的改造](/smart-home-lighting-control.html)。感觉自动家居果然是要成体系才会比较有意思——现在的生活已经有点科幻了。
 

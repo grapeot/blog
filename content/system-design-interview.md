@@ -3,6 +3,7 @@ Date: 2022-05-27 18:05
 Category: Life
 Tags: Chinese, Career
 Slug: system-design-interview
+Summary: 从hiring manager视角分析System Design面试的核心观察点：项目主导能力、价值排序、技术预见性和决策过程，附实际案例分析。
 
 最近招人季，不少小伙伴在问system design interview如何准备。我的建议是也许可以换一个角度思考：如果你是[hiring manager](/new-employee-suggestions.html)，你为什么要插个system design进去呢？希望看到什么样的signal呢？
 

@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Review
 Slug: o1-pro-en
 Translation: o1-pro.html
+Summary: Why I renewed the $200/month ChatGPT Pro subscription: o1 Pro delivers thinking depth and insights that other models cannot provide, acting like a mentor rather than just an assistant.
 ---
 
 Recently, I made a decision to give up Devin, an AI development tool costing 500 USD per month (because I can [replicate it with cursor](/cursor-to-devin-en.html)), but renewed my subscription to ChatGPT Pro for 200 USD per month. The reason is that I gradually realized that o1 Pro has aspects that other models simply cannot replace. While the value of other models primarily lies in making me aware of things I didn’t know before, the value of o1 Pro is in helping me gain insights that I wouldn't have thought of even with sufficient information.

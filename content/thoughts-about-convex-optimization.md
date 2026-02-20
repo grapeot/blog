@@ -3,6 +3,7 @@ Date: 2012-05-11 03:02
 Category: Computing
 Tags: English, Research
 Slug: thoughts-about-convex-optimization
+Summary: Convex optimization as a powerful modeling language: express problems as objectives and constraints, then solve efficiently. Demonstrated with image denoising using CVX.
 
 Just finished the final of convex optimization. This is really an interesting course, which even changed the way I'm looking at this world. In college, I was thinking in an algorithmic way, i.e., to solve a problem, will try to design some certain steps, following which we can get a result somehow satisfying our expectation. But now, I'd first spend quite a bit time on the expectation itself, expressing them in the way "what to minimize" and "subject to what constraints". Then simply feed them to convex optimization solvers. 
 

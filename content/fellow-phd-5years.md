@@ -3,6 +3,7 @@ Category: Life
 Date: 2013-09-22 23:00
 Tags: Chinese, Career
 Slug: five-year-phd-summary
+Summary: 转载田渊栋博士的博士五年总结系列，分享科研心得：心静、热爱题目、每天思考、有思路就写、多交流，以及在CMU从被动选导师到把握研究主动权的经历。
 
 这几篇文章的作者是毕业于卡内基梅隆大学的田渊栋博士。读了以后深有启发，在征得作者允许后转载。原帖地址：
 [[1]](https://www.facebook.com/notes/yuandong-tian/%E5%8D%9A%E5%A3%AB%E4%BA%94%E5%B9%B4%E6%80%BB%E7%BB%93%E4%B8%80/10202164554823742)

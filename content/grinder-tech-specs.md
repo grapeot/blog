@@ -3,6 +3,7 @@ Category: Life
 Date: 2023-06-14 09:00
 Tags: Chinese, Coffee, Tutorial
 Slug: grinder-tech-specs
+Summary: 业余爱好者如何选择磨豆机：核心指标是可控性和可重现性，理解咖啡粉颗粒大小分布曲线如何影响萃取，比单纯追求"能磨多细"更重要。
 
 在过去的几个月里，有不少朋友问我如何选择各种咖啡器材，包括[咖啡机](/espresso-workstream.html)、磨豆机、烘豆机等。
 其实网上已经有很多相关的资料和教程。为了方便大家入门，我想分享一下我之前学到的知识、实验和个人观点。

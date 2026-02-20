@@ -5,7 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: agentic-ai-202504
 Translation: agentic-ai-202504-en.html
----
+Summary: 真正的问题不是AI会不会取代你，而是你能不能带好AI。三种Agent角色（教练、秘书、搭档）、默契护城河、构建AI-native的世界。
 
 很多人在问："AI 会不会取代我？"
 

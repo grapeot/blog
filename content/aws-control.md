@@ -3,6 +3,7 @@ Category: Computing
 Date: 2014-11-08 20:00
 Tags: English, Linux, Tutorial
 Slug: easy-ec2-sharing-while-you-pay
+Summary: Simple web system for sharing EC2 access while the bill payer maintains control—team members can start instances via web interface with authentication.
 
 AWS is becoming more and more useful for our research, given its [ease to build clusters](/easy-and-cheap-cluster-building-on-aws.html), and the generous sponsor from [people.co](http://blog.people.co/?p=90), we are using it extensively for research.
 To save cost, we definitely want to shut the machines down when they are not in use.

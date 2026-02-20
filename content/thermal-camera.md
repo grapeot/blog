@@ -3,6 +3,7 @@ Date: 2016-12-20 21:25
 Category: Computing
 Tags: English, DIY, Hardware
 Slug: thermal-camera-experiments
+Summary: Using a FLIR One thermal camera to identify home energy leaks: window drafts, heater inefficiencies, and door gaps. Practical DIY approach to thermal debugging.
 
 The motivation is, it's getting cold in Seattle.
 And the condo we live reached an extent that we cannot bear any more.

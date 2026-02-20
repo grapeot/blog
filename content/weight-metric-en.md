@@ -5,6 +5,7 @@ Date: 2022-09-19 19:30
 Tags: English, Health
 Slug: weight-management-metrics
 Translation: weight-metric.html
+Summary: Body weight is a poor metric—noisy, high latency, loose reward loop. Continuous glucose monitoring (CGM) provides real-time feedback on food and exercise, making weight management more effective and motivating.
 ---
 
 I recently started a new project of my own weight management, and had some learnings on the which metrics to optimize. I share it here hoping it would inspire someone in selecting metrics in ML systems.

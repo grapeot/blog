@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Review
 Slug: open-webui
 Translation: open-webui-en.html
+Summary: OpenWebUI配合ollama实现完全本地的AI体验，功能媲美ChatGPT和Claude：模型对比、RAG知识库、canvas编程、语音对话、联网搜索等一应俱全。
 ---
 
 今天花了一段时间研究 [OpenWebUI](https://github.com/open-webui/open-webui) 这个工具，尤其着重探索怎么把它和ollama在有Unified Memory的MacBook上面部署起来。概括地说，它基本上实现了[POE](/poe.html)、ChatGPT、Claude在内的所有功能，并且还有很多附加功能，并且还可以完全在本地部署。体验之好让我非常惊讶。

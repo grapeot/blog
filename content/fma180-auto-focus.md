@@ -3,6 +3,7 @@ Date: 2021-05-29 18:05
 Category: Computing
 Tags: English, Astrophotography, DIY
 Slug: auto-focus-solution-for-sharpstar-fma180
+Summary: DIY solution for adding ZWO EAF autofocus to SharpStar FMA180 telescope using 3D-printed parts and GT2 belt, with assembly instructions and sample astrophotography results.
 
 Bought a SharpStar FMA180 recently for wide field use.
 Probably because of the small aperture (40mm f/4.5, 180mm focal length), it doesn't come with a regular focuser, but has a focus ring just like regular lens.

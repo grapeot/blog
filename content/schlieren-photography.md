@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, Photography, DIY
 Date: 2020-06-06
 Slug: schlieren-photography
+Summary: 用手机手电筒和几十块的凹面镜搭建山寨纹影摄影系统：可视化的空气中折射率变化，记录体温、火焰、声波等不可见现象，半小时快速入门光路搭建。
 
 昨天看到欧攀老师发了一个文章介绍纹影摄影，感觉很有意思。就花了半小时时间搭了一个系统，分享一些经验。
 

@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI
 Slug: fanren
 Translation: fanren-en.html
+Summary: 用"笨数据+笨方法+笨模型=精知识"的方法论，将千万字小说转化为可交互查询的知识图谱，介绍线性扫描、语义检索和知识飞轮迭代的技术细节。
 ---
 
 ## 引子：从想不起来开始

@@ -3,6 +3,7 @@ Date: 2023-04-26 23:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-2
+Summary: 赤道仪选购指南：详解赤道仪结构与精度提升方法，包括周期误差纠正、导星系统、码盘闭环控制，以及中天翻转、抖动、极轴校准等实操要点。
 
 
 ---

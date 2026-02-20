@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Product
 Slug: poe-en
 Translation: poe.html
+Summary: Why I switched from ChatGPT to Poe - a comparative analysis of Quora's AI platform that integrates GPT, Claude, Llama and more, with multi-bot collaboration and prompt comparison features.
 ---
 
 Today, I canceled my paid ChatGPT subscription.

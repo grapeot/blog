@@ -3,6 +3,7 @@ Date: 2023-04-30 22:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-5
+Summary: 控制系统选择指南：详解GoTo、解析、拍摄计划等七大基础功能与多炮、脚本、插件三大高级功能，对比ZWO盒子、NINA、Voyager等主流工具。
 
 
 ---

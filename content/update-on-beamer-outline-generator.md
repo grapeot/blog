@@ -3,6 +3,7 @@ Date: 2011-12-10 11:16
 Category: Computing
 Tags: English, Tutorial
 Slug: beamer-outline-generator-updates
+Summary: Quick updates to the Beamer Outline Generator tool: removed info panel, added page numbers, improved indent handling and CSS styling for faster LaTeX slide creation.
 
 Beamer Outline Generator is a tool for fast beamer writing. 
 This tool enables you to express your outlines with indents and generate elegant beamer code automatically.

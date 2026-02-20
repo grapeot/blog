@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Finance
 Slug: ai-finance-en
 Translation: ai-finance.html
+Summary: Documents automating a decade-long manual financial reconciliation process using vision LLMs when API access was blocked by compliance. Demonstrates using local models with screenshots, cross-validation, and human-in-the-loop workflows to process sensitive financial data.
 ---
 
 ## A Decade-Long Manual Process

@@ -5,7 +5,7 @@ Category: Life
 Tags: English, AI, Reflection
 Slug: 2025-year-end-en
 Translation: 2025-year-end.html
----
+Summary: AI analyzes five years of time logs and reveals a "multi-threaded human compute node" lifestyle—balancing parenting, work, and building AI tools while unconsciously becoming a human-system hybrid.
 
 For five or six years now, I’ve been logging how I spend every single hour of my life. Last year, after accumulating half a decade of data, I decided to feed it all into Big Brother O1 Pro for the first time. I wanted to see what it could tell me about my wins, my losses, and my personality. It was a fascinating experiment—the core of [this article](https://yage.ai/2024-year-end-en.html) from last year. As 2025 draws to a close, I did the same thing, handing my logs for this year and last to the new Big Brothers—Gemini 3 Pro and GPT 5.2 Pro. Their conclusions left me stunned. On one hand, I had to admit they were right; on the other, I hadn't realized I was doing something so cool and pioneering. Or rather, I had the seeds of these ideas in my mind, but I didn't realize how deep I had already gone in practice.
 

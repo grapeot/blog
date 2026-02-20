@@ -3,6 +3,7 @@ Category: Computing
 Tags: English, Research
 Slug: efficiency-comparison-scientific-computing-platforms
 Date: 2012-12-03 22:45
+Summary: Benchmarks comparing MATLAB, Python, C#, and C++ for scientific computing tasks, finding C# offers a good balance between development speed and runtime performance.
 
 [Update2] I used the library [eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) to reimplement the algorithm, reducing the code from 84 lines to 41 lines (wow), and time increases 11%. Looks acceptable, with similar workload as unoptimized C#, but the same speed as heavily optimized C# (with 164 lines of code and unsafe compilation). What's even better is eigen is a header library requires no pre-building or linking. 
 

@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Career
 Slug: ai-paddler
 Translation: ai-paddler-en.html
+Summary: 以航海为喻，指出当AI成为蒸汽机后，技术人应从划桨手进化为领航员或轮机长——前者决定方向，后者驾驭引擎。关键不是与机器竞争，而是选择新的角色定位。
 ---
 
 我们这一代技术人，职业生涯的前半段，都在被训练成一个顶级的划桨手。我们比拼的，无非是几件事：

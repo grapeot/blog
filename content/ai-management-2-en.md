@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Management
 Slug: ai-management-2-en
 Translation: ai-management-2.html
+Summary: Addresses common AI frustrations by reframing them as management problems. When we treat AI as an intern rather than a tool, issues like unreliability, hallucinations, and code quality become solvable through established management principles like trust-building and hierarchy.
 ---
 
 As AI becomes mainstream, a growing number of people who have experimented with it deeply are finding it disappointingly ineffective in their daily work. While these observations have merit, I believe the core issue often lies in a fundamental misunderstanding: they're still treating AI as a tool. This article will explore several common scenarios to illustrate why we should shift our perspective and start [managing AI like a person](/ai-management-en.html). We'll see how this simple change in mindset can debunk common myths about AI and dramatically increase its effectiveness.

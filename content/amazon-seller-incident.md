@@ -3,6 +3,7 @@ Date: 2014-01-10 15:15
 Category: Alive
 Tags: English, Review
 Slug: making-money-from-bf-deals-lessons
+Summary: Shares experience using Amazon's Fulfilled by Amazon service to resell Black Friday deals. Documents pitfalls in the seller center interface, particularly around pricing and inventory management, with a price monitoring utility.
 
 Black Friday comes and goes.
 This always seems a good time to stock (or over-stock) stuffs with all kinds of sweet deals.

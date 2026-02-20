@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, AI Product
 Slug: GPT-knowledge-management-en
 Translation: GPT-knowledge-management.html
----
+Summary: GPT transforms knowledge management: voice capture lowers barriers, automatic summarization builds knowledge networks, and conversational UI replaces traditional GUIs.
 
 This article discusses the significant transformation GPT has brought to the field of knowledge management. First, let's understand what knowledge management systems are. I have a personal interest in productivity and knowledge management and have conducted many experiments in this field. Typically, knowledge management systems help us accomplish three tasks: 1. Acquire knowledge; 2. Store and analyze knowledge; 3. Access and serve knowledge.
 

@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, AI
 Slug: ai-book-en
 Translation: ai-book.html
----
+Summary: Fed 3 years of messy WeChat history into GPT-4.1's 1M token window—it synthesized themes, generated insights, and wrote a cohesive book about AI collaboration.
 
 For the past couple of years, we've been constantly using large language models to write summaries, PRDs, code, poetry... you name it. Yet, there's always been a nagging feeling: something's missing before AI truly becomes a core part of our productivity.
 

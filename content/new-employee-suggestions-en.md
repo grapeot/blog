@@ -5,6 +5,7 @@ Date: 2022-09-08 19:30
 Tags: English, Career
 Slug: new-employee-suggestions-en
 Translation: new-employee-suggestions.html
+Summary: Career advice for new software engineers: why coding speed matters less than software engineering skills like extensibility and debugging, plus tips on initiative, decision-making, and mentorship.
 ---
 
 [[中文版]](/new-employee-suggestions.html)

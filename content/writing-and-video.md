@@ -5,6 +5,7 @@ Category: Life
 Tags: Chinese, Reflection
 Slug: writing-and-video
 Translation: writing-and-video-en.html
+Summary: 视频信息密度低、不可检索、难以跳转，但up主赚大钱而写文章不赚钱。核心在于视频让"作者"站到前台，观众更容易产生情感连接和付费意愿。
 ---
 
 我一直困惑的一点是为什么youtube/b站上有很多知识型或者哲理型up主（比如Ali Abdaal或者MoneyXYZ）特别受欢迎，赚超多钱。因为在我看来视频是一种特别特别差的学习工具。

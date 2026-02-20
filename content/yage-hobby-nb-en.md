@@ -5,6 +5,7 @@ Category: Life
 Tags: English, Reflection
 Slug: yage-hobby-nb-en
 Translation: yage-hobby-nb.html
+Summary: The superpower behind complex hobby projects: comfort with complex systems. PhD and professional training built tolerance for multi-factor problems, enabling effective debugging and iteration where others feel frustrated.
 ---
 
 Many people have wondered why I have so much enthusiasm and time to engage in so many complex hobby projects and delve deeply into them.

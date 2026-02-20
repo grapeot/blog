@@ -5,7 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: agentic-ai-crisis
 Translation: agentic-ai-crisis-en.html
----
+Summary: Agentic AI为什么常常只能做到七八成：自我迭代的反馈环被打破，缺乏感知能力和主观评价标准，以及如何补足这些能力缺口。
 
 ## Agentic AI的鸡肋危机
 

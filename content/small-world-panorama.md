@@ -4,6 +4,7 @@ Date: 2012-12-05 21:46
 Tags: English, Image Processing, Tutorial
 Slug: build-small-world-fisheye-panorama
 Latex:
+Summary: Converting regular panoramas to small-world fisheye style using coordinate transformation from rectangular to polar coordinates, with nonlinear radius mapping to control the virtual camera height.
 
 Sometimes a small-world panorama is quite stunning. For comparison, a regular panorama is shown below.
 

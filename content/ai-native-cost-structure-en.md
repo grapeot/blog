@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Reflection
 Slug: ai-native-cost-structure-en
 Translation: ai-native-cost-structure.html
+Summary: Observes that when code cost approaches zero, building disposable tools for one-off decisions becomes optimal. Argues AI Native means adopting new strategies enabled by collapsed information costs—shifting from intuition-driven to high-resolution, data-driven decisions.
 ---
 
 ## Disposable Software and Decision Resolution

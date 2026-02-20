@@ -3,6 +3,7 @@ Date: 2020-01-21 15:00
 Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-2
+Summary: 对比胶片全幅、中幅、大画幅的特点，反驳网上对中画幅画质、模块化、景深、严肃摄影等优点的误解，建议从全幅数码入门的学习路径。
 
 
 ---

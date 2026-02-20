@@ -3,6 +3,7 @@ Category: Computing
 Date: 2012-08-30 22:57
 Tags: English, Research
 Slug: host-paper-reading-seminars-with-github
+Summary: How to use GitHub Pages and git branches to host paper reading seminars: keep compiled slides in master branch, source code in another branch, with automatic download links and version control.
 
 [Github](https://github.com/) is a well-known tool within the dev community. People use git(http://git-scm.com/) and github to collaboratively build awesome stuffs and also enjoy the social life (xD, geeks). I find it also useful in our daily research, say, to host a paper reading seminar. (I assume you are familiar with git in the following text)
 

@@ -3,6 +3,7 @@ Date: 2013-09-30 18:28
 Category: Computing
 Slug: update-on-beamer-writer-online-editing-with-writelatex
 Tags: English, Tutorial
+Summary: Beamer Writer update: online compiling via WriteLaTeX integration and improved error messages for faster LaTeX presentation workflow.
 
 After moving the compiler implementation of our [Beamer Writer](http://lab.grapeot.me/beamer/) to node.js, we are able to provide more features than our old version (which used client-side javascript).
 

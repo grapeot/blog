@@ -3,6 +3,7 @@ Date: 2020-01-23 15:00
 Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-4
+Summary: 定量分析中画幅在景深控制、衍射极限、广角透视等方面对全幅并无优势，唯一的技术优势在于放大时的分辨率、动态范围和信噪比裕度。
 
 
 ---

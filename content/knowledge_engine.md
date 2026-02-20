@@ -3,6 +3,7 @@ Date: 2024-06-13 22:00
 Category: Computing
 Tags: Chinese, AI
 Slug: ai-knowledge-engine
+Summary: 构想一个AI知识引擎：自动收集会议和日常对话、提取有价值的知识并索引、在输出时及时提醒。三大挑战是数据采集、知识提取和实时参与。
 
 (来自我在[AI生产力训练营](/ai-comment-oriented-programming.html)群聊中的发言)
 

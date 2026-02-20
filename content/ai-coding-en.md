@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Coding
 Slug: ai-coding-en
 Translation: ai-coding.html
+Summary: A real-world case study of building a complete astronomical observatory notification system in 8 hours using AI assistance. Explores how GPT-4 and Copilot can dramatically boost software engineering productivity across monitoring, server, iOS, and design tasks.
 ---
 
 Recently, I rented a slot at a commercial remote astronomical observatory in Daocheng, Sichuan, for [astrophotography](/star-photography-en.html). A commercial remote observatory refers to a business renting land in an area free from light pollution, providing stable electricity and maintenance services. Astronomy enthusiasts can send their equipment there to be hosted by the company. Users can remotely control their equipment for photography. The basic structure of the observatory is a large house with a rolling roof, closed during the day (closed top), and opened at night (open top) for photography. Similar to many other remote observatories in China, the main communication method for this observatory is through a WeChat group. After lurking in the group for a while, I realized that many discussions revolved around whether the observatory had opened its top or whether clouds had appeared. These issues took up a lot of the observatory director's time. Moreover, another important duty of the director was to @everyone in the WeChat group when the roof was opened, but this message, being a regular alert, often got buried in the group chat, causing many to miss their shooting opportunities.

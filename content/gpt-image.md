@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Technique
 Slug: gpt-image
 Translation: gpt-image-en.html
+Summary: 四步实现GPT文生图的商业级精准可控：用视觉撬动AI思维、用遮罩迭代生成、让AI当合伙人、用文档管理打造AI资产库，生成可复用的统一视觉风格。
 ---
 
 ## 精美画风背后的短板

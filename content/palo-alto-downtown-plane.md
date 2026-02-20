@@ -3,6 +3,7 @@ Category: Alive
 Date: 2012-08-05 09:29
 Tags: Chinese, Aviation
 Slug: revisiting-downtown-and-flying-plane
+Summary: 在Palo Alto downtown重游当年刚来Stanford时的路，下午体验开飞机，了解私人飞行执照只需1-1.5万美元和数月时间即可考取。
 
 自行车借出去了，被迫走到Palo Alto downtown吃饭。一路重历了刚来Stanford时去Palo Alto Bicycle的路，Stanford Shopping Center，高大的棕榈树，Caltrain station前错综复杂的道路，一切都显得那么真实而陌生。Downtown斑驳的树影下藏着一家礼品店，还有一家非常好吃的pho。当我们骑车或者开车呼啸而过的时候，更多在意的是别的车而不是路边的风景。了解一个城市还是要在里面行走，和人们谈话啊。
 

@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, Photography
 Date: 2020-07-13
 Slug: resolution-limit-of-135-system-3
+Summary: 对比测试135顶级胶片与大画幅的分辨率极限：平扫扫描分辨率有限，中画幅翻拍接片加摇摇乐可稳定产出6亿像素，645数码后背画质最为干净锐利。
 
 
 ---

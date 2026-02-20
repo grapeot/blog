@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Product
 Slug: ai-products-en
 Translation: ai-products.html
+Summary: Analyzes why users don't feel AI getting smarter despite model advances: apps lag behind capabilities. Compares Claude, Gemini, and ChatGPT products, finding OpenAI the only company equally prioritizing product design and model capability.
 ---
 
 I've always been a staunch supporter of AI. When friends ask what AI can do, I give them very specific answers: it can help plan schedules, research information, and even handle many trivial but time-consuming tasks in life, like negotiating email discounts. I provide prompt templates based on their scenarios to lower their barrier to entry. However, after recommending AI to hundreds of people over the past year or two, I've observed that most of them have a rather lukewarm response after using it. The most common feedback is: "It's okay, I don't find it that useful." Sometimes they even add, "I'd rather do it myself."

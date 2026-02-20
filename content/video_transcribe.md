@@ -3,6 +3,7 @@ Date: 2024-06-13 19:00
 Category: Computing
 Tags: Chinese, AI
 Slug: video-transcribe
+Summary: 分享开发视频语音识别工具的技术心得：YouTube下载OAuth认证、异步任务API设计、Python并发挑战、GPT偷懒问题和iOS Shortcut集成。
 
 在[上一篇文章](/writing-and-video.html)中，我们探讨了为什么知识型视频的信息密度这么低，但是还有很多up主去做。
 受大家的讨论启发，我做了一个小工具，可以在不离开YouTube或B站App的情况下，对视频进行语音识别，从而对视频的内容进行速读。

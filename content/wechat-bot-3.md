@@ -3,6 +3,7 @@ Category: Computing
 Date: 2017-03-28 9:00
 Slug: wechat-bot-3
 Tags: Chinese, AI, Image Processing
+Summary: 基于Caffe的斗图机器人：用深度学习提取表情特征，在数据库中找最近邻实现自动回复，效果意外地好但也暴露了ImageNet预训练模型在二次元表情上的局限。
 
 
 ---

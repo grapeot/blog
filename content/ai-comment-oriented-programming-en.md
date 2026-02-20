@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Coding
 Slug: ai-comment-oriented-programming-en
 Translation: ai-comment-oriented-programming.html
+Summary: Argues that effective AI-assisted programming shifts focus from data structures and algorithms to writing detailed comments and DocStrings. Draws parallels between managing AI and managing human teams, emphasizing delegation, context provision, and quality checks.
 ---
 
 Anyone who has seriously used [AI for programming](/GPT-API-usage-creation-en.html) can attest to the profound impact it has had on our efficiency, effectiveness, and methodology in coding. Whether it's GPT-4, Claude V3, or Copilot, these tools have revolutionized how we approach programming tasks. Most real-world programs rely on relatively straightforward data structures and algorithms, making it possible for humans to program with the assistance of Stack Overflow, and for AI to easily handle with its vast training data. However, this article isn't about ringing the death knell for programming or stirring up anxiety about AI replacing humans. Rather, it's a reflection on how we can leverage this new tool to significantly enhance our productivity and outcomes.

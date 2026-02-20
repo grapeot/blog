@@ -5,6 +5,7 @@ Category: Life
 Tags: Chinese, Reflection
 Slug: closed-loop-learnings
 Translation: closed-loop-learning-en.html
+Summary: 闭环学习强调持续反馈与调整而非一次成功，持续校准方向的能力比初始瞄准的精度更为重要。
 ---
 
 我常常在咖啡群看到这样的讨论：有人做出了一杯风味惊艳的手冲，立刻在群里分享了完整的冲煮参数——水温92.3℃，粉量15.2克，研磨度用的是某款磨豆机的特定刻度，分段注水的时间和水量精确到秒和克。看到这类分享，很多人的第一反应是：太棒了，赶紧收藏！下次就照着这个冲煮方法来一杯，说不定我也能复刻出那种神仙味道。

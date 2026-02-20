@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Audio, AI, Review
 Slug: assemblyai-speech-recognition-api-review
 Translation: assembly-ai-en.html
+Summary: AssemblyAI语音识别API试用体验，对比OpenAI Whisper API的速度、准确率、稳定性，以及大文件支持等特色功能分析。
 ---
 
 在之前我们做了[一些尝试](/GPT-API-usage-creation.html)，使用AI语音识别和AI来辅助进行表达和输入。经过一年多的时间，一方面我觉得这个[工具特别有用](/GPT-shortcut.html)，可以极大地拓展了我思维的深度，让我不用浪费时间在修改打错的字上；另外一方面，整个系统也经历了很多改动，比如后台的AI从GPT-4换成了Claude 3.5。

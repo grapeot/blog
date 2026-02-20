@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Tutorial
 Slug: ai-unlearn
 Translation: ai-unlearn-en.html
+Summary: 记录通过迭代式问题解决开发自动截图功能的经历。关键经验：优化问题定义而非仅优化提示词、从"最小可行真相"出发锚定工作流、根据任务需求匹配合适的AI模型能力边界。
 ---
 
 因为各种墙，每次我想和朋友截图分享一段精彩的AI对话，都要做一个不大不小的project：小心翼翼地滚动屏幕，截一张，再滚，再截一张……最后用Tailor之类的App拼接起来。这个过程繁琐、枯燥，而且常常失败。所以，在开发我自己的Multi-Agent Workbench iOS客户端时，我下定决心：必须内置一个一键长截图的功能，彻底终结这个噩梦。

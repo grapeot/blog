@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-cameras
 Date: 2017-08-11
+Summary: A hands-on comparison of Hasselblad X1D medium format vs full frame cameras: image quality advantages exist, but speed and usability issues make full frame more practical for most users.
 
 [中文版](/full-frame-and-medium-format-1.html)
 

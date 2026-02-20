@@ -3,6 +3,7 @@ Date: 2023-04-28 20:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-3
+Summary: 天文相机选购指南：解析量子效率、热噪声、制冷、成像圈等八大重要指标，对比黑白与彩色相机优劣，以及数码相机改机的利弊分析。
 
 
 ---

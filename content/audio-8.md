@@ -3,6 +3,7 @@ Date: 2022-12-28 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-8-amp-output-stage
+Summary: 音频碎碎念之放大器输出级：阻抗匹配、甲乙类功放设计、失真来源分析，放大器设计更像艺术而非科学，需要大量经验与trade-off。
 
 
 ---

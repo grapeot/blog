@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, AI Product
 Slug: GPT-product-iteration-en
 Translation: GPT-product-iteration.html
----
+Summary: Evolving a voice transcription tool into an idea iteration system: GPT not just transcribes but asks insightful questions, challenges assumptions, and helps refine thoughts before output.
 
 Documenting some recent product iteration process of a GPT-based voice transcription tool. Previously, while developing this [voice input tool](/GPT-API-usage-creation-en.html), I had already explored the capability boundaries of GPT. I found its intelligence to be quite superficial in many areas. In other words, the answers or conclusions it provides are often relatively shallow, unlike the insightful responses given by experienced individuals. That's why I initially positioned it as a text-processing secretary, only required to restate my views and reorganize them into a structured form.
 

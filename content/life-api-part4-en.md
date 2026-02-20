@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Technique
 Slug: life-api-part4-en
 Translation: life-api-part4.html
+Summary: A prompt is a temporary world you construct with information. New models enable context-driven emergence—AI becomes smarter within immersive context, learning your preferences and style from unfinished drafts and deleted text.
 ---
 
 ## Prompts Build Worlds

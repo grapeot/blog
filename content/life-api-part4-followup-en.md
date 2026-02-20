@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: life-api-part4-followup-en
 Translation: life-api-part4-followup.html
+Summary: An AI-assisted article failed not because AI wrote poorly, but because I didn't feed it enough context. As Manager, verify output; as Enabler, provide your accumulated materials. Defining boundaries is where collaboration begins.
 ---
 
 A few days ago, I published [an article](/ai-creativity-en.html) that AI helped me complete. It was about the changing role of AI in creative work—from imitation to structural generation, using exhaustive enumeration to replace creativity. I was quite satisfied after reading it, even a bit proud, thinking this might be another sign of maturity in our recent AI-assisted writing workflow.

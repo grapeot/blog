@@ -3,6 +3,7 @@ Date: 2016-01-08 19:00
 Category: Life
 Tags: Chinese, Aviation, Tutorial
 Slug: drone-aerodynamics-b
+Summary: 续篇：固定翼与直升机/四轴的稳定性差异、上反角原理、机械效率对比，以及为什么不太看好载人四轴的发展前景。
 
 * [从鸡翅膀谈起——无人机的空气动力学（上）](/drone-aerodynamics-a.html)
 * [从鸡翅膀谈起——无人机的空气动力学（下）](/drone-aerodynamics-b.html)

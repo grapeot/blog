@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: agentic-memory-en
 Translation: agentic-memory.html
----
+Summary: Agentic AI fails above ~5000 lines due to context window limitations. Solution: document-driven development as long-term memory, enabling multi-agent collaboration and human-AI workflow.
 
 Ever since the start of 2025, Agentic AI coding tools like Cursor, WindSurf, and Trae have been sweeping through the development world. Yet, much like earlier generations of GenAI technology, these new Agentic AI tools often dazzle when creating small demos but stumble when put to the test in real-world, production-scale scenarios. Generating prototypes of a thousand lines of code is effortless, and the self-iteration, automated debugging, and rapid delivery all appear smooth and impressive. Once you move into actual software engineering—say, once your codebase exceeds five thousand lines—the magic fades. The AI seems to be groping around in the dark, unable to retain a cohesive sense of the overall architecture or the logical decisions made so far, ultimately leading to odd bugs that only get resolved through frequent human intervention.
 

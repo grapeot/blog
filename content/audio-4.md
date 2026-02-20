@@ -3,6 +3,7 @@ Date: 2022-12-24 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-4-cables
+Summary: 音频碎碎念之线材玄学：从电报时代发展的双绞线与同轴电缆技术，模拟音频用1880年代的无屏蔽双绞线已足够，高频优化的线材对其无意义。
 
 
 ---

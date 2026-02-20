@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Agentic AI
 Slug: deep-research-car-buying
 Translation: deep-research-en.html
+Summary: 通过模拟购车场景实测OpenAI Deep Research，展示其如何大幅提升调研效率、解放脑力进行更深层思考，以及重新定义问题边界的认知炼金能力。
 ---
 
 最近我用一个模拟买车的场景测试了一下OpenAI的Deep Research。具体的应用场景是我在年轻的时候看的一般是性能车，但是随着年龄增长和家庭实用需求，逐渐了解到还有另一种车强调的是NVH（Noise, Vibration, and Harshness）。但我对这个领域几乎没有任何了解，所以就希望通过Deep Research辅助我做一次模拟购车。从前期调研到中期选择到后期谈判压价，在ChatGPT上模拟走完整个流程，来理解Deep Research对我们的日常生活到底有多大帮助。

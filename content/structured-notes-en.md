@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, AI, Finance
 Slug: structured-notes-en
 Translation: structured-notes.html
----
+Summary: Use AI to demystify structured notes and understand their payoff structure, option mechanics, and trade-offs without financial expertise.
 
 ## My Bank Recommended a Product, and I Was Skeptical
 

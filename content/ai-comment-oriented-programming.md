@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Coding
 Slug: ai-comment-oriented-programming
 Translation: ai-comment-oriented-programming-en.html
+Summary: 提出AI辅助编程的核心从数据结构和算法转向注释和DocString的质量。类比管理AI与管理人类团队，强调了解能力边界、任务分解、委托和质量检查等开发经理式的思维方式。
 ---
 
 严肃使用过 AI 进行编程的人都会有个明显的感觉。不论是 GPT-4、Claude V3，还是 Copilot，它们对我们编程的效率、效果和方法都产生了巨大的影响。由于大多数情况下，实战的程序里用的数据结构和算法都非常简单，人类可以通过面向 Stack Overflow 编程，AI 也可以基于巨量的训练数据来轻松搞定。但是，这篇文章不是想渲染编程不存在了，AI 要卷掉人类这种焦虑感，而是想思考一下，在这个新的工具的加持下，我们如何有效地利用这个工具，从而实现效果和速度的巨大提升。

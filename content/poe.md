@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Product
 Slug: poe
 Translation: poe-en.html
+Summary: 对比分析Quora旗下AI平台Poe与ChatGPT的优劣，分享多模型对比、多Bot协作等功能体验，以及替代ChatGPT核心功能的实际使用感受。
 ---
 
 今天退订了付费的ChatGPT订阅。

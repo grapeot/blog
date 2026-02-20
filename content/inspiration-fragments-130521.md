@@ -3,6 +3,7 @@ Category: Life
 Tags: English, Career, Reflection
 Date: 2013-05-21 18:54
 Slug: inspiration-fragments-20130521
+Summary: Career insights: presentation skills matter as much as technical work, impact beats paper count, mindfulness boosts productivity, and reuse code with unit tests to debug less.
 
 Presenting your work is as important as doing the work itself, if not more. Treat every meeting with the supervisor as a precious opportunity to practice the ability to present your idea and convince others. Spend hours to polish our logic, slides, language, pronunciation, expression, answer to possible questions, even if s/he can still find imperfections in our presentation, it'll be extremely beneficial for improving the presentation skills (especially how to face picky and senior audiences). And when possible, participating in writing the funding proposal or slides for the supervisor is also very worthwhile, instead of "wasting research time" which may be the most straightforward reaction.
 

@@ -3,6 +3,7 @@ Category: Life
 Date: 2015-02-01 19:00
 Tags: Chinese, Time Management
 Slug: more-tips-about-time-management
+Summary: 时间管理实践经验分享：番茄工作法提升专注度，Plus for Trello记录时间分布，自制工具实现项目级统计和每日邮件复盘。
 
 Was keeping thinking about and trying out new time management methods/tools recently, and had some new thoughts.
 I'd share it here and hopefully it can also benefit others.

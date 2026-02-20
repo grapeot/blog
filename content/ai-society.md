@@ -5,6 +5,7 @@ Category: Alive
 Tags: Chinese, AI, Reflection
 Slug: ai-society
 Translation: ai-society-en.html
+Summary: 四个科幻故事探讨智慧成为云服务的未来：预算化情感交互、用生命换认知积分、被折叠的寿命、以及AI同调率的天赋差异。追问当人类最珍视的内在品质变成外部商品时，世界会发生什么。
 ---
 
 ### 开篇

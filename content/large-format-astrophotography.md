@@ -3,6 +3,7 @@ Date: 2020-09-12 22:30
 Category: Life
 Tags: Chinese, Astrophotography
 Slug: large-format-film-deep-sky-astrophotography-part-1
+Summary: 用4x5大画幅胶片拍深空的技术探索：RDP反转片的倒易律失效、90分钟曝光的导星方案、防结露措施，以及用导星镜plate solve实现精确取景。
 
 用数码相机玩[深空摄影](/astrophoto-tutorial-1.html)玩了一段时间，画幅从1/3"逐渐升级到了全幅。但看着平时摄影玩的都是4x5的胶片，总觉得135小邮票不给力啊老师。所以一直在思考怎么把大画幅也用来拍星云。想想如果能在一张4x5上面放出来M31，实在是太震撼了。这里面的技术挑战非常多。最近雾霾+下雨，终于可以抽一段时间来把这些问题系统性地捋清楚。
 

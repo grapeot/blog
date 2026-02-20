@@ -4,6 +4,7 @@ Category: Computing
 Tags: Chinese, Finance, Travel
 Slug: thoughts-on-timeshare
 Latex:
+Summary: 从成本收益角度分析Timeshare度假产权是否划算：计算20年总支出对比酒店消费，讨论退出机制、二手市场和使用策略。
 
 还是没忍住在夏威夷买了个time share vacation home。。
 

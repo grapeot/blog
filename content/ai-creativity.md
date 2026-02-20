@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI
 Slug: ai-creativity
 Translation: ai-creativity-en.html
+Summary: 探讨AI如何通过速度和并行而非智能来变革创意。当时间被压缩、空间被展开，创造从深思熟虑转向遍历筛选，从线性推进变为反馈驱动的进化系统，人类角色也从创作者转向边界设计者。
 ---
 
 在谈AI和创意之前，我们需要承认一个事实：

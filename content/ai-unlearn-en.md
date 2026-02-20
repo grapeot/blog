@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Tutorial
 Slug: ai-unlearn-en
 Translation: ai-unlearn.html
+Summary: Recounts building an automated screenshot feature through iterative problem-solving with different AI models. Key lessons: refine the problem not just the prompt, anchor in a "Minimum Viable Truth," and match AI capabilities to task requirements.
 ---
 
 Sharing a great AI conversation with friends using screenshots has always been a minor project. I'd have to carefully scroll, screenshot, scroll again, screenshot again... and then stitch them all together with an app like Tailor. The process was tedious, mind-numbing, and often failed. So, when I started developing my own Multi-Agent Workbench for iOS, I was determined to build a one-click feature for long screenshots to end this nightmare once and for all.

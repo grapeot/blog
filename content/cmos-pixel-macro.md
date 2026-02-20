@@ -3,6 +3,7 @@ Date: 2020-08-03 20:15
 Category: Life
 Tags: Chinese, Photography, DIY
 Slug: cmos-pixel-macro
+Summary: 用Leica 50AA反接实现200nm/像素的极限微距：拍摄CMOS传感器像素结构，7倍光学放大+摇摇乐达到近20倍有效放大倍率。
 
 昨天晚上突发奇想，我们一直用CMOS拍照，却没有真的拍出来像素过。有没有可能用相机来拍相机，看看像素到底长什么样呢？
 

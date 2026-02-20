@@ -5,6 +5,7 @@ Category: Life
 Tags: English, DIY
 Slug: power-outage-prep-en
 Translation: power-outage-prep.html
+Summary: A practical guide to building a home emergency power system - from portable generators to Ecoflow Delta Pro with home circuit integration, solar panels, and lessons from Seattle's bomb cyclone outage.
 ---
 
 Recently, Seattle was hit by another "bomb cyclone," a rare storm that occurs only once every decade, causing widespread power outages and disruptions to daily life. According to

@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Technique
 Slug: realtime-gpt-en
 Translation: realtime-gpt.html
+Summary: Building a zero-latency voice-to-text tool with OpenAI's Real-Time API - from web app to iOS native client with Action Button integration and Universal Clipboard for seamless writing assistance.
 ---
 
 Over the past year or two, I've been dedicated to [using AI to enhance writing and input efficiency](/GPT-knowledge-management-en.html), and I've genuinely experienced a qualitative boost in productivity. One key observation is that when we're writing articles or deep in thought, we might spend more than half of our time typing and correcting typos. This not only consumes time but, more importantly, disrupts our flow of ideas. A common issue during writing is the constant backtracking. You write a sentence, go back to fix a typo, and in the process, you forget what you wanted to say. After a few glances back, you finally remember and continue writing, only to fall back into the loop of correcting typos.

@@ -3,6 +3,7 @@ Category: Computing
 Date: 2012-09-08 00:09
 Tags: English, Tutorial
 Slug: new-features-of-beamer-writer
+Summary: Beamer Writer update with equation support using \[x^2\] syntax and simplified figure insertion using [[fig.png]] notation.
 
 Finally time for an upgrade of our [Beamer Writer](http://lab.grapeot.me/beamer/). I added two features recently.
 

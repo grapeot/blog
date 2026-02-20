@@ -3,6 +3,7 @@ Date: 2012-05-14 19:41
 Category: Alive
 Tags: English, Review, Hardware
 Slug: lumia-900
+Summary: Switching from iPhone to Lumia 900: smooth Windows Phone experience, excellent keyboard input, tile interface, but limited app ecosystem and IE10 shortcomings.
 
 Got a Lumia 900 after using iPhone for quite a long time. It's very different from iPhone. Some are good, while some are bad. 
 

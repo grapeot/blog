@@ -3,6 +3,7 @@ Category:Life
 Date: 2023-10-13 23:30
 Slug: coding-questions
 Tags: Chinese, Career
+Summary: 探讨程序员面试中应如何评估写码能力，建议用简单实现题替代LeetCode算法题，重点关注正确性、防御性编程、可维护性和可读性等软件工程能力。
 
 我多年来一直被一个问题困扰，那就是在面试其他码农时，应该如何评估他们的写码能力。
 通常，大公司会使用类似LeetCode的算法题来测试面试者，我自己在跳槽或找工作时也曾刷过一段时间的LeetCode。

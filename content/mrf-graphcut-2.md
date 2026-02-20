@@ -4,6 +4,7 @@ Date: 2011-07-01 05:58
 Tags: English, Research, AI Technique
 Slug: markov-random-field-mrf-and-graph-cut-2
 Latex:
+Summary: Deep dive into what energy functions can be minimized via graph-cut, with the necessary and sufficient condition f(0,0)+f(1,1)≤f(0,1)+f(1,0) and application to image segmentation.
 
 
 ---

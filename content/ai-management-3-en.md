@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Management
 Slug: ai-management-3-en
 Translation: ai-management-3.html
+Summary: Shares how a 3-minute voice prompt led to AI completing a senior scientist's full-day work. Details five management principles—hiring, task delegation, onboarding, process guidance, and product acceptance—that unlock AI's full potential.
 ---
 
 Although I've been heavily using AI for work (and slacking off) for a long time and believe that AI as a productivity multiplier is a reality, a recent slacking-off achievement reached a new level that I feel is worth sharing.

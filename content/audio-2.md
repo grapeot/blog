@@ -3,6 +3,7 @@ Date: 2022-12-22 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-2-loudness
+Summary: 音频碎碎念之响度玄学：人耳对响度的感知受频率、带宽、持续时间、非线性响应等多因素影响，远非简单声压级测量可描述。
 
 
 ---

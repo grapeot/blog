@@ -3,6 +3,7 @@ Category: Life
 Date: 2016-08-20 20:45
 Tags: Chinese, Time Management
 Slug: some-thoughts-on-time-management
+Summary: 十年时间管理实践的两个核心心得：先记录再管理（知道时间花在哪），先列单子再干活（解放大脑记忆负担）。具体工具推荐Trello配合Plus插件。
 
 最初发在知乎上：[https://www.zhihu.com/question/19727341/answer/118801649](https://www.zhihu.com/question/19727341/answer/118801649)
 

@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Tutorial
 Slug: nano-banana-pro
 Translation: nano-banana-pro-en.html
+Summary: 从拼凑到整体渲染的PPT制作范式转移，以及如何用代码骨架、资产约束和延迟渲染构建解决风格混乱、幻觉和成本问题的Generative Kernel。
 ---
 
 最近Nano Banana Pro（NBP）非常火。我们看到了各种应用：给漫画上色、生成海报、甚至直接生成以假乱真的演示文稿PPT。看起来像一张PPT，但其实只是一张图像。

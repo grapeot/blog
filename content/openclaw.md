@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI, Review
 Slug: openclaw
 Translation: openclaw-en.html
+Summary: OpenClaw把本地Agent能力带到聊天软件而爆火，但聊天界面、统一记忆、开放Skills都带来妥协。用OpenCode加文件记忆可以搭一套更好的系统。
 ---
 
 OpenClaw在2026年1月底爆火。公众号铺天盖地都在介绍怎么配置，云服务厂商都速度上线了一键部署，生怕错过这波热度。与此同时，各种行为艺术又满天飞：ClawdBot、MoltBot、OpenClaw，一周内改了三次名；结果改名的时候账号还被抢注，被一个叫$CLAWD的代币诈骗了1600万美元。与此同时，安全漏洞也层出不穷：有12%的第三方skills含恶意代码，有不少人把控制台裸露在公网上没设密码。一时间让人感觉整个领域全是相互矛盾的噪音，无所适从：这东西到底要不要装？不装会错过什么？装了有什么风险？这到底是下一个生产力革命还是又一个两周就过气的玩具？

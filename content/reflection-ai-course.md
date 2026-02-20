@@ -3,6 +3,7 @@ Date: 2025-01-14 19:00
 Category: Computing
 Tags: Chinese, AI Product, Reflection
 Slug: reflection-ai-course
+Summary: AI课程运营一年反思：打破学员对AI的刻板印象、手把手辅导带来可复制解决方案、长期更新机制保持技术前沿，以及认知升级到应用落地的完整学习路径。
 
 我和课代表一起做“From Users to Builders”这个 AI 课程，不知不觉已经快一年了。这一年里，我们收到了不少同学的反馈，既印证了我们当初的很多想法，也给我们带来了出乎意料的惊喜。今天想借这个机会，和大家分享一下我的反思，为什么我们的课程受到了大家的欢迎，以及在这个过程中，我们做对了并学到了什么。
 

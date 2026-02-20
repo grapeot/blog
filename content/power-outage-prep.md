@@ -5,6 +5,7 @@ Category: Life
 Tags: Chinese, DIY
 Slug: power-outage-prep
 Translation: power-outage-prep-en.html
+Summary: 家庭应急供电系统搭建指南：从逆变发电机到Ecoflow储能再到家庭电路改造，结合西雅图炸弹风暴断电经历分享燃料储备、网络备份等实战经验。
 ---
 
 最近西雅图又一次遭遇了十年一遇的炸弹风暴（bomb cyclone），又一次断电断网了好几天。根据从广播里听来的消息，西雅图地区最高的时候有80万户断电。我们因为早有准备，所以生活基本没有受影响，照明，热水，烹饪等等都正常进行。这个文章主要是结合最新受灾的情况，对以前的经验做一些系统性的总结。

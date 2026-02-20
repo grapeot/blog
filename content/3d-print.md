@@ -3,6 +3,7 @@ Date: 2020-12-26 15:00
 Category: Life
 Tags: Chinese, Hardware, Tutorial
 Slug: 3d-print-faq
+Summary: 3D打印入门指南：FDM与SLA打印机对比、材料选择、支撑问题、建模工具推荐，以及网上打印服务介绍。
 
 因为玩3D打印一段时间了，所以会有一些朋友问一些3D打印如何入门的问题。
 虽然他们很快水平就超过我了，但我觉得这些问题还是很有普适性的，所以分享一下我的思考。

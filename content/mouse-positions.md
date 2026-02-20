@@ -3,6 +3,7 @@ Date: 2011-12-12 07:35
 Category: Computing
 Tags: English, Research, Tutorial
 Slug: collecting-and-visualizing-mouse-position-distribution
+Summary: Collecting mouse positions throughout the day and visualizing them as heatmaps reveals user behavior patterns that could potentially be used for person identification.
 
 (This post is translated from my [blog post](http://www.cnblogs.com/grapeot/archive/2010/03/01/1675335.html) in Chinese)
 

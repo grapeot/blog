@@ -3,6 +3,7 @@ Date: 2019-12-06 21:06
 Category: Life
 Slug: lower-end-phase-one-xt-1
 Tags: Chinese, Photography, DIY
+Summary: 用二手IQ180后背+3D打印机身+大画幅镜头，以原价5%的成本山寨飞思XT：解决镜间快门与后背同步问题，实现便携高画质中画幅数码拍摄。
 
 
 ---

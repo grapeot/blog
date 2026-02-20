@@ -3,6 +3,7 @@ Category: Computing
 Date: 2016-09-05 16:00
 Tags: Chinese, Smart Home
 Slug: amazon-echo-smart-home-applications
+Summary: Amazon Echo作为智能家居中枢的体验：免唤醒词触发、远场麦克风拾音、与IFTTT联动控制窗帘灯光门锁等设备，语音控制比手机App和Siri更便捷自然。
 
 我对Echo的SmartHome功能尝试的比较多。家里有智能窗帘，开关，插座（控制各种电器），灯泡，甚至安防系统和门锁。都和ifttt连了起来，可以通过Siri和Alexa进行控制（除了门锁只读，否则你跑我家楼下喊一嗓子门就开了还搞个屁。。）。主要感受就是，啊，好方便。以前做智能家居，感觉主要分成四个阶段：
 

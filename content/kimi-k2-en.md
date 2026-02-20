@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: kimi-k2-en
 Translation: kimi-k2.html
+Summary: Testing Kimi K2 as an agentic model in real coding and research tasks: excellent execution resilience makes it ideal for information gathering, but tool integration friction needs improvement for production use.
 ---
 
 Whenever a new large model is released, a wave of reviews inevitably follows. But there's an interesting phenomenon: the vast majority of these reviews are confined to the one environment we're all most familiar with: the chatbox.

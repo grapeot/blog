@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: o3-en
 Translation: o3.html
+Summary: How o3 transformed from a query-answer machine into a proactive agent that reads diagrams, calculates landed costs, analyzes policy impacts, and even optimizes purchasing decisions.
 ---
 
 Recently, I exported my ChatGPT usage history (by the way, Settings → Data Controls → Export all data gives you a zip file with all chat logs in JSON, easily visualized with a bit of scripting).

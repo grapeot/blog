@@ -5,7 +5,7 @@ Category: Computing
 Tags: Chinese, AI Product
 Slug: GPT-knowledge-management
 Translation: GPT-knowledge-management-en.html
----
+Summary: GPT重塑知识管理：语音录入降低门槛，自动总结构建知识网络，对话式UI可能取代传统图形界面，Telegram Bot实践案例。
 
 这篇文章想聊聊GPT在知识管理领域的重大变革。
 首先，我们来了解一下知识管理系统。

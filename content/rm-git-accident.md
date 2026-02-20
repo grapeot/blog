@@ -3,6 +3,7 @@ Category: Alive
 Date: 2013-12-13 11:00
 Tags: Chinese, Linux
 Slug: rm-and-git-accident
+Summary: 一次rm误删文件后git reset --hard又覆盖未提交代码的血泪教训：紧急时刻先冷静思考再行动，日常使用trash-cli替代原生rm命令避免灾难性后果。
 
 The background is, I have a git repo of `nodejs` code.
 There is a `controllers` folder in the repo, which I just made some (well, a lot of) changes and am about to commit the staged changes.

@@ -5,6 +5,7 @@ Category: Life
 Tags: English, Reflection
 Slug: writing-and-video-en
 Translation: writing-and-video.html
+Summary: Videos are terrible for learning—can't skim, search, or navigate easily. Yet creators make millions because video makes the "author" tangible, lowering the barrier to payment. Articles hide the author behind ideas.
 ---
 
 I've always been puzzled by why content creators on platforms like YouTube or Bilibili, like Ali Abdaal or MoneyXYZ, are incredibly popular and earn a lot of money. In my view, videos are a particularly poor tool for learning.

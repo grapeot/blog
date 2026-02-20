@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Management
 Slug: ai-management-en
 Translation: ai-management.html
+Summary: Uses a debugging session to illustrate three key AI management skills: resisting the urge to take over, providing visual context instead of vague complaints, and teaching methodology rather than giving answers—the shift from IC to manager mindset.
 ---
 
 Tonight, I asked AI to take multiple local small images and stitch them together into a large image following certain rules. The process wasn't particularly dramatic - it only took me five minutes to help AI complete the task. However, during this process, I found myself consciously using several AI management techniques that newcomers often lack. So, I'd like to share these specific techniques to see if they might be helpful to others.

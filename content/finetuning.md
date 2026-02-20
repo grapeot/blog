@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Technique
 Slug: finetuning
 Translation: finetuning-en.html
+Summary: 以去除AI味、让AI用自己风格写作为例，介绍微调的适用场景、数据准备方法和技术细节，以及如何避免灾难性遗忘和模型坍缩等风险。
 ---
 
 你有没有觉得AI讲话一股AI味？比如人类说话类似这样："我想点一个大份的炒面，要加辣，不要放香菜，打包带走。"但是AI说出来就是："我想订购一份大份量的炒面，请在制作时添加辣味调料，不要放入香菜，并且需要外带服务。" 就觉得怪怪的，好像领导在台上讲话，正式，官方，疏离。

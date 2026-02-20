@@ -5,7 +5,7 @@ Date: 2023-03-31 16:00
 Tags: English, AI, Tutorial
 Slug: GPT-API-usage-creation-en
 Translation: GPT-API-usage-creation.html
----
+Summary: Build a voice-to-text note-taking tool using OpenAI's Whisper API and GPT-4 in about an hour—transcribe speech, correct errors, and reorganize into polished text.
 
 Recently, I have been dedicating more and more time to writing documents and articles. In this process, I gradually realized that the most significant factor limiting my writing speed is not the speed of my thoughts, but my typing speed, especially when completing relatively simple tasks. To solve this issue, one method is to practice typing to improve typing speed, while another possible approach is to use automatic speech recognition software for input. However, after trying speech recognition, I found several problems.
 

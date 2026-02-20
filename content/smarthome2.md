@@ -3,6 +3,7 @@ Category: Computing
 Date: 2016-10-05 09:00
 Tags: Chinese, Smart Home
 Slug: diy-smart-home-life-part-2
+Summary: 智能家居进阶：加入智能温控、August门锁、iBeacon定位和Amazon Echo，探索从遥控到自动化再到智能化的发展路径，IFTTT作为统一控制中枢。
 
 一个月前介绍了当前的[智能家居生活](https://zhuanlan.zhihu.com/p/22247615)，最近一个月又有了一些新的探索和心得。
 

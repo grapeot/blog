@@ -3,6 +3,7 @@ Date: 2022-12-26 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-6-analog-circuits
+Summary: 音频碎碎念之模电：模拟电路设计蕴含控制论思想，变压器的磁滞回引入谐波失真，总谐波失真THD是非常差的评价指标。
 
 
 ---

@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: mcp-revisited
 Translation: mcp-revisited-en.html
+Summary: 分析OpenAI Apps SDK通过_meta域绕过context window的做法如何违背MCP设计哲学，以及协议分裂成不同dialect的潜在危机。
 ---
 
 我们之前就[介绍过](/mcp.html)MCP的历史，缺陷和争议。半年过去，MCP发展如火如荼，昨天 OpenAI 又发布了 Apps SDK。这个 SDK 允许用户用一个扩展版的 MCP 在ChatGPT里面构建GUI App。这看起来是继 ChatGPT Connector 和 Gemini 支持 MCP 之后，MCP 这个开放协议取得的又一胜利。但是在研读了 Apps SDK 的一些细节之后，我反而觉得它的发布是一个危险的信号。它未必预示着 MCP 的中兴，相反，反而可能带来了一场危机。所以正好趁这个机会，复盘和阐述一下我更多的思考。

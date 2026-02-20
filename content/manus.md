@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: manus
 Translation: manus-en.html
+Summary: 分析Manus如何打通调研和生成链路实现端到端体验，以及Agentic AI产品在工具、数据和智能三个维度的复利效应如何构筑持久护城河。
 ---
 
 最近，Manus发布并迅速火遍了中文互联网。在深度使用了Manus以后，我觉得这个产品确实充满了启发。它抓住了Agentic AI产品竞争中非常重要的一方面，也就是复利效应。这篇文章就想聊一聊，对于类似Deep Research、Cursor或者Manus这样的Agentic AI产品，从更长时间的尺度来看，竞争的要点在哪些方面，以及哪些因素可以构成有效的护城河，哪些因素不可以。

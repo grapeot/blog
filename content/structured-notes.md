@@ -5,7 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Finance
 Slug: structured-notes
 Translation: structured-notes-en.html
----
+Summary: 用AI拆解银行推荐的结构化票据，理解其收益结构、期权原理和隐含权衡，无需金融背景也能看透产品设计逻辑。
 
 ## 银行给我推荐了一款产品，我有点半信半疑
 

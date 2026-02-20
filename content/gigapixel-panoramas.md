@@ -3,6 +3,7 @@ Category: Computing
 Tags: English, Photography, Image Processing
 Slug: gigapixel-panoramas
 Date: 2017-08-03
+Summary: Creating gigapixel panoramas with Leica SL and vintage R lenses: from Seattle skyline to macro photography of watches and dollar bills, with tips for successful stitching.
 
 <style type="text/css"> iframe { width: 100%; height: 400px; } </style>
 <script type="text/javascript" src="https://lab.grapeot.me/gigapixel/Seattle/ZoomifyImageViewer-min.js"></script>

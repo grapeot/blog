@@ -5,6 +5,7 @@ Date: 2022-09-19 18:30
 Tags: Chinese, Health
 Slug: blood-sugar-weight-management
 Translation: weight-metric-en.html
+Summary: 体重指标噪音大、延时高、反馈慢。持续血糖监测仪（CGM）提供近实时反馈，直观展示食物和运动对血糖的影响，让减肥更有动力和方向。
 ---
 
 推荐一个健康管理神器，CGM，持续血糖监测仪。是一个小传感器，"贴"在肚皮上，就可以每5分钟测一次血糖，并且和手机同步。它有什么好处呢，对我们非糖尿病人来说主要是为体重管理提供几乎实时的反馈。

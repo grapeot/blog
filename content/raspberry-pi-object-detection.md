@@ -3,6 +3,7 @@ Category: Computing
 Tags: Chinese, Smart Home, AI
 Date: 2020-06-04 22:00
 Slug: raspberry-pi-object-detection
+Summary: 用树莓派加相机实现阳台监控与目标检测：darknet+EfficientDet实现松鼠小鸟识别，联动徕卡相机通过tethered capture自动拍摄高质量照片。
 
 故事的缘由是晚上睡觉的时候偶尔会听到外面有响动，总是要起来看一下是怎么回事。所以就想着装一个监控相机。正好手头有一个原来做小项目用的[树莓派和相机](/smart-home-air-quality.html)，就贴在阳台上做了一个小相机用来串流。这下在被窝里也可以暗中观察了。
 

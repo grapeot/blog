@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: why-forget-all-frameworks-en
 Translation: agentic-ai-frameworks.html
----
+Summary: Don't start Agentic AI with frameworks like AutoGen or LangGraph—they lock you into a worldview. Build from first principles while the field is still evolving rapidly.
 
 I’m often asked when advocating Agentic AI, “Why do none of your tutorials ever mention AutoGen, LangGraph, SmolAgents, or any other popular Agentic AI framework?” or “Which framework should I pick as a beginner to Agentic AI?” In this article, I want to explain why, during this special period of rapid development in Agentic AI, the specific framework you use doesn’t really matter—and why you should even avoid starting your Agentic AI journey with a framework.
 

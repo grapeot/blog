@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: agentic-ai-crisis-en
 Translation: agentic-ai-crisis.html
----
+Summary: Why Agentic AI often achieves only 70-80% completion: broken self-iteration loops due to missing perception and subjective standards, and how to fix them.
 
 ## The Dilemma of Agentic AI
 

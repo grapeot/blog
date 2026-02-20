@@ -3,6 +3,7 @@ Date: 2024-06-13 18:59
 Category: Computing
 Tags: English, AI
 Slug: video-transcribe-en
+Summary: Technical lessons from building an AI video transcription tool: YouTube OAuth2 authentication, async task-based APIs, Python concurrency patterns, GPT laziness issues, and iOS Shortcuts integration.
 
 In the [previous article](/writing-and-video.html), we explored why informational videos often have low information density, yet many content creators continue to produce them. Inspired by our discussions, I developed a small tool that allows you to perform speech recognition on videos without leaving the YouTube or Bilibili app, enabling quick reading of video content.
 

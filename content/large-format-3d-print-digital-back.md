@@ -3,6 +3,7 @@ Date: 2019-08-26 22:53
 Category: Life
 Slug: large-format-3d-print-digital-back
 Tags: Chinese, Photography, DIY
+Summary: 用3D打印自制大画幅数码后背转接件的实验：从学习OpenSCAD建模到逆向徕卡L卡口，实现滑动接片拍摄，让大画幅相机也能用数码后背。
 
 周六早上，一个60斤的包裹放在了我家门口。我满脑子都是，我是谁，我在哪，我为什么买了个这。。
 

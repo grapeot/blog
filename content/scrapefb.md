@@ -3,6 +3,7 @@ Date: 2014-06-27 12:00:00
 Category: Computing 
 Tags: English, Tutorial
 Slug: scraping-facebook-group-photos
+Summary: A practical guide to scraping photos from Facebook groups when Graph API doesn't expose the endpoint - using Chrome dev tools, curl with cookies, grep and awk to extract image URLs from rendered HTML.
 
 ## Motivation
 

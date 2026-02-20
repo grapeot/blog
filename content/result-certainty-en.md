@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: result-certainty-en
 Translation: result-certainty.html
+Summary: Why handing translation to Claude Code works better than calling APIs directly - leveraging the agentic loop, evaluation-first mindset, and the ecosystem's runtime layer to achieve outcome certainty over process certainty.
 ---
 
 Even in 2026, turning an AI demo into a production-ready product is surprisingly hard. Take Chinese-to-English translation. Everyone assumes LLMs solved this ages ago—just call an API, right? But when we recently tried to add an automatic translation sync feature to the Superlinear Academy community, we discovered just how painful the developer experience actually is.

@@ -3,6 +3,7 @@ Date: 2020-01-22 15:00
 Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-3
+Summary: 用水桶模型通俗解释曝光和信噪比的原理，分析幅面变化对通光量、噪点、衍射的影响，纠正"中幅信噪比高是因为入射瞳大"等常见误解。
 
 
 ---

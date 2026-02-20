@@ -3,6 +3,7 @@ Category: Alive
 Date: 2016-11-29 10:55
 Tags: Chinese, Travel, Review
 Slug: maui-hawaii-travel-diary
+Summary: 分享茂宜岛浮潜潜艇、火山骑车下坡、直升机游览等特色玩法，以及timeshare分时度假的商业模式分析和避坑指南。
 
 最近去夏威夷茂宜岛玩了一圈，感觉学到不少有意思的东西，写出来分享一下。主要分为两个部分，一个是茂宜岛一些感觉有意思的景点，一个是一种以前不知道的[低价度假的方式](/timesharede-yi-xie-si-kao.html)。
 

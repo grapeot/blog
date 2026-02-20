@@ -5,6 +5,7 @@ Category: Life
 Tags: English, Hardware, Reflection
 Slug: car-chassis-en
 Translation: car-chassis.html
+Summary: A deep dive into EV vs ICE car chassis engineering, exploring different philosophies: ICE cars shape character through strategic freedom, while EVs fight physics with tactical technology.
 ---
 
 Recently, I've been part of some fascinating discussions in a WeChat group about the chassis and handling design of internal combustion engine (ICE) cars versus electric vehicles (EVs). Having done some research on this topic out of personal interest, I saw this as a perfect opportunity to consolidate my knowledge and subjective opinions. This is partly for my own future reference and partly to spark some new ideas for everyone.

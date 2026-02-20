@@ -6,6 +6,7 @@ Tags: English, Astrophotography, Tutorial
 Slug: sho-tune-en
 Translation: sho-tune.html
 LaTeX: 1
+Summary: A mathematical approach to narrowband color synthesis - using linear algebra and matrix transformation to map H/S/O channels to custom RGB colors, enabling precise control over saturation and aesthetic palettes beyond standard SHO.
 ---
 
 Narrowband imaging is a powerful tool to reveal the physical/chemical composition of nebulae.

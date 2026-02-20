@@ -3,6 +3,7 @@ Date: 2019-09-09 11:00
 Category: Life
 Tags: Chinese, Photography, DIY, Hardware
 Slug: microscope-objective-photography
+Summary: 用50美元的徕卡无穷远矫正显微镜物镜加3D打印转接环，实现10倍放大倍率的超微距摄影，拍摄iPhone Retina屏幕像素点的实践记录。
 
 之前我们用1:1的微距+小像素传感器进行了一些[人体艺术的拍摄](/macro-photography.html)，几周过去了，我们当然要追问一个问题：老师，能不能再给力一些呢？
 

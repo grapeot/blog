@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI
 Slug: deepseek-hospital
 Translation: deepseek-hospital-en.html
+Summary: 用医院的分诊系统作比喻，通俗解释DeepSeek v2和v3的混合专家架构原理，包括专家分工、路由机制、负载均衡挑战和跨节点通信问题。
 ---
 
 DeepSeek 的 v3 模型最近引发了很多讨论。但是，很多人也许有跟我一样的困惑：铺天盖地的公众号文章中，哪些是标题党，哪些是干货？如果我想理解 DeepSeek 为什么这么牛，应该去看哪些资料？如何确认自己的认知是正确的？怎样用直观的方式去理解这些繁杂的 Paper 背后的直觉？

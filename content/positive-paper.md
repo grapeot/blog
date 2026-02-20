@@ -3,6 +3,7 @@ Date: 2018-06-30 16:10
 Category: Life
 Tags: Chinese, Photography
 Slug: positive-photo-paper
+Summary: 体验伊尔福正像相纸直接拍摄冲洗：ISO仅3的超低感光度、宽容度极低需要精确曝光、可通过pre-flash降低反差，每张都是独一无二的孤品。
 
 在知乎上看到有人问，为什么大家都用胶卷拍照然后转印到相纸上，而不是用相纸直接拍照？学到了其实有一种正像相纸可以不用胶卷转印直接拍照冲印（[https://www.zhihu.com/question/56987928/answer/151291646](https://www.zhihu.com/question/56987928/answer/151291646)）。正好这段时间在想着试试[放大机转印](/resolution-limit-of-135-system-2.html)，于是就被种草买了两盒回来玩。
 

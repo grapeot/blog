@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI
 Slug: ai-creativity-en
 Translation: ai-creativity.html
+Summary: Explores how AI transforms creativity through speed and parallelism rather than intelligence. When time compresses and space expands, creation shifts from deliberation to exhaustive search, from linear progression to feedback-driven evolutionary systems.
 ---
 
 Before discussing AI and creativity, we need to acknowledge a truth:

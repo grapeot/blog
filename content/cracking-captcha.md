@@ -3,6 +3,7 @@ Date: 2012-01-11 20:25
 Category: Computing
 Tags: English, Research
 Slug: automatic-recognition-of-ems-captcha
+Summary: Demonstrates automatic CAPTCHA recognition using image binarization, digit splitting, and K-nearest neighbor classification, achieving perfect accuracy on EMS package tracking system.
 
 [CAPTCHA](http://en.wikipedia.org/wiki/CAPTCHA) is widely used to distinguish humans from robots, mainly preventing improper automations. However, sometimes we really need some automation which actually won't throw much burden to the server. An example is to check the status of an [EMS](http://www.11183.com.cn/english.html) (Express Mail Service, an "official" courier service provider hosted by China Post) package every half an hour. This article will illustrate how to recognize the CAPTCHA with basic image processing and machine learning techniques.
 

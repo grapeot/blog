@@ -5,6 +5,7 @@ Category: Life
 Tags: Chinese, Reflection
 Slug: yage-hobby-nb
 Translation: yage-hobby-nb-en.html
+Summary: 能做复杂爱好项目的核心能力是对复杂系统的忍耐度：博士和职业训练让我习惯多因素归因和迭代改进，面对不确定结果时不沮丧而是系统性调试。
 ---
 
 有很多人都好奇过，为什么鸭哥有这么多热情和时间来做这么多复杂的 hobby projects，并且把它们做得很深入。

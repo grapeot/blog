@@ -3,6 +3,7 @@ Date: 2024-06-07 21:30
 Category: Life
 Tags: Chinese, Reflection
 Slug: correctness-is-meaningless
+Summary: 反思为何正确性不是思考的核心目标，提出真正重要的是纲举目张（Prioritization）、举一反三（Connection）和知行合一（Verification）三种能力。
 
 ## 菜鸡才看对错
 

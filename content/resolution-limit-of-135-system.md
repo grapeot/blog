@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, Photography
 Date: 2020-07-03
 Slug: resolution-limit-of-135-system
+Summary: 测评Adox CMS 20 II超高分辨率黑白胶片：ISO 12超低感光度配合专用显影液，中画幅翻拍获得70MP有效分辨率，展现135系统画质天花板。
 
 
 ---

@@ -3,6 +3,7 @@ Date: 2020-01-19 01:15
 Category: Life
 Tags: Chinese, Photography, Review
 Slug: alpa-camera
+Summary: 一次对高端摄影器材的猎奇式研究，从一张法师群的现场图出发，拆解Alpa 12 plus机身、飞思后背、Alpagon镜头等组件的价格，总计约7.8万美元的朴实无华且枯燥的顶级器材系统。
 
 今天在一个法师群里面看到一个dalao发了一个拍摄现场图，好奇dalao们用的都是什么相机，咋都没见过... 发扬侦探精神搜了一下... 被有钱人的生活深深地震撼了...
 

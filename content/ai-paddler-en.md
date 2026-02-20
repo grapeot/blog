@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Career
 Slug: ai-paddler-en
 Translation: ai-paddler.html
+Summary: Uses the ship metaphor to argue that as AI becomes the engine, tech professionals must evolve from paddlers to Navigators (defining direction) or Chief Engineers (optimizing execution). The key is choosing your role, not competing with machines.
 ---
 
 For most of our careers, we in the tech world have been trained to be elite paddlers. We competed on a few key metrics:

@@ -3,6 +3,7 @@ Category: Life
 Tags: English, Photography
 Slug: how-to-shoot-photos-for-total-eclipse
 Date: 2017-08-15
+Summary: Practical guide to photographing a total solar eclipse, covering time-lapse techniques, bracket exposure for corona details, and economical alternatives using telescopes instead of expensive telephoto lenses.
 
 I was preparing shooting the great total eclipse on 8/21, and learned a lot about shooting with long lenses.
 

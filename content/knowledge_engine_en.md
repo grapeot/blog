@@ -3,6 +3,7 @@ Date: 2024-06-13 21:00
 Category: Computing
 Tags: English, AI
 Slug: ai-knowledge-engine-en
+Summary: Envisioning an AI knowledge engine that records conversations, extracts insights, and surfaces relevant knowledge when needed. Three key challenges: data collection, knowledge extraction, and real-time participation.
 
 (From my message in the AI Productivity Training Camp group chat)
 

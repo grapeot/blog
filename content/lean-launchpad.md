@@ -3,6 +3,7 @@ Date: 2013-01-22
 Category: Life
 Tags: Chinese, Career
 Slug: the-lean-launchpad
+Summary: 修读Steve Blank的创业课程Lean Launchpad的感想：从商业访谈中学习假设验证的科学方法，认识到创业与科研的逻辑共通性，以及对未来职业定位的思考。
 
 总的体会就是。。。这门课再一次影响了我的三观。。。
 

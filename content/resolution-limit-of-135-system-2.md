@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, Photography
 Date: 2020-07-12
 Slug: resolution-limit-of-135-system-2
+Summary: 用数码摇摇乐加胶片摇摇乐的双重叠加技术，配合RGB分色滤镜，在135系统上实现2.6亿像素彩色照片，逼近镜头衍射极限分辨率。
 
 
 ---

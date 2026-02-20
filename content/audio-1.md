@@ -3,6 +3,7 @@ Date: 2022-12-21 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-1-scientific-hifi
+Summary: 音频碎碎念系列开篇：批判HiFi科学派（哈曼神教）的单一维度世界观，探讨音频器材评价中频率响应之外的多维度trade-off。
 
 
 ---

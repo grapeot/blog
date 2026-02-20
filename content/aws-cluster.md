@@ -3,6 +3,7 @@ Date: 2014-07-17 20:00
 Category: Computing
 Tags: English, Linux, Tutorial
 Slug: easy-and-cheap-aws-cluster-building
+Summary: Build cheap compute clusters on AWS using spot instances: automated system configuration, sshfs file transfer, and GNU parallel for job distribution.
 
 ## Why?
 

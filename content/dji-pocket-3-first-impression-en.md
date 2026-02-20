@@ -5,6 +5,7 @@ Category: Life
 Tags: English, Photography, Review
 Slug: dji-pocket-3-first-impression-en
 Translation: dji-pocket-3-first-impression.html
+Summary: Hands-on review of DJI Pocket 3 praising its portability and instant operation, but finding the video quality disappointing compared to iPhone 15 ProRes due to aggressive compression.
 ---
 
 TL;DR: I got my hands on the DJI Pocket 3 today. After using it for a while, I found its portability and ease of operation to be truly impressive, yet the image quality is quite disappointing, not matching up to the iPhone's standards.

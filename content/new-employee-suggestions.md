@@ -5,6 +5,7 @@ Date: 2022-09-06 19:30
 Tags: Chinese, Career
 Slug: new-employee-suggestions
 Translation: new-employee-suggestions-en.html
+Summary: 写码能力不是评价码农的主要标准，软件工程的扩展性、维护性、自动化和debug能力更重要，以及进取心、做决策、沟通和找mentor的职业建议。
 ---
 
 [[English version]](/new-employee-suggestions-en.html)

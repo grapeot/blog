@@ -3,6 +3,7 @@ Date: 2020-01-18 21:30
 Category: Life
 Tags: Chinese, Photography, Review
 Slug: sony-mtf
+Summary: 对比Sony镜头标称MTF与Lensrentals实测数据：Sony自研镜头MTF标称值明显高于实测、索蔡镜头吻合良好，建议参考第三方评测而非盲目相信官方数据。
 
 最近出了一个Sony镜头，想起来查查sony一些镜头的MTF，直接吓尿了。。画风都是这样的。。这个是135/1.8 @ f/8:  
 

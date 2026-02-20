@@ -3,6 +3,7 @@ Category: Life
 Tags: Chinese, DIY, Hardware
 Date: 2019-10-21 18:54
 Slug: 3d-printed-pc-case
+Summary: 用3D打印制作开放式mini-ITX机箱的经验分享：部件分解设计、PLA材料耐温测试、调平调试踩坑记录。
 
 我打了一个玩具级别的机箱出来，把经验和踩过的坑总结一下，看看能不能对其他人有所启发。打印组装出来的成品长这样：
 

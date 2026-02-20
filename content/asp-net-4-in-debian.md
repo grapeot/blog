@@ -3,6 +3,7 @@ Date: 2011-12-23 11:33
 Category: Computing
 Tags: English, Linux, Tutorial
 Slug: running-aspnet-applications-in-debian-linux
+Summary: How to run ASP.NET 4.0 applications on Debian/Linux using nginx and Mono FastCGI, with practical migration tips and filesystem considerations.
 
 ### Introduction
 

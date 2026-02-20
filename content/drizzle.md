@@ -3,6 +3,7 @@ Date: 2018-12-14 15:11
 Category: Life
 Tags: Chinese, Astrophotography
 Slug: drizzle
+Summary: 介绍天文摄影中的drizzle超分辨率技术原理，解释欠采样条件、抖动的作用，以及如何通过多次曝光和亚像素对齐来提升有效分辨率。
 
 在某些特定的情况下，可以通过后期的方式来提升数码分辨率，把光学系统的光学分辨率榨取出来。这种提高分辨率的方法叫drizzle，在[天文摄影](/astrophoto-tutorial-1.html)和医学图像处理中被广泛使用。
 

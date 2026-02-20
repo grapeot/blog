@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: life-api-part3-en
 Translation: life-api-part3.html
+Summary: Reviewing transcribed life recordings unexpectedly became a powerful reflection tool. AI acts as a life coach—analyzing meeting dynamics, spotting blind spots, and enabling "three daily self-examinations" at near-zero friction.
 ---
 
 [Previously, we discussed](/life-api-part2-en.html) how a simple Apple Watch combined with the Whisper model turned my entire life into a data stream that AI could access anytime. After running the experiment for a few days, I ended up with a highly detailed yet disorganized log of my daily life. My initial idea was to build some new AI product prototypes to help me with tasks. However, the real "Aha!" moment came not from creating some fancy new feature, but from the process of processing and reviewing these recordings itself.

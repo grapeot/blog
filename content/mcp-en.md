@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: mcp-en
 Translation: mcp.html
+Summary: Examining why MCP gained popularity for standardizing LLM tool invocation, its technical advantages and limitations, and when developers should adopt it versus building without frameworks.
 ---
 
 We often get asked a recurring question while promoting Agentic AI: How should we integrate with MCP (Model Context Protocol)? Which MCP Servers are recommended? In this article, I want to address some questions that tend to be overlooked but are actually more important—for example, why do we need MCP in the first place? What features does MCP offer, and what pain points does it resolve? Why is MCP so popular? When does it make sense to use MCP, and when should we avoid it?

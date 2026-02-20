@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: result-certainty
 Translation: result-certainty-en.html
+Summary: 用Claude Code替代API调用做翻译任务：利用agentic loop实现自我纠错，用evaluation-first定义验收标准，从过程确定性转向结果确定性获得新的安全感。
 ---
 
 即使在2026年，把AI从demo做成产品也不是一件容易的事。比如中翻英，大家都觉得早就被LLM解决了，不就是调个API的事情嘛。但我们最近因为要把Superlinear Academy社区加入一个中翻英自动同步的功能，才发现开发体验这么差。

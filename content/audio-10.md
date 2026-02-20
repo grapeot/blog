@@ -3,6 +3,7 @@ Date: 2022-12-30 19:00
 Category: Life
 Tags: Chinese, Audio, Tutorial
 Slug: sound-engineering-10-real-example
+Summary: 音频碎碎念之地狱听音环境实操：在狭小杂乱空间实现好音质的实用技巧，近场聆听、音箱高度、toe-in摆放，附性价比器材推荐。
 
 
 ---

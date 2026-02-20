@@ -3,6 +3,7 @@ Date: 2014-11-06 19:33
 Category: Life
 Tags: English, Time Management, Reflection
 Slug: be-an-observer
+Summary: Being an observer means watching yourself from above—this mindset brings better emotional control, time management, and critical self-awareness.
 
 ### Looking Down at Yourself
 

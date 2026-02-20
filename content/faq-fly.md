@@ -3,6 +3,7 @@ Date: 2014-10-13 08:14
 Category: Life
 Tags: English, Aviation
 Slug: faqs-to-learning-to-fly
+Summary: Answers common questions about obtaining a private pilot certificate, covering benefits, aircraft rental costs, training expenses, and time commitment for becoming a certified airplane pilot.
 
 Finally got my private pilot certificate... 
 Become a certified airplane pilot en.

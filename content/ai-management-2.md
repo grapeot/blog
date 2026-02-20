@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Management
 Slug: ai-management-2
 Translation: ai-management-2-en.html
+Summary: 将常见的AI使用挫折重新定义为管理问题。当把AI当作实习生而非工具时，不可靠、幻觉和代码质量等问题都可以通过建立信任、层级分工等成熟的管理原则来解决。
 ---
 
 随着AI越来越流行，也有越来越多的人在深度尝试AI以后发现实际工作中表现很差。我觉得这些观察很有道理，但也觉得很多时候是因为他们仍然是把 AI 当成一个工具在用。这篇文章就想从几个典型的场景出发，来介绍为什么我们不应该把 AI 当成一个工具，而应该[当成一个人来管理](/ai-management.html)，以及这种简单的方法论如何在各种场景中有效地破除对 AI 的误解，提升它的成功率。

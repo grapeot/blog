@@ -1,10 +1,11 @@
 ---
-Title: From the All-Purpose Hospital to Smart Triage: Using a Hospital Analogy to Understand the Evolution of DeepSeek’s Models
+Title: From the All-Purpose Hospital to Smart Triage: Using a Hospital Analogy to Understand the Evolution of DeepSeek's Models
 Date: 2025-02-08 15:00
 Category: Computing
 Tags: English, AI
 Slug: deepseek-hospital-en
 Translation: deepseek-hospital.html
+Summary: Explains DeepSeek v2 and v3's Mixture of Experts architecture using a hospital analogy, covering expert specialization, routing, load balancing challenges, and cross-node communication.
 ---
 
 DeepSeek’s v3 model has sparked a lot of discussion recently. However, many people (myself included) may find themselves facing a sea of articles, unsure which are clickbait and which contain real substance. If you want to understand why DeepSeek is so impressive, which materials should you read? How can you confirm your understanding is correct? And how do you grasp the intuition behind these complex papers in a straightforward way?

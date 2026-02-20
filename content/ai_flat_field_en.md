@@ -3,6 +3,7 @@ Date: 2025-12-26 21:00
 Category: Compute
 Tags: English, Astrophotography, AI
 Slug: ai-flat-field-en
+Summary: Explores using generative AI to remove CMOS dust from astronomical images. By having AI generate dust masks rather than direct corrections, then applying deterministic flat-field calibration, achieves both scientific integrity and AI's powerful recognition capabilities.
 
 It all started with a video file of the solar surface shared by Mr. De Lai from the Shenzhen Astronomical Observatory. Due to various environmental factors, their CMOS sensor had accumulated significant dust. When observing the sun with a high f/40 focal ratio telescope, these dust specks became painfully obvious in the footage. He was looking for a way to remove this dust from the video—something that could take a raw frame and produce a clean output, as shown below.
 

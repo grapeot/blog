@@ -5,6 +5,7 @@ Category: Alive
 Tags: English, AI, Reflection
 Slug: ai-society-en
 Translation: ai-society.html
+Summary: Four speculative stories exploring a future where wisdom becomes a cloud service: budgeted emotional interactions, trading life for cognitive points, folded lifespans, and innate AI sync rates. Asks what happens when humanity's most coveted inner qualities become external commodities.
 ---
 
 ### Prologue

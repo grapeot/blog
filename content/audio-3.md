@@ -3,6 +3,7 @@ Date: 2022-12-23 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-3-frequency
+Summary: 音频碎碎念之频率玄学：音调是极其主观的感知，与频率非线性相关，人耳对音调有复杂脑补，5kHz以上无法分辨音调。
 
 
 ---

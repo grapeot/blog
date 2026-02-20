@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI, AI Coding
 Slug: multi-agent-en
 Translation: multi-agent.html
+Summary: How separating Planner and Executor roles, enforcing document-based communication, and using o1 as Planner transformed Cursor from a simple assistant into a multi-agent system.
 ---
 
 I've been spending quite some time trying to push common Agentic AI tools like Cursor to a new level. Initially, Cursor could only write and execute code, which made us feel that while it was like a smart assistant, there was still room for improvement. So, we [rewrote the Cursor Rules](/cursor-to-devin-en.html) to enable it to do more complex planning, status reporting, and self-growth. Later, we further expanded its capabilities by integrating private knowledge bases and databases through Python command line and natural language descriptions.

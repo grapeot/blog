@@ -3,6 +3,7 @@ Date: 2013-11-18 22:58
 Category: Life
 Tags: English, Health
 Slug: reading-notes-the-power-of-habit
+Summary: Key takeaways from "The Power of Habit": identify key procedures, build automatic routines with cue-routine-reward cycles, and cultivate willpower for lasting change.
 
 I was reading the book "The power of habit" recently and got some inspirations.
 This is not a summary of the book, but more like a narration from my point of view.

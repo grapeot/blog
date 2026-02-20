@@ -3,6 +3,7 @@ Date: 2013-09-24 17:28
 Category: Computing
 Tags: English, Linux, Tutorial
 Slug: automatic-email-notifications-for-github-pushes
+Summary: A simple PHP script to send automatic email notifications when someone pushes to your GitHub project, using GitHub's post-receive web hooks with JSON payload parsing.
 
 It would be sweet if we can get auto email notifications whenever someone pushes to our github project.
 Unfortunately, the default email service hook of github only supports 2 email addresses at most. 

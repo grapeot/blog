@@ -5,6 +5,7 @@ Category: Alive
 Tags: English, AI
 Slug: water-quality-en
 Translation: water-quality.html
+Summary: Using AI to explore water quality across hydroponics, bubble solutions, and espresso. How KH/GH measurements and AI guidance transformed my understanding of everyday water chemistry.
 ---
 
 I'd always thought Seattle's water was pretty good. The general consensus is that it's on the softer side, ideal for brewing coffee. So, for everyday use, I typically just used water straight from the tap, maybe running it through our Berkey filter at most. Honestly, I never gave water quality much thought beyond "good enough." That changed recently when a few minor challenges popped up with my hydroponics setup and making bubble solution for my daughter. With Agentic AIs like o3 becoming more common and capable, I decided to enlist AI's help to investigate water quality. This little journey not only upended many of my old beliefs but also gave me a fresh perspective on how AI can transform the way we learn and explore.

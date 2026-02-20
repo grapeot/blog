@@ -4,6 +4,7 @@ Date: 2011-11-08 10:08
 Tags: English, Research, AI Technique
 Slug: markov-random-field-and-graph-cut-3
 Latex:
+Summary: Implementing Loopy Belief Propagation as a more general optimization approach for MRF, supporting non-grid graphs and non-binary cases, with image restoration experiment results.
 
 
 ---

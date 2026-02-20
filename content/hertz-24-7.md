@@ -3,6 +3,7 @@ Date: 2013-07-06 19:33
 Category: Alive
 Tags: English, Travel, Review
 Slug: hertz-24-7-experience
+Summary: A California road trip with Hertz 24/7: good prices and new cars, but the management system is buggy—reservations cancel randomly, charges appear incorrectly, and you must remember to manually end your trip.
 
 Hertz 24/7 is basically Hertz's zipcar. Register to get $75 credit, can be combined with Columbia's Gold Plus Rewards. Also swipe the key nob (an RFID chip) and good to go. I rent a car in my California trip around July 4th, and share some experience with you here.
 

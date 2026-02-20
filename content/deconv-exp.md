@@ -4,6 +4,7 @@ Date: 2019-12-26 16:00
 Tags: Chinese, Image Processing, Photography
 Slug: deconv-exp
 Latex: 
+Summary: 通过数学推导和实验探索反卷积用于图像锐化的原理，解释了振铃现象的成因，引入图像先验正则项解决问题，并用相机验证了点扩散函数的影响。 
 
 我一直在想能不能在屏幕上显示一个算出来的图像，经过[近视眼模糊](/lens-chromatic-aberration.html)以后正好变得清楚。但一直没有机会静下心来把数学推完并且用代码实现。最近趁着休假把整个问题推完了。下面我们首先从数学的角度出发把整个问题的脉络理清楚，然后做一个模拟实验，看看我们的思路有什么问题（ringing），进而引入image prior的概念来解决这个问题。接下来用相机做一个实战实验，引入Point Spread Function的概念，从而在实际操作上演示这个问题可以怎么解决。
 

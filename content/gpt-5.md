@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Review
 Slug: gpt-5
 Translation: gpt-5-en.html
+Summary: GPT-5是产品升级而非单纯模型升级：新增reasoning_effort和verbosity参数，可控性大幅提升，让开发者能根据场景灵活权衡推理深度和回复长度。
 ---
 
 今天OpenAI发布了GPT-5。首先我想推荐一个文档，是OpenAI给它写的[Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)。这个文档与model card不同，解释了很多怎么把它用好的技术细节，更面向API用户而不是研究人员。对使用API构建产品的工程师尤其有价值。

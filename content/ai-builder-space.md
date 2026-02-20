@@ -3,6 +3,7 @@ Date: 2026-02-02 20:00
 Category: Computing
 Tags: Chinese, AI, Tutorial
 Slug: ai-builder-space
+Summary: 分析AI学习者的四道流失阶梯，提出用工程化平台消除配置、实验、部署等摩擦，让学员专注于核心技能练习。介绍AI Builder Space如何通过统一API、一键部署和MCP自动化实现这一目标。
 
 我们这两年做了[四门课](https://ai-builders.com/)，积累了 2500+ 学员。最近大家在推送里看到了[很多学员分享的项目](https://www.superlinear.academy/c/share-your-projects/)，非常精彩，我也受到了很多启发。但那些真的交付了大家都能用的产品的学员，其实是少数走到终点的人。
 

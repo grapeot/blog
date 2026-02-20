@@ -5,7 +5,7 @@ Category: Life
 Tags: English, Hardware, Review
 Slug: 3d-print-laser-cutting-en
 Translation: 3d-print-laser-cutting.html
----
+Summary: Deep dive into 3D printing and laser cutting technologies: technical bottlenecks, B2B vs B2C market challenges, why Bambu Labs succeeded, and the elusive consumer market problem.
 
 Recently, a few investor friends were discussing 3D printing and laser engraving technologies, so I thought I'd write something to dive into these two fields, introducing their technologies and markets. I'm not a professional in either of these areas, so please take this with a grain of salt.
 

@@ -4,6 +4,7 @@ Date: 2013-09-17 16:00
 Tags: English, Research
 Slug: technical-details-about-kinectfusion
 Latex:
+Summary: Technical notes on KinectFusion SDK: understanding WorldToCamera and WorldToVolume matrices, aligning RGB with depth images, and extracting higher-quality depth maps via raycasting the TSDF volume.
 
 KinectFusion is a powerful 3D reconstruction technique based on Microsoft Kinect Sensor.
 It's included in the Microsoft Kinect SDK, which is pretty easy to use. 

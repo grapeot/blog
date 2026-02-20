@@ -3,6 +3,7 @@ Category: Computing
 Date: 2017-01-05 20:00
 Tags: English, Smart Home, DIY, Tutorial
 Slug: smart-air-purifier
+Summary: Build a Raspberry Pi-based air quality monitoring system with gas and dust sensors, plus a DIY air purifier using a box fan and MERV 13 filter.
 
 Indoor air can be much more polluted than the outdoor air.
 There are some "smart air purifier" like Dyson Air Purifier on the market, but they are usually very pricey, and lack APIs for customization.

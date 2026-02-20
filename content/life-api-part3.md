@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api-part3
 Translation: life-api-part3-en.html
+Summary: 回看AI转录的生活录音，意外成为低成本自省契机：AI像Life Coach一样帮我分析会议暗流、发现方案盲点、识别情绪模式，让我用前所未有的方式实践"吾日三省吾身"。
 ---
 
 [上次我们聊到](/life-api-part2.html)，我试着用一块普通的 Apple Watch 加上 Whisper 模型，把我整个生活变成 AI 能随时读取的数据流。跑了几天下来，确实拿到了一本超级详细、但老实说有点乱七八糟的生活流水账。一开始我想着，拿这些数据做点新奇的 AI 产品原型，帮我干点啥。但折腾了一阵子，真正让我眼前一亮的Aha Moment，反而不是做了什么新功能，而是回头处理这些录音文本的过程。

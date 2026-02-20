@@ -5,7 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: agentic-ai-202504-en
 Translation: agentic-ai-202504.html
----
+Summary: The real question isn't whether AI will replace you, but whether you can lead AI. Three agent types (Coach, Secretary, Partner), the rapport moat, and building an AI-native world.
 
 Many people are asking: "Will AI replace me?"
 

@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI
 Slug: ai-eternity-en
 Translation: ai-eternity.html
+Summary: Chronicles experiments with voice input, all-day recording, wearable cameras, and agentic systems to expand AI communication bandwidth. Introduces "Cybernetic Immortality" as a pragmatic philosophy to increase life density, quality, and cognitive boundaries.
 ---
 
 ## How AI Leveled Up from Intern to Mentor

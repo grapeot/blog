@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Reflection
 Slug: builders-mindset-en
 Translation: builders-mindset.html
+Summary: Builder's Mindset is the key to unlocking AI's full potential—shifting from passive tool user to active tool builder in the AI era.
 ---
 
 When ChatGPT was first launched, I tried using it to plan a trip, but the experience was quite poor. It often hallucinated, got addresses wrong, or recommended non-existent attractions. Since the interface was entirely text-based, I couldn't see the locations of the attractions on a map. I eventually had to resort to manually arranging the itinerary and confirming accommodations using maps. It felt like these applications were more gimmicky than practical.

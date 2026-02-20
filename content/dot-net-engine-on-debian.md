@@ -3,6 +3,7 @@ Date: 2011-12-06 11:06
 Category: Computing
 Tags: English, Linux, Tutorial
 Slug: install-dotnetblogengine-on-debian
+Summary: Step-by-step guide to installing DotNetBlogEngine 1.6 on Debian Linux using Apache, Mono, and mod-mono, with notes on version compatibility limitations.
 
 The motivation is, I am trying to move this blog to a linux machine. Anyway, in my old server, Windows Server 2008 is rather slow.
  

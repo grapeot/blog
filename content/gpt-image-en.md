@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI Technique
 Slug: gpt-image-en
 Translation: gpt-image.html
+Summary: Four techniques to achieve commercial-grade flowcharts and visualizations with GPT's image generation: visual prompts, masking for iteration, AI brainstorming, and document management for reusable assets.
 ---
 
 ## The Shortcomings Behind Exquisite Artwork

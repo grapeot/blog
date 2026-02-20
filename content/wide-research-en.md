@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Agentic AI
 Slug: wide-research-en
 Translation: wide-research.html
+Summary: Why AI slacks off on large tasks: LLM output length limitations cause attention drift. Wide Research solves this by parallelizing with lightweight models, then aggregating results with a primary LLM.
 ---
 
 ## Whose Fault is it When AI Slacks Off?

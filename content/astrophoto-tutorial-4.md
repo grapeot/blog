@@ -3,6 +3,7 @@ Date: 2023-04-28 22:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-4
+Summary: 望远镜选购指南：分析信噪比与分辨率两大核心指标，探讨口径、焦比、成像圈、星点图、视宁度等关键因素，帮助找到适合自己的主镜。
 
 
 ---

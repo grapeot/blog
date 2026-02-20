@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI Technique
 Slug: improving-help-responses-through-prompt-engineering
 Translation: human-oriented-prompt-engineering-en.html
+Summary: 用Chain of Thought思维改造求助方式：不要问"我应该怎么办"，而要问"这可能是什么原因导致的，我怎样判断"，用逆向debug思维获得更有效的帮助。
 ---
 
 我在各个社区里潜水，经常能看见有人求助，大家互相帮助的情况。但遗憾的是，我发现绝大多数的帮助都是无效的，最终能够真正解决问题的很少。比如一个人在群里问："我遇到了问题X，怎么去解决？"大家可能会给出很多建议："你试试A行不行，试试B行不行。"但最终试了之后，发现都没什么用，整个求助也就不了了之。

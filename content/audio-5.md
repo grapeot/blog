@@ -3,6 +3,7 @@ Date: 2022-12-25 19:00
 Category: Life
 Tags: Chinese, Audio, Tutorial
 Slug: sound-engineering-5-environment
+Summary: 音频碎碎念之听音环境：房间声学对音质影响巨大，驻波、反射、共振模式决定最终效果，优化听音环境比升级器材更重要。
 
 
 ---

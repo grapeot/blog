@@ -3,6 +3,7 @@ Date: 2014-10-22 11:00
 Category: Life
 Tags: Chinese, Time Management, Reflection
 Slug: education-for-primary-and-secondary-students-and-personal-resource-management
+Summary: 探讨中小学生教育中培养主动性和学习方法的重要性，以及使用Trello和OneNote进行个人时间和信息管理的实践经验。
 
 ## 中小学生的教育
 

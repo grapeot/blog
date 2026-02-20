@@ -3,6 +3,7 @@ Date: 2023-04-26 19:30
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-0
+Summary: 深空摄影器材从观望到破产系列引子：从器材角度介绍天文摄影入门，以器材带动拍摄，快速配置适合新手的第一套设备。
 
 
 ---

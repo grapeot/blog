@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, AI, Reflection
 Slug: builders-mindset
 Translation: builders-mindset-en.html
+Summary: Builder's Mindset是AI时代的关键思维模式，从被动的工具使用者转变为主动的工具构建者，释放AI的真正潜力。
 ---
 
 在ChatGPT刚刚推出的时候，我就尝试过用它来规划旅行，但整个体验非常糟糕。比如它经常出现幻觉，把地址搞错，或者推荐一个并不存在的景点。由于交互界面完全是文本的，我也看不到每个景点在地图上的位置。最后不得不回归地图手动安排行程和确认住宿。因此感觉这种应用更多是噱头大于实用。

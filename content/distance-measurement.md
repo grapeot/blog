@@ -4,6 +4,7 @@ Category: Life
 Tags: Chinese, Photography
 Slug: distance-measurement-with-focusing
 Latex: 
+Summary: 定量分析黄斑测距和裂像测距的精度原理，推导有效量程和相对误差公式，探讨如何通过增加基线长度和角度放大倍率来提升远距离测距精度。 
 
 数码相机可以对远处的物体进行对焦。那能不能用来测量到物体的距离呢？
 

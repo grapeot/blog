@@ -3,6 +3,7 @@ Category: Computing
 Date: 2017-03-27 9:00
 Slug: wechat-bot-2
 Tags: Chinese, AI
+Summary: 微信机器人功能升级：群标签云统计、个人发言分析、活跃度可视化，并接入ElasticSearch和Kibana实现实时监控，算法从TF升级到TF-IDF。
 
 
 ---

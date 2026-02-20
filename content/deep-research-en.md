@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI, Agentic AI
 Slug: deep-research-car-buying-en
 Translation: deep-research.html
+Summary: A hands-on exploration of OpenAI Deep Research through a simulated car-buying scenario, demonstrating how AI elevates research efficiency and enables deeper strategic thinking about negotiation and decision-making.
 ---
 
 Recently, I ran a simulated car-buying scenario to test OpenAI's Deep Research. The setup was that in my younger days, I focused mostly on performance cars, but as I got older and more family-oriented, I realized there was a whole other category of vehicles that emphasize NVH (Noise, Vibration, and Harshness). I knew almost nothing about this space, so I wanted Deep Research to help me walk through a complete simulation of buying a car, from early-stage research to mid-stage selection to final negotiations, just to see how useful Deep Research could be in everyday life.

@@ -5,6 +5,7 @@ Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api-part4-followup
 Translation: life-api-part4-followup-en.html
+Summary: AI帮忙写的文章空中楼阁，不是AI写得不好，是我没喂够context。作为Manager要审核输出，作为Enabler要提供长期积累。判断界限才是协作的开始。
 ---
 
 前几天，我发了[一篇文章](/ai-creativity.html)，是由AI帮我完成的。内容说的是AI在创意工作中的角色变化——从模仿到结构性生成，用穷举来代替创意。我当时看完其实挺满意的，甚至有点得意，觉得这可能是我们最近AI协作写作流程的又一次成熟体现。

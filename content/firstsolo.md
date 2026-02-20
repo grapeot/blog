@@ -3,6 +3,7 @@ Date: 2014-06-01 19:00:00
 Category: Alive
 Tags: Chinese, Aviation
 Slug: first-solo
+Summary: 记录飞行训练中首次单飞的经历，以及训练过程中遇到的趣事：引擎故障模拟、仪表飞行训练、座椅调整乌龙等。
 
 <img src="images/FirstSolo.jpg" / alt="A musician performing a solo on stage" alt="A musician performing a solo guitar act onstage">
 

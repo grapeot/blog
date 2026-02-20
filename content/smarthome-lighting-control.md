@@ -3,6 +3,7 @@ Category: Life
 Date: 2017-01-02 9:00
 Slug: smart-home-lighting-control
 Tags: Chinese, Smart Home, DIY
+Summary: 基于ESP-8266和PIR传感器实现智能灯光控制：人体感应自动开灯、睡眠模式区分日夜亮度、IFTTT联动日出日落状态切换，打造人性化夜间照明体验。
 
 [智能家居](/smart-home-air-quality.html)最容易入手的一环就是智能灯光。从飞利浦的hue，到wemo的智能开关，到小米的智能灯泡，每家的技术都不一样，但基本都能实现遥控，定时开关等基本功能。结合Alexa/Siri还能实现语音控制。到了这一步，家庭灯光就已经比较智能了。这篇文章主要介绍的是，如何在这个基础上更进一步，加入人体感应功能。
 

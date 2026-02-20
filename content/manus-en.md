@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, Agentic AI
 Slug: manus-en
 Translation: manus.html
+Summary: Exploring why Manus succeeded by bridging Deep Research and Cursor, and analyzing the compound effects in tools, data, and intelligence that create lasting moats for Agentic AI products.
 ---
 
 Manus has been making waves on the Chinese internet since its recent release, quickly winning over a wide range of users. After diving deeply into the product, I find it truly inspiring. It captures a crucial aspect in the competition among Agentic AI products: the compound effect. In this article, I want to explore, from a longer-term perspective, the key factors that drive competition for Agentic AI products like Deep Research, Cursor, or Manus, and which elements can form a true moat (and which cannot).

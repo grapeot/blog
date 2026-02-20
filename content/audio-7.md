@@ -3,6 +3,7 @@ Date: 2022-12-27 19:00
 Category: Life
 Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-7-amplifiers
+Summary: 音频碎碎念之放大器：从晶体管特性到运算放大器设计，负反馈电路如何将失真控制在很小的范围，理解理想运放的由来。
 
 
 ---

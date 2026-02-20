@@ -3,6 +3,7 @@ Category: Computing
 Tags: Chinese, AI Technique, Image Processing
 Date: 2019-06-21 18:54
 Slug: anime-character-recognition
+Summary: 基于Danbooru 2018同人画师数据集构建的97万张图、7万个二次元角色的识别数据集。使用动漫头像检测模型过滤单角色图片，为角色识别研究提供训练数据。
 
 在[上一篇文章](/anime-head-detection.html)里，我们做了一个效果不错的动漫头像检测模型。这个模型本身并不复杂，但它可以帮助批量化处理数据，从而为更多彩的应用奠定基础。一个自然的问题就是，我们有没有可能做一个类似Amazon XRay的东西，你给我一张ACG图片，我告诉你这是哪部番里面的哪个角色？这样的模型本身并不复杂，现成的face detection - alignment - recognition的框架可以轻松搞定。但关键是训练数据很难找。这篇文章主要就是解决了这个问题，开源了一个百万级别的二次元角色识别数据集，方便各位丹友们炼丹。
 

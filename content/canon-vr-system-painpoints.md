@@ -3,6 +3,7 @@ Date: 2022-04-25 00:11
 Category: Computing
 Tags: Chinese, Photography, Review
 Slug: canon-vr-system-pain-points
+Summary: 佳能VR镜头系统三大痛点：不支持RAW、软件难用、分辨率不足，附自制工具和Topaz超分锐化的解决方案。
 
 最近租了一个佳能的VR镜头用来拍娃，真的是革命性的体验。之前试着用[360全景相机](/images/my_vr_lens.jpg)来拍娃，然后在Quest2上看，已经受了震惊了。但和佳能的[VR镜头系统](/images/my_vr_lens.jpg)出的照片和视频比起来，全景相机就是个弟弟。一方面毕竟是全幅打1/2寸，[画质](/yage.ai/resolution-limit-of-135-system.html)碾压，一方面数码分辨率也更高，4k/180度比6k/360度还是更爽。而且这种立体的感觉，和看3D电影差不多，让人忍不住想去摸摸，或者有狗冲过来的时候会想躲开。我拍了一个松鼠吃东西的视频，youtube链接[在这里](https://www.youtube.com/watch?v=HhlxmclNLVk), Quest2里面可以用app直接看。B站也有一个版本，但我还不清楚怎么在Quest2上面看。
 

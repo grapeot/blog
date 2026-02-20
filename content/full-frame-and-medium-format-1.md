@@ -3,6 +3,7 @@ Date: 2020-01-20 15:11
 Category: Life
 Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-1
+Summary: 介绍全画幅和中画幅相机的定义和传感器大小差异，分析中画幅在像素、噪点、景深、衍射方面的理论优势，以及租赁哈苏X1D的实际体验和失望之处。
 
 
 ---

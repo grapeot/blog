@@ -3,6 +3,7 @@ Category: Life
 Date: 2014-11-15 23:00
 Tags: English, Time Management
 Slug: using-trello-for-time-management
+Summary: Repurposing Trello for personal time management: write everything down, review often, use inbox list for focus, and leverage labels/lists/checklists for prioritization.
 
 In my previous posts, I mentioned several times that [Trello](https://trello.com/) can also be a wonderful personal time management tool, although originally it's designed for multi-user project management.
 After some googling, I found looks like no one has published usage like this before.

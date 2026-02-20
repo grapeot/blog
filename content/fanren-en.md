@@ -5,6 +5,7 @@ Category: Computing
 Tags: English, AI
 Slug: fanren-en
 Translation: fanren.html
+Summary: Describes building an interactive knowledge graph from a massive Chinese fantasy novel using AI, with a methodology of "dumb data + dumb methods + dumb models = refined knowledge" through iterative refinement.
 ---
 
 ## Introduction: It Begins with Forgetting

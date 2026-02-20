@@ -5,6 +5,7 @@ Category: Life
 Tags: Chinese, Travel, Reflection
 Slug: nyc-revisited
 Translation: new-york-city-revisited-en.html
+Summary: 十年后重游纽约发现街上大SUV多的原因：TLC商业运营车辆服务高端出行需求，折射出纽约由人多、富人比例高和旅游心态支撑的巨大头部市场。
 ---
 
 我以前在纽约住了五年。但因为是学生，基本上是11x7搞学术，所以一直没有精力和阅历对这个城市进行太多的思考和感悟。最近毕业快十年，因为家人来访，终于以游客的身份重游纽约，有机会重新解读了这座城市，包括纽约的人，对此有很多新的体会。

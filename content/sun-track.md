@@ -3,6 +3,7 @@ Date: 2019-07-27 15:00
 Category: Life
 Tags: Chinese, Photography, DIY
 Slug: sun-track
+Summary: 探索日轨长曝光摄影的两种技术路线：数码延时堆栈与胶片小孔/ND镜拍摄，分享从器材配置到后期处理的全流程实验心得。
 
 一切来源于这张北野谦的图：
 

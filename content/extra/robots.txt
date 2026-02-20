@@ -1,10 +1,5 @@
 User-agent: *
 Disallow: /theme/
-Disallow: /tag/
 Disallow: /uploads/
 
-User-agent: Baiduspider
-Disallow: /
-
-User-agent: baiduspider
-Disallow: /
+Sitemap: https://grapeot.me/sitemap.xml

@@ -4,7 +4,6 @@ Date: 2025-12-08 13:00
 Category: Computing
 Tags: Chinese, AI, Tutorial
 Slug: nano-banana-pro
-Translation: nano-banana-pro-en.html
 Summary: 从拼凑到整体渲染的PPT制作范式转移，以及如何用代码骨架、资产约束和延迟渲染构建解决风格混乱、幻觉和成本问题的Generative Kernel。
 ---
 

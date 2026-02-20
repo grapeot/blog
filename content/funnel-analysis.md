@@ -4,7 +4,6 @@ Date: 2025-01-05 12:00
 Category: Computing
 Tags: Chinese, AI, Tutorial
 Slug: zwo-funnel-analysis
-Translation: funnel-analysis-en.html
 Math: false
 Summary: 以ZWO产品策略为例详解漏斗分析思维：如何识别用户流失瓶颈、降低天文摄影门槛，以及分布式设备在科研中的潜在价值。
 ---

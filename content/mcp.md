@@ -4,7 +4,6 @@ Date: 2025-03-22 22:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: mcp
-Translation: mcp-en.html
 Summary: 分析MCP解决LLM工具调用标准化痛点的技术优势和Anthropic的商业推动策略，以及开发者何时应该使用MCP、何时可以不用。
 ---
 

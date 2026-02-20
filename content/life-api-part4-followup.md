@@ -4,7 +4,6 @@ Date: 2025-05-08 11:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api-part4-followup
-Translation: life-api-part4-followup-en.html
 Summary: AI帮忙写的文章空中楼阁，不是AI写得不好，是我没喂够context。作为Manager要审核输出，作为Enabler要提供长期积累。判断界限才是协作的开始。
 ---
 

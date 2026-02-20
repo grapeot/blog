@@ -4,7 +4,6 @@ Date: 2024-08-10 23:00:00
 Category: Computing
 Tags: Chinese, AI, Reflection
 Slug: builders-mindset
-Translation: builders-mindset-en.html
 Summary: Builder's Mindset是AI时代的关键思维模式，从被动的工具使用者转变为主动的工具构建者，释放AI的真正潜力。
 ---
 

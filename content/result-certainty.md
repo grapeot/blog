@@ -4,7 +4,6 @@ Date: 2026-01-25 17:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: result-certainty
-Translation: result-certainty-en.html
 Summary: 用Claude Code替代API调用做翻译任务：利用agentic loop实现自我纠错，用evaluation-first定义验收标准，从过程确定性转向结果确定性获得新的安全感。
 ---
 

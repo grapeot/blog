@@ -4,7 +4,6 @@ Date: 2024-03-03 19:00
 Category: Computing
 Tags: Chinese, AI
 Slug: ai-it-impact
-Translation: ai-it-impact-en.html
 Summary: 观察到AI使编程从"没办法才用"变成解决问题的首选方法，同时支持个性化的实战学习。认为AI对IT的深远影响体现在编程民主化和学习方式的根本变革，让更多人能高效掌握技术技能。
 ---
 

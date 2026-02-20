@@ -4,7 +4,6 @@ Date: 2024-12-30 16:00
 Category: Computing
 Tags: Chinese, AI, Review
 Slug: o1-pro
-Translation: o1-pro-en.html
 Summary: 续订每月200美元的ChatGPT Pro的原因：o1 Pro提供其他模型无法替代的思维深度，能解决专业领域的复杂问题，是真正的AI导师而非助手。
 ---
 

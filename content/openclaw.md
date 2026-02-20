@@ -4,7 +4,6 @@ Date: 2026-02-14 23:00
 Category: Computing
 Tags: Chinese, Agentic AI, Review
 Slug: openclaw
-Translation: openclaw-en.html
 Summary: OpenClaw把本地Agent能力带到聊天软件而爆火，但聊天界面、统一记忆、开放Skills都带来妥协。用OpenCode加文件记忆可以搭一套更好的系统。
 ---
 

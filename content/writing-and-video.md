@@ -4,7 +4,6 @@ Date: 2024-05-31 23:00
 Category: Life
 Tags: Chinese, Reflection
 Slug: writing-and-video
-Translation: writing-and-video-en.html
 Summary: 视频信息密度低、不可检索、难以跳转，但up主赚大钱而写文章不赚钱。核心在于视频让"作者"站到前台，观众更容易产生情感连接和付费意愿。
 ---
 

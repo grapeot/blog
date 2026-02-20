@@ -4,7 +4,6 @@ Date: 2025-05-22 17:30
 Category: Alive
 Tags: Chinese, AI
 Slug: water-quality
-Translation: water-quality-en.html
 Summary: 在AI指导下探索水质对水培白菜、泡泡水和意式咖啡的影响，通过KH/GH测量发现跨领域知识迁移的复利效应，体会量化与好奇心的力量。
 ---
 

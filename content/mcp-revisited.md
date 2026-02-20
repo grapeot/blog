@@ -4,7 +4,6 @@ Date: 2025-10-07 22:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: mcp-revisited
-Translation: mcp-revisited-en.html
 Summary: 分析OpenAI Apps SDK通过_meta域绕过context window的做法如何违背MCP设计哲学，以及协议分裂成不同dialect的潜在危机。
 ---
 

@@ -4,7 +4,6 @@ Date: 2025-03-06 20:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: manus
-Translation: manus-en.html
 Summary: 分析Manus如何打通调研和生成链路实现端到端体验，以及Agentic AI产品在工具、数据和智能三个维度的复利效应如何构筑持久护城河。
 ---
 

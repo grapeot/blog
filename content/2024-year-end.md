@@ -4,7 +4,6 @@ Date: 2024-12-29 14:00
 Category: Life
 Tags: Chinese, AI
 Slug: 2024-year-end
-Translation: 2024-year-end-en.html
 Summary: 用ChatGPT o1 Pro分析四年时间记录数据，AI深刻剖析多线程生活模式、工作效率曲线，给出关于时间管理和生活平衡的独到建议。
 
 又到了年终盘点的时间。和以往不同的是，今年的年终盘点是完全由ChatGPT o1 Pro生成的。而且让我震撼的是，AI比我更懂我的时间花在哪了，给了很多惊喜的观察和建议。

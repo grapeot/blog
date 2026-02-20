@@ -4,7 +4,6 @@ Date: 2025-05-03 14:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: life-api-part4
-Translation: life-api-part4-en.html
 Summary: Prompt不是需求本身，而是用信息搭建的临时世界。新模型实现了context-driven emergence：AI在沉浸式语境中被迫变聪明，从你的草稿和删除痕迹中长出更懂你的能力。
 ---
 

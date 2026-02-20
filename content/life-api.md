@@ -4,7 +4,6 @@ Date: 2025-04-24 23:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api
-Translation: life-api-en.html
 Summary: 用Apple Watch在嘈杂机舱录音，Whisper Large V3 Turbo竟完整还原了周围所有对话。实验表明：低质量硬件+好算法已超越人类听力，我们正站在现实API可调用的门口。
 ---
 

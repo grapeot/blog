@@ -4,7 +4,6 @@ Date: 2025-09-05 13:00
 Category: Computing
 Tags: Chinese, AI Management
 Slug: ai-management-2
-Translation: ai-management-2-en.html
 Summary: 将常见的AI使用挫折重新定义为管理问题。当把AI当作实习生而非工具时，不可靠、幻觉和代码质量等问题都可以通过建立信任、层级分工等成熟的管理原则来解决。
 ---
 

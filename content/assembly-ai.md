@@ -4,7 +4,6 @@ Date: 2024-09-02 12:45
 Category: Computing
 Tags: Chinese, Audio, AI, Review
 Slug: assemblyai-speech-recognition-api-review
-Translation: assembly-ai-en.html
 Summary: AssemblyAI语音识别API试用体验，对比OpenAI Whisper API的速度、准确率、稳定性，以及大文件支持等特色功能分析。
 ---
 

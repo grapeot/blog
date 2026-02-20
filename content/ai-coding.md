@@ -4,7 +4,6 @@ Date: 2024-01-23 23:00
 Category: Computing
 Tags: Chinese, AI Coding
 Slug: ai-coding
-Translation: ai-coding-en.html
 Summary: 以远程天文台监控系统为例，分享如何在8小时内用AI完成原本需要团队数天的全栈开发。探讨GPT-4和Copilot如何跨越监控端、服务器端、模型训练和iOS客户端提升软件工程效率。
 ---
 

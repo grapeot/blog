@@ -4,7 +4,6 @@ Date: 2024-08-06 21:30
 Category: Computing
 Tags: Chinese, AI
 Slug: foundation-models
-Translation: foundation-models-en.html
 Summary: 回顾从Transformer到ChatGPT的发展历程，论证基础大模型的核心特征是不需微调的few-shot learning和对话式UI，大规模训练是实现手段而非目标本身。
 ---
 

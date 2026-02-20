@@ -4,7 +4,6 @@ Date: 2025-02-16 20:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: why-forget-all-frameworks
-Translation: agentic-ai-frameworks-en.html
 Summary: 不要从AutoGen、LangGraph等框架入手学习Agentic AI——它们会锁定你的世界观。在领域快速演变期，应该从第一性原理出发自己构建。
 
 我在推广Agentic AI的时候经常被问到：“为什么你的所有教程里从来没有看到对Autogen、LangGraph、SmolAgents或者<插入任何流行的Agentic AI框架>的介绍？” 或者“我应该学习哪个框架来入门Agentic AI？” 这篇文章想解释一下为什么我觉得在这个Agentic AI飞速发展的特殊时期，用什么框架并不重要，我们甚至应该避免从框架开始入门Agentic AI。

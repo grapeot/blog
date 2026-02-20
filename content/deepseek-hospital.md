@@ -4,7 +4,6 @@ Date: 2025-02-08 16:00
 Category: Computing
 Tags: Chinese, AI
 Slug: deepseek-hospital
-Translation: deepseek-hospital-en.html
 Summary: 用医院的分诊系统作比喻，通俗解释DeepSeek v2和v3的混合专家架构原理，包括专家分工、路由机制、负载均衡挑战和跨节点通信问题。
 ---
 

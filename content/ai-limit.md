@@ -4,7 +4,6 @@ Date: 2024-03-13 23:00
 Category: Computing
 Tags: Chinese, AI, Reflection
 Slug: ai-writing-limit
-Translation: ai-limit-en.html
 Summary: 对比三种写课程介绍的策略：完全AI、AI辅助、完全人肉。发现人类写作自然流露的张力与感染力是AI外交式疏离风格所缺乏的，选择不用AI本身也是对用户的尊重。
 ---
 

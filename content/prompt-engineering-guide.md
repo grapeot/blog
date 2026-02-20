@@ -4,7 +4,6 @@ Date: 2024-03-04 19:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: prompt-engineering-guide
-Translation: prompt-engineering-guide-en.html
 Summary: Prompt Engineering实战指南：匹配任务与AI能力、上下文窗口管理、知识查询可靠性提升、数学计算与机器人控制等场景下利用Agent增强能力的方法。
 ---
 

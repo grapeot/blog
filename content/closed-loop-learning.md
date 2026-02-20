@@ -4,7 +4,6 @@ Date: 2025-06-02 20:00
 Category: Life
 Tags: Chinese, Reflection
 Slug: closed-loop-learnings
-Translation: closed-loop-learning-en.html
 Summary: 闭环学习强调持续反馈与调整而非一次成功，持续校准方向的能力比初始瞄准的精度更为重要。
 ---
 

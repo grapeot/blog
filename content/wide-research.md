@@ -4,7 +4,6 @@ Date: 2025-10-17 23:00
 Category: Computing
 Tags: Chinese, AI, Agentic AI
 Slug: wide-research
-Translation: wide-research-en.html
 Summary: AI"偷懒"的本质是LLM输出长度限制导致的注意力分散。Wide Research通过多轻量模型并行处理子任务、主LLM汇总的方式解决，分享为Codex构建该能力的设计思路。
 ---
 

@@ -4,7 +4,6 @@ Date: 2025-05-25 20:00
 Category: Computing
 Tags: Chinese, AI Product
 Slug: ai-products
-Translation: ai-products-en.html
 Summary: 分析为什么模型越来越强但用户感受不到：App设计滞后于模型能力。对比Claude、Gemini和ChatGPT的产品体验，发现OpenAI是唯一同等重视产品设计和模型能力的公司。
 ---
 

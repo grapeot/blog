@@ -4,7 +4,6 @@ Date: 2024-10-27 12:45
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: realtime-gpt
-Translation: realtime-gpt-en.html
 Summary: 用OpenAI实时语音API打造零延时语音输入工具：从网页版到iOS原生App，集成Action Button与Universal Clipboard，实现跨设备无缝写作辅助体验。
 ---
 

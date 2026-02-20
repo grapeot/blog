@@ -4,7 +4,6 @@ Category: Life
 Date: 2022-08-02 23:00
 Tags: Chinese, Astrophotography, Tutorial
 Slug: star-photography
-Translation: star-photography-en.html
 Summary: 深空技巧应用于星野摄影：PixInsight可控拉伸、校准场去除暗角、长焦接片提升星点质量、大光圈下窄带滤镜带宽偏移问题及前置滤镜解决方案。
 ---
 

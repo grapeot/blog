@@ -4,7 +4,6 @@ Date: 2025-07-12 18:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: kimi-k2
-Translation: kimi-k2-en.html
 Summary: 在真实编程和调研任务中评测Kimi K2的Agentic能力：执行韧性出色，适合作为信息采集前端；但工具调用稳定性和生态适配仍有提升空间。
 ---
 

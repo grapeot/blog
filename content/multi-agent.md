@@ -4,7 +4,6 @@ Date: 2025-01-23 23:00
 Category: Computing
 Tags: Chinese, Agentic AI, AI Coding
 Slug: multi-agent
-Translation: multi-agent-en.html
 Summary: 通过分离Planner和Executor、强制文档沟通、用o1当Planner三项改造，解决Cursor鬼打墙问题，实现质量显著提升的多智能体系统。
 ---
 

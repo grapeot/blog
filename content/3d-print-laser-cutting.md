@@ -4,7 +4,6 @@ Date: 2024-11-18 08:00
 Category: Life
 Tags: Chinese, Hardware, Review
 Slug: 3d-print-laser-cutting
-Translation: 3d-print-laser-cutting-en.html
 Summary: 深入分析3D打印和激光雕刻的技术瓶颈、B2B与B2C市场困境，探讨拓竹成功的原因，以及消费者市场为何迟迟打不开的难题。
 
 最近有几个投资人朋友聊到了3D打印和激光雕刻技术，所以就想着写点东西聊聊，介绍一下这两个领域的技术和市场。我不是这两个领域的从业人员，请批判看待。

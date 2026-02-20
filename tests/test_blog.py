@@ -174,12 +174,12 @@ class TestNavigation:
             page = browser.new_page()
             page.goto(server + "/")
             
-            article_links = page.query_selector_all("#post-list a")
+            # Only select article title links, not links in summaries which may be external
+            article_links = page.query_selector_all("#post-list h2.entry-title a")
             if len(article_links) == 0:
                 pytest.skip("No articles found on homepage")
             
             random_link = random.choice(article_links)
-            href = random_link.get_attribute("href")
             
             errors = []
             page.on("pageerror", lambda e: errors.append(str(e)))

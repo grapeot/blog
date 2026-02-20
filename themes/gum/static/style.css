@@ -1,3 +1,12 @@
+/*
+ Author : Nick Rance
+
+ - Credits
+ - 	Main CSS from Gumby framework
+ - 	Some CSS from Twitter Bootstrap - http://twitter.github.io/bootstrap/
+
+*/
+
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
@@ -52,4 +61,334 @@
   --label-hover-focus-color: #c0caf5;
   --hll-bg: #292e42;
   --body-bg: #16161e;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+/* Code Highlighting */
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: var(--text-color);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+code {
+  padding: 2px 4px;
+  color: var(--inline-code-color);
+  white-space: nowrap;
+  background-color: var(--inline-code-bg);
+  border: 1px solid var(--inline-code-border);
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: var(--pre-bg);
+  border: 1px solid var(--pre-border);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+pre.prettyprint {
+  margin-bottom: 20px;
+}
+
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+/* Pygments Highlight Line Background */
+.hll {
+  background-color: var(--hll-bg);
+}
+
+/* Table
+--------------------------------------------------------- */
+
+table {
+  max-width: 100%;
+  background-color: var(--table-bg);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--border-color);
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid var(--border-color);
+}
+
+.table .table {
+  background-color: var(--table-bg);
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+
+.table-bordered {
+  border: 1px solid var(--border-color);
+  border-collapse: separate;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: var(--table-stripe-bg);
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: var(--table-hover-bg);
+}
+
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+/* Navigation
+--------------------------------------------------------- */
+#banner strong {display:block;}
+#banner h1 { font-size:3.25rem }
+
+/* Make navigation a flex container */
+#navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navigation ul.columns {
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin-bottom: 0;
+  float: none !important; 
+}
+
+#theme-toggle {
+    flex-shrink: 0;
+}
+
+.no-touch .navbar ul li.active > a {
+  background: var(--nav-active-bg);
+  color: var(--nav-active-text);
+}
+/* Posts
+--------------------------------------------------------- */
+
+#post-list { margin-left:0; }
+#post-list > li {list-style:none;  border-bottom: 2px solid var(--post-list-border);  margin-bottom: 20px;  padding-bottom: 15px;}
+
+.tag-row {margin-top:20px;}
+
+address { font-size:14px; margin-bottom:10px;}
+
+/* Typography
+--------------------------------------------------------- */
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: var(--link-color);
+}
+
+/* Dark Mode Heading Override for Contrast */
+[data-theme="dark"] h1 a,
+[data-theme="dark"] h2 a,
+[data-theme="dark"] h3 a,
+[data-theme="dark"] h4 a,
+[data-theme="dark"] h5 a,
+[data-theme="dark"] h6 a {
+  color: var(--nav-active-text);
+}
+
+/* Dark Mode Heading Color Override */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--text-color);
+}
+
+a { color: var(--link-color); }
+a:hover { color: var(--link-color); }
+a:focus { color: var(--link-focus-color); }
+
+.btn a:hover,
+.btn a:focus {
+    color: var(--button-text-hover-focus);
+}
+
+.label:hover,
+.label:focus {
+    color: var(--label-hover-focus-color);
+}
+
+/* Footer
+--------------------------------------------------------- */
+.bg {
+  background: var(--footer-bg);
+  margin-top:35px;
+  padding-top:25px;
+  border-top:5px solid var(--footer-border);
+}
+
+/* Responsive fixes
+--------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  #banner h1 a {font-size:22px!important; line-height:24px;}
+
+  #navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  #navigation a.toggle {
+    order: -1;
+    margin-left: 0;
+    margin-right: 10px;
+    float: none !important;
+    position: static !important;
+    flex-shrink: 0;
+  }
+
+  #navigation ul.columns {
+    order: 0;
+    flex-grow: 1;
+  }
+
+  #theme-toggle {
+    order: 1;
+    margin-left: auto;
+    margin-right: 0;
+    flex-shrink: 0;
+  }
+}
+
+/* Fixes about recent comments, added by Yan
+--------------------------------------------------------- */
+.dsq-widget-item { font-size: 85%; margin: 5px 0 0 0!important; line-height: 0; }
+.dsq-widget-item p { font-size: 100%; }
+.dsq-widget-meta p { margin: 3% 0 0 0; }
+img.dsq-widget-avatar {
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: var(--bg-color) 0.3em solid;
+    padding: 5px 3px 3px 3px!important;
+    margin-right: 5px!important;
+    margin-bottom: 5px!important;
+}
+
+/* fixes about the sidebar, added by Yan
+--------------------------------------------------------- */
+.sidebar-h4 {
+    margin-top: 30px;
+}
+.sidebar-tags a {
+    background-color: var(--sidebar-tag-bg);
+    height: 20px;
+    display: inline-block;
+    font-family: Helvetica, arial, verdana, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: var(--sidebar-tag-color);
+    padding: 0 10px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Add borders to markdown tables */
+.entry-content table, 
+.entry-content th, 
+.entry-content td {
+    border: 1px solid var(--border-color-light);
+}
+
+.entry-content table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.entry-content th, 
+.entry-content td {
+    padding: 0.5em;
+    text-align: left !important;
 }

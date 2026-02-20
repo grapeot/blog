@@ -12,7 +12,9 @@
 6. `1fab1ec` - 更新 working.md
 7. `8f610a2` - 夜间模式统一 Gruvbox、清理 IE CSS、扩展测试
 8. `c27810c` - 修复 Disqus 空短名称问题、添加 Disqus 测试
-9. `待提交` - 统一 pelicanconf/publishconf 配置、添加 make test
+9. `30687b2` - 统一 pelicanconf/publishconf 配置、添加 make test
+10. `18c9a08` - 切换夜间模式到 Tokyo Night
+11. `待提交` - 修复 style.css 覆盖问题、添加 code review
 
 **改动：**
 - **Google Analytics**: ga.js → GA4 gtag.js，ID 改为 `G-03MXLX12W1`

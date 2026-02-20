@@ -43,6 +43,41 @@
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.og_image }}">
 {% endif %}
 
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ article.title|striptags|tojson }},
+  "url": "{{ SITEURL }}/{{ article.url }}",
+  {% if article.summary %}
+  "description": {{ article.summary|striptags|truncate(160)|tojson }},
+  {% endif %}
+  {% if article.date %}
+  "datePublished": "{{ article.date.isoformat() }}",
+  {% endif %}
+  {% if article.modified %}
+  "dateModified": "{{ article.modified.isoformat() }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ article.author|default(AUTHOR) }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ SITENAME }}",
+    "url": "{{ SITEURL }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ SITEURL }}/{{ article.url }}"
+  }
+  {% if article.og_image %}
+  ,"image": "{{ SITEURL }}/{{ article.og_image }}"
+  {% endif %}
+}
+</script>
+
 {% endblock head %}
 
 {% block title %}{{ article.title|striptags }} | {{ SITENAME }}{% endblock %}

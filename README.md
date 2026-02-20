@@ -78,6 +78,11 @@ tests/test_blog.py::TestIntegration::test_page_loads_without_js_errors PASSED  #
 tests/test_blog.py::TestIntegration::test_ga4_tag_present PASSED  # GA4 代码注入正确
 tests/test_blog.py::TestIntegration::test_theme_toggle PASSED     # 主题切换功能正常
 tests/test_blog.py::TestIntegration::test_no_console_errors PASSED  # 浏览器控制台无错误
+tests/test_blog.py::TestNavigation::test_archives_page PASSED     # 归档页面正常
+tests/test_blog.py::TestNavigation::test_navigation_links PASSED  # 导航链接存在
+tests/test_blog.py::TestNavigation::test_click_random_article PASSED  # 随机文章可访问
+tests/test_blog.py::TestNavigation::test_click_archives_then_article PASSED  # 归档→文章导航
+tests/test_blog.py::TestNavigation::test_tags_page_or_sidebar PASSED  # 标签页正常
 ```
 
 **常见失败：**

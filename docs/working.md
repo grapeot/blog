@@ -9,13 +9,19 @@
 3. `2f9cf66` - 添加测试计划、初始化 pelican-plugins submodule
 4. `3c7d251` - 添加 Playwright 测试、修复 Modernizr.load shim
 5. `7d225ad` - 更新 README 环境/测试指南、补充 pytz 依赖
+6. `1fab1ec` - 更新 working.md
+7. `待提交` - 夜间模式统一、Disqus 更新、清理 IE 代码、扩展 Playwright 测试
 
 **改动：**
 - **Google Analytics**: ga.js → GA4 gtag.js，ID 改为 `G-03MXLX12W1`
 - **jQuery**: 1.9.1 (2013, 有 XSS 漏洞) → 3.7.1
-- **Modernizr**: 16KB → 3 行 shim
+- **Modernizr**: 16KB → 5 行 shim（含 load 方法）
 - **Google+**: 删除（2019 年关闭）
 - **主题**: 合入官方 2025 功能（`CUSTOM_CSS_*`、`CUSTOM_JS_*`、`extra_footer.html`）
+- **夜间模式**: Monokai → Gruvbox Dark（配色统一）
+- **Disqus**: 更新到最新嵌入代码
+- **IE 兼容**: 删除 .ie7/.ie8/.ie9 CSS 代码
+- **测试**: 扩展到 11 个 Playwright 测试（含导航测试）
 
 **JS 体积优化:** ~109KB → ~88KB（-21KB）
 
@@ -49,15 +55,21 @@
 - `make html` 用 `pelicanconf.py`（开发），`make publish` 用 `publishconf.py`（生产）
 - GA4 ID 只在 publish 模式注入
 
+### 夜间模式
+- 主 UI 用 Gruvbox，代码高亮也要用 Gruvbox Dark 保持一致
+- Pygments 语法高亮配色需要单独定义（`pygment-dark.css`）
+
 ### 测试
 - Playwright 可以检测 JS 错误、GA4 注入、主题切换功能
 - 测试需要用 `make publish` 的输出（不是 `make html`）
+- 导航测试可以覆盖 archives、随机文章、tags 等页面
+- 外部资源加载失败（Disqus 等）需要过滤掉，不算测试失败
 
 ---
 
 ## 待办
 
-- [ ] 夜间模式配色统一（Gruvbox + Monokai 打架）
-- [ ] Disqus 更新或迁移
-- [ ] 清理 IE7/IE9 兼容代码
-- [ ] CI/CD 部署方案
+- [x] ~~夜间模式配色统一（Gruvbox + Monokai 打架）~~ → 已改用 Gruvbox Dark
+- [x] ~~Disqus 更新或迁移~~ → 已更新到最新嵌入代码
+- [x] ~~清理 IE7/IE9 兼容代码~~ → 已删除
+- [ ] CI/CD 部署方案（手工部署足够，暂不实施）

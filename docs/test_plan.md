@@ -192,8 +192,8 @@ jobs:
 
 | 优先级 | 测试 | 工具 | 状态 |
 |--------|------|------|------|
-| P0 | 构建成功 | make html | 需要修复插件 |
-| P1 | 文件存在性 | bash test | 待实现 |
+| P0 | 构建成功 | make html | ✅ 完成 |
+| P1 | 文件存在性 | bash test | ✅ 完成 |
 | P1 | JS 无报错 | Playwright | 待实现 |
 | P2 | GA4 注入 | Playwright | 待实现 |
 | P2 | 主题切换 | Playwright | 待实现 |
@@ -204,7 +204,7 @@ jobs:
 
 ## Next Steps
 
-1. **立即**: 修复插件问题 (sitemap, gravatar)
-2. **短期**: 实现 P0/P1 测试
+1. ~~**立即**: 修复插件问题 (sitemap, gravatar)~~ ✅ 已完成
+2. ~~**短期**: 实现 P0/P1 测试~~ ✅ 已完成
 3. **中期**: 添加 Playwright 集成测试
 4. **长期**: 配置 CI/CD

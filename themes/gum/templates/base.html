@@ -9,29 +9,30 @@
         <link href="{{ SITEURL }}/{{ FAVICON_URL }}" rel="shortcut icon" type="image/x-icon">
         {% endif %}
         {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
         {% endif %}
         {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
         {% endif %}
         {% if FEED_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
         {% endif %}
         {% if FEED_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
         {% if CATEGORY_FEED_ATOM and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
         {% endif %}
         {% if CATEGORY_FEED_RSS and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
         {% endif %}
         {% if TAG_FEED_ATOM and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM.format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
         {% endif %}
         {% if TAG_FEED_RSS and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS.format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
+
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
 
@@ -39,23 +40,26 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment-dark.css" media="(prefers-color-scheme: dark)" id="pygment-dark-link" disabled />
+        {% if CUSTOM_CSS_FILES %}
+          {% for item in CUSTOM_CSS_FILES %}
+            <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ item }}" />
+          {% endfor %}
+        {% endif %}
+        {% if CUSTOM_CSS_URLS %}
+          {% for item in CUSTOM_CSS_URLS %}
+            <link rel="stylesheet" type="text/css" href="{{ item }}" />
+          {% endfor %}
+        {% endif %}
 
-        <script src="{{ SITEURL }}/theme/js/libs/modernizr-2.6.2.min.js"></script>
-
-
-          {% if GOOGLE_ANALYTICS_ID %}
-              <script type="text/javascript">
-                  var _gaq = _gaq || [];
-                  _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS_ID }}']);
-                  _gaq.push(['_setDomainName', 'grapeot.me']);
-                  _gaq.push(['_trackPageview']);
-                  (function() {
-                   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                   })();
-              </script>
-          {% endif %}
+        {% if GOOGLE_ANALYTICS_ID %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS_ID }}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '{{ GOOGLE_ANALYTICS_ID }}');
+        </script>
+        {% endif %}
 
         {% endblock head %}
 </head>
@@ -68,20 +72,20 @@
         <div class="row">
 
           <header id="banner" class="body">
-                  <h1><a href="{{ SITEURL }}">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-          </header><!-- /#banner -->
+                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+          </header>
 
             <div id="navigation" class="navbar row">
               <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
-             
+
               <ul class="columns">
-                <li><a href="{{ SITEURL }}">Home</a></li>
+                <li><a href="{{ SITEURL }}/">Home</a></li>
 
             {% for title, link in MENUITEMS %}
                 <li><a href="{{ link }}">{{ title }}</a></li>
             {% endfor %}
             {% if DISPLAY_PAGES_ON_MENU %}
-              {% for p in PAGES %}
+              {% for p in pages %}
                 <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
               {% endfor %}
             {% else %}
@@ -92,17 +96,8 @@
               {% endif %}
             {% endif %}
 
-                <!-- Add Theme Toggle Icon Button Here -->
-                <!--
-                <li style="float: right;"> 
-                  <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; line-height: inherit; color: inherit;">
-                  </button>
-                </li>
-                -->
               </ul>
-              <!-- Move button here, outside the ul but inside the navbar div -->
-              <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; margin-left: auto; /* Push to right with flex */ color: inherit;">
-                <!-- Initial icon set by JS -->
+              <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; margin-left: auto; color: inherit;">
               </button>
             </div>
 
@@ -110,14 +105,15 @@
 
           {% endblock %}
 
-       </div><!-- /.row -->
-    </div><!-- /.container -->
+       </div>
+    </div>
+
 
        <div class="container.nopad bg">
 
         <footer id="credits" class="row">
           <div class="seven columns left-center">
-
+          {% include 'extra_footer.html' ignore missing %}
                    <address id="about" class="vcard body">
                     Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
                     which takes great advantage of <a href="http://python.org">Python</a>.
@@ -143,10 +139,6 @@
                 <li><div class="btn facebook"><a href="{{ FACEBOOK_URL }}" target="_blank">Facebook</a></div></li>
                 {% endif %}
 
-                {% if GOOGLEPLUS_URL %}
-                <li><div class="btn danger"><a href="{{ GOOGLEPLUS_URL }}" target="_blank">Google+</a></div></li>
-                {% endif %}
-
               </ul>
             </div>
           </div>
@@ -154,10 +146,21 @@
 
     </div>
 
-  <script src="{{ SITEURL }}/theme/js/libs/jquery-1.9.1.min.js"></script>
+
+  <script src="{{ SITEURL }}/theme/js/libs/jquery-3.7.1.min.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/plugins.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/theme-toggle.js" defer></script>
+  {% if CUSTOM_JS_FILES %}
+    {% for item in CUSTOM_JS_FILES %}
+      <script src="{{ SITEURL }}/{{ item }}" defer></script>
+    {% endfor %}
+  {% endif %}
+  {% if CUSTOM_JS_URLS %}
+    {% for item in CUSTOM_JS_URLS %}
+      <script src="{{ item }}" defer></script>
+    {% endfor %}
+  {% endif %}
   {% if article and article.latex %}
   {{ article.latex }}
   {% endif %}

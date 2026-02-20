@@ -27,4 +27,4 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "computinglife"
-GOOGLE_ANALYTICS_ID = "UA-20477090-1"
+GOOGLE_ANALYTICS_ID = "G-03MXLX12W1"

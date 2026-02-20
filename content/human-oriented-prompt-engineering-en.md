@@ -1,8 +1,11 @@
+---
 Title: Seeking Help Effectively through Human Oriented Prompt Engineering
 Date: 2024-09-11 12:44
 Category: Computing
 Tags: English, AI Technique
 Slug: seeking-help-through-human-oriented-prompt-engineering
+Translation: human-oriented-prompt-engineering.html
+---
 
 I often lurk in various communities and frequently see people seeking help and others offering assistance. Unfortunately, I find that the majority of this help is ineffective, with very few actually resolving the issue. For example, someone might ask in a group, "I'm facing problem X, how do I solve it?" and people might offer suggestions like, "Try A, see if it works, or try B." But ultimately, after trying them, nothing seems to work, and the whole request for help just fades away.
 

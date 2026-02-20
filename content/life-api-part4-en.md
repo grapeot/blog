@@ -1,8 +1,11 @@
+---
 Title: You're Not Just Giving Tasks, You're Building a World for AI to Become Smarter
 Date: 2025-05-03 13:00
 Category: Computing
 Tags: English, AI Technique
 Slug: life-api-part4-en
+Translation: life-api-part4.html
+---
 
 ## Prompts Build Worlds
 

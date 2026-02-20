@@ -1,8 +1,11 @@
+---
 Title: DJI Pocket 3上手体验
 Date: 2024-07-01 17:00
 Category: Life
 Tags: Chinese, Photography, Review
 Slug: dji-pocket-3-first-impression
+Translation: dji-pocket-3-first-impression-en.html
+---
 
 TL;DR: 今天拿到了DJI Pocket 3。使用了一段时间之后，觉得便携和操作非常惊艳，但是画质很拉垮，跟iPhone不在一个档次上。
 

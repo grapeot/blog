@@ -1,9 +1,12 @@
+---
 Title: Creating Novel Narrowband Palettes Using Simple Linear Algebra
 Date: 2022-09-03 15:00
 Category: Life
 Tags: English, Astrophotography, Tutorial
 Slug: sho-tune-en
+Translation: sho-tune.html
 LaTeX: 1
+---
 
 Narrowband imaging is a powerful tool to reveal the physical/chemical composition of nebulae.
 Most emission nebulae have a deep red tone if viewed using the regular broadband because excited hydrogen dominates their composition.

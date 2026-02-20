@@ -1,8 +1,11 @@
+---
 Title: 高效Prompt Engineering指南
 Date: 2024-03-04 19:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: prompt-engineering-guide
+Translation: prompt-engineering-guide-en.html
+---
 
 我一直认为LLM/AI，比如GPT的出现极大地降低了很多领域的门槛。
 最近在我强烈推荐下，周围不少人开始尝试使用LLM来处理更加复杂的任务。

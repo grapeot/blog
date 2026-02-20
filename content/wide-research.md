@@ -1,8 +1,11 @@
+---
 Title: 怎么让AI不偷懒：为Codex构建系统性的Wide Research能力
 Date: 2025-10-17 23:00
 Category: Computing
 Tags: Chinese, AI, Agentic AI
 Slug: wide-research
+Translation: wide-research-en.html
+---
 
 ## AI偷懒，是谁的锅？
 

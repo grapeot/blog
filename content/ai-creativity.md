@@ -1,8 +1,11 @@
+---
 Title: 一千次失败之后，它选中了你看到的那一个 
 Date: 2025-05-04 20:00
 Category: Computing
 Tags: Chinese, AI
 Slug: ai-creativity
+Translation: ai-creativity-en.html
+---
 
 在谈AI和创意之前，我们需要承认一个事实：
 今天的大多数AI系统，在创意这个维度上依然是拙劣的。它可以模仿已有风格、组合已有素材、生成大量看似不同但本质相似的变体；但要说它能像一个经验丰富的创作者一样，理解模糊的目标、识别什么值得做、什么是新意，还差得远。

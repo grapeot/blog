@@ -1,8 +1,11 @@
+---
 Title: 你不需要懂金融，也可以用 AI 拆开结构化票据的黑盒
 Date: 2025-04-20 11:00
 Category: Computing
 Tags: Chinese, AI, Finance
 Slug: structured-notes
+Translation: structured-notes-en.html
+---
 
 ## 银行给我推荐了一款产品，我有点半信半疑
 

@@ -1,8 +1,11 @@
+---
 Title: 鸭哥为什么精力这么充沛
 Date: 2024-11-15 08:00
 Category: Life
 Tags: Chinese, Reflection
 Slug: yage-hobby-nb
+Translation: yage-hobby-nb-en.html
+---
 
 有很多人都好奇过，为什么鸭哥有这么多热情和时间来做这么多复杂的 hobby projects，并且把它们做得很深入。
 我一般会打哈哈说因为干啥啥不行，划水第一名。把别人工作的时间都用来做[咖啡](/HG-1-coffee-grinder-review.html)，做咖啡自然就好喝了。

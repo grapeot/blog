@@ -1,8 +1,11 @@
+---
 Title: 从上下文失忆到文档驱动开发：突破Agentic AI的项目规模陷阱
 Date: 2025-03-09 17:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: agentic-memory
+Translation: agentic-memory-en.html
+---
 
 自2025年伊始，Cursor、WindSurf、Trae等Agentic AI编程工具开始席卷开发领域。然而与过往的GenAI技术类似，这些Agentic AI技术同样面临着小规模demo惊艳，产品化实战翻车的困境——它们生成一两千行的小型原型轻而易举。自我迭代、自动Debug、快速交付，整个过程行云流水。可一旦踏入真实的软件工程应用，比如当项目规模突破5000行代码时，Agentic AI的魔法似乎突然失灵。它就像在迷雾中盲行，既看不清全局架构，又记不住历史逻辑，最终代码中充斥着诡异的故障模式，开发者不得不频繁手动干预才能勉强达标。
 

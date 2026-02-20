@@ -1,8 +1,11 @@
+---
 Title: After a Thousand Failures, It Chose the One You See
 Date: 2025-05-04 19:00
 Category: Computing
 Tags: English, AI
 Slug: ai-creativity-en
+Translation: ai-creativity.html
+---
 
 Before discussing AI and creativity, we need to acknowledge a truth:
 Most AI systems today are still clumsy when it comes to creativity. They can mimic existing styles, combine existing materials, and generate numerous variations that seem different but are fundamentally similar. However, they are far from understanding vague goals, identifying what's worth doing, or recognizing novelty like an experienced creator.

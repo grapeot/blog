@@ -1,8 +1,11 @@
+---
 Title: Why Are There So Many Large SUVs in NYC? Revisiting NYC a Decade Later
 Date: 2024-10-06 22:29
 Category: Life
 Tags: English, Travel, Reflection
 Slug: nyc-revisited-en
+Translation: new-york-city-revisited.html
+---
 
 I previously lived in New York City for five years, but as a student deeply immersed in academics with an 11x7 schedule, I never had the time or experience to ponder and appreciate the city. Recently, almost ten years after graduating, my family came to visit, and I finally had the opportunity to revisit New York City as a tourist. This allowed me to reinterpret the city, including its residents, and I gained many new insights.
 

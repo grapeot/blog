@@ -1,8 +1,11 @@
+---
 Title: Beyond DRY: Thoughts on AI-Native Software Engineering
 Date: 2025-11-16 21:00
 Category: Computing
 Tags: English, AI Coding
 Slug: ai-software-engineering-en
+Translation: ai-software-engineering.html
+---
 
 Six months ago, I wrote [this article](/claude-code-en.html). At the time, I made two assertions: although Claude Code wasn't getting much attention upon its release, its easily integrable agentic capabilities were crucial; and the future of software distribution and development would change significantly, with Library as a Service (LaaS) becoming an important new model. Over the past six months, I've been putting these ideas into practice, becoming a [heavy user](/wide-research-en.html) of Claude Code-like tools and developing our own LaaS product for our AI courses.
 

@@ -1,8 +1,11 @@
+---
 Title: What Makes a Large Model a Foundation Model: a Historical Perspective
 Date: 2024-08-06 21:29
 Category: Computing
 Tags: English, AI
 Slug: foundation-models-en
+Translation: foundation-models.html
+---
 
 After the release of ChatGPT, the term "Foundation Model" suddenly became a hot topic. Both independent media and research institutions and enterprises are enthusiastically researching and launching their own foundation models. Tencent Research once conducted an incomplete survey, showing that there are over 200 foundation models under development in China. But what exactly is a foundation model? For an ordinary large-scale model to become a foundation model, what conditions must it meet? If the core criterion is "large," how large does it need to be to qualify as a foundation model? Few people discuss these questions, so I wrote this article to explain my viewpoint from a historical perspective.
 

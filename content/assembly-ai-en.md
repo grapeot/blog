@@ -1,8 +1,11 @@
+---
 Title: Comparison of AssemblyAI and OpenAI Whisper API
 Date: 2024-09-02 12:44
 Category: Computing
 Tags: English, Audio, AI, Review
 Slug: comparison-of-assemblyai-and-openai-whisper-api
+Translation: assembly-ai.html
+---
 
 Previously, we made [many attempts](/GPT-API-usage-creation.html) using AI voice recognition and AI to aid in expression and input. After more than a year, on one hand, I find this tool particularly useful as it greatly expands the depth of my thinking and saves me time from correcting typos. On the other hand, the entire system has undergone many changes, such as the backend AI switching from [GPT-4](/GPT-scared-me.html) to Claude 3.5.
 

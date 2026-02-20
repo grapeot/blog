@@ -1,8 +1,11 @@
+---
 Title: What Truly Determines Your Success Isn't Effort
 Date: 2025-05-02 10:00
 Category: Life
 Tags: English, Reflection
 Slug: fate-en
+Translation: fortune.html
+---
 
 ## Introduction: Why Does Your Carefully Crafted Long Post Get Ignored While Someone Else's Meme Goes Viral?
 

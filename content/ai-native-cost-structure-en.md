@@ -1,8 +1,11 @@
+---
 Title: Disposable Software and the Compressed Reality: AI Native Is Strategy Reconstruction
 Date: 2025-11-22 14:00
 Category: Computing
 Tags: English, AI, Reflection
 Slug: ai-native-cost-structure-en
+Translation: ai-native-cost-structure.html
+---
 
 ## Disposable Software and Decision Resolution
 

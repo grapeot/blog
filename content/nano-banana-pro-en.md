@@ -1,8 +1,11 @@
+---
 Title: Generating Entire Slide Decks with Nano Banana Pro: The Madness, The Challenges, and The Workflow
 Date: 2025-12-08 12:00
 Category: Computing
 Tags: English, AI, Tutorial
 Slug: nano-banana-pro-en
+Translation: nano-banana-pro.html
+---
 
 Recently, Nano Banana Pro (NBP) has been on fire. We’ve seen all sorts of applications: coloring comics, generating posters, and even creating photorealistic presentation slides. They look like slides, but in reality, they are just images.
 

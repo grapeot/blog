@@ -1,8 +1,11 @@
+---
 Title: Why I can do so many complicated hobby projects
 Date: 2024-11-15 07:00
 Category: Life
 Tags: English, Reflection
 Slug: yage-hobby-nb-en
+Translation: yage-hobby-nb.html
+---
 
 Many people have wondered why I have so much enthusiasm and time to engage in so many complex hobby projects and delve deeply into them.
 

@@ -1,8 +1,11 @@
+---
 Title: From Process Certainty to Outcome Certainty: A Different Kind of Confidence in the Age of AI
 Date: 2026-01-25 16:00
 Category: Computing
 Tags: English, Agentic AI
 Slug: result-certainty-en
+Translation: result-certainty.html
+---
 
 Even in 2026, turning an AI demo into a production-ready product is surprisingly hard. Take Chinese-to-English translation. Everyone assumes LLMs solved this ages ago—just call an API, right? But when we recently tried to add an automatic translation sync feature to the Superlinear Academy community, we discovered just how painful the developer experience actually is.
 

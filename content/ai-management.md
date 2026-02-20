@@ -1,8 +1,11 @@
+---
 Title: 当AI变成你的下属：技术人必须跨越的三道管理陷阱
 Date: 2025-02-01 20:00
 Category: Computing
 Tags: Chinese, AI Management
 Slug: ai-management
+Translation: ai-management-en.html
+---
 
 今天晚上，我让 AI 从多个本地小图出发，把它们按照一定规则拼接成一张大图。整个过程倒没有戏剧化的转折，我只用了五分钟就帮助 AI 完成了任务。但是，在这个过程中，我发现自己有意识地用了几种管理 AI 的技巧，而这些技巧往往是新手最欠缺的。所以，我把具体用的技巧分享出来，看会不会对大家有启发。
 

@@ -1,8 +1,11 @@
+---
 Title: Iteration 3 of GPT Knowledge Management
 Date: 2023-04-16 15:00
 Category: Computing
 Tags: English, AI Product
 Slug: GPT-shortcut-en
+Translation: GPT-shortcut.html
+---
 
 Our [GPT-based voice input tool](/GPT-API-usage-creation-en.html) has undergone two iterations since its initial development. The original concept was a simple and fast input tool that allowed us to generate large amounts of text through voice input in a short time, such as typing about 300 Chinese characters per minute. The previous iteration mainly shifted the application scenario towards knowledge management, as we discovered its usefulness not only as an input tool, but also in processing and outputting knowledge. In order to support this change in application direction, we moved the user interface from a web app to a Telegram Bot. This brought many benefits, such as automatically having the concepts of sessions and users, individual chat histories, and the ability to easily record data. At the same time, we unexpectedly found that these records could serve as excellent training data for fine-tuning existing LLMs, achieving functionality similar to GPT-4.
 

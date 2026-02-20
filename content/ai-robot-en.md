@@ -1,8 +1,11 @@
+---
 Title: Integrating AI with Robotics Systems to Impact the World
 Date: 2024-03-01 23:00
 Category: Computing
 Tags: English, AI, Hardware
 Slug: ai-robot-en
+Translation: ai-robot.html
+---
 
 Over the past year, I've been zealously diving into the world of newly emerged Large Language Models (LLMs), probing into the extent and scenarios in which they can amplify or enhance my productivity. As evident from my previous blog posts, AI has profoundly permeated every facet of my life and work, aiding in tasks ranging from coding to drafting documents, blogging, and organizing my thoughts. Overall, I'd say my productivity has skyrocketed by a factor of five to ten. However, viewing from a more abstract perspective, thus far, AI's impact on the world has primarily been mediated through me as an agent. For instance, it aids me in coding, and as a programmer, I utilize the code written by AI to impact my clients; it assists me in writing documents, which I use to influence my colleagues; it helps me blog, through which I influence my readers. From this vantage point, it's glaringly obvious that I've become a bottleneck in AI's potential to impact the world.
 

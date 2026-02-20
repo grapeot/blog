@@ -1,8 +1,11 @@
+---
 Title: Why OpenAI's Apps SDK Signals a Crisis for MCP
 Date: 2025-10-07 21:00
 Category: Computing
 Tags: English, Agentic AI
 Slug: mcp-revisited-en
+Translation: mcp-revisited.html
+---
 
 I've previously written about the [history, flaws, and controversies of MCP](/mcp-en.html). Half a year has passed, and MCP development is in full swing. Yesterday, OpenAI released its Apps SDK, which allows users to build GUI apps within ChatGPT using an extended version of MCP. This seems like another victory for the open protocol, following its adoption in ChatGPT Connectors and Google Gemini. However, after studying the details of the Apps SDK, I believe its release is a dangerous signal. It may not herald a renaissance for MCP, but rather, a crisis. This is a good opportunity to revisit the topic and share my further thoughts.
 

@@ -1,8 +1,11 @@
+---
 Title: 用Multi-Agent让Cursor智能程度再上台阶
 Date: 2025-01-23 23:00
 Category: Computing
 Tags: Chinese, Agentic AI, AI Coding
 Slug: multi-agent
+Translation: multi-agent-en.html
+---
 
 我最近花了不少时间，想要把Cursor这种常见的Agentic AI工具推到一个新的高度。最开始，Cursor只能写代码、执行代码，这让我们觉得虽然它像一个聪明的小弟，但还有提升空间。于是，我们[改写了Cursor Rules](/cursor-to-devin.html)，让它能做更复杂的规划、状态汇报和自我成长。再往后，我们通过Python命令行和自然语言叙述，为Cursor接入了私有知识库和数据库，进一步拓展能力。
 

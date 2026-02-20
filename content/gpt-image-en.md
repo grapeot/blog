@@ -1,8 +1,11 @@
+---
 Title: Toy or Productivity Tool? Four Steps to Achieve Commercial-Grade Visual Expression with GPT Image Generation
 Date: 2025-03-27 20:00
 Category: Computing
 Tags: English, AI Technique
 Slug: gpt-image-en
+Translation: gpt-image.html
+---
 
 ## The Shortcomings Behind Exquisite Artwork
 

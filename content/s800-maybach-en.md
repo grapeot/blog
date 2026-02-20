@@ -1,8 +1,11 @@
+---
 Title: "Far Ahead" vs. "Magnificence in Motion": A Discussion on Zunjie S800 and Maybach
 Date: 2025-05-31 14:00
 Category: Alive
 Tags: English, Review
 Slug: s800-maybach-en
+Translation: s800-maybach.html
+---
 
 The Zunjie S800, a vehicle with deep involvement from Huawei, has recently generated significant buzz with its marketing. Directly benchmarked against Maybach, its million-yuan price tag and dazzling array of new technologies have certainly captured attention. The launch event was a whirlwind of constantly updated specs and "far ahead" demonstrations – from an intelligent suspension system claiming to glide over water without a ripple, to smart headlights capable of projecting various patterns, and even the futuristic-sounding HarmonyOS multimodal brainwave modulation system. It felt like a showcase of cutting-edge "black technology," leaving a lot to take in.
 

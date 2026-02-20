@@ -1,8 +1,11 @@
+---
 Title: Why Do People Keep Making Videos When They're So Low in Information Density?
 Date: 2024-05-31 22:59
 Category: Life
 Tags: English, Reflection
 Slug: writing-and-video-en
+Translation: writing-and-video.html
+---
 
 I've always been puzzled by why content creators on platforms like YouTube or Bilibili, like Ali Abdaal or MoneyXYZ, are incredibly popular and earn a lot of money. In my view, videos are a particularly poor tool for learning.
 

@@ -1,8 +1,11 @@
+---
 Title: How to Stop AI from Slacking Off: Building Systematic Wide Research Capabilities for Codex
 Date: 2025-10-17 22:00
 Category: Computing
 Tags: English, AI, Agentic AI
 Slug: wide-research-en
+Translation: wide-research.html
+---
 
 ## Whose Fault is it When AI Slacks Off?
 

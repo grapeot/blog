@@ -1,8 +1,11 @@
+---
 Title: A Deep Dive into AI Management from a Slacking-Off Session
 Date: 2025-10-29 19:00
 Category: Computing
 Tags: English, AI Management
 Slug: ai-management-3-en
+Translation: ai-management-3.html
+---
 
 Although I've been heavily using AI for work (and slacking off) for a long time and believe that AI as a productivity multiplier is a reality, a recent slacking-off achievement reached a new level that I feel is worth sharing.
 

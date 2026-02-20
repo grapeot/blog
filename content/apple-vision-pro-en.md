@@ -1,8 +1,11 @@
+---
 Title: Exploring the Frontier: My Deep Dive into Apple Vision Pro
 Date: 2024-02-22 19:00
 Category: Computing
 Tags: English, Hardware, Review
 Slug: apple-vision-pro-deep-review-en
+Translation: apple-vision-pro.html
+---
 
 I've been playing around with the Apple Vision Pro (AVP) for a couple of weeks now. In this time, I've put it through its paces, developing a few apps and chatting with Apple Store support a few times. I've stumbled upon some unique insights that you might not find in mainstream media, and I'm eager to share them with you. A fundamental question about the AVP that really stands out is what kind of device it actually is, what scenarios it's suited for, and what scenarios it's not. In a world where we already have smartphones, tablets, and computers, I'm curious about the niche AVP fills. This article aims to explore these questions.
 

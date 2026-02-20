@@ -1,8 +1,11 @@
+---
 Title: The Underestimated Claude Code: A Key Puzzle Piece for AI Native Software Development
 Date: 2025-02-24 19:30
 Category: Computing
 Tags: English, AI Coding, Agentic AI
 Slug: claude-code-en
+Translation: claude-code.html
+---
 
 Anthropic recently released Claude 3.7, attracting widespread media attention. However, most people seem to have overlooked another tool launched simultaneously—Claude Code. This command-line tool appears less impressive, with an interface that isn't particularly user-friendly, and it doesn't make bold claims about self-evolution or replacing human programmers like Cursor or Devin. But after diving deeper, I realized that this seemingly ordinary tool might be the key to driving the AI Native software development revolution, and could even profoundly influence future business models and ecosystems.
 

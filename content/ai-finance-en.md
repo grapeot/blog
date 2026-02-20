@@ -1,8 +1,11 @@
+---
 Title: When AI Fails: How I Eventually Automated My Personal Finances
 Date: 2025-08-14 22:00
 Category: Computing
 Tags: English, AI, Finance
 Slug: ai-finance-en
+Translation: ai-finance.html
+---
 
 ## A Decade-Long Manual Process
 

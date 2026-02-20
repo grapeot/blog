@@ -1,8 +1,11 @@
+---
 Title: 超越聊天框简评GPT-5
 Date: 2025-08-07 20:00
 Category: Computing
 Tags: Chinese, AI, Review
 Slug: gpt-5
+Translation: gpt-5-en.html
+---
 
 今天OpenAI发布了GPT-5。首先我想推荐一个文档，是OpenAI给它写的[Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)。这个文档与model card不同，解释了很多怎么把它用好的技术细节，更面向API用户而不是研究人员。对使用API构建产品的工程师尤其有价值。
 

@@ -1,8 +1,11 @@
+---
 Title: 被GPT吓死了
 Date: 2023-04-09 23:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: GPT-scared-me
+Translation: GPT-prompt-engineering-en.html
+---
 
 最近，我觉得这个世界变得越来越科幻。三个月前，我还认为GPT只是一个自媒体上的标题党，不过是一个跟人类可以对话的概率模型而已。但在过去一个月里，我深入探索了GPT的能力，并一次又一次被它的能力所震惊。然而它在很多领域的智能相当superficial，让我觉得它的价值仍然有限。所以我在应用中把它的角色定位成秘书，可以做一些文档整理或通过一些浅显的反问和挑战来增加我的思维深度和广度。
 

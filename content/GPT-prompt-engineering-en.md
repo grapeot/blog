@@ -1,8 +1,11 @@
+---
 Title: Got scared by GPT
 Date: 2023-04-09 23:00
 Category: Computing
 Tags: English, AI Technique
 Slug: GPT-scared-me-en
+Translation: GPT-prompt-engineering.html
+---
 
 Recently, I've been feeling that the world is becoming increasingly science fiction-like. Three months ago, I thought GPT was just a sensational headline on self-media, merely a probabilistic model that could converse with humans. But in the past month, I've delved into GPT's capabilities and have been repeatedly amazed by its abilities. However, its intelligence in many areas is quite superficial, making me feel that its value is still limited. Therefore, in my applications, I position GPT as a secretary that can help with document organization or enhance my thinking depth and breadth through some simple questions and challenges.
 

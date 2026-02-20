@@ -1,8 +1,11 @@
+---
 Title: Redefining Open-Source AI: Surprising Insights into OpenWebUI
 Date: 2024-11-23 22:00
 Category: Computing
 Tags: English, AI, Review
 Slug: open-webui-en
+Translation: open-webui.html
+---
 
 Today, I spent some time studying the [OpenWebUI](https://github.com/open-webui/open-webui) tool, with a particular focus on how to deploy it alongside Ollama on a MacBook with Unified Memory. In summary, it essentially replicates all the functionalities of [POE](/poe-en.html), ChatGPT, and Claude, along with many additional features, and can be deployed entirely locally. The experience was so impressive that I was truly amazed.
 

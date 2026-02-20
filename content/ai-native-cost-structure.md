@@ -1,8 +1,11 @@
+---
 Title: 一次性软件与被压缩的现实：AI Native 的本质是策略重构
 Date: 2025-11-22 15:00
 Category: Computing
 Tags: Chinese, AI, Reflection
 Slug: ai-native-cost-structure
+Translation: ai-native-cost-structure-en.html
+---
 
 ## 一次性软件与决策解析度
 

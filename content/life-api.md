@@ -1,8 +1,11 @@
+---
 Title: 当现实世界成为AI可以调用的API
 Date: 2025-04-24 23:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api
+Translation: life-api-en.html
+---
 
 ## 从 AI Transparency 到顺风耳
 

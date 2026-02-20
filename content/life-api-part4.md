@@ -1,8 +1,11 @@
+---
 Title: 你不是在布置任务，而是在给 AI 搭一个能变聪明的世界
 Date: 2025-05-03 14:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: life-api-part4
+Translation: life-api-part4-en.html
+---
 
 ## Prompt 是在建世界
 

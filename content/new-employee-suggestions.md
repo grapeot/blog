@@ -1,8 +1,11 @@
+---
 Title: 北美码农初入职场最好知道的一些事——业界的核心价值观
 Category: Life
 Date: 2022-09-06 19:30
 Tags: Chinese, Career
 Slug: new-employee-suggestions
+Translation: new-employee-suggestions-en.html
+---
 
 [[English version]](/new-employee-suggestions-en.html)
 

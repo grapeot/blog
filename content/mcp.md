@@ -1,8 +1,11 @@
+---
 Title: 统一工具协议的诱惑：MCP背后的商业与技术博弈
 Date: 2025-03-22 22:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: mcp
+Translation: mcp-en.html
+---
 
 我们在推广Agentic AI的过程中，有一个问题经常被问到：我们怎样对接MCP（Model Context Protocol）？有哪些好用的MCP Server？这篇文章就想梳理一下大家很少问，但可能更重要的问题，比如：我们为什么需要MCP？MCP提供了哪些功能，解决了哪些痛点？为什么MCP这么受欢迎？我们什么时候要用MCP？什么时候不要用？
 

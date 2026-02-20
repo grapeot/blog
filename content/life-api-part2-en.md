@@ -1,8 +1,11 @@
+---
 Title: From Reality API to Cognitive Partner: My AI-Centric Experiment, Chapter 2
 Date: 2025-04-27 18:00
 Category: Computing
 Tags: English, Agentic AI
 Slug: life-api-part2-en
+Translation: life-api-part2.html
+---
 
 [In the last post](/life-api-en.html), we discussed how a simple Apple Watch paired with the latest Whisper model unexpectedly gave me superhuman hearing, even sparking the idea of the real world becoming an API callable by AI. The experience was impressive, but it left a crucial question unanswered: Now that AI can listen to reality cheaply and with high fidelity, what next? What value can be extracted from the vast, noisy, unstructured stream of life's sounds? Is it merely for recalling past events? That seems like a waste of such powerful technology.
 

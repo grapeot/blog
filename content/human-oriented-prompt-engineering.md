@@ -1,8 +1,11 @@
+---
 Title: 通过Prompt Engineering提升对人类求助的效果
 Date: 2024-09-11 12:45
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: improving-help-responses-through-prompt-engineering
+Translation: human-oriented-prompt-engineering-en.html
+---
 
 我在各个社区里潜水，经常能看见有人求助，大家互相帮助的情况。但遗憾的是，我发现绝大多数的帮助都是无效的，最终能够真正解决问题的很少。比如一个人在群里问："我遇到了问题X，怎么去解决？"大家可能会给出很多建议："你试试A行不行，试试B行不行。"但最终试了之后，发现都没什么用，整个求助也就不了了之。
 

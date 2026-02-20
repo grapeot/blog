@@ -1,9 +1,12 @@
+---
 Title: A Beginner’s Guide to Funnel Analysis, Using ZWO as an Example
 Date: 2025-01-05 11:00
 Category: Computing
 Tags: English, AI, Tutorial
 Slug: zwo-funnel-analysis-en
+Translation: funnel-analysis.html
 Math: false
+---
 
 In the business and tech worlds, funnel thinking—commonly known as funnel analysis—is one of the most frequently used analytic approaches. The idea is not to focus solely on the end results or conversions (like purchasing a product). Instead, you break the entire process into key stages and identify the most likely bottlenecks that cause users or projects to drop off. Only when you’ve pinpointed the biggest blockage and found a systematic way to clear it can you make the overall flow smoother. From the drop-off that happens between an online store’s “checkout” and “payment” steps, to a scheduling bottleneck for research telescope time, you can use a similar breakdown approach to uncover problems and craft solutions. The article below first illustrates funnel thinking using typical business scenarios. Then it dives into how ZWO’s product strategy with the Seestar series applies this same mindset to bring value not only in commercial settings but also in scientific research.
 

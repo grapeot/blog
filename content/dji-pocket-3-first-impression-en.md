@@ -1,8 +1,11 @@
+---
 Title: First Impression of DJI Pocket 3 
 Date: 2024-07-01 16:59
 Category: Life
 Tags: English, Photography, Review
 Slug: dji-pocket-3-first-impression-en
+Translation: dji-pocket-3-first-impression.html
+---
 
 TL;DR: I got my hands on the DJI Pocket 3 today. After using it for a while, I found its portability and ease of operation to be truly impressive, yet the image quality is quite disappointing, not matching up to the iPhone's standards.
 

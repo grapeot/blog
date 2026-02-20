@@ -1,8 +1,11 @@
+---
 Title: GPT语音速记工具的迭代
 Date: 2023-04-07 15:00
 Category: Computing
 Tags: Chinese, AI Product
 Slug: GPT-product-iteration
+Translation: GPT-product-iteration-en.html
+---
 
 记录一下近期对[基于GPT的语音速记工具](/GPT-API-usage-creation.html)的产品迭代的过程。以前我在开发这个语音录入工具时，已经对[GPT的能力边界](/AI-thoughts.html)进行了很多探索。我觉得它在很多领域的智能表现得非常superficial。换句话说，它给出的回答或得到的结论很多时候是相对浅显的，不像有多年经验的人会给出特别有洞察力的回答。这就是为什么我一开始把它定位成一个文本处理的秘书，只需要复述我的观点，把它重新组织成一个有条理的形式。
 

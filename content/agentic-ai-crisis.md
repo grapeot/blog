@@ -1,8 +1,11 @@
+---
 Title: Agentic AI的鸡肋危机：如何破解落地难题？
 Date: 2025-01-02 19:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: agentic-ai-crisis
+Translation: agentic-ai-crisis-en.html
+---
 
 ## Agentic AI的鸡肋危机
 

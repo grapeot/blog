@@ -1,9 +1,12 @@
+---
 Title: [Agentic AI] From Thinker to Doer — The Paradigm Revolution and Technical Architecture of Agentic AI
 Date: 2024-12-13 14:00
 Category: Computing
 Tags: English, Agentic AI
 Slug: agentic-ai-en
+Translation: agentic-ai.html
 Summary: Before discussing Agentic AI, I'd like to share two short stories. While chatting with someone online, I wanted to compare Amazon and Google's stock performance over the last five years to support a point I was making. I first searched online for existing comparisons and tools but found nothing. Then I asked ChatGPT if it could help me find or generate a stock price comparison chart. It said it couldn't. By this point, I was ready to give up, as it wasn't worth spending 5 minutes making a chart during a casual conversation. As a last resort, I tried Cursor's latest Agent mode, simply throwing my request at it: generate a chart showing Google and Amazon's stock prices over the last five years, with both stocks aligned at their starting points for easy comparison. To my surprise, Cursor automatically started writing code, installing dependencies, debugging, modifying the program, re-executing, and within a minute gave me exactly the chart I wanted, as shown below. I was truly amazed. It just works.
+---
 
 ---
 

@@ -1,7 +1,7 @@
 Title: 一些关于日轨拍摄的实验
 Date: 2019-07-27 15:00
 Category: Life
-Tags: Photography, DIY, Pinhole, Chinese
+Tags: Chinese, Photography, DIY
 Slug: sun-track
 
 一切来源于这张北野谦的图：

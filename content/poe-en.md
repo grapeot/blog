@@ -1,7 +1,7 @@
 Title: Exploring Poe: A Versatile Alternative to ChatGPT
 Date: 2024-08-04 22:59:59
 Category: Computing
-Tags: English, AI, Poe, GPT
+Tags: English, AI Product
 Slug: poe-en
 
 Today, I canceled my paid ChatGPT subscription.

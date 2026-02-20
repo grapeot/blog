@@ -1,7 +1,7 @@
 Title: 闲聊3D打印与激光雕刻技术的现状、挑战与市场困境
 Date: 2024-11-18 08:00
 Category: Life
-Tags: Chinese, 3D Print, Laser Cutting
+Tags: Chinese, Hardware, Review
 Slug: 3d-print-laser-cutting
 
 最近有几个投资人朋友聊到了3D打印和激光雕刻技术，所以就想着写点东西聊聊，介绍一下这两个领域的技术和市场。我不是这两个领域的从业人员，请批判看待。

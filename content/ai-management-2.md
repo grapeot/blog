@@ -1,7 +1,7 @@
 Title: 管理AI：你职业生涯中最重要的一次晋升
 Date: 2025-09-05 13:00
 Category: Computing
-Tags: AI, Chinese, Management
+Tags: Chinese, AI Management
 Slug: ai-management-2
 
 随着AI越来越流行，也有越来越多的人在深度尝试AI以后发现实际工作中表现很差。我觉得这些观察很有道理，但也觉得很多时候是因为他们仍然是把 AI 当成一个工具在用。这篇文章就想从几个典型的场景出发，来介绍为什么我们不应该把 AI 当成一个工具，而应该[当成一个人来管理](/ai-management.html)，以及这种简单的方法论如何在各种场景中有效地破除对 AI 的误解，提升它的成功率。

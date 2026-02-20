@@ -1,7 +1,7 @@
 Title: 对From Users to Builders AI课程的反思
 Date: 2025-01-14 19:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI Product, Reflection
 Slug: reflection-ai-course
 
 我和课代表一起做“From Users to Builders”这个 AI 课程，不知不觉已经快一年了。这一年里，我们收到了不少同学的反馈，既印证了我们当初的很多想法，也给我们带来了出乎意料的惊喜。今天想借这个机会，和大家分享一下我的反思，为什么我们的课程受到了大家的欢迎，以及在这个过程中，我们做对了并学到了什么。

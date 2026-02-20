@@ -1,7 +1,7 @@
 Title: 华山派剑宗气宗实力错位现象：一个多维度的学术探析 
 Date: 2024-06-29 17:00
 Category: Computing
-Tags: AI, Jinyong, Chinese
+Tags: Chinese, AI
 Slug: ai-jinyong-paper
 
 本文由Claude V3.5撰写，旨在演示这个模型相比于GPT-4独特的优势: 听话不偷懒，上下文窗口长。文章的来源是在微信群聊里看到有讨论说“剑宗的师叔气功好，气宗的徒儿剑法高”，就以此为题让AI写一篇论文。Claude V3.5很快就写出来了下面的13000字的文章。GPT-4则各种偷懒，各种push下写个3000字都勉强。

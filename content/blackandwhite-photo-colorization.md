@@ -1,7 +1,7 @@
 Title: 黑白相机可以给我们更准确的颜色吗？（一）
 Date: 2020-07-02  21:30
 Category: Life
-Tags: Photography, BlackAndWhite, Color, Chinese
+Tags: Chinese, Photography, DIY
 Slug: black-and-white-photo-colorization
 
 徕卡和飞思都有专门的黑白相机。这些相机去掉了传感器前面的Color Filter Array (CFA)，只能拍摄黑白图像。在带来无比强大的高感的同时，这些相机也给了我们很多灵活性，比如可以在镜头前面加滤镜进行特定波段的摄影，手持拍摄红外等等。这启发我们问一个问题，有没有可能在这个黑白传感器前面套红绿蓝三色滤镜，让黑白传感器也可以拍摄彩色呢？这看起来是个很无聊的事情，人家辛辛苦苦把CFA拿掉，卖这么贵，结果你还又把它变回彩色了。但其实我们看一下普通摄影滤镜的频率响应就会发现相当随意：

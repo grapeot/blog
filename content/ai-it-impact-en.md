@@ -1,7 +1,7 @@
 Title: How AI is Reshaping the Entire IT Field
 Date: 2024-03-03 19:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI
 Slug: ai-it-impact-en
 
 Over the past week, I've been diving deep into using [GPT and Copilot](/ai-coding-en.html) to aid in my coding ventures, which has led me to some fresh insights. As a hardcore coder who absolutely adores programming, I've always been somewhat hesitant when it actually comes to solving problems with a computer. The crux of the matter is that computers can be incredibly finicky. What seems like straightforward issues can quickly become mired in complexity once you delve into the details, leading to spending far more time than initially anticipated. Take, for example, the task of renaming 50 files under a specific rule, such as swapping the strings between two underscores in their names. This task, seemingly simple and straightforward, requiring just three steps: parsing the filename, generating a new name, and calling the rename function. This can become a hassle when you halfway realize you've forgotten the intricacies of regex syntax or how to make regex ignore case sensitivity. Often, what looks good in theory fails upon execution, necessitating debugging sessions. Managing to churn out a functional program in 5 to 10 minutes is considered quick under these circumstances. Yet, manually changing a filename takes but a few seconds, making manual edits far quicker for a smaller batch of files (e.g. 30 ~ 50). This realization isn't lost on me, a self-proclaimed coding enthusiast, so I completely get why those not deeply entrenched in programming, like data scientists or business analysts, might prefer sticking to tools like Excel and Tableau for their problem-solving needs.

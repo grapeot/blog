@@ -2,7 +2,7 @@ Title: 分享两个产品使用体验
 Date: 2023-03-19 22:00
 Category: Life
 Slug: some-product-thoughts
-Tags: Chinese
+Tags: Chinese, Review
 
 分享两个产品使用体验。
 

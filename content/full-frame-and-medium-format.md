@@ -1,6 +1,6 @@
 Title: Full frame and medium fromat cameras
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-cameras
 Date: 2017-08-11
 

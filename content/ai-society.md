@@ -1,7 +1,7 @@
 Title: 后智慧时代生存指南：关于未来的一些疯狂随想
 Date: 2025-06-18 16:00
 Category: Alive
-Tags: AI, Chinese
+Tags: Chinese, AI, Reflection
 Slug: ai-society
 
 ### 开篇

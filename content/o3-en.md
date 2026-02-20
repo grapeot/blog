@@ -1,7 +1,7 @@
 Title: It's Not That I Prefer o3, It's That It Actually Started Doing Things Proactively
 Date: 2025-04-20 19:00
 Category: Computing
-Tags: AI, English, Agentic AI, ChatGPT, o3
+Tags: English, Agentic AI
 Slug: o3-en
 
 Recently, I exported my ChatGPT usage history (by the way, Settings → Data Controls → Export all data gives you a zip file with all chat logs in JSON, easily visualized with a bit of scripting).

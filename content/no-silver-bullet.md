@@ -1,7 +1,7 @@
 Title: No silver bullet in scientific computing
 Date: 2011-05-10 02:19
 Category: Computing
-Tags: Research, Parallel, English
+Tags: English, Research, Reflection
 Slug: no-silver-bullet-in-scientific-computing
 
 Is there a language/platform which can suit all the applications?

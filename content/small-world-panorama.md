@@ -1,7 +1,7 @@
 Title: Build a Small-World Fish-Eye Style Panorama
 Category: Computing
 Date: 2012-12-05 21:46
-Tags: Image, Math, PhD, English
+Tags: English, Image Processing, Tutorial
 Slug: build-small-world-fisheye-panorama
 Latex:
 

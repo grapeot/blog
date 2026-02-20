@@ -1,6 +1,6 @@
 Title: 知乎人脸的总结
 Category: Life
-Tags: zhihu, Image Understanding, Research, Chinese
+Tags: Chinese, AI, Image Processing, Research
 Slug: zhihu-face-recognition-summary
 Date: 2016-03-20 18:54
 

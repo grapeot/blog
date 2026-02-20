@@ -1,7 +1,7 @@
 Title: 如何拍出几百亿像素的照片
 Date: 2019-01-26 20:30
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography
 Slug: gigapixel-methods
 
 从数码相机的发源开始，我们就一直在问，如何有效提升相机的分辨率。在它的背后其实是一整个（甚至数个）领域的发展。这个文章就从四个部分介绍和超高分辨率数码摄影相关的故事：

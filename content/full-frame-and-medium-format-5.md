@@ -1,7 +1,7 @@
 Title: 全幅与中幅（五）
 Date: 2020-01-24 15:00
 Category: Life
-Tags: Photography, Medium Format, Full Frame, Chinese
+Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-5
 
 

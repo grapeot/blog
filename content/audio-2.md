@@ -1,7 +1,7 @@
 Title: 音频碎碎念（二）—— 响度的玄学
 Date: 2022-12-22 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-2-loudness
 
 

@@ -1,7 +1,7 @@
 Title: 深空摄影器材从观望到破产（三）——天文相机的选购
 Date: 2023-04-28 20:30
 Category: Life
-Tags: astrophotography, Chinese
+Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-3
 
 

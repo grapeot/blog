@@ -1,7 +1,7 @@
 Title: Taking Cursor's Intelligence to the Next Level with Multi-Agent
 Date: 2025-01-23 22:00
 Category: Computing
-Tags: AI, Agentic AI, English, Multi-Agent
+Tags: English, Agentic AI, AI Coding
 Slug: multi-agent-en
 
 I've been spending quite some time trying to push common Agentic AI tools like Cursor to a new level. Initially, Cursor could only write and execute code, which made us feel that while it was like a smart assistant, there was still room for improvement. So, we [rewrote the Cursor Rules](/cursor-to-devin-en.html) to enable it to do more complex planning, status reporting, and self-growth. Later, we further expanded its capabilities by integrating private knowledge bases and databases through Python command line and natural language descriptions.

@@ -1,7 +1,7 @@
 Title: 色彩管理
 Date: 2018-02-25 20:15
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography, Tutorial
 Slug: color-management
 
 最近买了一台打印机，发现卧槽怎么打出来的效果和屏幕上看到的不太一样。屏幕上看的纹理丰富的暗部，打到纸上就变成了一片黑。有一些艳丽的橙色，在纸上看上去就像黄色一样。调研了一下才知道，要想让两台设备的颜色统一，就需要做一个步骤叫做色彩管理。换言之，色彩管理就是让设备A，比如[数码相机](/yage.ai/lens-chromatic-aberration.html)上拍的图片，和设备B，比如显示器上显示的图片，看起来尽可能的一样。

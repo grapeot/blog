@@ -1,7 +1,7 @@
 Title: Some Technical Details about KinectFusion
 Category: Computing
 Date: 2013-09-17 16:00
-Tags: Kinect, Math, PhD, English
+Tags: English, Research
 Slug: technical-details-about-kinectfusion
 Latex:
 

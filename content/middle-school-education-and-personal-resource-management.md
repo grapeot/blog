@@ -1,7 +1,7 @@
 Title: 中小学生的教育 and Personal Resource Management
 Date: 2014-10-22 11:00
 Category: Life
-Tags: TimeManagement, Chinese
+Tags: Chinese, Time Management, Reflection
 Slug: education-for-primary-and-secondary-students-and-personal-resource-management
 
 ## 中小学生的教育

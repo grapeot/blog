@@ -1,7 +1,7 @@
 Title: GPT-5: More Than a Chatbot, A Quick Review
 Date: 2025-08-07 19:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI, Review
 Slug: gpt-5-en
 
 Today OpenAI released GPT-5. First off, I want to recommend the [Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide) that OpenAI wrote for it. Unlike a typical model card, this guide dives into the technical details of how to use it effectively, targeting API users rather than researchers. It's especially valuable for engineers building products with the API.

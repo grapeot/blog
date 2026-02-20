@@ -1,7 +1,7 @@
 Title: 从鸡翅膀谈起——无人机的空气动力学（下）
 Date: 2016-01-08 19:00
 Category: Life
-Tags: aviation, drones, Chinese
+Tags: Chinese, Aviation, Tutorial
 Slug: drone-aerodynamics-b
 
 * [从鸡翅膀谈起——无人机的空气动力学（上）](/drone-aerodynamics-a.html)

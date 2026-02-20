@@ -1,6 +1,6 @@
 Title: Photography and optics
 Category: Life
-Tags: Photography, English
+Tags: English, Photography
 Slug: photography-and-optics
 Date: 2017-08-08
 

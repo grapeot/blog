@@ -1,7 +1,7 @@
 Title: First solo!
 Date: 2014-06-01 19:00:00
 Category: Alive
-Tags: Aviation, Chinese
+Tags: Chinese, Aviation
 Slug: first-solo
 
 <img src="images/FirstSolo.jpg" / alt="A musician performing a solo on stage" alt="A musician performing a solo guitar act onstage">

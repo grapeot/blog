@@ -1,7 +1,7 @@
 Title: 音频碎碎念（八）—— 放大器输出级
 Date: 2022-12-28 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-8-amp-output-stage
 
 

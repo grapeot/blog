@@ -1,7 +1,7 @@
 Title: My Last Article Was a Flop, But It Wasn't AI's Fault
 Date: 2025-05-08 10:00
 Category: Computing
-Tags: AI, English, Agentic AI, AI Centric
+Tags: English, Agentic AI
 Slug: life-api-part4-followup-en
 
 A few days ago, I published [an article](/ai-creativity-en.html) that AI helped me complete. It was about the changing role of AI in creative work—from imitation to structural generation, using exhaustive enumeration to replace creativity. I was quite satisfied after reading it, even a bit proud, thinking this might be another sign of maturity in our recent AI-assisted writing workflow.

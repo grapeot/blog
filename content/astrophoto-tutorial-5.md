@@ -1,7 +1,7 @@
 Title: 深空摄影器材从观望到破产（五）——控制系统的选择
 Date: 2023-04-30 22:30
 Category: Life
-Tags: astrophotography, Chinese
+Tags: Chinese, Astrophotography, Tutorial
 Slug: astrophoto-tutorial-5
 
 

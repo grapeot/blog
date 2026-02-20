@@ -1,7 +1,7 @@
 Title: 自适应光学
 Category: Computing
 Date: 2023-05-09 21:30
-Tags: Astrophotography, Optics, Chinese
+Tags: Chinese, Astrophotography, Tutorial
 Slug: adaptive-optics
 
 最近在开心群里讨论了如何提高望远镜分辨率的问题。在讨论过程中，我发现自己在自适应光学方面的基础相对薄弱，所以专门进行了一系列的调研和学习，也关注这个领域的最新进展。为了实现教学相长，我在这里把自己所学的知识尝试表达，教授出来，以倒逼自己更准确地理解。因此，我写了这篇文章，希望能把我最近学到的知识分享给大家。由于我在这个领域还是个初学者，文章中的内容可能不全面或不准确，也希望大家批评指正。

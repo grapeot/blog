@@ -1,7 +1,7 @@
 Title: Easy and cheap cluster building on AWS
 Date: 2014-07-17 20:00
 Category: Computing
-Tags: Linux, Parallel, github, Image, AWS, English
+Tags: English, Linux, Tutorial
 Slug: easy-and-cheap-aws-cluster-building
 
 ## Why?

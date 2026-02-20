@@ -1,7 +1,7 @@
 Title: Exposing an online interface for MATLAB (and potentially any language)
 Category: Computing 
 Date: 2014-01-13 14:30
-Tags: nodejs, English
+Tags: English, Tutorial
 Slug: exposing-online-matlab-interface
 
 I was always interested in building a small cluster with my (old) computers for my research project (just like MATLAB Distributed Server or a Hadoop cluster).

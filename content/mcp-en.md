@@ -1,7 +1,7 @@
 Title: The Lure of a Unified Tool Protocol: The Business and Technical Dynamics Behind MCP
 Date: 2025-03-22 21:00
 Category: Computing
-Tags: AI, Agentic AI, MCP, English
+Tags: English, Agentic AI
 Slug: mcp-en
 
 We often get asked a recurring question while promoting Agentic AI: How should we integrate with MCP (Model Context Protocol)? Which MCP Servers are recommended? In this article, I want to address some questions that tend to be overlooked but are actually more important—for example, why do we need MCP in the first place? What features does MCP offer, and what pain points does it resolve? Why is MCP so popular? When does it make sense to use MCP, and when should we avoid it?

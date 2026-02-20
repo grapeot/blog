@@ -1,7 +1,7 @@
 Title: 从微信群菜鸡互啄和AI代替人类工作看我们思考时到底应该追求什么
 Date: 2024-06-07 21:30
 Category: Life
-Tags: Chinese, think
+Tags: Chinese, Reflection
 Slug: correctness-is-meaningless
 
 ## 菜鸡才看对错

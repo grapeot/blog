@@ -1,7 +1,7 @@
 Title: Reflections on AI Knowledge Engines
 Date: 2024-06-13 21:00
 Category: Computing
-Tags: English, Thought Fragments
+Tags: English, AI
 Slug: ai-knowledge-engine-en
 
 (From my message in the AI Productivity Training Camp group chat)

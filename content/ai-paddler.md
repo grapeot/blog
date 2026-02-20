@@ -1,7 +1,7 @@
 Title: 大航海时代，别再跟AI比划桨了
 Date: 2025-06-08 21:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI, Career
 Slug: ai-paddler
 
 我们这一代技术人，职业生涯的前半段，都在被训练成一个顶级的划桨手。我们比拼的，无非是几件事：

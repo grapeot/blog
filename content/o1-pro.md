@@ -1,7 +1,7 @@
 Title: 200美元拜个大哥：我为什么续订了o1 Pro
 Date: 2024-12-30 16:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI, Review
 Slug: o1-pro
 
 最近我做了一个决定，放弃了每月五百美元的AI开发工具 Devin（因为可以[用cursor复刻](/cursor-to-devin.html)），但续订了每月两百美元的 ChatGPT Pro。原因是我逐渐发现，o1 Pro确实有其他模型无法取代的地方。 如果说其他模型的价值主要是让我知道以前不知道的东西，o1 Pro 的价值是让我想到以前就算有足够信息也想不到的insight。

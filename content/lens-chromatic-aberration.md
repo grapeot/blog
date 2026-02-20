@@ -1,7 +1,7 @@
 Title: 镜头的色差
 Date: 2017-12-17 14:45
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography, Tutorial
 Slug: lens-chromatic-aberration
 
 最近看了朋友拍的一个照片，被明显的紫边震惊了。于是开始学习为什么有些镜头有紫边，发现了一个很有意思的情况。首先徕卡有些镜头会有APO消色散设计，但这些设计除了一些不计成本极其昂贵的镜头以外，只出现在相对长焦的镜头上。类似的，佳能也有超低色散萤石镜片。而萤石镜片也只出现在长焦镜头上（[来源](http://cpn.canon-europe.com/content/education/infobank/lenses/fluorite_aspherical_and_ud_lenses.do)）。这引出了一个问题，为什么这些消色差设计只出现在长焦镜头上呢？是不是广角端就不会有色差呢？

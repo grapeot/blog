@@ -2,7 +2,7 @@ Title: [智能家居] 家庭灯光的智能控制
 Category: Life
 Date: 2017-01-02 9:00
 Slug: smart-home-lighting-control
-Tags: SmartHome, Chinese
+Tags: Chinese, Smart Home, DIY
 
 [智能家居](/smart-home-air-quality.html)最容易入手的一环就是智能灯光。从飞利浦的hue，到wemo的智能开关，到小米的智能灯泡，每家的技术都不一样，但基本都能实现遥控，定时开关等基本功能。结合Alexa/Siri还能实现语音控制。到了这一步，家庭灯光就已经比较智能了。这篇文章主要介绍的是，如何在这个基础上更进一步，加入人体感应功能。
 

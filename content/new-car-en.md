@@ -1,6 +1,7 @@
 Title: A Middle-Aged Man’s Reflections on Changing Cars
 Date: 2025-03-15 19:00
 Category: Life
+Tags: English, Review, Reflection
 Slug: new-car-en
 
 I mentioned in the [previous article](https://yage.ai/deep-research-car-buying-en.html) that I was doing some simulated car research and decision-making. I chose this topic partly because I was thinking of switching cars recently. After a rather long period of research, comparison, and deliberation, I finally took physical delivery of the new car. I’ve been driving it for a while, and there are quite a few unexpected insights I’d like to share. Over the past few months, I’ve been busy exploring AI development courses, writing mostly about [computing-related topics](https://yage.ai/category/computing.html) without much time for reflecting on [day-to-day life](https://yage.ai/category/life.html). This seems like the perfect chance to take stock. After all, the blog is called Computing Life.

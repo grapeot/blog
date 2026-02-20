@@ -1,7 +1,7 @@
 Title: An rm and git accident
 Category: Alive
 Date: 2013-12-13 11:00
-Tags: Linux, Chinese
+Tags: Chinese, Linux
 Slug: rm-and-git-accident
 
 The background is, I have a git repo of `nodejs` code.

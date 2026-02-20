@@ -1,7 +1,7 @@
 Title: Leveraging Generative AI for Astronomical Image Calibration
 Date: 2025-12-26 21:00
 Category: Compute
-Tags: AI, English, Astrophotography
+Tags: English, Astrophotography, AI
 Slug: ai-flat-field-en
 
 It all started with a video file of the solar surface shared by Mr. De Lai from the Shenzhen Astronomical Observatory. Due to various environmental factors, their CMOS sensor had accumulated significant dust. When observing the sun with a high f/40 focal ratio telescope, these dust specks became painfully obvious in the footage. He was looking for a way to remove this dust from the video—something that could take a raw frame and produce a clean output, as shown below.

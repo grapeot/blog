@@ -1,7 +1,7 @@
 Title: 使用Builder's Mindset重定义AI工具
 Date: 2024-08-10 23:00:00
 Category: Computing
-Tags: Chinese, AI
+Tags: Chinese, AI, Reflection
 Slug: builders-mindset
 
 在ChatGPT刚刚推出的时候，我就尝试过用它来规划旅行，但整个体验非常糟糕。比如它经常出现幻觉，把地址搞错，或者推荐一个并不存在的景点。由于交互界面完全是文本的，我也看不到每个景点在地图上的位置。最后不得不回归地图手动安排行程和确认住宿。因此感觉这种应用更多是噱头大于实用。

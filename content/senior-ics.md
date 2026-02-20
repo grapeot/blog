@@ -1,7 +1,7 @@
 Title: Senior IC的一些思考
 Date: 2023-03-17 22:00
 Category: Life
-Tags: Career, IC, Chinese
+Tags: Chinese, Career
 Slug: senior-ic-thoughts
 
 最近在爬career ladder上有一些新的学习体会，尤其是在senior IC方面，分享一下。这里的senior IC指的是staff+ IC。这里面有很多个人的偏见，而且可能只适用于北美，请批判鉴别。因为针对的是北美，所以会中英文夹杂。

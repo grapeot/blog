@@ -1,7 +1,7 @@
 Title: 一千次失败之后，它选中了你看到的那一个 
 Date: 2025-05-04 20:00
 Category: Computing
-Tags: AI, Chinese, AGI, AI Centric
+Tags: Chinese, AI
 Slug: ai-creativity
 
 在谈AI和创意之前，我们需要承认一个事实：

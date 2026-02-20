@@ -1,7 +1,7 @@
 Title: When AI Becomes Your Direct Report: Three Management Pitfalls Tech People Must Overcome
 Date: 2025-02-01 19:00
 Category: Computing
-Tags: AI, English, Management
+Tags: English, AI Management
 Slug: ai-management-en
 
 Tonight, I asked AI to take multiple local small images and stitch them together into a large image following certain rules. The process wasn't particularly dramatic - it only took me five minutes to help AI complete the task. However, during this process, I found myself consciously using several AI management techniques that newcomers often lack. So, I'd like to share these specific techniques to see if they might be helpful to others.

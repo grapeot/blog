@@ -1,7 +1,7 @@
 Title: DIY Smart Air Purifier with Quality Monitoring using a Raspberry Pi
 Category: Computing
 Date: 2017-01-05 20:00
-Tags: SmartHome, RaspberryPi, English
+Tags: English, Smart Home, DIY, Tutorial
 Slug: smart-air-purifier
 
 Indoor air can be much more polluted than the outdoor air.

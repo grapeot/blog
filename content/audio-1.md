@@ -1,7 +1,7 @@
 Title: 音频碎碎念（一）—— HiFi科学派 
 Date: 2022-12-21 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-1-scientific-hifi
 
 

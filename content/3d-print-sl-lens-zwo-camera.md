@@ -1,6 +1,6 @@
 Title: 用3D打印将Leica SL镜头转接到天文相机的一些尝试
 Category: Life
-Tags: Photography, 3D print, Leica, Chinese
+Tags: Chinese, Astrophotography, DIY
 Slug: 3d-printing-adapter-for-leica-sl-lens-on-astronomy-camera
 Date: 2019-09-18 20:00:00
 

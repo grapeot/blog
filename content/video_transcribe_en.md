@@ -1,7 +1,7 @@
 Title: Technical Insights on Using AI for Speed Reading Videos
 Date: 2024-06-13 18:59
 Category: Computing
-Tags: English
+Tags: English, AI
 Slug: video-transcribe-en
 
 In the [previous article](/writing-and-video.html), we explored why informational videos often have low information density, yet many content creators continue to produce them. Inspired by our discussions, I developed a small tool that allows you to perform speech recognition on videos without leaving the YouTube or Bilibili app, enabling quick reading of video content.

@@ -1,7 +1,7 @@
 Title: Updates on Beamer Outline Generator
 Date: 2011-12-10 11:16
 Category: Computing
-Tags: BeamerWriter, English
+Tags: English, Tutorial
 Slug: beamer-outline-generator-updates
 
 Beamer Outline Generator is a tool for fast beamer writing. 

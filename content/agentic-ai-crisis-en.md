@@ -1,7 +1,7 @@
 Title: The Dilemma of Agentic AI: How to Solve the Productionization Challenge?
 Date: 2025-01-02 18:00
 Category: Computing
-Tags: AI, English, Agentic AI
+Tags: English, Agentic AI
 Slug: agentic-ai-crisis-en
 
 ## The Dilemma of Agentic AI

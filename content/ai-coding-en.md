@@ -1,7 +1,7 @@
 Title: The Guide to Enslave AI for Coding: How to Be the First to Fall in the Robot Revolution
 Date: 2024-01-24 23:00
 Category: Computing
-Tags: AI, Machine Learning, English
+Tags: English, AI Coding
 Slug: ai-coding-en
 
 Recently, I rented a slot at a commercial remote astronomical observatory in Daocheng, Sichuan, for [astrophotography](/star-photography-en.html). A commercial remote observatory refers to a business renting land in an area free from light pollution, providing stable electricity and maintenance services. Astronomy enthusiasts can send their equipment there to be hosted by the company. Users can remotely control their equipment for photography. The basic structure of the observatory is a large house with a rolling roof, closed during the day (closed top), and opened at night (open top) for photography. Similar to many other remote observatories in China, the main communication method for this observatory is through a WeChat group. After lurking in the group for a while, I realized that many discussions revolved around whether the observatory had opened its top or whether clouds had appeared. These issues took up a lot of the observatory director's time. Moreover, another important duty of the director was to @everyone in the WeChat group when the roof was opened, but this message, being a regular alert, often got buried in the group chat, causing many to miss their shooting opportunities.

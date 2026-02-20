@@ -1,7 +1,7 @@
 Title: 超越DRY：AI原生软件工程的思考
 Date: 2025-11-16 22:00
 Category: Computing
-Tags: AI, Chinese, Software Engineering
+Tags: Chinese, AI Coding
 Slug: ai-software-engineering
 
 半年前，我写了[这篇文章](/claude-code.html)。当时有两个论断：Claude Code虽然刚发布没人重视，但这种方便集成的的Agentic能力很重要；未来软件分发和开发的方式会有很大变化，Library as a Service会成为一种重要的新方式。这半年来，我一直在实践这些思考，成为了Claude Code类工具的[重度用户](/wide-research.html)，也为我们的AI课程开发了自己的LaaS产品。

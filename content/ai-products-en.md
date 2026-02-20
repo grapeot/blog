@@ -1,7 +1,7 @@
 Title: Smarter AI, Stagnant UX: The Misalignment in AI Products
 Date: 2025-05-25 19:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI Product
 Slug: ai-products-en
 
 I've always been a staunch supporter of AI. When friends ask what AI can do, I give them very specific answers: it can help plan schedules, research information, and even handle many trivial but time-consuming tasks in life, like negotiating email discounts. I provide prompt templates based on their scenarios to lower their barrier to entry. However, after recommending AI to hundreds of people over the past year or two, I've observed that most of them have a rather lukewarm response after using it. The most common feedback is: "It's okay, I don't find it that useful." Sometimes they even add, "I'd rather do it myself."

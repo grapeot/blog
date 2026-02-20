@@ -1,7 +1,7 @@
 Title: 冬天去阿拉斯加旅游需要知道的东西
 Date: 2017-03-01 19:33
 Category: Alive
-Tags: Travel, Photography, Chinese
+Tags: Chinese, Travel, Astrophotography, Tutorial
 Slug: alaska-winter-advice
 
 最近搞了场说走就走的旅游。周六听说下周二阿拉斯加极光爆发，查了一下月相和天气都非常完美，果断周六订机票，周日买衣服，周一定行程，周二就到了。在这个过程中学习了很多知识，也有很多心得。总结一下，以后如果有人要冬天去阿拉斯加看极光/旅游也算是一个入门贴。

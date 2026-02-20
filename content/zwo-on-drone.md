@@ -1,7 +1,7 @@
 Title: 机炮才是无人机的浪漫
 Date: 2022-05-29 00:19
 Category: Computing
-Tags: Photography, Drone, ZWO, Chinese
+Tags: Chinese, Photography, DIY
 Slug: zwo-on-drone
 
 在观望比较许久之后，我终于被大佬们的长焦样张诱惑，买了一个大疆的御3。长焦才是无人机的正确用法！但拿到手以后，虽然早有心理准备，还是被长焦头气得不轻：明明是1/2寸的优秀硬件，但有各种限制，不支持RAW，没有DLog，没有可变光圈，不能自己调ISO，不能控制快门速度，只能P档直出。我要你何用！既然哈苏不争气，于是就想着能不能不要自带的相机，把无人机只当一个载具使用，背一个真正的相机上去拍照。

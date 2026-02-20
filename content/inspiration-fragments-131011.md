@@ -2,7 +2,7 @@ Title: Inspiration Fragments
 Date: 2013-10-11 13:28
 Category: Life
 Slug: inspiration-fragments-20131011
-Tags: Chinese
+Tags: Chinese, Career, Reflection
 
  * 所谓麻利和急躁的差别在于，麻利的人知道中间可能会出什么问题，征兆是什么，从而时刻检测有没有这样的征兆。而[急躁的做事风格](/guan-yu-cu-xin.html)则完全没有考虑到可能的错误。
 

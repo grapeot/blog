@@ -1,7 +1,7 @@
 Title: 音频碎碎念（⑨）—— D类放大器
 Date: 2022-12-29 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-9-class-d-amp
 
 

@@ -1,7 +1,7 @@
 Title: A new start...
 Date: 2012-05-08 04:19
 Category: Alive
-Tags: English
+Tags: English, Reflection
 Slug: a-new-start
 
 Long time no updates here... Need to have some fresh new start. Anyway, blog is a good place to organize the thoughts and keep good habits.

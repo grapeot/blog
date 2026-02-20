@@ -1,7 +1,7 @@
 Title: 3D Printing and Laser Cutting: Challenges, Trends, and Market Barriers
 Date: 2024-11-18 07:00
 Category: Life
-Tags: English, 3D Print, Laser Cutting
+Tags: English, Hardware, Review
 Slug: 3d-print-laser-cutting-en
 
 Recently, a few investor friends were discussing 3D printing and laser engraving technologies, so I thought I'd write something to dive into these two fields, introducing their technologies and markets. I'm not a professional in either of these areas, so please take this with a grain of salt.

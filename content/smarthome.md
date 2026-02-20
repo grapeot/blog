@@ -1,7 +1,7 @@
 Title: 自己动手改造智能家居生活
 Category: Computing
 Date: 2016-08-30 16:00
-Tags: SmartHome, Chinese
+Tags: Chinese, Smart Home, DIY
 Slug: diy-smart-home-transformation
 
 花了两个月的时间，断断续续做了一些[智能/自动家居的改造](/smart-home-lighting-control.html)。感觉自动家居果然是要成体系才会比较有意思——现在的生活已经有点科幻了。

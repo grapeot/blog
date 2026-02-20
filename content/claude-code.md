@@ -1,7 +1,7 @@
 Title: 被低估的Claude Code：AI Native软件开发的关键拼图
 Date: 2025-02-24 20:30
 Category: Computing
-Tags: Claude Code, AI Native, Agentic AI, Chinese
+Tags: Chinese, AI Coding, Agentic AI
 Slug: claude-code
 
 Anthropic最近发布了Claude 3.7，吸引了媒体的广泛关注。不过，大多数人似乎忽略了同时推出的另一个工具——Claude Code。这个命令行工具看起来不那么引人注目，界面也不够人性化，没有像Cursor或Devin那样高调宣称要自我进化甚至取代人类程序员。但当我深入了解后才意识到，这个看似普通的工具可能恰恰是推动AI Native软件开发革命的关键，甚至有可能深刻影响未来的商业模式和生态系统。

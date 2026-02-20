@@ -1,6 +1,7 @@
 Title: 中年男人换车感想
 Date: 2025-03-15 20:00
 Category: Life
+Tags: Chinese, Review, Reflection
 Slug: new-car
 
 在[之前的文章](https://yage.ai/deep-research-car-buying.html)中也提到，我在做一些模拟的车子调研和购车决策。选择这个应用也是因为最近有了一些换车的想法。在经过相当长时间的调研、比较和纠结以后，最近终于在物理上把车拿到了。开了一段时间，有很多意外的体会，跟大家分享一下。正好最近几个月都忙于探索AI开发课程，写的都是[Computing](https://yage.ai/category/computing.html)系列的文章，没有太多时间去反思[生活上的感悟](https://yage.ai/category/life.html)。正好趁这个机会也沉淀一下。毕竟这个博客的名字叫Computing Life。

@@ -1,7 +1,7 @@
 Title: 音频碎碎念（三）—— 频率的玄学
 Date: 2022-12-23 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-3-frequency
 
 

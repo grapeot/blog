@@ -1,7 +1,7 @@
 Title: 冲击10亿像素的单张照片
 Date: 2020-03-13 15:00
 Category: Life
-Tags: Photography, Gigapixel, High Resolution, Computational Photography, Chinese
+Tags: Chinese, Photography, Image Processing
 Slug: gigapixel-photo
 
 近半年来，我一直在试图把一张照片的分辨率推到极致。这个分辨率不仅是光学分辨率，也是数码分辨率。一般来说，在一个相机的前提下，提升分辨率主要靠[接片](/gigapixel-methods.html)或者摇摇乐。接片接出来比较大的照片比较可行，但有一个问题是它往往只能提升数码分辨率而不能提升光学分辨率。所以很多时候还要靠[摇摇乐](/drizzle.html)。这篇文章主要介绍一下最近做的一个实验。这个实验用中画幅数码后背+中画幅高分辨率微距镜头+摇摇乐实现了10亿像素的分辨率。

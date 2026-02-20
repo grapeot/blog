@@ -1,7 +1,7 @@
 Title: 音频碎碎念（五）—— 听音环境
 Date: 2022-12-25 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Tutorial
 Slug: sound-engineering-5-environment
 
 

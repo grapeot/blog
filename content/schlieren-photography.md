@@ -1,6 +1,6 @@
 Title: 寨版纹影摄影
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography, DIY
 Date: 2020-06-06
 Slug: schlieren-photography
 

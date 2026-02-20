@@ -1,6 +1,6 @@
 Title: How to shoot photos for the total eclipse
 Category: Life
-Tags: Photography, English
+Tags: English, Photography
 Slug: how-to-shoot-photos-for-total-eclipse
 Date: 2017-08-15
 

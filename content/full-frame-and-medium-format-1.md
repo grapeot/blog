@@ -1,7 +1,7 @@
 Title: 全幅与中幅（一）
 Date: 2020-01-20 15:11
 Category: Life
-Tags: Photography, Medium Format, Full Frame, Chinese
+Tags: Chinese, Photography
 Slug: full-frame-and-medium-format-1
 
 

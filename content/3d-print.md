@@ -1,7 +1,7 @@
 Title: 3D打印入门的常见问题
 Date: 2020-12-26 15:00
 Category: Life
-Tags: 3dprint, Chinese
+Tags: Chinese, Hardware, Tutorial
 Slug: 3d-print-faq
 
 因为玩3D打印一段时间了，所以会有一些朋友问一些3D打印如何入门的问题。

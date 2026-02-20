@@ -1,7 +1,7 @@
 Title: 音频碎碎念（七）—— 放大器
 Date: 2022-12-27 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-7-amplifiers
 
 

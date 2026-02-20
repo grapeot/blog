@@ -1,7 +1,7 @@
 Title: Forging a Knowledge Graph from a 10-Million-Character Epic with Three Dumb Methods
 Date: 2025-06-07 9:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI
 Slug: fanren-en
 
 ## Introduction: It Begins with Forgetting

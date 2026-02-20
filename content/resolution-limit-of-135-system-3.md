@@ -1,6 +1,6 @@
 Title: 135系统的分辨率极限（三）—— 与大画幅胶片的角逐
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography
 Date: 2020-07-13
 Slug: resolution-limit-of-135-system-3
 

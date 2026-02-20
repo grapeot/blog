@@ -1,7 +1,7 @@
 Title: Stop Asking if AI Will Replace You, Ask if You Can Lead AI
 Date: 2025-04-18 22:00
 Category: Computing
-Tags: AI, Agentic AI, English
+Tags: English, Agentic AI
 Slug: agentic-ai-202504-en
 
 Many people are asking: "Will AI replace me?"

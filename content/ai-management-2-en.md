@@ -1,7 +1,7 @@
 Title: Managing AI: The Most Important Promotion of Your Career
 Date: 2025-09-05 13:00
 Category: Computing
-Tags: AI, English, Management
+Tags: English, AI Management
 Slug: ai-management-2-en
 
 As AI becomes mainstream, a growing number of people who have experimented with it deeply are finding it disappointingly ineffective in their daily work. While these observations have merit, I believe the core issue often lies in a fundamental misunderstanding: they're still treating AI as a tool. This article will explore several common scenarios to illustrate why we should shift our perspective and start [managing AI like a person](/ai-management-en.html). We'll see how this simple change in mindset can debunk common myths about AI and dramatically increase its effectiveness.

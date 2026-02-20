@@ -1,7 +1,7 @@
 Title: Using Math to Find Planetary Alignments in the Past 20 Years
 Date: 2025-02-23 21:00
 Category: Computing
-Tags: Astronomy, English
+Tags: English, Astrophotography, Research
 Slug: planet-alignment-en
 
 When city lights grow dim and the night sky becomes crystal clear, you might notice several particularly bright planets, as though they’ve agreed to line themselves up in the heavens. That’s what we call a planetary alignment. Even though these celestial bodies don’t actually form a perfect geometric line in space, they can appear to align from our viewpoint on Earth, creating a visually striking row. Since the start of 2025, various media outlets around the world have been abuzz with talk of so-called six-planet or seven-planet alignments. Some are awed by it, while others question the science behind it. If we’d like to identify all possible n-planet alignments over the past 20 years (or any chosen time span), how might we go about it?

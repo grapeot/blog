@@ -1,7 +1,7 @@
 Title: 退订ChatGPT后，我选择了Poe
 Date: 2024-08-04 23:00:00
 Category: Computing
-Tags: Chinese, AI, Poe, GPT
+Tags: Chinese, AI Product
 Slug: poe
 
 今天退订了付费的ChatGPT订阅。

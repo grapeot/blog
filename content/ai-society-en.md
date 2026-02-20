@@ -1,7 +1,7 @@
 Title: A Survival Guide for the Post-Wisdom Era: Some Wild Thoughts on the Future
 Date: 2025-06-18 15:00
 Category: Alive
-Tags: AI, English
+Tags: English, AI, Reflection
 Slug: ai-society-en
 
 ### Prologue

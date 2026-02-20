@@ -1,7 +1,7 @@
 Title: 电车油车的底盘操控之争和技术路线
 Date: 2025-10-09 23:00
 Category: Life
-Tags: Car, Chinese
+Tags: Chinese, Hardware, Reflection
 Slug: car-chassis
 
 最近在微信群里，参与了一些很有意思的关于油车和电车底盘与操控设计的讨论。我因为之前对这个领域比较感兴趣，做过一些调研，正好趁这个机会把之前学到的一些知识和主观的见解沉淀下来。一方面方便以后自查，一方面也看看能不能启发大家。

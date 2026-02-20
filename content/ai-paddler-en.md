@@ -1,7 +1,7 @@
 Title: The Age of AI Navigation: Stop Paddling and Start Steering
 Date: 2025-06-08 20:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI, Career
 Slug: ai-paddler-en
 
 For most of our careers, we in the tech world have been trained to be elite paddlers. We competed on a few key metrics:

@@ -1,7 +1,7 @@
 Title: Kimi K2：超越聊天框的深度评测
 Date: 2025-07-12 18:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, Agentic AI
 Slug: kimi-k2
 
 最近，每当有新的大模型发布，我们总能看到一波评测浪潮。但有一个现象很有趣，绝大多数评测，都不约而同地被局限在一个我们最熟悉的环境里：聊天框。

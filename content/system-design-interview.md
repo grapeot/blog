@@ -1,7 +1,7 @@
 Title: 关于System Design Interview的随想
 Date: 2022-05-27 18:05
 Category: Life
-Tags: Career, Chinese
+Tags: Chinese, Career
 Slug: system-design-interview
 
 最近招人季，不少小伙伴在问system design interview如何准备。我的建议是也许可以换一个角度思考：如果你是[hiring manager](/new-employee-suggestions.html)，你为什么要插个system design进去呢？希望看到什么样的signal呢？

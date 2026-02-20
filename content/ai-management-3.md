@@ -1,7 +1,7 @@
 Title: 用一次摸鱼经历详解AI管理实战
 Date: 2025-10-29 20:00
 Category: Computing
-Tags: AI, Management, Chinese
+Tags: Chinese, AI Management
 Slug: ai-management-3
 
 虽然我重度使用 AI 工（摸）作（鱼）已经很久了，觉得AI倍增生产力是一件现实的事情，但最近摸鱼摸出的新境界还是让我觉得值得分享一下。

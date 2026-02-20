@@ -1,6 +1,6 @@
 Title: Efficiency comparison among several platforms for scientific computing
 Category: Computing
-Tags: PhD, Research, Parallel, English
+Tags: English, Research
 Slug: efficiency-comparison-scientific-computing-platforms
 Date: 2012-12-03 22:45
 

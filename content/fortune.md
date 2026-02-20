@@ -1,7 +1,7 @@
 Title: 真正决定你能不能成事的，不是努力
 Date: 2025-05-02 11:00
 Category: Life
-Tags: Chinese
+Tags: Chinese, Reflection
 Slug: fate
 
 ## 引言：为什么你认真写的长文没人看，而别人的表情包却能火？

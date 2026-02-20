@@ -1,7 +1,7 @@
 Title: Auto focus solution for SharpStar FMA180 
 Date: 2021-05-29 18:05
 Category: Computing
-Tags: Photography, Astrophotography, 3D Print, English
+Tags: English, Astrophotography, DIY
 Slug: auto-focus-solution-for-sharpstar-fma180
 
 Bought a SharpStar FMA180 recently for wide field use.

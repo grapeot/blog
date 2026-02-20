@@ -1,7 +1,7 @@
 Title: 玩具还是生产力工具？四个步骤实现GPT文生图商业级视觉表达
 Date: 2025-03-27 21:00
 Category: Computing
-Tags: AI, Chinese, Image Generation
+Tags: Chinese, AI Technique
 Slug: gpt-image
 
 ## 精美画风背后的短板

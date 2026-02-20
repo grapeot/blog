@@ -2,7 +2,7 @@ Title: 一些关于3D打印大画幅数码接片后背的实验
 Date: 2019-08-26 22:53
 Category: Life
 Slug: large-format-3d-print-digital-back
-Tags: Large Format, 3D Print, Photography, DIY, Chinese
+Tags: Chinese, Photography, DIY
 
 周六早上，一个60斤的包裹放在了我家门口。我满脑子都是，我是谁，我在哪，我为什么买了个这。。
 

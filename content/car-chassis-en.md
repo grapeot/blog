@@ -1,7 +1,7 @@
 Title: The Great Debate: Chassis, Handling, and the Future of Driving in EVs vs. ICE Cars
 Date: 2025-10-09 22:00
 Category: Life
-Tags: Car, English
+Tags: English, Hardware, Reflection
 Slug: car-chassis-en
 
 Recently, I've been part of some fascinating discussions in a WeChat group about the chassis and handling design of internal combustion engine (ICE) cars versus electric vehicles (EVs). Having done some research on this topic out of personal interest, I saw this as a perfect opportunity to consolidate my knowledge and subjective opinions. This is partly for my own future reference and partly to spark some new ideas for everyone.

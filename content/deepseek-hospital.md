@@ -1,7 +1,7 @@
 Title: 从全能医院到智慧分诊：用医院作比喻理解 DeepSeek 的模型进化
 Date: 2025-02-08 16:00
 Category: Computing
-Tags: AI, DeepSeek, Chinese
+Tags: Chinese, AI
 Slug: deepseek-hospital
 
 DeepSeek 的 v3 模型最近引发了很多讨论。但是，很多人也许有跟我一样的困惑：铺天盖地的公众号文章中，哪些是标题党，哪些是干货？如果我想理解 DeepSeek 为什么这么牛，应该去看哪些资料？如何确认自己的认知是正确的？怎样用直观的方式去理解这些繁杂的 Paper 背后的直觉？

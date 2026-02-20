@@ -1,7 +1,7 @@
 Title: 音频碎碎念（十）—— 地狱听音环境实操
 Date: 2022-12-30 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Tutorial
 Slug: sound-engineering-10-real-example
 
 

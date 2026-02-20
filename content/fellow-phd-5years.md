@@ -1,7 +1,7 @@
 Title: [zz] 博士五年总结
 Category: Life
 Date: 2013-09-22 23:00
-Tags: PhD, zz, Chinese
+Tags: Chinese, Career
 Slug: five-year-phd-summary
 
 这几篇文章的作者是毕业于卡内基梅隆大学的田渊栋博士。读了以后深有启发，在征得作者允许后转载。原帖地址：

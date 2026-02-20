@@ -1,7 +1,7 @@
 Title: 用三个笨办法将千万字的《凡人修仙传》炼成一个知识图谱
 Date: 2025-06-07 10:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI
 Slug: fanren
 
 ## 引子：从想不起来开始

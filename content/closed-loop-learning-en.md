@@ -1,7 +1,7 @@
 Title: From Open Loop to Closed Loop: Rethinking Learning
 Date: 2025-06-02 19:00
 Category: Life
-Tags: English, Learning
+Tags: English, Reflection
 Slug: closed-loop-learning-en
 
 I often see discussions in coffee enthusiast groups like this: someone makes an amazing cup of pour-over coffee and immediately shares the complete brewing parameters – water temperature at 92.3°C, 15.2 grams of coffee grounds, a specific grind setting on a particular grinder, and precise timing and water volume for each pouring stage, down to the second and gram. Seeing such shares, many people's first reaction is: "Great, save it! Next time, I'll follow this recipe, and maybe I can replicate that divine taste."

@@ -1,6 +1,6 @@
 Title: 开箱即用的动漫头像检测包
 Category: Computing
-Tags: Image Understanding, Detection, Anime, Chinese
+Tags: Chinese, AI Technique, Image Processing
 Date: 2019-06-20 18:54
 Slug: anime-head-detection
 

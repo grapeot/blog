@@ -1,7 +1,7 @@
 Title: Some experiments about thermal cameras
 Date: 2016-12-20 21:25
 Category: Computing
-Tags: English
+Tags: English, DIY, Hardware
 Slug: thermal-camera-experiments
 
 The motivation is, it's getting cold in Seattle.

@@ -1,7 +1,7 @@
 Title: We Fed an AI Three Years of Our Group Chat History. It Wrote a Surprisingly Deep Book.
 Date: 2025-04-15 22:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI
 Slug: ai-book-en
 
 For the past couple of years, we've been constantly using large language models to write summaries, PRDs, code, poetry... you name it. Yet, there's always been a nagging feeling: something's missing before AI truly becomes a core part of our productivity.

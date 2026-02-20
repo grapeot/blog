@@ -1,7 +1,7 @@
 Title: 工作一年随感
 Date: 2016-09-20 21:25
 Category: Life
-Tags: Chinese
+Tags: Chinese, Career, Reflection
 Slug: thoughts-after-one-year-of-work
 
 工作差不多也一年了。回首一年前的自己，感觉学到了太多东西。总结一下。

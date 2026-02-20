@@ -1,7 +1,7 @@
 Title: Why AI Education Should Go Beyond Content Creation to Engineering Infrastructure
 Date: 2026-02-02 19:00
 Category: Computing
-Tags: AI, Education, English
+Tags: English, AI, Tutorial
 Slug: ai-builder-space-en
 
 Over the past two years, we've created [four courses](https://www.superlinear.academy/ai-builders-eng), accumulating 2,500+ students. Recently, you may have seen [many student projects shared](https://www.superlinear.academy/c/share-your-projects-en/) in our updates—they're truly impressive, and I've been inspired by many of them. But those who actually delivered products that everyone can use are actually a minority who made it to the finish line.

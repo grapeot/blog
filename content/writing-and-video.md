@@ -1,7 +1,7 @@
 Title: 视频信息密度那么低，为什么大家都在拍视频？
 Date: 2024-05-31 23:00
 Category: Life
-Tags: influencer, Chinese
+Tags: Chinese, Reflection
 Slug: writing-and-video
 
 我一直困惑的一点是为什么youtube/b站上有很多知识型或者哲理型up主（比如Ali Abdaal或者MoneyXYZ）特别受欢迎，赚超多钱。因为在我看来视频是一种特别特别差的学习工具。

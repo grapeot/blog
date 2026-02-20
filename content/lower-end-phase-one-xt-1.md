@@ -2,7 +2,7 @@ Title: 穷人的飞思XT——一些关于645d中幅的实验（一）
 Date: 2019-12-06 21:06
 Category: Life
 Slug: lower-end-phase-one-xt-1
-Tags: PhaseOne, Medium Format, Photography, DIY, Chinese
+Tags: Chinese, Photography, DIY
 
 
 ---

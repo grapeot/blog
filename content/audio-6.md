@@ -1,7 +1,7 @@
 Title: 音频碎碎念（六）—— 模电
 Date: 2022-12-26 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-6-analog-circuits
 
 

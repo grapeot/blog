@@ -1,7 +1,7 @@
 Title: 使用GPT4和Whisper API大幅提升写作效率
 Category: Computing
 Date: 2023-03-31 16:00
-Tags: AI, Machine Learning, GPT, Chinese
+Tags: Chinese, AI Product
 Slug: GPT-API-usage-creation
 
 最近一段时间，我在撰写文档和文章方面投入了越来越多的时间。在此过程中，我逐渐发现，限制我写作速度的最重要因素并非思维速度，而是打字速度，尤其在完成一些较为简单的任务时。为了解决这个问题，一种方法是通过练习提高打字速度，另一种可能的方法是使用自动语音识别软件进行输入。然而，在尝试了语音识别之后，我发现存在几个问题。

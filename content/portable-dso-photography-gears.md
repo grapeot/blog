@@ -1,7 +1,7 @@
 Title: 一个书包可以装下的深空配置
 Date: 2020-08-07 20:55
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Astrophotography
 Slug: portable-dso-photography-gears
 
 虽然西雅图不是一个拍天文的好地方（天天下雨），但是作为老法师，关键在玩器材，所以我也整了一套深空的器材（HyperStar）：

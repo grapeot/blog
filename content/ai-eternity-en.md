@@ -1,7 +1,7 @@
 Title: My Journey to Cybernetic Immortality: An Experiment to Push Life's Boundaries
 Date: 2025-07-06 20:00
 Category: Computing
-Tags: AI, English
+Tags: English, AI
 Slug: ai-eternity-en
 
 ## How AI Leveled Up from Intern to Mentor

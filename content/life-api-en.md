@@ -1,7 +1,7 @@
 Title: The Real World as an AI-Callable API
 Date: 2025-04-24 22:00
 Category: Computing
-Tags: AI, English, Agentic AI, AI Centric
+Tags: English, Agentic AI
 Slug: life-api-en
 
 ## From AI Transparency to Superhuman Hearing

@@ -1,7 +1,7 @@
 Title: Markov Random Field (MRF) and Graph-Cut (2)
 Category: Computing
 Date: 2011-07-01 05:58
-Tags: PhD, Math, English
+Tags: English, Research, AI Technique
 Slug: markov-random-field-mrf-and-graph-cut-2
 Latex:
 

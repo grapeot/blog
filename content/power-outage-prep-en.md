@@ -1,7 +1,7 @@
 Title: Weathering the Storm: How We Prepared for and Survived a Multi-Day Power Outage
 Date: 2024-11-21 14:00
 Category: Life
-Tags: emergency, English
+Tags: English, DIY
 Slug: power-outage-prep-en
 
 Recently, Seattle was hit by another "bomb cyclone," a rare storm that occurs only once every decade, causing widespread power outages and disruptions to daily life. According to

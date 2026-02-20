@@ -1,7 +1,7 @@
 Title: Experience about Hertz 24/7
 Date: 2013-07-06 19:33
 Category: Alive
-Tags: Travel, English
+Tags: English, Travel, Review
 Slug: hertz-24-7-experience
 
 Hertz 24/7 is basically Hertz's zipcar. Register to get $75 credit, can be combined with Columbia's Gold Plus Rewards. Also swipe the key nob (an RFID chip) and good to go. I rent a car in my California trip around July 4th, and share some experience with you here.

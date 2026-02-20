@@ -1,7 +1,7 @@
 Title: 用Leica 50AA实现200nm/像素的分辨率
 Date: 2020-08-03 20:15
 Category: Life
-Tags: Photography, Chinese
+Tags: Chinese, Photography, DIY
 Slug: cmos-pixel-macro
 
 昨天晚上突发奇想，我们一直用CMOS拍照，却没有真的拍出来像素过。有没有可能用相机来拍相机，看看像素到底长什么样呢？

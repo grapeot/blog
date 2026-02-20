@@ -1,7 +1,7 @@
 Title: Timeshare的一些思考
 Date: 2019-11-29 18:05
 Category: Computing
-Tags: Timeshare, Travel, Finance, Chinese
+Tags: Chinese, Finance, Travel
 Slug: thoughts-on-timeshare
 Latex:
 

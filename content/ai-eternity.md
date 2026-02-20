@@ -1,7 +1,7 @@
 Title: 我的赛博长生之路：一场拓展生命边界的AI实验
 Date: 2025-07-06 21:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI
 Slug: ai-eternity
 
 ## AI何以从小弟成为大哥？

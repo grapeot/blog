@@ -1,7 +1,7 @@
 Title: 别再问AI会不会取代你，问你能不能带好AI
 Date: 2025-04-18 23:00
 Category: Computing
-Tags: AI, Chinese, Agentic AI
+Tags: Chinese, Agentic AI
 Slug: agentic-ai-202504
 
 很多人在问："AI 会不会取代我？"

@@ -1,7 +1,7 @@
 Title: 纽约路窄车位小为什么大家反而开大SUV——十年后重读纽约
 Date: 2024-10-06 22:30
 Category: Life
-Tags: NYC, Business, Chinese
+Tags: Chinese, Travel, Reflection
 Slug: nyc-revisited
 
 我以前在纽约住了五年。但因为是学生，基本上是11x7搞学术，所以一直没有精力和阅历对这个城市进行太多的思考和感悟。最近毕业快十年，因为家人来访，终于以游客的身份重游纽约，有机会重新解读了这座城市，包括纽约的人，对此有很多新的体会。

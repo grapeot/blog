@@ -1,7 +1,7 @@
 Title: Notes on "How to pick up a spouse"
 Date: 2014-08-23 12:00
 Category: Life 
-Tags: ReadingNotes, English
+Tags: English, Reflection
 Slug: notes-on-how-to-pick-up-a-spouse
 
 Came across a book named "How to pick up a spouse" <a href="http://www.amazon.com/gp/product/0830769757/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0830769757&linkCode=as2&tag=complife01-20&linkId=LHFHUDBFCJF3PTTZ">[amazon]</a>.

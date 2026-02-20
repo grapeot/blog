@@ -1,6 +1,6 @@
 Title: 设计,制造,和发射自己的个人卫星
 Category: Life
-Tags: DIY, Chinese
+Tags: Chinese, DIY, Research
 Date: 2020-10-11 18:54
 Slug: picosatellite
 

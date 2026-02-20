@@ -1,7 +1,7 @@
 Title: Collecting and Visualizing Mouse Position Distribution
 Date: 2011-12-12 07:35
 Category: Computing
-Tags: English
+Tags: English, Research, Tutorial
 Slug: collecting-and-visualizing-mouse-position-distribution
 
 (This post is translated from my [blog post](http://www.cnblogs.com/grapeot/archive/2010/03/01/1675335.html) in Chinese)

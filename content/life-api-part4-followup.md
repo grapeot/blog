@@ -1,7 +1,7 @@
 Title: 上一篇文章写崩了，但不是AI的锅
 Date: 2025-05-08 11:00
 Category: Computing
-Tags: AI, Chinese, Agentic AI, AI Centric
+Tags: Chinese, Agentic AI
 Slug: life-api-part4-followup
 
 前几天，我发了[一篇文章](/ai-creativity.html)，是由AI帮我完成的。内容说的是AI在创意工作中的角色变化——从模仿到结构性生成，用穷举来代替创意。我当时看完其实挺满意的，甚至有点得意，觉得这可能是我们最近AI协作写作流程的又一次成熟体现。

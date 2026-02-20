@@ -1,7 +1,7 @@
 Title: 以ZWO为例入门漏斗分析
 Date: 2025-01-05 12:00
 Category: Computing
-Tags: Chinese, Funnel Analysis, Astrophotography
+Tags: Chinese, AI, Tutorial
 Slug: zwo-funnel-analysis
 Math: false
 

@@ -1,7 +1,7 @@
 Title: 从过程确定性到结果确定性：AI 时代的另一种安全感
 Date: 2026-01-25 17:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, Agentic AI
 Slug: result-certainty
 
 即使在2026年，把AI从demo做成产品也不是一件容易的事。比如中翻英，大家都觉得早就被LLM解决了，不就是调个API的事情嘛。但我们最近因为要把Superlinear Academy社区加入一个中翻英自动同步的功能，才发现开发体验这么差。

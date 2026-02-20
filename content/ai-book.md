@@ -1,7 +1,7 @@
 Title: 我们让AI读完三年微信群聊记录，它写了一本出人意料的小书
 Date: 2025-04-15 23:00
 Category: Computing
-Tags: AI, Chinese
+Tags: Chinese, AI
 Slug: ai-book
 
 过去这两年，我们不停用大模型写总结、写PRD、写代码、写诗……但始终有一种感觉：这离AI成为生产力还差点什么。

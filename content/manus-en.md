@@ -1,7 +1,7 @@
 Title: Behind Manus's Wild Popularity: How Agentic AI Builds Lasting Competitive Advantages
 Date: 2025-03-06 19:00
 Category: Computing
-Tags: AI, AI Native, Agentic AI, English
+Tags: English, Agentic AI
 Slug: manus-en
 
 Manus has been making waves on the Chinese internet since its recent release, quickly winning over a wide range of users. After diving deeply into the product, I find it truly inspiring. It captures a crucial aspect in the competition among Agentic AI products: the compound effect. In this article, I want to explore, from a longer-term perspective, the key factors that drive competition for Agentic AI products like Deep Research, Cursor, or Manus, and which elements can form a true moat (and which cannot).

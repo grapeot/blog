@@ -1,7 +1,7 @@
 Title: 从提示词到微调：让AI更像"我"
 Date: 2024-12-23 19:00
 Category: Computing
-Tags: Prompt Engineering, Finetuning, AI, Chinese
+Tags: Chinese, AI Technique
 Slug: finetuning
 
 你有没有觉得AI讲话一股AI味？比如人类说话类似这样："我想点一个大份的炒面，要加辣，不要放香菜，打包带走。"但是AI说出来就是："我想订购一份大份量的炒面，请在制作时添加辣味调料，不要放入香菜，并且需要外带服务。" 就觉得怪怪的，好像领导在台上讲话，正式，官方，疏离。

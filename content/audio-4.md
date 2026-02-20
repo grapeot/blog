@@ -1,7 +1,7 @@
 Title: 音频碎碎念（四）—— 线材的玄学
 Date: 2022-12-24 19:00
 Category: Life
-Tags: Sound Engineering, Chinese
+Tags: Chinese, Audio, Reflection
 Slug: sound-engineering-4-cables
 
 

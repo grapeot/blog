@@ -1,7 +1,7 @@
 Title: Reading Notes: the Willpower Instinct
 Date: 2014-11-10 22:30
 Category: Life
-Tags: TimeManagement, ReadingNotes, English
+Tags: English, Health
 Slug: reading-notes-the-willpower-instinct
 
 Finished the book <a href="http://www.amazon.com/gp/product/B005ERIRZE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005ERIRZE&linkCode=as2&tag=complife01-20&linkId=E4URR4SRQ3XZHAN7">The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It</a>.

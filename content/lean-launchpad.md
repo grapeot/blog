@@ -1,7 +1,7 @@
 Title: The Lean Launchpad
 Date: 2013-01-22
 Category: Life
-Tags: Chinese
+Tags: Chinese, Career
 Slug: the-lean-launchpad
 
 总的体会就是。。。这门课再一次影响了我的三观。。。

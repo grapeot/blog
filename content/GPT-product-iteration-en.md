@@ -1,7 +1,7 @@
 Title: Iterations on the GPT Note Taking Product
 Date: 2023-04-07 15:00
 Category: Computing
-Tags: GPT, AI, English
+Tags: English, AI Product
 Slug: GPT-product-iteration-en
 
 Documenting some recent product iteration process of a GPT-based voice transcription tool. Previously, while developing this [voice input tool](/GPT-API-usage-creation-en.html), I had already explored the capability boundaries of GPT. I found its intelligence to be quite superficial in many areas. In other words, the answers or conclusions it provides are often relatively shallow, unlike the insightful responses given by experienced individuals. That's why I initially positioned it as a text-processing secretary, only required to restate my views and reorganize them into a structured form.

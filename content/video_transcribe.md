@@ -1,7 +1,7 @@
 Title: 使用AI速读视频的技术收获
 Date: 2024-06-13 19:00
 Category: Computing
-Tags: Chinese
+Tags: Chinese, AI
 Slug: video-transcribe
 
 在[上一篇文章](/writing-and-video.html)中，我们探讨了为什么知识型视频的信息密度这么低，但是还有很多up主去做。

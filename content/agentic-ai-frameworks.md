@@ -1,7 +1,7 @@
 Title: 为什么学习Agentic AI的第一步是忘记所有框架？
 Date: 2025-02-16 20:00
 Category: Computing
-Tags: AI, Agentic AI, Chinese
+Tags: Chinese, Agentic AI
 Slug: why-forget-all-frameworks
 
 我在推广Agentic AI的时候经常被问到：“为什么你的所有教程里从来没有看到对Autogen、LangGraph、SmolAgents或者<插入任何流行的Agentic AI框架>的介绍？” 或者“我应该学习哪个框架来入门Agentic AI？” 这篇文章想解释一下为什么我觉得在这个Agentic AI飞速发展的特殊时期，用什么框架并不重要，我们甚至应该避免从框架开始入门Agentic AI。

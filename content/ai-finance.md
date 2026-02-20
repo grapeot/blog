@@ -1,7 +1,7 @@
 Title: 当AI不work：我如何最终实现自动化财务决算
 Date: 2025-08-14 23:00
 Category: Computing
-Tags: AI, Machine Learning, Chinese
+Tags: Chinese, AI, Finance
 Slug: ai-finance
 
 ## 持续了十年的手动流程

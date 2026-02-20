@@ -1,7 +1,7 @@
 Title: 一些做presentation的小技巧
 Date: 2015-01-24 16:05
 Category: Life
-Tags: Chinese
+Tags: Chinese, Career
 Slug: presentation-tips-and-tricks
 
 * 逻辑的本质是非线性的，也就是说，一个idea的思路往往是总分总，并列等等，而不是像一条线那样层层递进。但presentation大都必须是线性的——slides只有上一张和下一张，不能一下放三张出来说我们来搞个总分总。所以在设计slides大纲的时候就要注意这一点，要安插一些总结性的slide，明确当前的逻辑结构。同时也要合理的序列化我们的逻辑，让他们变成一个容易理解的线性结构。

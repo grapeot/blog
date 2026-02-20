@@ -1,7 +1,7 @@
 Title: 使用AI生图助力天文学观测摄影
 Date: 2025-12-26 22:00
 Category: Compute
-Tags: AI, Chinese, Astrophotography
+Tags: Chinese, Astrophotography, AI
 Slug: ai-flat-field
 
 一切都缘起于深圳市天文台德铼老师给我的一段日面摄影的视频文件。他们的设备因为一些原因，CMOS积累了很多灰尘，同时在观测太阳时，使用了f/40焦比的望远镜，这让这些灰尘在视频中尤其明显。他想知道有没有什么方法能从视频中去除这些灰尘。比如类似下图，左边是输入的一个视频帧，用一些算法得到右边的输出。

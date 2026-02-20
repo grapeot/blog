@@ -1,7 +1,7 @@
 Title: 深空摄影的萌新反面指南——器材坑
 Date: 2020-09-11 22:30
 Category: Life
-Tags: Photography, Astrophotography, Chinese
+Tags: Chinese, Astrophotography, Tutorial
 Slug: deep-space-photography-beginners-guide-equipment-pitfalls
 
 最近一个月西雅图终于天晴了。之前吃灰两年的深空设备也终于有了用途。但我是从hard模式入坑的，折腾了一个月之后感觉非常痛苦。有很多教训可以分享。看网上的教程大都是正面的教程，比如如果跟着我做这样的步骤，就可以得到这样的结果。但学习的过程中反面的教训也是很重要的，比如看到这个问题知道是这个原因，这样解决。这样的教程网上似乎很少，所以我开了这样一个系列，希望可以帮到像我一样踩坑的[萌新们](/shen-kong-she-ying-de-meng-xin-fan-mian-zhi-nan-qian-qi-keng.html)。

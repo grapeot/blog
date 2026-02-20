@@ -1,7 +1,7 @@
 Title: 使用Nano Banana Pro生成整套PPT：疯狂，挑战和工作流
 Date: 2025-12-08 13:00
 Category: Computing
-Tags: AI, Chinese, Nano Banana, Software Engineering
+Tags: Chinese, AI, Tutorial
 Slug: nano-banana-pro
 
 最近Nano Banana Pro（NBP）非常火。我们看到了各种应用：给漫画上色、生成海报、甚至直接生成以假乱真的演示文稿PPT。看起来像一张PPT，但其实只是一张图像。

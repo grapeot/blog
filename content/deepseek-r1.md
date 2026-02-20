@@ -1,7 +1,7 @@
 Title: DeepSeek r1使用随感
 Date: 2025-02-08 22:00
 Category: Computing
-Tags: AI, DeepSeek, Chinese
+Tags: Chinese, AI
 Slug: deepseek-r1
 
 最近，DeepSeek r1模型吸引了很多人的注意力。从Benchmark榜单的情况来看，这个模型的智能程度可以媲美OpenAI o1这样的旗舰模型。各种自媒体和公众号对它也是极尽赞美。正如[上一篇分析文章](https://yage.ai/DeepSeek-hospital.html)中所提到的，我也觉得从学术的角度来说，DeepSeek V3和r1两个模型极具启发性。它们向学界揭示了一些相当反直觉和有深刻洞见的思路。但是在实际使用DeepSeek r1和与各种常见AI模型进行对比的过程中，我也形成了一些自己的第一手经验与认知。在这里汇总分享一下。

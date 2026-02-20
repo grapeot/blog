@@ -2,7 +2,7 @@ Title: 如何用小小房找乐子——以及如何调光轴不头秃
 Date: 2021-08-16 21:25
 Category: Life
 Slug: sharpstar-13028hnt-review
-Tags: Chinese
+Tags: Chinese, Astrophotography, Review
 
 最近测试了锐星的小小房（13028HNT），是个很有意思的镜子。我也是第一次调牛反光轴，断断续续摸索了三个星期才差不多调好。写这篇文章总结一下一些思考和调整的心得。
 

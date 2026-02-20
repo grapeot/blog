@@ -1,7 +1,7 @@
 Title: OpenClaw Deep Dive: Why It Went Viral and What It Means for You
 Date: 2026-02-14 22:00
 Category: Computing
-Tags: AI, Agentic AI, OpenClaw, English
+Tags: English, Agentic AI, Review
 Slug: openclaw-en
 
 OpenClaw went absolutely viral at the end of January 2026. Social media was flooded with configuration guides, and cloud service providers rushed to launch one-click deployments, terrified of missing the hype train. Meanwhile, it felt like performance art was happening everywhere: the project changed its name three times in one week—from ClawdBot to MoltBot to OpenClaw. In the process of rebranding, their handle was even hijacked by a token called $CLAWD that scammed people out of $16 million. Security vulnerabilities were popping up left and right, too: 12% of third-party skills contained malicious code, and plenty of people exposed their consoles to the public internet without even setting a password. For a while, the whole space was just a mess of contradictory noise, leaving everyone confused: Should I install this thing? What am I missing if I don't? What are the risks? Is this the next productivity revolution, or just another toy that will be forgotten in two weeks?

@@ -1,7 +1,7 @@
 Title: 告别教程思维：为什么 AI 教育不应局限于内容创作，而应该引进工程基建
 Date: 2026-02-02 20:00
 Category: Computing
-Tags: Chinese, AI, Education
+Tags: Chinese, AI, Tutorial
 Slug: ai-builder-space
 
 我们这两年做了[四门课](https://ai-builders.com/)，积累了 2500+ 学员。最近大家在推送里看到了[很多学员分享的项目](https://www.superlinear.academy/c/share-your-projects/)，非常精彩，我也受到了很多启发。但那些真的交付了大家都能用的产品的学员，其实是少数走到终点的人。

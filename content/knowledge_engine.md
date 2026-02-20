@@ -1,7 +1,7 @@
 Title: 关于AI知识引擎的随想
 Date: 2024-06-13 22:00
 Category: Computing
-Tags: Chinese, Thought Fragments
+Tags: Chinese, AI
 Slug: ai-knowledge-engine
 
 (来自我在[AI生产力训练营](/ai-comment-oriented-programming.html)群聊中的发言)

@@ -1,7 +1,7 @@
 Title: Attempts to make money from BF deals and lessons learned
 Date: 2014-01-10 15:15
 Category: Alive
-Tags: English
+Tags: English, Review
 Slug: making-money-from-bf-deals-lessons
 
 Black Friday comes and goes.

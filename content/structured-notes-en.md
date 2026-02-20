@@ -1,7 +1,7 @@
 Title: You Don't Need Finance Expertise to Unbox Structured Notes with AI
 Date: 2025-04-20 10:00
 Category: Computing
-Tags: AI, English, Finance
+Tags: English, AI, Finance
 Slug: structured-notes-en
 
 ## My Bank Recommended a Product, and I Was Skeptical

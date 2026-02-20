@@ -1,7 +1,7 @@
 Title: A Beginner’s Guide to Funnel Analysis, Using ZWO as an Example
 Date: 2025-01-05 11:00
 Category: Computing
-Tags: Funnel Analysis, Astrophotography, English
+Tags: English, AI, Tutorial
 Slug: zwo-funnel-analysis-en
 Math: false
 

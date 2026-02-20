@@ -2,7 +2,7 @@ Title: 码农面试中的Behavior Questions
 Category:Life
 Date: 2023-08-26 23:30
 Slug: behavior-questions
-Tags: Chinese
+Tags: Chinese, Career
 
 在之前的文章中，我们已经介绍过[Coding面试](/coding-questions.html)和[System Design面试](/system-design-interview.html)。这次，我们打算讨论在Project Experience和Behavior面试中，面试官主要关注的信号是什么，以及如何为这些面试做准备。
 

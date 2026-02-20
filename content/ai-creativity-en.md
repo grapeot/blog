@@ -1,7 +1,7 @@
 Title: After a Thousand Failures, It Chose the One You See
 Date: 2025-05-04 19:00
 Category: Computing
-Tags: AI, Creativity, AGI, AI Centric, English
+Tags: English, AI
 Slug: ai-creativity-en
 
 Before discussing AI and creativity, we need to acknowledge a truth:

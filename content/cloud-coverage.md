@@ -1,7 +1,7 @@
 Title: 5分钟给全天相机加上云量识别功能
 Category: Computing
 Date: 2024-06-18 16:00
-Tags: Astrophotography, AI, Chinese
+Tags: Chinese, Astrophotography, AI
 Slug: cloud-coverage-ai
 
 对天文爱好者来说，过云是一件非常痛苦的事情。我们的对焦和导星都会受到影响，有时候即使云过了，天晴了，结果我们的对焦也飞了，视野也变了，接下来整晚的时间都被浪费，更别提可能会下雨，对我们的设备造成的损害了。所以在这种时候，如果有一个人或者AI来帮我们看摊，这可就太好了。云来了，我们就停拍；云走了，我们就恢复；天晴了，就报警，把我们从被窝里振醒起床收摊。

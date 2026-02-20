@@ -1,7 +1,7 @@
 Title: 一些关于SSD RAID性能的实验
 Category: Computing
 Date: 2019-08-12 10:00
-Tags: RAID, Computer, DIY, Chinese
+Tags: Chinese, Hardware, DIY
 Slug: ssd-raid-exp
 
 今天做了关于硬盘性能的一系列实验。

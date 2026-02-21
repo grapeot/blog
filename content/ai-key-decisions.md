@@ -4,7 +4,6 @@ Date: 2026-02-20 18:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: ai-key-decisions
-Translation: ai-key-decisions-en.html
 Summary: 用两分钟指挥AI给300篇文章添加SEO summary的实战案例，拆解五个关键决策：选对执行环境、先建测试再干活、让agent自己处理corner case、divide and conquer、结果导向的prompt写法。
 ---
 

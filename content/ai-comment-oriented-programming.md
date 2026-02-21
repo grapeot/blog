@@ -4,7 +4,6 @@ Date: 2024-03-17 17:00
 Category: Computing
 Tags: Chinese, AI Coding
 Slug: ai-comment-oriented-programming
-Translation: ai-comment-oriented-programming-en.html
 Summary: 提出AI辅助编程的核心从数据结构和算法转向注释和DocString的质量。类比管理AI与管理人类团队，强调了解能力边界、任务分解、委托和质量检查等开发经理式的思维方式。
 ---
 

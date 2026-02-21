@@ -4,7 +4,6 @@ Date: 2025-08-07 20:00
 Category: Computing
 Tags: Chinese, AI, Review
 Slug: gpt-5
-Translation: gpt-5-en.html
 Summary: GPT-5是产品升级而非单纯模型升级：新增reasoning_effort和verbosity参数，可控性大幅提升，让开发者能根据场景灵活权衡推理深度和回复长度。
 ---
 

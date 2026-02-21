@@ -4,7 +4,6 @@ Date: 2025-02-23 22:00
 Category: Computing
 Tags: Chinese, Astrophotography, Research
 Slug: planet-alignment
-Translation: planet-alignment-en.html
 Summary: 用Skyfield库模拟行星位置，通过可见性、直线排列度和黄经集中度三项指标量化评估行星连珠现象，实现天体排列的定量分析与预测。
 ---
 

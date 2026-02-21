@@ -4,7 +4,6 @@ Date: 2025-11-22 15:00
 Category: Computing
 Tags: Chinese, AI, Reflection
 Slug: ai-native-cost-structure
-Translation: ai-native-cost-structure-en.html
 Summary: 观察到当代码成本趋近于零时，为一次性决策构建专用工具反而是最优策略。提出AI Native的本质是在信息获取成本坍塌后采用全新策略——从直觉驱动转向高分辨率的数据驱动决策。
 ---
 

@@ -4,7 +4,6 @@ Date: 2025-04-15 23:00
 Category: Computing
 Tags: Chinese, AI
 Slug: ai-book
-Translation: ai-book-en.html
 Summary: 探索AI如何处理非结构化语料，利用百万级上下文窗口让AI阅读三年微信群聊记录，并通过反思-提取-构建的循环协作方式，从中提炼出关于AI协作的深刻洞见与结构化知识。
 ---
 

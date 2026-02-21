@@ -4,7 +4,6 @@ Date: 2025-11-16 22:00
 Category: Computing
 Tags: Chinese, AI Coding
 Slug: ai-software-engineering
-Translation: ai-software-engineering-en.html
 Summary: 提出用户生成软件需要新的范式。软件公司不再交付成品，而是交付"生成内核"——包括核心套件、引导知识和杠杆工具集，专为AI使用而设计，最大化表达范围、意图保真和生成效率。
 ---
 

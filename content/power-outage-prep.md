@@ -4,7 +4,6 @@ Date: 2024-11-21 15:00
 Category: Life
 Tags: Chinese, DIY
 Slug: power-outage-prep
-Translation: power-outage-prep-en.html
 Summary: 家庭应急供电系统搭建指南：从逆变发电机到Ecoflow储能再到家庭电路改造，结合西雅图炸弹风暴断电经历分享燃料储备、网络备份等实战经验。
 ---
 

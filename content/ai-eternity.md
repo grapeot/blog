@@ -4,7 +4,6 @@ Date: 2025-07-06 21:00
 Category: Computing
 Tags: Chinese, AI
 Slug: ai-eternity
-Translation: ai-eternity-en.html
 Summary: 记录通过语音输入、全天候录音、可穿戴相机和Agentic系统拓展与AI沟通带宽的实验。提出"赛博长生"作为务实的生命观，通过提升生命密度、质量和边界来放大创造力与影响力。
 ---
 

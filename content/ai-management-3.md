@@ -4,7 +4,6 @@ Date: 2025-10-29 20:00
 Category: Computing
 Tags: Chinese, AI Management
 Slug: ai-management-3
-Translation: ai-management-3-en.html
 Summary: 分享3分钟语音prompt如何让AI完成资深科学家一整天的工作量。详解招聘、任务委托、入职培训、过程指导和产品验收五大管理环节如何释放AI的全部潜力。
 ---
 

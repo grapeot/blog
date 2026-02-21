@@ -4,7 +4,6 @@ Date: 2025-02-08 22:00
 Category: Computing
 Tags: Chinese, AI
 Slug: deepseek-r1
-Translation: deepseek-r1-en.html
 Summary: 对比GPT-4o和o1评测DeepSeek r1，发现其在指令遵循和思维深度上不及第一梯队，但在中文表达和创意写作方面展现出独特优势。
 ---
 

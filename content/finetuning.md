@@ -4,7 +4,6 @@ Date: 2024-12-23 19:00
 Category: Computing
 Tags: Chinese, AI Technique
 Slug: finetuning
-Translation: finetuning-en.html
 Summary: 以去除AI味、让AI用自己风格写作为例，介绍微调的适用场景、数据准备方法和技术细节，以及如何避免灾难性遗忘和模型坍缩等风险。
 ---
 

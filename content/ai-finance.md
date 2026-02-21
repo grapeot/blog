@@ -4,7 +4,6 @@ Date: 2025-08-14 23:00
 Category: Computing
 Tags: Chinese, AI, Finance
 Slug: ai-finance
-Translation: ai-finance-en.html
 Summary: 记录在API因合规问题被拒后，使用视觉大模型从截图提取财务数据，实现十年手动记账流程的自动化。展示了本地模型、交叉验证和人机协作工作流如何安全处理敏感金融数据。
 ---
 

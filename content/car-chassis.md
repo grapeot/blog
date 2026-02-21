@@ -4,7 +4,6 @@ Date: 2025-10-09 23:00
 Category: Life
 Tags: Chinese, Hardware, Reflection
 Slug: car-chassis
-Translation: car-chassis-en.html
 Summary: 深入解析电车与油车底盘操控之争：油车通过战略自由塑造性格，电车用战术科技对抗物理惯性，两种截然不同的工程哲学。
 ---
 

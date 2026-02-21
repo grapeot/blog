@@ -4,7 +4,6 @@ Date: 2022-09-02 15:00
 Category: Life
 Tags: Chinese, Astrophotography, Tutorial
 Slug: sho-tune
-Translation: sho-tune-en.html
 LaTeX: 1
 Summary: 用线性代数实现窄带自定义调色：选取喜欢的颜色获取RGB值，通过矩阵变换将HSO通道投影到新色彩空间，实现饱和度可控的个性化调色盘。
 ---

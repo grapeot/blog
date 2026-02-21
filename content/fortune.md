@@ -4,7 +4,6 @@ Date: 2025-05-02 11:00
 Category: Life
 Tags: Chinese, Reflection
 Slug: fate
-Translation: fortune-en.html
 Summary: 从内容火爆和项目成败的随机性出发，探讨运气作为影响成功概率的底层参数，分析努力与成功之间的结构性关系，以及如何理解命运与个人奋斗。
 ---
 

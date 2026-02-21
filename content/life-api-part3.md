@@ -4,7 +4,6 @@ Date: 2025-04-28 23:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api-part3
-Translation: life-api-part3-en.html
 Summary: 回看AI转录的生活录音，意外成为低成本自省契机：AI像Life Coach一样帮我分析会议暗流、发现方案盲点、识别情绪模式，让我用前所未有的方式实践"吾日三省吾身"。
 ---
 

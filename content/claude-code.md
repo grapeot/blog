@@ -4,7 +4,6 @@ Date: 2025-02-24 20:30
 Category: Computing
 Tags: Chinese, AI Coding, Agentic AI
 Slug: claude-code
-Translation: claude-code-en.html
 Summary: Claude Code是被低估的AI Native软件开发关键拼图，推动Library as a Service模式，帮助AI有效对接企业级代码库。
 ---
 

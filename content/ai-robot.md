@@ -4,7 +4,6 @@ Date: 2024-03-01 23:00
 Category: Computing
 Tags: Chinese, AI, Hardware
 Slug: ai-robot
-Translation: ai-robot-en.html
 Summary: 记录将AI接入天文摄影机器人系统的实验。探讨安全性与灵活性的权衡，通过Python类封装、AST解析和沙箱机制，在防止恶意代码的同时让AI安全地控制望远镜设备。
 ---
 

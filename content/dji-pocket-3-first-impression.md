@@ -4,7 +4,6 @@ Date: 2024-07-01 17:00
 Category: Life
 Tags: Chinese, Photography, Review
 Slug: dji-pocket-3-first-impression
-Translation: dji-pocket-3-first-impression-en.html
 Summary: DJI Pocket 3上手体验：便携性和操作便捷性惊艳，但画质拉垮，视频编码压缩过度导致后期空间小，与iPhone 15 ProRes画质差距明显。
 ---
 

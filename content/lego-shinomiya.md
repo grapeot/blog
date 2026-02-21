@@ -4,7 +4,6 @@ Date: 2020-02-02 15:00
 Category: Life
 Tags: Chinese, DIY, Tutorial
 Slug: lego-mosaic
-Translation: lego-shinomiya-en.html
 Summary: 从照片到乐高像素画的全流程：用Photoshop转换为乐高真实颜色、禁用仿色避免噪点、写程序优化零件组合把成本从650美元降到300美元。
 ---
 

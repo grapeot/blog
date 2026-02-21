@@ -4,7 +4,6 @@ Date: 2025-04-27 19:00
 Category: Computing
 Tags: Chinese, Agentic AI
 Slug: life-api-part2
-Translation: life-api-part2-en.html
 Summary: 用意图-时延矩阵分析23小时生活录音后，发现AI应用图景远超记忆辅助：AI正在演变为认知增强器和行动伙伴，未来交互可能刻在时间轴上而非屏幕按钮中。
 ---
 

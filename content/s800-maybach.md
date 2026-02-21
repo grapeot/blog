@@ -4,7 +4,6 @@ Date: 2025-05-31 15:00
 Category: Alive
 Tags: Chinese, Review
 Slug: s800-maybach
-Translation: s800-maybach-en.html
 Summary: 对比尊界S800与迈巴赫的品牌策略：清单式技术对标vs体验驱动型叙事，科技参数堆砌vs从容克制的品牌调性，探讨技术豪华与故事豪华的不同路径。
 ---
 

@@ -4,7 +4,6 @@ Date: 2024-11-23 23:00
 Category: Computing
 Tags: Chinese, AI, Review
 Slug: open-webui
-Translation: open-webui-en.html
 Summary: OpenWebUI配合ollama实现完全本地的AI体验，功能媲美ChatGPT和Claude：模型对比、RAG知识库、canvas编程、语音对话、联网搜索等一应俱全。
 ---
 

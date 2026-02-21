@@ -4,7 +4,6 @@ Date: 2024-02-22 19:00
 Category: Computing
 Tags: Chinese, Hardware, Review
 Slug: apple-vision-pro-deep-review
-Translation: apple-vision-pro-en.html
 Summary: Apple Vision Pro深度体验评测：分析其作为VR设备的真实定位，探讨适合与不适合的使用场景，以及在日常工作和创作中的实用价值。
 ---
 

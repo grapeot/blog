@@ -4,7 +4,6 @@ Date: 2025-03-15 20:00
 Category: Life
 Tags: Chinese, Review, Reflection
 Slug: new-car
-Translation: new-car-en.html
 Summary: 从性能SUV换到劳斯莱斯库里南后，发现人和车相互塑造影响，油门刹车调校、底盘滤震和路感都在潜移默化改变驾驶风格和心态。
 ---
 

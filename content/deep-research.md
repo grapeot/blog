@@ -4,7 +4,6 @@ Date: 2025-02-17 15:00
 Category: Computing
 Tags: Chinese, AI, Agentic AI
 Slug: deep-research-car-buying
-Translation: deep-research-en.html
 Summary: 通过模拟购车场景实测OpenAI Deep Research，展示其如何大幅提升调研效率、解放脑力进行更深层思考，以及重新定义问题边界的认知炼金能力。
 ---
 

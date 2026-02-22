@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<link rel="canonical" href="{{ SITEURL }}/tags.html">
+{% endblock %}
 {% block content %}
 <ul>
 <div class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></div>

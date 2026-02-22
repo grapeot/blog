@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
+{% endblock %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
     <h1>{{ page.title }}</h1>

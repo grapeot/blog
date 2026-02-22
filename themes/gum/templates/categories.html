@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<link rel="canonical" href="{{ SITEURL }}/categories.html">
+{% endblock %}
 {% block content %}
 <ul>
 {% for category, articles in categories %}

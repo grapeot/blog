@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'grapeot'
 SITENAME = u'Computing Life'
-SITEURL = 'https://grapeot.me'
+SITEURL = 'https://yage.ai'
 
 TIMEZONE = 'America/Los_Angeles'
 

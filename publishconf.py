@@ -10,10 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://grapeot.me'
+SITEURL = 'https://yage.ai'
 RELATIVE_URLS = True 
 
-FEED_DOMAIN = 'https://grapeot.me'
+FEED_DOMAIN = 'https://yage.ai'
 FEED_ALL_ATOM = 'feeds/atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 FEED_ALL_RSS = 'feeds/rss.xml'

@@ -1,6 +1,6 @@
 # Computing Life
 
-This repo is the underlying files for my blog [Computing Life](http://grapeot.me/), aiming to provide a start point for a basic blog site using [Pelican](https://github.com/getpelican/pelican/), which is a static site generator.
+This repo is the underlying files for my blog [Computing Life](https://yage.ai/), aiming to provide a start point for a basic blog site using [Pelican](https://github.com/getpelican/pelican/), which is a static site generator.
 
 There is a `gh-pages` branch of the repo providing a backup for the website [here](http://grapeot.github.io/blog/).
 

@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /theme/
 Disallow: /uploads/
 
-Sitemap: https://grapeot.me/sitemap.xml
+Sitemap: https://yage.ai/sitemap.xml

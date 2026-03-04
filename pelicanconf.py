@@ -52,12 +52,12 @@ PLUGINS = ['render_math', 'sitemap', 'gravatar', 'render_math']
 SITEMAP = {
     'format': 'xml',
     'priorities': {
-        'articles': 0.5,
-        'indexes': 0.5,
+        'articles': 0.7,
+        'indexes': 0.3,
         'pages': 0.5
     },
     'changefreqs': {
-        'articles': 'monthly',
+        'articles': 'weekly',
         'indexes': 'daily',
         'pages': 'monthly'
     }

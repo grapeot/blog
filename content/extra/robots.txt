@@ -3,3 +3,16 @@ Disallow: /theme/
 Disallow: /uploads/
 
 Sitemap: https://yage.ai/sitemap.xml
+
+# AI Crawlers - explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot  
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

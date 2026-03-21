@@ -1,5 +1,5 @@
 ---
-Title: 用好AI的第一步：停止使用ChatGPT
+Title: 用好AI的第一步：停止和AI聊天
 Date: 2026-03-03 12:00
 Category: Computing
 Tags: Chinese, Agentic AI, Methodology

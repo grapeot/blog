@@ -1,5 +1,5 @@
 ---
-Title: Step One to Using AI Well: Stop Using ChatGPT
+Title: Step One to Using AI Well: Stop Chatting with AI
 Date: 2026-03-03 12:00
 Category: Computing
 Tags: English, Agentic AI, Methodology

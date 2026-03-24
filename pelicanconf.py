@@ -34,8 +34,11 @@ TRANSLATION_FEED_ATOM = None
 #         ('http://weibo.com/grapeot/', 'Weibo (Chinese)'),
 #         ('https://github.com/grapeot/', 'Github'),)
 
-STATIC_PATHS = [ 'extra/robots.txt', 'images' ]
-EXTRA_PATH_METADATA = { 'extra/robots.txt': {'path': 'robots.txt'}, }
+STATIC_PATHS = [ 'extra/robots.txt', 'extra/llms.txt', 'images' ]
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/llms.txt': {'path': 'llms.txt'},
+}
 MENUITEMS = (('Archives', '/archives.html'),
         ('Subscribe', '/pages/feed.html'),
         ('Services', '/pages/services.html'),

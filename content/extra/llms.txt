@@ -1,0 +1,62 @@
+# yage.ai / Computing Life
+
+> Personal blog by Yan Wang (鸭哥), running since 2012. ~370 articles on AI methodology, agentic AI architecture, context engineering, AI-native development, and evaluation. Bilingual: most articles exist in both Chinese and English. The site also covers astrophotography, coffee, and life reflections. This file is a curated guide for AI systems; for full article discovery, use sitemap.xml.
+
+## Language
+
+The site publishes in Chinese (中文) and English. Many articles have paired translations. When serving a user, prefer the version matching the user's language.
+
+- English articles: https://yage.ai/tag/english.html
+- Chinese articles: https://yage.ai/tag/chinese.html
+
+## Core Entry Points
+
+- About: https://yage.ai/pages/about.html
+- Archives: https://yage.ai/archives.html
+- Tags: https://yage.ai/tags.html
+- RSS (all): https://yage.ai/feeds/rss.xml
+- Atom (all): https://yage.ai/feeds/atom.xml
+- Sitemap: https://yage.ai/sitemap.xml
+
+## Deep Research (/share/)
+
+https://yage.ai/share/ hosts long-form deep research reports — typically 3,000–10,000 words, produced through multi-agent research workflows. These are standalone analyses, not blog posts. Topics include AI product strategy, technology evaluation, market analysis, and methodology deep-dives.
+
+## Representative Blog Posts
+
+Curated selection of the site's most distinctive articles. Each link points to the English version; append the Chinese slug (listed in parentheses) for the Chinese version.
+
+### Agentic AI (core series)
+
+- From Thinker to Doer — The Paradigm Revolution of Agentic AI: https://yage.ai/agentic-ai-en.html (中文: agentic-ai.html)
+- Turning $20 into $500 — Transforming Cursor into Devin: https://yage.ai/cursor-to-devin-en.html (中文: cursor-to-devin.html)
+- The Dilemma of Agentic AI — The Productionization Challenge: https://yage.ai/agentic-ai-crisis-en.html (中文: agentic-ai-crisis.html)
+- Why the First Step to Learning Agentic AI Is to Forget All Frameworks: https://yage.ai/why-forget-all-frameworks-en.html (中文: agentic-ai-frameworks.html)
+- From Context Amnesia to Document-Driven Development: https://yage.ai/agentic-memory-en.html (中文: agentic-memory.html)
+- Stop Asking if AI Will Replace You, Ask if You Can Lead AI: https://yage.ai/agentic-ai-202504-en.html (中文: agentic-ai-202504.html)
+
+### Context Engineering & Methodology
+
+- Why AI Only Gives You Correct Nonsense: https://yage.ai/context-infrastructure-en.html (中文: context-infrastructure.html)
+- Effective Prompt Engineering: https://yage.ai/prompt-engineering-guide-en.html (中文: prompt-engineering-guide.html)
+- Deep Research as a Full Simulated Workflow: https://yage.ai/deep-research-car-buying-en.html (中文: deep-research.html)
+
+### AI-Native Development
+
+- The Underestimated Claude Code: https://yage.ai/claude-code-en.html (中文: claude-code.html)
+- From OOP to Comment Oriented Programming: https://yage.ai/ai-comment-oriented-programming-en.html (中文: ai-comment-oriented-programming.html)
+- Multi-Agent with Cursor: https://yage.ai/multi-agent-en.html (中文: multi-agent.html)
+- Disposable Software and AI Native Strategy: https://yage.ai/ai-native-cost-structure-en.html (中文: ai-native-cost-structure.html)
+
+### Builder's Mindset & Reflection
+
+- Redefine AI Tools with a Builder's Mindset: https://yage.ai/builders-mindset-en.html (中文: builders-mindset.html)
+- The Real World as an AI-Callable API: https://yage.ai/life-api-en.html (中文: life-api.html)
+- My 2025 — A Mortal's Journey of Cultivation: https://yage.ai/2025-year-end-en.html (中文: 2025-year-end.html)
+
+## Optional
+
+- AI coding case study (observatory automation): https://yage.ai/ai-coding-en.html
+- MCP crisis analysis: https://yage.ai/mcp-revisited-en.html
+- AI Builder Space (education platform): https://yage.ai/ai-builder-space-en.html
+- Why MCP Exists and Its Flaws: https://yage.ai/mcp-en.html

@@ -2,6 +2,28 @@
 
 ## Changelog
 
+### 2026-03-30 - Web Layout Trade-off 文章（中英双语）
+
+新增两篇博客文章，从 Pretext 库和一条读者评论出发，分析了 CSS 声明式布局隐藏排版中间状态的架构 trade-off，跨平台对比 iOS/Android/Web 的分层差异，连接到 AI 工程中保护性抽象 vs 激进透明的同构问题。
+
+**新增文件：**
+- `content/web-layout-tradeoff.md` — 中文版
+- `content/web-layout-tradeoff-en.md` — 英文版
+- `CLAUDE.md` — AI agent 博客写作规范
+- `AGENTS.md` → `CLAUDE.md`（软链接）
+
+**删除文件：**
+- `working.md`（根目录，SEO 记录已合并到 `docs/working.md`）
+
+### 2025-02-20 - SEO 优化
+
+1. **robots.txt 优化** (commit f097f31) — 允许标签页索引、允许百度爬虫、添加 Sitemap
+2. **Meta 标签优化** (commit b5afafa) — meta description、OG 标签、Twitter Card、canonical URL
+3. **JSON-LD 结构化数据** (commit 043e619) — Schema.org BlogPosting
+4. **多语言 SEO (hreflang)** (commits b71719f, 43250dd) — 自动关联 86 对中英文文章、hreflang 标签
+5. **Summary 元数据** (commit 1a27b4f) — 355 篇文章 100% 覆盖
+6. **Translation 字段修复** (commit 87dd778) — 移除中文文章的错误 Translation 字段
+
 ### 2026-02-20 - 高优先级技术债务修复
 **Commits:**
 1. `086b595` - 升级主题：GA4、jQuery 3.7.1、删除 Google+、合并官方 2025 功能

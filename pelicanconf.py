@@ -40,8 +40,8 @@ EXTRA_PATH_METADATA = {
     'extra/llms.txt': {'path': 'llms.txt'},
 }
 MENUITEMS = (('Archives', '/archives.html'),
-        ('Subscribe', '/pages/feed.html'),
-        ('Services', '/pages/services.html'),
+        ('RSS', '/pages/feed.html'),
+        ('News', '/share/'),
         #('Lab', 'http://lab.grapeot.me/'),)
         ('Duck Sky Survey', 'dssv2/'),
         ('🔍Search', '/search/'),

@@ -43,7 +43,7 @@ MENUITEMS = (('Archives', '/archives.html'),
         ('RSS', '/pages/feed.html'),
         ('News', '/share/'),
         #('Lab', 'http://lab.grapeot.me/'),)
-        ('Duck Sky Survey', 'dssv2/'),
+        ('Duck Sky Survey', 'https://yage.ai/dssv2/'),
         ('🔍Search', '/search/'),
         )
 THEME = './themes/gum'

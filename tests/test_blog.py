@@ -1,9 +1,10 @@
 import subprocess
 import time
 import socket
+from urllib.parse import urlparse
 import pytest
 import random
-from playwright.sync_api import sync_playwright, Page
+from playwright.sync_api import sync_playwright
 
 
 def get_free_port():
@@ -69,6 +70,26 @@ class TestBuild:
         sys.path.insert(0, ".")
         from pelicanconf import PLUGINS
         assert "gravatar" in PLUGINS, "gravatar plugin not in PLUGINS"
+
+    def test_menuitems_use_absolute_or_root_relative_links(self):
+        import sys
+        sys.path.insert(0, ".")
+        from pelicanconf import MENUITEMS
+
+        invalid_menuitems = []
+        for label, href in MENUITEMS:
+            parsed = urlparse(href)
+            if parsed.scheme in {"http", "https"}:
+                continue
+            if href.startswith("/"):
+                continue
+            invalid_menuitems.append((label, href))
+
+        assert not invalid_menuitems, (
+            "MENUITEMS contains malformed links. Use https://... for external links "
+            "or /... for site-root links. Invalid entries: "
+            f"{invalid_menuitems}"
+        )
 
 
 class TestIntegration:
@@ -166,6 +187,18 @@ class TestNavigation:
             nav_links = page.query_selector_all("#navigation a")
             assert len(nav_links) >= 3, f"Expected at least 3 nav links, found {len(nav_links)}"
             
+            browser.close()
+
+    def test_duck_sky_survey_nav_link_is_canonical(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/")
+
+            duck_link = page.locator("#navigation a", has_text="Duck Sky Survey")
+            assert duck_link.count() == 1, "Duck Sky Survey nav link not found"
+            assert duck_link.first.get_attribute("href") == "https://yage.ai/dssv2/"
+
             browser.close()
     
     def test_click_random_article(self, server):

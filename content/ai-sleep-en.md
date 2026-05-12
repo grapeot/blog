@@ -8,8 +8,6 @@ Translation: ai-sleep.html
 Summary: After weeks of severe insomnia, I used AI to build an iOS app that exported HealthKit data and ran multivariate regression to find the root cause—late-night AI-assisted intense multitasking. This post explores how AI provided end-to-end execution support and why certain things still require human judgment.
 ---
 
-# How AI Caused and Fixed My Insomnia
-
 Around late March, my sleep took a serious hit. I would often get only two or three hours per night. At first I blamed work stress, but even after quitting my job, the problem persisted. Fortunately, after some analysis and experimentation, I quickly found the root cause and added back an average of one hour and forty minutes to my nightly sleep. This article shares how a heavy AI user like me took an unconventional approach to diagnose an unexpected insomnia trigger (spoiler: it was using AI for intense, multi-threaded thinking late at night), and reflects on which parts of the process AI genuinely helped with and which still depend on human judgment.
 
 ## An Unconventional Insomnia Diagnosis

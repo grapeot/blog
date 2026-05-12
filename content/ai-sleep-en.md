@@ -8,8 +8,6 @@ Translation: ai-sleep.html
 Summary: After weeks of severe insomnia, I used AI to build an iOS app that exported HealthKit data and ran multivariate regression to find the root cause—late-night AI-assisted intense multitasking. This post explores how AI provided end-to-end execution support and why certain things still require human judgment.
 ---
 
-# How AI Caused and Fixed My Insomnia
-
 Around late March, my sleep took a serious hit. I would often get only two or three hours per night. At first I blamed work stress, but even after quitting my job, the problem persisted. Fortunately, after some analysis and experimentation, I quickly found the root cause and added back an average of one hour and forty minutes to my nightly sleep. This article shares how a heavy AI user like me took an unconventional approach to diagnose an unexpected insomnia trigger (spoiler: it was using AI for intense, multi-threaded thinking late at night), and reflects on which parts of the process AI genuinely helped with and which still depend on human judgment.
 
 ## An Unconventional Insomnia Diagnosis
@@ -54,4 +52,4 @@ One more subtle detail: before writing the app, I wasn't sure whether HealthKit 
 
 ## Closing Thoughts
 
-All in all, this is a story I'm both happy and unhappy about. I'm happy that the sleep issue is resolved and, more importantly, resolved through a principled approach—the right method applied cleanly—rather than random trial and error that happens to work. AI helped not just with execution but also with reshaping my comfort level across many domains, letting me converge on principled methods in more scenarios. The unhappy side? Without AI, this problem wouldn't have existed in the first place, and I wouldn't have needed to debug my insomnia at all. But on balance, it clarified a lot of things, so it was worth it.
+All in all, this is a story I'm both happy and unhappy about. I'm happy that the sleep issue is resolved and, more importantly, resolved through a principled approach—the right method applied cleanly—rather than random trial and error that happens to work. AI helped not just with execution but also with reshaping my comfort level across many domains, letting me converge on principled methods in more scenarios. The unhappy side? Without AI, this problem wouldn't have existed in the first place, and I wouldn't have needed to debug my insomnia at all😂. But on balance, it clarified a lot of things, so it was worth it.

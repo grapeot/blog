@@ -62,6 +62,10 @@
 - 如果链接目标没有英文版，保持原链接
 - 链接文字本身也要翻译为英文
 
+### 正文与标题
+
+标题（H1 `# `）只在 front matter 的 `Title` 字段中设置，正文中**不要**重复写 `# 标题`。正文直接从段落开始，第一条内容必须是正文段落，不是 H1。
+
 ### 文章末尾
 
 英文版末尾不加 Kit 脚本，也不留多余空行。
@@ -80,6 +84,8 @@
 
 **文化适配。** "瞎猫撞上死耗子" → "a broken clock is right twice a day" 或类似英语谚语。"没头苍蝇一样的尝试" → "random trial and error"。不要直译中文俗语。
 
+**Emoji。** 中文版中出现的 emoji（如😂、😊、👍）保留不删，它们是原文语气的一部分。不在英文版中额外添加中文版没有的 emoji。
+
 ## 已知陷阱
 
 | 陷阱 | 表现 | 应对 |
@@ -88,7 +94,7 @@
 | 中文俗语直译 | "拍脑袋"译成 "pat the head"、"瞎猫撞上死耗子"译成 "blind cat finds dead mouse"，英文读者无法理解 | 改用英文对应成语或惯用语：拍脑袋 → wild guess / gut feeling；瞎猫撞上死耗子 → random trial and error / a broken clock is right twice a day；没头苍蝇 → random flailing；车轮战 → tag-team / in rapid succession |
 | 中文文章内嵌的英文术语 | 中文文章常直接夹用英文词（如 comfort level、app、bug、log、debug），翻译时需要判断保留还是改写 | 优先保留原文中的英文技术术语（HealthKit、Python、iOS、REM、AST），但需要调整周围语法使其在英文中自然。例如中文写"comfort level 的变化"，英文直接写 "changes in comfort level" |
 | Kit 脚本遗漏 | 将中文版整段复制后容易把 Kit 订阅脚本也带进英文版 | 英文版末尾**必须删除** Kit 脚本。策略：以中文版 final front matter 之后、Kit 脚本之前的正文部分为翻译源 |
-| 中文标点和表达习惯残留 | 中文版有"啊。。"（双句号表达语气）、"😂"等标点和 emoji，直翻到英文版不合适 | 双句号改为正常句号或根据语气转为其他表达。emoji 根据英文文章风格决定是否保留（通常删除） |
+| 中文标点和表达习惯残留 | 中文版有"啊。。"（双句号表达语气），直翻到英文版不合适 | 双句号改为正常句号或根据语气转为其他表达 |
 | 外链文字未翻译 | 中文版链接文字是中文（如`[成本结构决定最优策略]`），翻译后链接文字仍为中文 | 链接文字也要翻译，如`[cost structure determines optimal strategy]`。同时检查链接目标是否有对应英文版 |
 | 中文版中间某个 heading 的文字没带空格 | 中文版可能写了 `##非主流的失眠诊断`（`##` 后无空格）。英文版要注意写 `## `（`##` 后有空格） | 翻译时直接按标准 Markdown 写，`## ` 后加空格 |
 | 漏翻中文片段 | 中文段落中间夹了中文词未被翻译，如"高强度"留在英文句子里 | 翻译完成后全文 grep 检查是否还有 CJK 字符残留。快速验证：`rg -n '[\u4e00-\u9fff]' content/<file>-en.md` |

@@ -1,5 +1,2 @@
 {% extends "index.html" %}
-{% block content_title %}
-<h2>Articles in the {{ category }} category</h2>
-{% endblock %}
-
+{% block content_title %}<header class="arch-head"><p class="kicker">Category</p><h1>{{ category }}</h1><p>Articles filed under {{ category }}.</p></header><nav class="arch-filters" aria-label="Category filters"><a class="filter-chip" href="{{ SITEURL }}/archives.html">All</a>{% for cat, _ in categories %}<a class="filter-chip{% if cat == category %} on{% endif %}" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>{% endfor %}</nav>{% endblock %}

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import '_macros.html' as ui with context %}
 {% block head %}
 {{ super() }}
 {% if articles_page and articles_page.number > 1 %}
@@ -14,47 +15,36 @@
 {% endif %}
 {% endblock %}
 {% block content %}
-<section id="content">
-{% block content_title %}
+<section class="wrap">
+  {% block content_title %}
+  <header class="lede lede-compact">
+    <p class="kicker">Computing Life · An engineering notebook</p>
+    <h1>An engineering notebook on <em>AI</em>, systems, and everyday experiments.</h1>
+    <p>Long-form notes on agentic systems, engineering judgment, astrophotography, hardware, coffee, and the tools that make a life easier to inspect and improve.</p>
+  </header>
+  {% endblock %}
 
-{% endblock %}
+  <div class="feedhead">
+    <h2>Latest</h2>
+    <h2>{{ articles_paginator.count if articles_paginator else articles|length }} posts · since 2012</h2>
+  </div>
 
-<div class="row">
+  <ol class="posts" id="post-list">
+    {% for article in articles_page.object_list %}
+    {% set lang = ui.article_language(article)|trim %}
+    {% set pair = ui.bilingual_url(article, articles)|trim %}
+    <li class="post">
+      <div class="post-idx">{{ "%02d"|format(loop.index + ((articles_page.number - 1) * DEFAULT_PAGINATION if articles_page else 0)) }}</div>
+      <div class="post-meta"><time class="date" datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time><a class="cat" href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></div>
+      <article class="post-main" lang="{{ lang }}">
+        <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a></h3>
+        <div class="post-summary">{{ article.summary }}</div>
+        <div class="post-foot"><div class="tags">{{ ui.visible_tags(article, SITEURL) }}</div>{% if pair %}<span class="bilingual-flag">EN · 中</span>{% endif %}</div>
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
 
-    <div class="eleven columns">
-        <ol id="post-list">
-            {% for article in articles_page.object_list %}
-            <li><article class="hentry">
-            <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-            <footer class="post-info">
-            <address>
-                <span class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }}</span>
-                {% if article.author %}<span class="vcard author">, by <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>{% endif %}
-                {% if DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
-            </address>
-            </footer><!-- /.post-info -->
-            <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-
-            <div class="medium primary btn"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more <i class="icon-arrow-right"></i></a></div>
-
-            <div class="row tag-row">
-                {% if article.tags %}
-                <span>Tagged as : </span>
-                {% for tag in article.tags %}
-                <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
-                {% endfor %}
-                {% endif %}
-            </div>
-
-            </article></li>
-            {% endfor %}
-        </ol><!-- /#posts-list -->
-
-    </div><!-- /.eleven.columns -->
-
-    {% include 'sidebar.html' %}
-</div><!-- /.row -->
-
-{% include 'pagination.html' %}
-</section><!-- /#content -->
+  {% include 'pagination.html' %}
+</section>
 {% endblock content %}

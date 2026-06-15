@@ -1,2 +1,3 @@
 {% extends "index.html" %}
 {% block title %}{{ SITENAME }} - {{ tag }}{% endblock %}
+{% block content_title %}<header class="arch-head"><p class="kicker">Tag</p><h1>{{ tag }}</h1><p>Articles tagged {{ tag }}.</p></header><nav class="arch-filters" aria-label="Tag navigation"><a class="filter-chip" href="{{ SITEURL }}/archives.html">All posts</a><a class="filter-chip" href="{{ SITEURL }}/tags.html">All tags</a></nav>{% endblock %}

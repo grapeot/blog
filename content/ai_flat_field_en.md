@@ -1,6 +1,6 @@
 Title: Leveraging Generative AI for Astronomical Image Calibration
 Date: 2025-12-26 21:00
-Category: Compute
+Category: Computing
 Tags: English, Astrophotography, AI
 Slug: ai-flat-field-en
 Summary: Explores using generative AI to remove CMOS dust from astronomical images. By having AI generate dust masks rather than direct corrections, then applying deterministic flat-field calibration, achieves both scientific integrity and AI's powerful recognition capabilities.

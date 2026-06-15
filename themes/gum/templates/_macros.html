@@ -1,0 +1,55 @@
+{% macro seal() -%}
+<span class="seal" aria-hidden="true">
+  <svg viewBox="0 0 64 64" shape-rendering="crispEdges" focusable="false">
+    <rect x="8" y="8" width="48" height="48" rx="8"></rect>
+    <rect class="duck-face" x="16" y="14" width="32" height="34" rx="4"></rect>
+    <rect class="duck-eye" x="22" y="21" width="5" height="5"></rect>
+    <rect class="duck-eye" x="37" y="21" width="5" height="5"></rect>
+    <rect class="duck-bill" x="26" y="32" width="12" height="8"></rect>
+    <rect class="duck-water" x="22" y="44" width="20" height="4"></rect>
+  </svg>
+</span>
+{%- endmacro %}
+
+{% macro icon_search() -%}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+{%- endmacro %}
+
+{% macro icon_rss() -%}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1.4" fill="currentColor" stroke="none"></circle></svg>
+{%- endmacro %}
+
+{% macro article_language(article) -%}
+{%- set ns = namespace(lang='en') -%}
+{%- for tag in article.tags -%}
+  {%- if tag|string == 'Chinese' -%}{%- set ns.lang = 'zh' -%}{%- endif -%}
+{%- endfor -%}
+{{ ns.lang }}
+{%- endmacro %}
+
+{% macro visible_tags(article, SITEURL) -%}
+{%- for tag in article.tags -%}
+  {%- if tag|string != 'Chinese' and tag|string != 'English' -%}
+    <a class="tag" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
+  {%- endif -%}
+{%- endfor -%}
+{%- endmacro %}
+
+{% macro bilingual_url(article, articles) -%}
+{%- set ns = namespace(url='') -%}
+{%- if article.translation -%}
+  {%- set ns.url = article.translation -%}
+{%- else -%}
+  {%- for other in articles -%}
+    {%- if other.translation and other.translation == article.url -%}
+      {%- set ns.url = other.url -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{{ ns.url }}
+{%- endmacro %}
+
+{% macro has_bilingual_pair(article, articles) -%}
+{%- set url = bilingual_url(article, articles)|trim -%}
+{%- if url -%}true{%- endif -%}
+{%- endmacro %}

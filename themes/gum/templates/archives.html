@@ -1,19 +1,21 @@
 {% extends "base.html" %}
-{% block head %}
-{{ super() }}
-<link rel="canonical" href="{{ SITEURL }}/archives.html">
-{% endblock %}
+{% import '_macros.html' as ui with context %}
+{% block head %}{{ super() }}<link rel="canonical" href="{{ SITEURL }}/archives.html">{% endblock %}
 {% block content %}
-<h1>Archives for {{ SITENAME }}</h1>
-
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-    {% for tag in article.tags %}
-    <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
-    {% endfor %}
-    </dd>
-{% endfor %}
-</dl>
+<section class="wrap prose">
+  <header class="arch-head"><p class="kicker">The archive</p><h1>Everything, by year</h1><p>Every essay since 2012 — one line each, newest first, built for fast scanning.</p></header>
+  <nav class="arch-filters" aria-label="Archive filters"><a class="filter-chip on" href="{{ SITEURL }}/archives.html">All</a>{% for cat, _ in categories %}<a class="filter-chip" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>{% endfor %}</nav>
+  {% set ns = namespace(year=None) %}
+  {% for article in dates %}
+    {% set year = article.date.strftime('%Y') %}
+    {% if year != ns.year %}
+      {% if ns.year %}</ol></div>{% endif %}
+      <div class="year-group"><div class="yr">{{ year }}</div><ol class="year-list">
+      {% set ns.year = year %}
+    {% endif %}
+    {% set pair = ui.bilingual_url(article, articles)|trim %}
+    <li class="arch-item"><time class="arch-date" datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%m/%d') }}</time><a class="arch-t" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>{% if pair %}<span class="mini-flag">EN·中</span>{% endif %}<a class="arch-cat" href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+    {% if loop.last %}</ol></div>{% endif %}
+  {% endfor %}
+</section>
 {% endblock %}

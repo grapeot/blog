@@ -36,13 +36,9 @@ class TestBuild:
     def test_theme_files_exist(self):
         import os
         files = [
-            "output/theme/gumby.css",
             "output/theme/style.css",
             "output/theme/pygment.css",
             "output/theme/pygment-dark.css",
-            "output/theme/js/libs/jquery-3.7.1.min.js",
-            "output/theme/js/libs/modernizr-shim.js",
-            "output/theme/js/libs/gumby.min.js",
             "output/theme/js/theme-toggle.js",
         ]
         for f in files:
@@ -64,6 +60,10 @@ class TestBuild:
     def test_feed_atom_exists(self):
         import os
         assert os.path.exists("output/feeds/atom.xml"), "feeds/atom.xml not found"
+
+    def test_svg_favicon_exists(self):
+        import os
+        assert os.path.exists("output/images/favicon.svg"), "SVG favicon not found"
 
     def test_gravatar_plugin_enabled(self):
         import sys
@@ -184,8 +184,9 @@ class TestNavigation:
             page = browser.new_page()
             page.goto(server + "/")
             
-            nav_links = page.query_selector_all("#navigation a")
+            nav_links = page.query_selector_all(".masthead .nav a")
             assert len(nav_links) >= 3, f"Expected at least 3 nav links, found {len(nav_links)}"
+            assert page.query_selector(".brand .seal") is not None, "Signal brand mark missing"
             
             browser.close()
 
@@ -195,7 +196,7 @@ class TestNavigation:
             page = browser.new_page()
             page.goto(server + "/")
 
-            duck_link = page.locator("#navigation a", has_text="Duck Sky Survey")
+            duck_link = page.locator(".masthead .nav a", has_text="Sky Survey")
             assert duck_link.count() == 1, "Duck Sky Survey nav link not found"
             assert duck_link.first.get_attribute("href") == "https://yage.ai/dssv2/"
 
@@ -208,7 +209,7 @@ class TestNavigation:
             page.goto(server + "/")
             
             # Only select article title links, not links in summaries which may be external
-            article_links = page.query_selector_all("#post-list h2.entry-title a")
+            article_links = page.query_selector_all(".posts .post-title a")
             if len(article_links) == 0:
                 pytest.skip("No articles found on homepage")
             
@@ -257,7 +258,7 @@ class TestNavigation:
             
             page.goto(server + "/")
             
-            tag_links = page.query_selector_all(".sidebar-tags a, .tag a, a[href*='tag']")
+            tag_links = page.query_selector_all(".tag, .filter-chip[href*='tag'], a[href*='tag']")
             if len(tag_links) > 0:
                 random_tag = random.choice(tag_links[:5])
                 random_tag.click()
@@ -276,9 +277,53 @@ class TestNavigation:
             content = page.content()
             
             assert "disqus.com/count.js" in content, "Disqus count.js script not found"
-            assert "disqus.com/recent_comments_widget.js" in content, "Disqus recent_comments_widget.js not found"
             assert "computinglife.disqus.com" in content, "Disqus shortname not found in scripts"
             
+            browser.close()
+
+    def test_article_thread_script_present(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/ai-creativity.html")
+            content = page.content()
+            assert "computinglife.disqus.com/embed.js" in content
+            assert "id=\"disqus_thread\"" in content
+            browser.close()
+
+    def test_bilingual_links_are_static(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/ai-creativity.html")
+            assert page.locator(".article-langswitch a", has_text="English").first.get_attribute("href").endswith("/ai-creativity-en.html")
+            content = page.content()
+            assert 'hreflang="en"' in content
+            browser.close()
+
+    def test_newsletter_remains_chinese_only(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/ai-creativity.html")
+            zh_content = page.content()
+            assert "65448d4615" in zh_content
+
+            page.goto(server + "/ai-creativity-en.html")
+            en_content = page.content()
+            assert "65448d4615" not in en_content
+            assert "Subscribe" not in en_content
+            browser.close()
+
+    def test_gumby_not_referenced_by_html(self, server):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(server + "/")
+            content = page.content()
+            assert "gumby.css" not in content
+            assert "gumby.min.js" not in content
+            assert "jquery" not in content.lower()
             browser.close()
     
     def test_disqus_no_empty_shortname(self, server):

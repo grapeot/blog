@@ -10,7 +10,7 @@ TIMEZONE = 'America/Los_Angeles'
 
 GITHUB_URL = 'https://github.com/grapeot/blog/'
 DEFAULT_LANG = u'en'
-FAVICON_URL = 'static/images/favicon.ico'
+FAVICON_URL = 'images/favicon.svg'
 
 SHOW_PAGES_IN_SIDEBAR = False
 
@@ -67,7 +67,7 @@ SITEMAP = {
 }
 LATEX = 'article'
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

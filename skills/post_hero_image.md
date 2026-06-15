@@ -10,6 +10,8 @@
 
 不要用本 skill 生成正文解释图、数据图、产品截图、文章配图或 News 站 `/share/` 的图片。这里的目标是主博客文章的抽象情绪索引。
 
+当前主博客题图路线处于 deprioritized 状态。设计判断见 `docs/deprioritized_post_image.md`。除非明确重新启动这条路线，否则不要把生成结果接入模板、frontmatter 或正式图片目录。
+
 ## 验收标准
 
 一组题图生成完成时，必须满足这些条件：
@@ -87,7 +89,7 @@ Keep the same flat vector-like solid-fill style. No gradients, no glow, no neon,
 
 ## 输出建议
 
-实验阶段放在 `docs/tmp_post_hero_images/` 这类 `tmp` 路径下，不进 Git。正式落地时再放到 `content/images/heroes/`，并决定用 frontmatter 显式字段还是 slug-based manifest。
+实验阶段放在 `docs/tmp_post_hero_images/` 这类 `tmp` 路径下，不进 Git。当前不要生成正式资源。未来如果重新启动，再放到 `content/images/heroes/`，并决定用 frontmatter 显式字段还是 slug-based manifest。
 
 建议同时生成一个 128px contact sheet。审稿优先看 contact sheet，而不是看单张大图。题图实际用途是小尺寸扫描，不能被大图细节误导。
 

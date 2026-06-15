@@ -62,8 +62,10 @@ The bigger problem was the shape of the Milky Way. If you look closely, the imag
 I was stuck here for quite a while. Many optimizations did not help. Eventually, I thought to extend the magnitude limit from 13 to 15, then 18, and even 20. Only after precisely integrating the flux from 600 million stars did the familiar Great Rift finally appear, as shown below.
 
 <div style="text-align:center; margin: 2em 0;">
-  <img src="/images/article_scale_g18.jpg" alt="Figure 6: Extended to G<18, 600 million stars, the Great Rift finally becomes cleanly dark" style="max-width:50%; height:auto;" />
-  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">Figure 6: Extended to G&lt;18, 600 million stars, the Great Rift finally becomes cleanly dark</p>
+  <a href="https://grapeot.github.io/gaia_allsky/assets/fov_g20_4k.jpg" target="_blank" rel="noopener">
+    <img src="/images/article_scale_g18.jpg" alt="Figure 6: Extended to G<18, 600 million stars, the Great Rift finally becomes cleanly dark" style="max-width:50%; height:auto;" />
+  </a>
+  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">Figure 6: Extended to G&lt;18, 600 million stars, the Great Rift finally becomes cleanly dark. Click the image to open the 4K preview.</p>
 </div>
 
 Comparing these two images, the main reason the previous one looked wrong becomes clear: the spatial positions of magnitude 13 stars and fainter stars are still not quite the same. Stars fainter than magnitude 13 are more concentrated on both sides of the rift. Although each star is very dim, their enormous number produces the faint glow around the galactic center, while also making the central rift more distinct.

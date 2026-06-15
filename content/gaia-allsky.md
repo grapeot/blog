@@ -61,8 +61,10 @@ Summary: 从最直白的"一星一像素"出发，八次翻车、六亿颗星，
 在这里我卡了蛮长时间。做了很多优化都没什么用，直到最后想起来把星等从13等扩展到了15等， 18等，甚至20等，把六亿颗恒星的光度精确地积分在一起，我们熟悉的银河大裂缝才会出来。如下图所示。
 
 <div style="text-align:center; margin: 2em 0;">
-  <img src="/images/article_scale_g18.jpg" alt="图六：扩展到 G<18 等，六亿颗星，大裂缝终于黑得干脆利落" style="max-width:50%; height:auto;" />
-  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">图六：扩展到 G<18 等，六亿颗星，大裂缝终于黑得干脆利落</p>
+  <a href="https://grapeot.github.io/gaia_allsky/assets/fov_g20_4k.jpg" target="_blank" rel="noopener">
+    <img src="/images/article_scale_g18.jpg" alt="图六：扩展到 G<18 等，六亿颗星，大裂缝终于黑得干脆利落" style="max-width:50%; height:auto;" />
+  </a>
+  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">图六：扩展到 G<18 等，六亿颗星，大裂缝终于黑得干脆利落。点击图片可打开 4K 预览。</p>
 </div>
 
 这两个图一对比，就会发现上一张图看起来不对的主要原因在于13等星和更暗的这些星星，它的空间位置还是不太一样。13等以下的星星更多地分布于裂缝两侧。虽然每颗星星的光度很弱，但是由于数量庞大，它们聚在一起产生了银心的淡淡辉光，同时让中央的裂缝变得更加明显。

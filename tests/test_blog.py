@@ -61,6 +61,10 @@ class TestBuild:
         import os
         assert os.path.exists("output/feeds/atom.xml"), "feeds/atom.xml not found"
 
+    def test_svg_favicon_exists(self):
+        import os
+        assert os.path.exists("output/images/favicon.svg"), "SVG favicon not found"
+
     def test_gravatar_plugin_enabled(self):
         import sys
         sys.path.insert(0, ".")

@@ -1,12 +1,10 @@
 {% extends "base.html" %}
-{% block head %}
-{{ super() }}
-<link rel="canonical" href="{{ SITEURL }}/categories.html">
-{% endblock %}
+{% block head %}{{ super() }}<link rel="canonical" href="{{ SITEURL }}/categories.html">{% endblock %}
 {% block content %}
-<ul>
-{% for category, articles in categories %}
-    <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
-{% endfor %}
-</ul>
+<section class="wrap prose">
+  <header class="arch-head"><p class="kicker">Categories</p><h1>Browse by category</h1><p>Coarse entry points for the archive.</p></header>
+  <div class="tag-cloud-page">
+    {% for category, articles in categories %}<a class="filter-chip" href="{{ SITEURL }}/{{ category.url }}">{{ category }} <span>{{ articles|count }}</span></a>{% endfor %}
+  </div>
+</section>
 {% endblock %}

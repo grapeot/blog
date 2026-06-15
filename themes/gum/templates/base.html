@@ -1,10 +1,13 @@
+{% import '_macros.html' as ui with context %}
 <!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{{ DEFAULT_LANG }}" data-temp="cool" data-density="comfy">
 <head>
         {% block head %}
 
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="color-scheme" content="light dark">
         {% if FAVICON_URL %}
         <link href="{{ SITEURL }}/{{ FAVICON_URL }}" rel="shortcut icon" type="image/x-icon">
         {% endif %}
@@ -33,10 +36,9 @@
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
 
-        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
-
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/gumby.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment-dark.css" media="(prefers-color-scheme: dark)" id="pygment-dark-link" disabled />
@@ -65,93 +67,54 @@
         {% endblock head %}
 </head>
 
-<body id="index" class="home">
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site">
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <a class="brand" href="{{ SITEURL }}/" aria-label="Computing Life home">
+          {{ ui.seal() }}
+          <span class="wordmark"><span class="ttl">Computing <em>Life</em></span><span class="sub">AI · Systems · Reflection</span></span>
+        </a>
+        <button class="nav-toggle icon-btn" type="button" aria-expanded="false" aria-controls="site-nav" title="Menu"><span></span><span></span><span></span></button>
+        <nav class="nav" id="site-nav" aria-label="Primary navigation">
+          <a class="navlink{% if output_file == 'index.html' %} active{% endif %}" href="{{ SITEURL }}/">Home</a>
+          <a class="navlink{% if output_file == 'archives.html' %} active{% endif %}" href="{{ SITEURL }}/archives.html">Archive</a>
+          <a class="navlink" href="{{ SITEURL }}/share/">News</a>
+          <a class="navlink" href="https://yage.ai/dssv2/">Sky Survey <span class="ext">↗</span></a>
+          <a class="navlink" href="{{ SITEURL }}/pages/about.html">About</a>
+          <span class="nav-sep" aria-hidden="true"></span>
+          <a class="icon-btn always" href="{{ SITEURL }}/search/" title="Search" aria-label="Search">{{ ui.icon_search() }}</a>
+          <a class="icon-btn" href="{{ SITEURL }}/feeds/rss.xml" title="RSS" aria-label="RSS">{{ ui.icon_rss() }}</a>
+          <span class="langswitch" aria-label="Language filters">
+            <a href="{{ SITEURL }}/tag/english.html">EN</a>
+            <a href="{{ SITEURL }}/tag/chinese.html">中</a>
+          </span>
+          <button id="theme-toggle" class="icon-btn always" type="button" title="Toggle theme" aria-label="Toggle theme"></button>
+        </nav>
+      </div>
+    </header>
 
+    <main id="main-content">
+      {% block content %}{% endblock %}
+    </main>
 
-    <div class="container">
-
-        <div class="row">
-
-          <header id="banner" class="body">
-                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-          </header>
-
-            <div id="navigation" class="navbar row">
-              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
-
-              <ul class="columns">
-                <li><a href="{{ SITEURL }}/">Home</a></li>
-
-            {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-              {% for p in pages %}
-                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-              {% endfor %}
-            {% else %}
-              {% if DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-              {% endif %}
-            {% endif %}
-
-              </ul>
-              <button id="theme-toggle" title="Toggle theme" style="background: none; border: none; cursor: pointer; font-size: 1.2em; padding: 0 10px; margin-left: auto; color: inherit;">
-              </button>
-            </div>
-
-          {% block content %}
-
-          {% endblock %}
-
-       </div>
-    </div>
-
-
-       <div class="container.nopad bg">
-
-        <footer id="credits" class="row">
-          <div class="seven columns left-center">
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <div class="footer-about">
+          <div class="f-brand">{{ ui.seal() }}<span class="ttl">Computing <em>Life</em></span></div>
+          <p class="f-meta">An engineering notebook on AI, systems, astronomy, and everyday experiments. Statically generated with Pelican, since 2012.</p>
           {% include 'extra_footer.html' ignore missing %}
-                   <address id="about" class="vcard body">
-                    Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-                    which takes great advantage of <a href="https://python.org">Python</a>.
-                    <br />
-                    Based on the <a target="_blank" href="https://gumbyframework.com">Gumby Framework</a>
-                    </address>
-          </div>
+        </div>
+        <div class="f-links">
+          <div class="f-col"><h5>Browse</h5><a href="{{ SITEURL }}/archives.html">Archive</a><a href="{{ SITEURL }}/categories.html">Categories</a><a href="{{ SITEURL }}/tags.html">Tags</a></div>
+          <div class="f-col"><h5>More</h5><a href="{{ SITEURL }}/share/">News</a><a href="https://yage.ai/dssv2/">Duck Sky Survey ↗</a><a href="{{ SITEURL }}/pages/services.html">Services</a><a href="{{ SITEURL }}/pages/about.html">About</a></div>
+          <div class="f-col"><h5>Follow</h5><a href="{{ SITEURL }}/feeds/rss.xml">RSS</a><a href="{{ SITEURL }}/feeds/atom.xml">Atom</a>{% if GITHUB_URL %}<a href="{{ GITHUB_URL }}">GitHub</a>{% endif %}</div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-
-          <div class="seven columns">
-            <div class="row">
-              <ul class="socbtns" style="list-style-type: none">
-
-                {% if GITHUB_URL %}
-                <li><div class="btn primary"><a href="{{ GITHUB_URL }}" target="_blank">Github</a></div></li>
-                {% endif %}
-
-                {% if TWITTER_URL %}
-                <li><div class="btn twitter"><a href="{{ TWITTER_URL }}" target="_blank">Twitter</a></div></li>
-                {% endif %}
-
-                {% if FACEBOOK_URL %}
-                <li><div class="btn facebook"><a href="{{ FACEBOOK_URL }}" target="_blank">Facebook</a></div></li>
-                {% endif %}
-
-              </ul>
-            </div>
-          </div>
-        </footer>
-
-    </div>
-
-
-  <script src="{{ SITEURL }}/theme/js/libs/modernizr-shim.js"></script>
-  <script src="{{ SITEURL }}/theme/js/libs/jquery-3.7.1.min.js" defer></script>
-  <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js" defer></script>
-  <script src="{{ SITEURL }}/theme/js/plugins.js" defer></script>
   <script src="{{ SITEURL }}/theme/js/theme-toggle.js" defer></script>
   {% if CUSTOM_JS_FILES %}
     {% for item in CUSTOM_JS_FILES %}

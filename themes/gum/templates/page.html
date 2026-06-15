@@ -1,13 +1,9 @@
 {% extends "base.html" %}
-{% block head %}
-{{ super() }}
-<link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
-{% endblock %}
-{% block title %}{{ page.title }}{%endblock%}
+{% block head %}{{ super() }}<link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">{% endblock %}
+{% block title %}{{ page.title }}{% endblock %}
 {% block content %}
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-
-    {{ page.content }}
+<section class="wrap reading page-reading">
+  <header class="article-head article-head-col"><p class="cat-line">Page</p><h1>{{ page.title }}</h1></header>
+  <article class="prose-col prose-body">{{ page.content }}</article>
+</section>
 {% endblock %}

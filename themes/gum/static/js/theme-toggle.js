@@ -1,78 +1,66 @@
-(function() {
-    const toggleButton = document.getElementById('theme-toggle');
-    const lightCss = document.querySelector('link[href*="pygment.css"]:not([href*="dark"])'); // Find the light pygments CSS
-    const darkCss = document.getElementById('pygment-dark-link');
-    const htmlElement = document.documentElement;
-    const moonIcon = '🌙';
-    const sunIcon = '☀️';
+(function () {
+  const html = document.documentElement;
+  const toggleButton = document.getElementById('theme-toggle');
+  const darkCss = document.getElementById('pygment-dark-link');
+  const lightCss = document.querySelector('link[href*="pygment.css"]:not([href*="dark"])');
+  const navToggle = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('site-nav');
+  const progress = document.querySelector('.progress');
 
-    // Function to apply the theme
-    function applyTheme(theme) {
-        if (theme === 'dark') {
-            htmlElement.setAttribute('data-theme', 'dark');
-            if (darkCss) darkCss.disabled = false;
-            if (lightCss && darkCss) lightCss.media = 'not all'; // Disable light theme by setting media query to something that doesn't match
-            if (toggleButton) toggleButton.textContent = sunIcon; // Show sun icon when in dark mode
-        } else {
-            htmlElement.removeAttribute('data-theme');
-            if (darkCss) darkCss.disabled = true;
-            if (lightCss) lightCss.media = 'all'; // Re-enable light theme
-            if (toggleButton) toggleButton.textContent = moonIcon; // Show moon icon when in light mode
-        }
-        // Store the preference
-        try {
-            localStorage.setItem('theme', theme);
-        } catch (e) {
-            console.warn('LocalStorage is not available for saving theme preference.');
-        }
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      html.setAttribute('data-theme', 'dark');
+      if (darkCss) darkCss.disabled = false;
+      if (lightCss && darkCss) lightCss.media = 'not all';
+      if (toggleButton) toggleButton.setAttribute('aria-label', 'Switch to light theme');
+    } else {
+      html.removeAttribute('data-theme');
+      if (darkCss) darkCss.disabled = true;
+      if (lightCss) lightCss.media = 'all';
+      if (toggleButton) toggleButton.setAttribute('aria-label', 'Switch to dark theme');
     }
+    try { localStorage.setItem('theme', theme); } catch (e) { /* ignored */ }
+  }
 
-    // Function to determine the initial theme
-    function getInitialTheme() {
-        let storedTheme = null;
-        try {
-            storedTheme = localStorage.getItem('theme');
-        } catch (e) { /* LocalStorage not available */ }
+  function getInitialTheme() {
+    try {
+      const stored = localStorage.getItem('theme');
+      if (stored === 'dark' || stored === 'light') return stored;
+    } catch (e) { /* ignored */ }
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+    return 'light';
+  }
 
-        if (storedTheme && (storedTheme === 'dark' || storedTheme === 'light')) {
-            return storedTheme;
-        } else {
-            // Check system preference if no stored theme
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                return 'dark';
-            }
-        }
-        return 'light'; // Default to light
-    }
+  if (toggleButton) {
+    toggleButton.addEventListener('click', function () {
+      applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+  }
+  applyTheme(getInitialTheme());
 
-    // Add event listener to the button
-    if (toggleButton) {
-        toggleButton.addEventListener('click', () => {
-            const currentTheme = htmlElement.hasAttribute('data-theme') ? 'dark' : 'light';
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            applyTheme(newTheme);
-        });
-    }
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', function () {
+      const open = nav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        nav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
 
-    // Apply the initial theme on load
-    const initialTheme = getInitialTheme();
-    applyTheme(initialTheme);
-
-    // Optional: Add listener for changes in system preference
-    if (window.matchMedia) {
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-            // Only change if the user hasn't manually selected a theme (or if they selected 'auto')
-            let storedTheme = null;
-            try {
-                 storedTheme = localStorage.getItem('theme');
-            } catch (e) { /* LocalStorage not available */ }
-
-            // We assume null or 'auto' means follow system. If 'light' or 'dark' is stored, user preference overrides.
-            if (!storedTheme || storedTheme === 'auto') {
-                const newColorScheme = event.matches ? 'dark' : 'light';
-                applyTheme(newColorScheme);
-            }
-        });
-    }
-
-})(); 
+  function updateProgress() {
+    if (!progress) return;
+    const body = document.querySelector('.prose-body');
+    if (!body) { progress.style.width = '0'; return; }
+    const start = body.offsetTop;
+    const height = Math.max(1, body.offsetHeight - window.innerHeight);
+    const pct = Math.max(0, Math.min(1, (window.scrollY - start + 200) / height));
+    progress.style.width = (pct * 100).toFixed(2) + '%';
+  }
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  window.addEventListener('resize', updateProgress);
+  updateProgress();
+})();

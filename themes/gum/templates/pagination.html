@@ -1,15 +1,15 @@
 {% if DEFAULT_PAGINATION %}
-<p class="paginator">
+<nav class="pager" aria-label="Pagination">
     {% if articles_page.has_previous() %}
         {% if articles_page.previous_page_number() == 1 %}
-            <a href="{{ SITEURL }}/{{ page_name }}.html"><i class="icon-arrow-left"></i></a>
+            <a href="{{ SITEURL }}/{{ page_name }}.html" aria-label="Previous page">‹</a>
         {% else %}
-            <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html"><i class="icon-arrow-left"></i></a>
+            <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" aria-label="Previous page">‹</a>
         {% endif %}
     {% endif %}
-    Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+    <span class="cur">{{ articles_page.number }}</span><span class="pager-total">/ {{ articles_paginator.num_pages }}</span>
     {% if articles_page.has_next() %}
-        <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html"><i class="icon-arrow-right"></i></a>
+        <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" aria-label="Next page">›</a>
     {% endif %}
-</p>
+</nav>
 {% endif %}

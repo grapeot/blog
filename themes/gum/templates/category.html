@@ -1,5 +1,2 @@
 {% extends "index.html" %}
-{% block content_title %}
-<h2>Articles in the {{ category }} category</h2>
-{% endblock %}
-
+{% block content_title %}<header class="arch-head"><p class="kicker">Category</p><h1>{{ category }}</h1><p>Articles filed under {{ category }}.</p></header>{% endblock %}

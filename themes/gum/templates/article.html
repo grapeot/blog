@@ -1,145 +1,107 @@
 {% extends "base.html" %}
+{% import '_macros.html' as ui with context %}
 
 {% block head %}
 {{ super() }}
+{% set current_lang = ui.article_language(article)|trim %}
+{% set pair_url = ui.bilingual_url(article, articles)|trim %}
 
-<!-- SEO Meta Tags -->
-{% if article.summary %}
-<meta name="description" content="{{ article.summary|striptags|e }}">
-{% endif %}
-
-<!-- Canonical URL -->
+{% if article.summary %}<meta name="description" content="{{ article.summary|striptags|e }}">{% endif %}
 <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
-
-<!-- hreflang for multilingual SEO -->
-{% if article.translation %}
-{% set current_lang = 'en' if article.slug.endswith('-en') else 'zh' %}
+{% if pair_url %}
 {% set translation_lang = 'zh' if current_lang == 'en' else 'en' %}
 <link rel="alternate" hreflang="{{ current_lang }}" href="{{ SITEURL }}/{{ article.url }}">
-<link rel="alternate" hreflang="{{ translation_lang }}" href="{{ SITEURL }}/{{ article.translation }}">
+<link rel="alternate" hreflang="{{ translation_lang }}" href="{{ SITEURL }}/{{ pair_url }}">
 <link rel="alternate" hreflang="x-default" href="{{ SITEURL }}/{{ article.url }}">
 {% endif %}
 
-<!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ article.title|striptags }}">
 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
-{% if article.summary %}
-<meta property="og:description" content="{{ article.summary|striptags|e }}">
-{% endif %}
+{% if article.summary %}<meta property="og:description" content="{{ article.summary|striptags|e }}">{% endif %}
 <meta property="og:site_name" content="{{ SITENAME }}">
 <meta property="og:locale" content="{{ DEFAULT_LANG|replace('_', '-') }}">
-{% if article.og_image %}
-<meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}">
-{% endif %}
-{% if article.date %}
-<meta property="article:published_time" content="{{ article.date.isoformat() }}">
-{% endif %}
-{% if article.modified %}
-<meta property="article:modified_time" content="{{ article.modified.isoformat() }}">
-{% endif %}
-{% for tag in article.tags %}
-<meta property="article:tag" content="{{ tag }}">
-{% endfor %}
+{% if article.og_image %}<meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}">{% endif %}
+{% if article.date %}<meta property="article:published_time" content="{{ article.date.isoformat() }}">{% endif %}
+{% if article.modified %}<meta property="article:modified_time" content="{{ article.modified.isoformat() }}">{% endif %}
+{% for tag in article.tags %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ article.title|striptags }}">
-{% if article.summary %}
-<meta name="twitter:description" content="{{ article.summary|striptags|e }}">
-{% endif %}
-{% if article.og_image %}
-<meta name="twitter:image" content="{{ SITEURL }}/{{ article.og_image }}">
-{% endif %}
+{% if article.summary %}<meta name="twitter:description" content="{{ article.summary|striptags|e }}">{% endif %}
+{% if article.og_image %}<meta name="twitter:image" content="{{ SITEURL }}/{{ article.og_image }}">{% endif %}
 
-<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ article.title|striptags|tojson }},
   "url": "{{ SITEURL }}/{{ article.url }}",
-  {% if article.summary %}
-  "description": {{ article.summary|striptags|tojson }},
-  {% endif %}
-  {% if article.date %}
-  "datePublished": "{{ article.date.isoformat() }}",
-  {% endif %}
-  {% if article.modified %}
-  "dateModified": "{{ article.modified.isoformat() }}",
-  {% endif %}
-  "author": {
-    "@type": "Person",
-    "name": "{{ article.author|default(AUTHOR) }}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ SITENAME }}",
-    "url": "{{ SITEURL }}"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ SITEURL }}/{{ article.url }}"
-  }
-  {% if article.og_image %}
-  ,"image": "{{ SITEURL }}/{{ article.og_image }}"
-  {% endif %}
+  {% if article.summary %}"description": {{ article.summary|striptags|tojson }},{% endif %}
+  {% if article.date %}"datePublished": "{{ article.date.isoformat() }}",{% endif %}
+  {% if article.modified %}"dateModified": "{{ article.modified.isoformat() }}",{% endif %}
+  "author": {"@type": "Person", "name": "{{ article.author|default(AUTHOR) }}"},
+  "publisher": {"@type": "Organization", "name": "{{ SITENAME }}", "url": "{{ SITEURL }}"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ SITEURL }}/{{ article.url }}"}{% if article.og_image %},
+  "image": "{{ SITEURL }}/{{ article.og_image }}"{% endif %}
 }
 </script>
-
 {% endblock head %}
 
 {% block title %}{{ article.title|striptags }} | {{ SITENAME }}{% endblock %}
+
 {% block content %}
-<section id="content" class="body">
+{% set current_lang = ui.article_language(article)|trim %}
+{% set pair_url = ui.bilingual_url(article, articles)|trim %}
+<div class="progress" aria-hidden="true"></div>
+<section class="wrap reading">
+  <header class="article-head article-head-col">
+    <div class="crumb"><a href="{{ SITEURL }}/">Home</a><span>/</span><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></div>
+    <p class="cat-line">{{ article.category }} · {{ '中文' if current_lang == 'zh' else 'English' }}</p>
+    <h1 lang="{{ current_lang }}">{{ article.title }}</h1>
+    <div class="byline">
+      <span>{{ article.author|default(AUTHOR) }}</span><span class="dot">—</span>
+      <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
+      {% if DISQUS_SITENAME %}<span class="dot">—</span><a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
+    </div>
+    {% if pair_url %}
+    <div class="lang-toggle-row">
+      <span>{{ '本文有双语版本' if current_lang == 'zh' else 'This essay is bilingual' }}</span>
+      <span class="langswitch article-langswitch">
+        {% if current_lang == 'en' %}
+        <a class="on" href="{{ SITEURL }}/{{ article.url }}">English</a><a href="{{ SITEURL }}/{{ pair_url }}">中文</a>
+        {% else %}
+        <a href="{{ SITEURL }}/{{ pair_url }}">English</a><a class="on" href="{{ SITEURL }}/{{ article.url }}">中文</a>
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+  </header>
 
-   <div class="row">
-        <div class="eleven columns">
+  <article class="prose-col prose-body{% if current_lang == 'zh' %} cjk{% endif %}" lang="{{ current_lang }}">
+    {{ article.content }}
+  </article>
 
-
-            <header>
-            <h2 class="entry-title">
-                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-                    title="Permalink to {{ article.title|striptags }}">{{ article.title }}
-                </a>
-            </h2>
-           {% import 'translations.html' as translations with context %}
-           {{ translations.translations_for(article) }}
-            </header>
-            <footer class="post-info">
-            <address>
-                <span class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }}</span>
-                {% if article.author %}<span class="vcard author">, by <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>{% endif %}
-                {% if DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
-                <span>
-                    {% for tag in article.tags %}
-                    <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
-                    {% endfor %}
-                </span>
-            </address>
-            </footer><!-- /.post-info -->
-            <div class="entry-content">
-              {{ article.content }}
-            </div><!-- /.entry-content -->
-            {% if DISQUS_SITENAME %}
-            <div class="comments">
-              <h3>Comments</h3>
-              <div id="disqus_thread"></div>
-              <script type="text/javascript">
-                var disqus_identifier = "{{ article.url }}";
-                (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'https://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-              </script>
-            </div>
-            {% endif %}
-
-        </div><!-- /.eleven.columns -->
-        
-     {% include 'sidebar.html' %}
- </div><!-- /.row -->
-
+  <footer class="article-foot prose-col">
+    <div class="tags">{{ ui.visible_tags(article, SITEURL) }}</div>
+    <nav class="prevnext" aria-label="Adjacent articles">
+      {% if article.prev_article %}<a href="{{ SITEURL }}/{{ article.prev_article.url }}"><span class="lbl">‹ Previous</span><span class="t">{{ article.prev_article.title }}</span></a>{% endif %}
+      {% if article.next_article %}<a class="next" href="{{ SITEURL }}/{{ article.next_article.url }}"><span class="lbl">Next ›</span><span class="t">{{ article.next_article.title }}</span></a>{% endif %}
+    </nav>
+    {% if DISQUS_SITENAME %}
+    <section class="comments" aria-labelledby="comments-title">
+      <h2 id="comments-title">Comments</h2>
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_identifier = "{{ article.url }}";
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'https://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </section>
+    {% endif %}
+  </footer>
 </section>
 {% endblock %}

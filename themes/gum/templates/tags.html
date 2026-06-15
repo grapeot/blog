@@ -1,18 +1,10 @@
 {% extends "base.html" %}
-{% block head %}
-{{ super() }}
-<link rel="canonical" href="{{ SITEURL }}/tags.html">
-{% endblock %}
+{% block head %}{{ super() }}<link rel="canonical" href="{{ SITEURL }}/tags.html">{% endblock %}
 {% block content %}
-<ul>
-<div class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></div>
-{% for tag, articles in tags|sort %}
-<li class="tag-{{ tag.1 }}">
-	<a href="{{ SITEURL }}/{{ tag.url }}">
-		<i class="icon-tag icon-large"></i>{{ tag }}
-	</a>
-    ({{ articles|count }})
-</li>
-{% endfor %}
-</ul>
+<section class="wrap prose">
+  <header class="arch-head"><p class="kicker">Tags</p><h1>Browse by tag</h1><p>Language tags and topic tags are kept separate in the content model; this page exposes both for navigation.</p></header>
+  <div class="tag-cloud-page">
+    {% for tag, articles in tags|sort %}<a class="filter-chip" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }} <span>{{ articles|count }}</span></a>{% endfor %}
+  </div>
+</section>
 {% endblock %}

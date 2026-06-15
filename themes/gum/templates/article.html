@@ -5,7 +5,7 @@
 
 <!-- SEO Meta Tags -->
 {% if article.summary %}
-<meta name="description" content="{{ article.summary|striptags|truncate(160) }}">
+<meta name="description" content="{{ article.summary|striptags|e }}">
 {% endif %}
 
 <!-- Canonical URL -->
@@ -25,7 +25,7 @@
 <meta property="og:title" content="{{ article.title|striptags }}">
 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
 {% if article.summary %}
-<meta property="og:description" content="{{ article.summary|striptags|truncate(200) }}">
+<meta property="og:description" content="{{ article.summary|striptags|e }}">
 {% endif %}
 <meta property="og:site_name" content="{{ SITENAME }}">
 <meta property="og:locale" content="{{ DEFAULT_LANG|replace('_', '-') }}">
@@ -46,7 +46,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ article.title|striptags }}">
 {% if article.summary %}
-<meta name="twitter:description" content="{{ article.summary|striptags|truncate(200) }}">
+<meta name="twitter:description" content="{{ article.summary|striptags|e }}">
 {% endif %}
 {% if article.og_image %}
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.og_image }}">
@@ -60,7 +60,7 @@
   "headline": {{ article.title|striptags|tojson }},
   "url": "{{ SITEURL }}/{{ article.url }}",
   {% if article.summary %}
-  "description": {{ article.summary|striptags|truncate(160)|tojson }},
+  "description": {{ article.summary|striptags|tojson }},
   {% endif %}
   {% if article.date %}
   "datePublished": "{{ article.date.isoformat() }}",

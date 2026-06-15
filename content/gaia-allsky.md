@@ -102,4 +102,11 @@ Summary: 从最直白的"一星一像素"出发，八次翻车、六亿颗星，
 
 除此之外，我们也做了很多其他的实验。比如我们可以做个视频来演示，如何从一个广域照片用惊人的放大倍率一路推进到非常深的深空摄影。同时我们可以模拟你的相机在不同的曝光下，或者如果人类有着超人的眼睛，不同的光污染环境可以拍出怎样的银河。这些模拟的结果我们都放在这个项目的主页上了：[https://grapeot.github.io/gaia_allsky/](https://grapeot.github.io/gaia_allsky/)。所有代码也是开源的。我相信这个实现里面肯定还有很多可以改进的地方，也欢迎大家评论反馈。
 
+<div style="text-align:center; margin: 2em 0;">
+  <video controls playsinline preload="none" poster="https://grapeot.github.io/gaia_allsky/assets/zoom_poster.jpg" style="max-width:50%; height:auto; background:#000;">
+    <source src="https://grapeot.github.io/gaia_allsky/assets/zoom_milkyway.mp4" type="video/mp4" />
+  </video>
+  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">从全景推进到银心核心 1:1 的连续放大，视频无声</p>
+</div>
+
 <script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>

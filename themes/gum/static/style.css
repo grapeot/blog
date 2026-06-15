@@ -98,8 +98,12 @@ svg { display: block; }
 .icon-btn { min-width: 44px; min-height: 44px; display: grid; place-items: center; border-radius: var(--r-btn); border: 1px solid var(--rule); background: var(--paper-2); color: var(--ink-soft); cursor: pointer; transition: all .18s; }
 .icon-btn:hover { color: var(--ink); border-color: var(--ink-faint); text-decoration: none; }
 .icon-btn svg { width: 17px; height: 17px; }
-#theme-toggle::before { content: "☾"; font-size: 17px; line-height: 1; }
-[data-theme="dark"] #theme-toggle::before { content: "☀"; }
+#theme-toggle { position: relative; overflow: hidden; }
+#theme-toggle::before, #theme-toggle::after { content: ""; position: absolute; left: 50%; top: 50%; transition: all .18s; }
+#theme-toggle::before { width: 16px; height: 16px; border-radius: 50%; background: currentColor; transform: translate(-50%, -50%); }
+#theme-toggle::after { width: 16px; height: 16px; border-radius: 50%; background: var(--paper-2); transform: translate(calc(-50% + 5px), calc(-50% - 1px)); }
+[data-theme="dark"] #theme-toggle::before { width: 10px; height: 10px; border: 1.5px solid currentColor; background: transparent; }
+[data-theme="dark"] #theme-toggle::after { width: 2px; height: 2px; border-radius: 50%; background: transparent; transform: translate(-50%, -50%); box-shadow: 0 -9px 0 currentColor, 0 9px 0 currentColor, 9px 0 0 currentColor, -9px 0 0 currentColor, 6px 6px 0 currentColor, -6px 6px 0 currentColor, 6px -6px 0 currentColor, -6px -6px 0 currentColor; }
 .langswitch { display: inline-flex; border: 1px solid var(--rule); border-radius: var(--r-btn); overflow: hidden; background: var(--paper-2); }
 .langswitch a { font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; padding: 10px 11px; color: var(--ink-faint); transition: all .18s; }
 .langswitch a:hover { color: var(--ink); text-decoration: none; background: var(--paper-3); }

@@ -74,7 +74,7 @@ This part of the simulation felt like solving the problem through brute force ra
 
 ## Light Pollution and Wandering the Sky
 
-At this point, the simulation itself was basically complete. The full-resolution 30-gigapixel Milky Way can be browsed here: [https://yage.ai/gaia_milky_way/](https://yage.ai/gaia_milky_way/)
+At this point, the simulation itself was basically complete. The full-resolution 40-gigapixel Milky Way can be browsed here: [https://yage.ai/gaia_milky_way/](https://yage.ai/gaia_milky_way/)
 
 But beyond looking like a photograph to the naked eye, is there a way to quantitatively verify that the simulation is correct? One idea is to introduce light pollution. On one hand, light pollution is a physical quantity that can be measured. Each Bortle dark-sky class corresponds to a range of background sky brightness, in magnitudes per square arcsecond. That lets us quantitatively simulate how the Milky Way appears under different light-pollution conditions. On the other hand, people are also familiar with how the Milky Way looks under different Bortle classes. For example, under Bortle 6 skies, you may still faintly catch a bit of the Milky Way with averted vision. At Bortle 7 and above, it is basically gone. Putting these two together makes this a good validation test.
 

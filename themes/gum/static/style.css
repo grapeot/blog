@@ -78,8 +78,8 @@ svg { display: block; }
 .seal { width: 38px; height: 38px; flex: 0 0 auto; border-radius: 9px; border: 1.5px solid var(--accent); color: var(--accent); display: grid; place-items: center; position: relative; transition: background .25s, color .25s; overflow: hidden; }
 .seal svg { width: 32px; height: 32px; }
 .seal svg > rect:first-child { fill: var(--accent-wash); }
-.duck-face { fill: #fff4b8; }
-.duck-bill { fill: #f59e0b; }
+.duck-face { fill: #fff7cf; }
+.duck-bill { fill: #d99a24; }
 .duck-eye { fill: var(--ink); }
 .duck-water { fill: var(--accent); opacity: .78; }
 .brand:hover .seal, .f-brand:hover .seal { background: var(--accent-wash); }

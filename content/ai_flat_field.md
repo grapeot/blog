@@ -1,6 +1,6 @@
 Title: 使用AI生图助力天文学观测摄影
 Date: 2025-12-26 22:00
-Category: Compute
+Category: Computing
 Tags: Chinese, Astrophotography, AI
 Slug: ai-flat-field
 Summary: 探索用生成式AI解决天文图像中CMOS灰尘去除难题。通过让AI生成灰尘遮罩而非直接修复图像，结合确定性数学平场校准，实现既保留科学严谨性又获得AI强大效果的工作流。

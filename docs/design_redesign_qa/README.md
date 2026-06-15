@@ -9,7 +9,7 @@ Viewports:
 | `desktop_*` | 1440 x 1100 |
 | `mobile_*` | 390 x 1100 |
 
-Pages covered: home, Chinese article, English article, archives, Chinese tag page, about page, plus `mobile_nav_open.png`.
+Pages covered: home, Chinese article, English article, archives, Chinese tag page, Computing category page, about page, plus `mobile_nav_open.png`.
 
 Programmatic checks run with the screenshots:
 

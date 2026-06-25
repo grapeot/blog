@@ -106,4 +106,4 @@ Depth from defocus。图片来自http://www.cs.columbia.edu/CAVE/projects/depth_
 
 希望这些定量分析的过程和对机器视觉中深度测量的介绍能有所启发。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

@@ -51,4 +51,4 @@ AI就可以非常轻松地一遍成功。所以，如果有两个人比赛写代
 
 这是最好的时代，也是最坏的时代。这个AI辅助编程的时代，对不同的人有着不同的影响。但是可以确定的是，这是个变革的时代。即使是这篇文章本身，它的内容也会随着新的AI技术的出现而过时。唯一不变的是，只要我们保持思考，保持热情，我比较乐观，在更智能、更好用的工具的帮助下，我们的竞争力可以一次次的成倍提升。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

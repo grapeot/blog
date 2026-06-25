@@ -27,4 +27,4 @@ Summary: 续订每月200美元的ChatGPT Pro的原因：o1 Pro提供其他模型
 
 所以总的来说，我决定续订ChatGPT Pro Plan，是因为o1 Pro确实提供了别的模型提供不了的思维深度，甚至可以带我突破原有的思维极限。 在我的应用场景下，我也感受到了它为我带来的价值确实超过了两百美元。这个价值目前还是其他家的模型都提供不了的。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

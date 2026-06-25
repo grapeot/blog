@@ -51,4 +51,4 @@ Summary: 在AI指导下探索水质对水培白菜、泡泡水和意式咖啡的
 
 因此，这次围绕水质的系列小实验，带给我的不仅仅是生长更快的白菜、效果更好的泡泡水和风味可能有所提升的咖啡，更重要的是一种在AI时代下全新的学习和解决问题的方式：保持好奇，勇于提问，借助AI的强大能力，我们可以更轻松、更深入地理解和改善我们身边的世界。这种由好奇心驱动，以实践和数据为基础，并由AI高效赋能的探索过程，本身就充满了乐趣和无限可能。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

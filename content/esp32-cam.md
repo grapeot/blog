@@ -118,4 +118,4 @@ v1虽然已经是一个比较实用的监控相机了，但用起来还是不够
 通过这样的方法，踩了很多坑，终于做了一个不经过互联网，可以拿到视频帧进行进一步处理，也很便宜的系统了。
 希望可以做成一个实用的家防系统吧。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

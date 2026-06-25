@@ -87,4 +87,4 @@ AI和人非常不一样的地方是，LLM本身是没有记忆的，所有的信
 
 这个摸鱼，只是这个杠杆带来的最浅层的红利。它更深刻的意义在于，让你有机会去思考那些以前没时间思考的、更重要的问题。当AI能够完美地执行你的how时，你会有更多的时间去思考，去定义what和why。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

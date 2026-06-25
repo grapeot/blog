@@ -29,4 +29,4 @@ Summary: 用天文LRGB滤镜+黑白胶片实现彩色摄影的实验：分通道
 
 ![Result image outdoor](/images/blackandwhite-color-result-2.jpg)
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

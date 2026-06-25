@@ -201,4 +201,4 @@ AI是没法进这个场的。你不能让客户吃饭的时候戴个麦克风录
 
 工具时代结束了。现在是指挥官的时代。 
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

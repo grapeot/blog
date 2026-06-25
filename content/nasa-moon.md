@@ -45,4 +45,4 @@ Summary: 用NASA公开的月球贴图和高程数据，在Maya中通过UV Mappin
 
 这个工作还很初步，下面要改进的地方还是不少的。一个是我现在选用的是相对低分辨率的贴图和高度图，在渲染20k的墙纸的时候还是有些不理想。但是高分辨率的数据就没有直接下载的版本了，需要自己从源数据合成。所以下面需要自己合一下。一个是从视频的角度来看月球的很多特性还没有加进去，比如天平动等等。所以如果你看过真的拍出来的这种视频的话，就会觉得哪里不对。不过这个相对容易实现，我们就留作读者作业啦！
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

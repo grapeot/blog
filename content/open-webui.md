@@ -29,4 +29,4 @@ Summary: OpenWebUI配合ollama实现完全本地的AI体验，功能媲美ChatGP
 
 总的来说，之前我一直以为OpenWeb UI之类的开源套件只是对最先进的闭源AI模型和产品的拙劣模仿。毕竟像OpenAI和Anthropic这样的公司拿了巨量的投资，招的人也不少。但开源界包括Facebook企业在内的人都是在用爱发电。但是在试用了OpenWeb UI和ollama组合的开源套件以后，我感觉模型上它们只是比最新的模型比如o1略差，和GPT-4o或者Claude 3.5在能力上相当接近。从产品体验上，虽然有一些些不完美，比如还不支持实时语音对话，但基本上所有厂商有的功能它都有，甚至加入了新的功能和定制性。至少从今天晚上的使用体验来看还是很好的。这点让我非常惊讶。也许我应该[打破对闭源商业模型的迷信](/builders-mindset.html)，多探索一下开源的AI平台。毕竟这里面的定制化和这里面定制化的灵活度和想象空间是非常大的。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

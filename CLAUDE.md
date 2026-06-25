@@ -21,7 +21,7 @@ Summary: 一两句话的中文摘要，150-200 字符。
 
 末尾加 Kit 订阅脚本：
 ```html
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>
 ```
 
 ### 英文翻译版

@@ -120,4 +120,4 @@ Takeaway 很简单：
 *   **HW (Health/Wellbeing - 健康/福祉):** 指 AI 监测和分析与用户健康、情绪、生理状态或生活习惯相关的模式，提供健康相关的洞察或潜在预警的能力（此项涉及高度隐私和伦理敏感性）。
     *   *例子:* 分析血糖记录与饮食/情绪的关联；识别语言模式变化可能关联的健康风险；监测压力水平相关的语言特征。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

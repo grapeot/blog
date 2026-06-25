@@ -76,4 +76,4 @@ Summary: 在[上一篇文章](/devin-vs-agent-cursor.html)中，我们提到了D
 
 最后，在文中提到的所有文件都可以在[这个github repo](https://github.com/grapeot/devin.cursorrules)下载，只需要把里面的内容拷到你当前工程的文件夹下面就可以了。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

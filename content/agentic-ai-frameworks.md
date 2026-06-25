@@ -52,4 +52,4 @@ Agentic AI 这个领域特殊的地方在于，它实在是太新了，所以大
 
 不过要注意一点，这只是一个暂时现象。在未来，Agentic AI 的各个组件一定会尘埃落定，收敛出类似Web标准一样的通用接口，那时候的标准框架/库就又有很高的参考和学习价值了。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

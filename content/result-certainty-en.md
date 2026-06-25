@@ -123,4 +123,4 @@ It requires giving up some things: the sense of control over process, the certai
 
 How far can this pattern extend? I'm not sure, but at least in the translation scenario, it completely transformed our development experience. We've compiled these practices into a [how-to guide](https://gist.github.com/grapeot/4271a9782da18b2e746a42e274720f77) that you can share with your own AI and try right now.
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

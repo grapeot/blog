@@ -75,4 +75,4 @@ $$ T \ \frac{\sigma_r^2 \times F^2}{Q_E \times p^2} \times 10^\frac{S-21.24}{2.5
 
 最后，因为我的水平限制，虽然我已经尽力检查了，但这个文章里面肯定有各种错误。希望各位大佬在评论中讨论指出。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

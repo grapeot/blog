@@ -19,4 +19,4 @@ Summary: 总结AI在NLP和计算机视觉领域的三大突破：通用基础模
 
 综上所述，我们可以看到，近期NLP和CV领域的突破和发展是高度相近的。两者都在从针对特定任务的专用模型转向解决所有任务的通用模型。同时，它们都取得了让生成内容更接近人类的突破。这些进展使得我们能够设计出更低门槛的应用模型方法。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

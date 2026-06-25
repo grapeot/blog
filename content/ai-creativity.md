@@ -109,4 +109,4 @@ AI没有成为诗人，但它改变了诗发生的方式。
 
 注：本文的观点、内容、框架和全文都是由AI在梳理我在这周做过的[所有录音](/life-api.html)中自主提出的。我所做的事情是给它启发式的提示词、在它给出的选项中做出决策选择，并且给出详尽的feedback。除此之外，本文百分之百由AI完成。我的prompt和交互过程[参见此处](https://chatgpt.com/share/68183774-5f48-800a-905b-fe62d6f1aad1)。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

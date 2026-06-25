@@ -61,4 +61,4 @@ Summary: Agentic AI在5000行以上代码失效的根本原因是上下文窗口
 
 总而言之，Agentic AI确实在5000行以上会面临翻车隐患，本质是记忆完全依赖于上下文窗口。而要真正突破，文档驱动开发、开放透明和社区共建可能是有前景的方向。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

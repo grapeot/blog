@@ -93,4 +93,4 @@ AI很快就生成了一张可视化的图像。很明显，最上面的一行和
 
 所以其实最终写作的过程也还是完全是人写的。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

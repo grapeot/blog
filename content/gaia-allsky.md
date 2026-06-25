@@ -111,4 +111,4 @@ Summary: 从最直白的"一星一像素"出发，八次翻车、六亿颗星，
   <p style="color:#888; font-size:0.9em; margin-top:0.5em;">从全景推进到银心核心 1:1 的连续放大，视频无声</p>
 </div>
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

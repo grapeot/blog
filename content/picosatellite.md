@@ -23,4 +23,4 @@ TubeSat和CubeSat卫星模块[[来源]](https://www.interorbital.com/Cubesat%20K
 
 那你们有什么想要用卫星干的事情呢？如果我们众筹一个卫星上天，我来技术攻关，分享数据，会有人感兴趣吗？
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

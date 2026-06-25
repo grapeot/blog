@@ -104,4 +104,4 @@ AI最后一个非常严重的限制是到目前为止，除了少数特例，比
 使用这种直觉来构建prompt往往可以得到不错的效果。随着时间的推移，我们会逐渐积累更多经验，对哪些问题、哪些领域的问题适合AI有更深刻的理解。
 有了这些认识后，我们就能更合理地组织prompt，一步到位地让AI写出符合我们要求的答案。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

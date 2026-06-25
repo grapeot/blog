@@ -120,4 +120,4 @@ Summary: 用Claude Code替代API调用做翻译任务：利用agentic loop实现
 
 这个模式能推广到多远？我不确定，但至少在翻译这个场景上，它彻底改变了我们的开发体验。我们把这套实践整理成了一份[操作指南](https://gist.github.com/grapeot/9cbdcf7f26bd1d69a11c39414b54dbe6)，你也可以发给自己的AI，让它现在就试试看。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

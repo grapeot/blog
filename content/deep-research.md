@@ -36,4 +36,4 @@ Summary: 通过模拟购车场景实测OpenAI Deep Research，展示其如何大
 
 只是注意，在整个过程中我们还是要履行一个AI Manager的职责，对重要的细节要点到网页里去核查。Deep Research这样的工具让核查这件事情变得特别简单，只要点进去看一下就好了，它甚至会帮你把相关的语句高亮出来。在我的整个实验中，我没有看到它有什么差错，但是这一步仍然是要做的。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

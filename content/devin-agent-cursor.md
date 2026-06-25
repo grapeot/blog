@@ -99,4 +99,4 @@ Devin更强调对于软件工程进行复杂开发。比如他一个月要500美
 
 下面我也会继续探索Devin有没有什么更好玩的用法，来让我们每天的工作和生活更加便利。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

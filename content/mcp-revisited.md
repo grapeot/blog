@@ -80,4 +80,4 @@ MCP是Anthropic 顶尖的 AI 科学家设计的。它发明的初衷是让科学
 
 所以，OpenAI的这个协议看起来是MCP的胜利，其实潜伏着更深层的危机。我对未来也有几种预测。一种可能是OpenAI架空MCP，类似IE6成为事实上的CSS标准。一种可能是类似SQL各种dialect把大家逼疯了，出现了更高层次的抽象协议比如JDBC/ODBC。那又会出现一个MCP的MCP，负责把一个统一的语义协议翻译成OpenAI的Apps MCP，Anthropic的原教旨MCP，Google的A2A等等。结果如何，得看各家的技术和政治斗争了。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

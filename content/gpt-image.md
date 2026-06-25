@@ -99,4 +99,4 @@ In order! And there are arrows connecting each element.
 
 所以问题的关键在，与其把自己放在纯粹User的位置，被动等待模型升级、学习新一套Prompt，不如去做一个Builder，去反复追问为什么，并且在每次解决问题后都留下可以复用的经验与文档。一旦形成了这种主动思考和迭代的习惯，我们就不会被模型的大步进化牵着鼻子走，疲于奔命。而可以带着既有的深层原理去探索新功能，主动掌握甚至预测模型未来的更新。这才是Future-Proof的真正含义：不把赌注押在任何一款具体的工具上，而是让自己拥有足够的洞察与方法论，去面对潜在的技术更新迭代。而这也是我们的课程"From Users to Builders: Transform Yourself for the Age of AI"所能教会你的核心[[在线授课版]](https://maven.com/kedaibiao/genai)[[离线视频版]](https://www.superlinear.academy/c/ai/)。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

@@ -83,4 +83,4 @@ DeepSeek v2主要是通过三个核心策略来一定程度上解决了混合专
 
 不过我想再次强调的是：这些比喻只是帮助非专业读者快速上手的一种方式，真正的论文中有大量的数学公式、分布式系统技术和工程细节。如果你想在此基础上实现或改进相关研究，一定要回到原文仔细研读。如果你觉得其中的比喻有严重失真或者遗漏的地方，也欢迎指出讨论。我们一起把论文的细节解释地更加精准易懂。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

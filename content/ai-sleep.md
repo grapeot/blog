@@ -53,4 +53,4 @@ AI在很多方面帮助到了我之外，我觉得还有一个同样有意思的
 
 总的来说这是一个开心也不开心的故事。我很开心的一点是睡眠问题终于解决了，而且用的是一种principled方法，用正确的途径，简单地解决；而不是经历了没头苍蝇一样的尝试，瞎猫撞上死耗子试出来的。AI在这个过程中帮到我的不仅是执行，而且是重塑了我对很多东西的comfort level，让我可以在更广的场景下收敛到这种principled的方法。但坏消息是，如果没有AI的话，这个问题根本就不存在。我也不用去想失眠的问题😂。但总的来说毕竟是帮我想清楚了很多问题，还是挺有收获的。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

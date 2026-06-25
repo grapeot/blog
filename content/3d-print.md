@@ -96,4 +96,4 @@ SLA树脂方面耗材稍微贵一点，但也不多，在30美元/kg左右。
 比如用3D打印就不太可能打印出来一个密闭空心的火柴盒，因为这样里面的支撑就没办法拿出来，里面就不会是真正空心的。
 所以建模的时候也需要先了解3D打印的限制，才能建出来可以真正打印出来的模型。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

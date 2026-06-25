@@ -40,4 +40,4 @@ Summary: 用Skyfield库模拟行星位置，通过可见性、直线排列度和
 
 <video src="/images/planetary_alignment_2010-2030.mp4" controls style="width: 100%; height: auto;"></video>
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

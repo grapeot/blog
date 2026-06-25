@@ -171,4 +171,4 @@ Prompt 是你伸出去的一只手，
 你不是在问它你能做什么；
 你是看着它，在你建起的 context 里，慢慢长成另一个你。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

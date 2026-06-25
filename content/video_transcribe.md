@@ -63,4 +63,4 @@ Summary: 分享开发视频语音识别工具的技术心得：YouTube下载OAut
 
 总的来说，以上就是我在做这个project的过程中得到的技术收获。罗里吧嗦讲的一大堆，也是想跟大家分享一下，我的开发流程大约是什么样的，在整个过程中间是怎么又玩耍写代码，又学习积累经验的。也很好奇大家对于这个工具的想法。我的网页端在[这个URL](https://yage.ai/caption/)，Shortcut可以在[这里](https://www.icloud.com/shortcuts/4db043a4acb74152be3d8833afaeb9c2)下载。目前都是免费的工具，也很期待大家的反馈。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

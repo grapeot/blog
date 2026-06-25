@@ -21,4 +21,4 @@ Summary: 对比评测Weber和国产两种咖啡豆玻璃试管，从做工、气
 
 总的来说，如果让我重新选择，即使不考虑价格，我也会选择国内版本。美中不足的是做工精度有点差，螺纹是塑料的我可以忍，但排不成整齐的两行实在是败笔。我宁愿多花点钱让它看起来更精巧。但总的来说，这个使用体验比[Lyn Weber HG-1](/HG-1-coffee-grinder-review.html)要好很多。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

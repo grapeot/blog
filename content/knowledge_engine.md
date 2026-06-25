@@ -33,4 +33,4 @@ Summary: 构想一个AI知识引擎：自动收集会议和日常对话、提取
 
 因此总体来说，我觉得知识管理是一条可能可行的，让AI为人类的工作创造巨大价值的道路，但是到目前为止，这并不是一个trivial的问题。以上我们谈到的三个挑战，只有第一个挑战大概解决了，但是二和三还都是相当困难和开放的问题。我也很期待看看大家有没有相关的讨论和建议。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

@@ -39,4 +39,4 @@ Summary: 对比Sony镜头标称MTF与Lensrentals实测数据：Sony自研镜头M
 
 所以基本结论就是，这个测量MTF的网站看起来是可以信赖的，蔡司等德厂和大多数日厂比如佳能尼康的MTF也是可以信赖的，索蔡是可以信赖的，但sony自己设计的头的MTF不能盲信，还是要看第三方评测。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

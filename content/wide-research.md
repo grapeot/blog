@@ -93,4 +93,4 @@ LLM或者说AI的一大限制就是当输出长度到了一定程度，比如说
 
 我们的所有提示词也已经开源，可以在[这个Repo](https://github.com/grapeot/codex_wide_research/)访问。大家也不妨打开自己的Codex，跟着教程配置好Tavily MCP（它有免费的plan），然后复制Readme里的示例提示词体验一下Wide Research的威力。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

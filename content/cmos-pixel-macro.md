@@ -43,4 +43,4 @@ Summary: 用Leica 50AA反接实现200nm/像素的极限微距：拍摄CMOS传感
 
 现在的问题是，CMOS上面的这些空的点点是什么？周围的电路又是什么？
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

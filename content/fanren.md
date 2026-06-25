@@ -91,4 +91,4 @@ Summary: 用"笨数据+笨方法+笨模型=精知识"的方法论，将千万字
 
 最终，这个项目成功的关键，似乎都指向了那些反直觉的笨办法：接受不完美的“笨数据”，设计可迭代的“笨方法”，并选择一个性能足够但完全可控的“笨模型”。这或许说明，在与AI协作的未来，我们作为开发者的核心价值，将更多地体现在如何设计一个聪明的系统，去驾驭这些强大的工具，而不是单纯地追求工具本身的超级智能。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

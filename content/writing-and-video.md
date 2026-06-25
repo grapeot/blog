@@ -21,4 +21,4 @@ Summary: 视频信息密度低、不可检索、难以跳转，但up主赚大钱
 
 最后做个小调查，你们看视频会加速吗？会觉得视频信息密度特别低吗？
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

@@ -27,4 +27,4 @@ Summary: 用接片方式拍摄16亿像素的丝巾照片：处理柔性物体变
 
 ![New scarf](/images/hermes-scarf-motorcycle.jpg)
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

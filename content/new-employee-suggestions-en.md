@@ -208,4 +208,4 @@ And I share these potentially immature thoughts just because I thought it might 
 They could be wrong, could be misleading.
 So comments are welcome so we can grow together.
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

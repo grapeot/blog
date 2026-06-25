@@ -48,4 +48,4 @@ Summary: 用树莓派加相机实现阳台监控与目标检测：darknet+Effici
 
 有其他问题欢迎讨论鸭。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

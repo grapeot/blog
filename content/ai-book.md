@@ -187,4 +187,4 @@ AI的关键能力，不是写代码，不是生成图片，而是构建理解。
 
 (本文由GPT-4.1执笔，鸭哥只提供观点，逻辑，结构，顺序和反馈)
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

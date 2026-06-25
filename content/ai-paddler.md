@@ -53,4 +53,4 @@ AI的浪潮，淘汰的不是人，而是岗位。它淘汰了划桨手，但同
 
 你的价值，不再取决于你划桨的速度，而取决于你选择的新角色。你，准备好离开你的座位了吗？
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

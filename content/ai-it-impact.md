@@ -84,4 +84,4 @@ AI在给我编写代码后，我会对不理解的部分提问，或者对于新
 其次，它可以作为一种个性化的、高效且深入的学习方案，大幅提高我们的学习效率和效果。
 从这两个角度出发，当下的AI也许不会立刻取代程序员这个职业，但它已经开始深远地影响我们的整个IT领域了。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

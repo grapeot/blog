@@ -49,4 +49,4 @@ LaaS 的愿景虽然美好，但它的实现门槛仍然很高。比如，如何
 
 也许这正是Anthropic最具前瞻性的地方，却因为没有Claude 3.7那么炫目而被很多人忽视。但我相信，将来大家回头看时，会发现Claude Code在这场AI-native软件革命里扮演了一个不可替代的起点角色。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

@@ -28,4 +28,4 @@ Summary: 佳能VR镜头系统三大痛点：不支持RAW、软件难用、分辨
 
 感觉VR拍娃实在非常革命，尤其是和父母不在一个地方的，可以买一个VR眼镜配好送回去。以后可以直接分享这种VR视频/照片，跟在现场几乎完全一样。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

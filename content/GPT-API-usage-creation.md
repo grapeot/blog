@@ -20,4 +20,4 @@ Summary: 用一小时开发语音转文字笔记工具：结合Whisper API语音
 
 (本文使用这个软件在5分钟内写成)
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

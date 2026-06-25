@@ -307,11 +307,11 @@ class TestNavigation:
             page = browser.new_page()
             page.goto(server + "/ai-creativity.html")
             zh_content = page.content()
-            assert "65448d4615" in zh_content
+            assert "49b08a3e73" in zh_content
 
             page.goto(server + "/ai-creativity-en.html")
             en_content = page.content()
-            assert "65448d4615" not in en_content
+            assert "49b08a3e73" not in en_content
             assert "Subscribe" not in en_content
             browser.close()
 

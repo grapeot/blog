@@ -20,4 +20,4 @@ Summary: 第三轮迭代：把GPT语音工具封装成Apple快捷指令，构建
 
 我们现在已经制作了一个示例Shortcut，大家可以通过这个链接查看或将其添加到自己的Shortcut中：[https://gpty.ai/example](https://gpty.ai/example)。 欢迎大家试用并提出意见。
 
-<script async data-uid="65448d4615" src="https://yage.kit.com/65448d4615/index.js"></script>
+<script async data-uid="49b08a3e73" src="https://yage-ai.kit.com/49b08a3e73/index.js"></script>

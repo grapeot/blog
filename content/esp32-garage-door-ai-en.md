@@ -11,7 +11,7 @@ Sharing a recent project. Today during lunch, I suddenly realized an issue: my h
 
 I happened to have a thumb-sized microcontroller on hand, an ESP32-CAM (Figure 1), equipped with Wi-Fi, a camera, and a decent amount of compute (dual-core 240 MHz). So I wondered: could I turn this microcontroller into a sensor itself? By using photo capture paired with an on-chip deep neural network, it could classify whether the garage door is open or closed. Whenever I send it an HTTP request, it tells me right away if the garage door is shut.
 
-![ESP32-CAM Microcontroller](/images/esp32_garage_door_1.jpg)
+<img src="/images/esp32_garage_door_1.jpg" alt="ESP32-CAM Microcontroller" style="max-width: 480px; width: 100%; height: auto;" />
 
 This idea might sound crazy at first glance, but the actual difficulty is lower than it seems. The reason is that we aren't trying to build a general-purpose classifier (like "hotdog or not hotdog") that needs to handle endless edge cases. What we want here is a hyper-overfitted classifier. It only needs to solve the problem for my specific garage; it doesn't matter how weird anyone else's garage looks. Once the device position is fixed, it never moves, and the garage door remains in the exact same spot. It doesn't even need high generalization intelligence—it just needs to memorize what the door looks like open vs. closed under different lighting conditions. Overfitting is precisely what I want.
 

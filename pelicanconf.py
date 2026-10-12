@@ -50,8 +50,8 @@ THEME = './themes/gum'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 
 # plug-ins
-PLUGIN_PATHS = [ './pelican-plugins' ]
-PLUGINS = ['render_math', 'sitemap', 'gravatar', 'render_math']
+PLUGIN_PATHS = [ './pelican-plugins', './plugins' ]
+PLUGINS = ['render_math', 'sitemap', 'gravatar', 'render_math', 'markdown_twin']
 SITEMAP = {
     'format': 'xml',
     'priorities': {

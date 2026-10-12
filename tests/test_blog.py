@@ -7,6 +7,16 @@ import random
 from playwright.sync_api import sync_playwright
 
 
+# pageerrors raised by third-party scripts we don't control. Google's gtag.js still
+# calls the document.browsingTopics() Topics API, which newer Chromium builds have
+# removed, so it throws an uncaught pageerror that says nothing about this site's JS.
+BENIGN_PAGEERRORS = ("browsingtopics",)
+
+
+def real_page_errors(errors):
+    return [e for e in errors if not any(p in e.lower() for p in BENIGN_PAGEERRORS)]
+
+
 def get_free_port():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind(('', 0))
@@ -106,7 +116,8 @@ class TestIntegration:
             
             browser.close()
             
-            assert len(errors) == 0, f"JS errors found: {errors}"
+            real = real_page_errors(errors)
+            assert len(real) == 0, f"JS errors found: {real}"
     
     def test_ga4_tag_present(self, server):
         with sync_playwright() as p:
@@ -173,7 +184,8 @@ class TestNavigation:
             page.goto(server + "/archives.html")
             page.wait_for_load_state("networkidle")
             
-            assert len(errors) == 0, f"JS errors on archives: {errors}"
+            real = real_page_errors(errors)
+            assert len(real) == 0, f"JS errors on archives: {real}"
             assert "Archives" in page.title() or page.query_selector("h1, h2"), "Archives page content missing"
             
             browser.close()
@@ -221,7 +233,8 @@ class TestNavigation:
             random_link.click()
             page.wait_for_load_state("networkidle")
             
-            assert len(errors) == 0, f"JS errors on article page: {errors}"
+            real = real_page_errors(errors)
+            assert len(real) == 0, f"JS errors on article page: {real}"
             
             browser.close()
     
@@ -244,7 +257,8 @@ class TestNavigation:
                 random_link.click()
                 page.wait_for_load_state("networkidle")
             
-            assert len(errors) == 0, f"JS errors during navigation: {errors}"
+            real = real_page_errors(errors)
+            assert len(real) == 0, f"JS errors during navigation: {real}"
             
             browser.close()
     
@@ -264,7 +278,8 @@ class TestNavigation:
                 random_tag.click()
                 page.wait_for_load_state("networkidle")
             
-            assert len(errors) == 0, f"JS errors on tag page: {errors}"
+            real = real_page_errors(errors)
+            assert len(real) == 0, f"JS errors on tag page: {real}"
             
             browser.close()
 
